@@ -1,15 +1,15 @@
 import Image from 'next/image'
-import Logo1 from '@/assets/logo1.png'
+import Logo2 from '@/assets/logo2.png'
 import Link from 'next/link'
 
 export function Header() {
   return (
-    <header className="fixed top-0 z-50 w-full bg-neutral-950/75 shadow-md">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-4">
+    <header className="fixed top-0 z-50 w-full bg-black">
+      <div className="mx-auto flex h-28 w-full max-w-7xl items-center justify-between px-10 py-6">
         <Image
-          src={Logo1}
-          width={50}
-          height={50}
+          src={Logo2}
+          width={150}
+          height={200}
           alt={'logo masterpiece figures'}
         />
         <nav>
@@ -20,8 +20,8 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link target="_blank" href="/quem-somos">
-                Quem Somos
+              <Link target="_blank" href="/masterpiece">
+                Masterpiece
               </Link>
             </li>
             <li>
@@ -35,8 +35,8 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link target="_blank" href="/inspiracao">
-                Inspiração
+              <Link target="_blank" href="/curadoria">
+                Curadoria
               </Link>
             </li>
             <li>
