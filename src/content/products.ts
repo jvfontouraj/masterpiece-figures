@@ -1,13 +1,20 @@
 import Predator from '@/assets/predator_ahab.png'
 import Batman from '@/assets/batman.png'
+import predatorMockup from '@/assets/predator_mockup.jpg'
 
 export const products = [
   {
     title: 'PREDATOR AHAB',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE PREMIUM MASTERLINE',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
     image: Predator,
     tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'BATMAN BUST - DETECTIVE COMICS',
@@ -15,13 +22,25 @@ export const products = [
     description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
     image: Batman,
     tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'PREDATOR AHAB',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE PREMIUM MASTERLINE',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
     image: Predator,
     tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'BATMAN BUST - DETECTIVE COMICS',
@@ -29,13 +48,25 @@ export const products = [
     description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
     image: Batman,
     tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'PREDATOR AHAB',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE PREMIUM MASTERLINE',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
     image: Predator,
     tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'BATMAN BUST - DETECTIVE COMICS',
@@ -43,13 +74,25 @@ export const products = [
     description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
     image: Batman,
     tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'PREDATOR AHAB',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE PREMIUM MASTERLINE',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
     image: Predator,
     tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
   {
     title: 'BATMAN BUST - DETECTIVE COMICS',
@@ -57,5 +100,63 @@ export const products = [
     description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
     image: Batman,
     tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'PREDATOR AHAB',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
+    image: Predator,
+    tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'BATMAN BUST - DETECTIVE COMICS',
+    description1: 'PRIME 1 STUDIO',
+    description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
+    image: Batman,
+    tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'PREDATOR AHAB',
+    description1: 'Prime 1 Studio',
+    description2: 'Série Premium Masterline',
+    image: Predator,
+    tags: ['viloes', 'filmes-e-series'],
+    productUrl: '/predator-ahab',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'BATMAN BUST - DETECTIVE COMICS',
+    description1: 'PRIME 1 STUDIO',
+    description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
+    image: Batman,
+    tags: ['herois', 'filmes-e-series'],
+    productUrl: '/batman-bust-detective-comics',
+    details: {
+      image: predatorMockup,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
   },
 ]
