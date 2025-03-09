@@ -5,7 +5,7 @@ import HomeBg from '@/assets/home_bg.png'
 import HeroSectionBg from '@/assets/hero_section.png'
 import Logo1 from '@/assets/logo1.png'
 import Mockup1 from '@/assets/mockup1.jpg'
-import PredatorAhab from '@/assets/predator_ahab.png'
+import PredatorAhab from '@/assets/products/predator_ahab.png'
 import Logo2 from '@/assets/logo2.png'
 import { useEffect } from 'react'
 

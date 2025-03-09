@@ -14,6 +14,7 @@ const categories = [
   { title: 'Filmes/Séries', url: 'filmes-e-series' },
   { title: 'Games', url: 'games' },
   { title: 'Arte Asiática', url: 'arte-asiática' },
+  { title: 'Fantasia', url: 'fantasia' },
 ]
 
 export default function Produtos() {
@@ -124,11 +125,13 @@ export default function Produtos() {
               onClick={() => toggleDetails(startIdx + colIndex)}
               className="flex w-full cursor-pointer flex-col items-center justify-center gap-5"
             >
-              <Image
-                src={product.image}
-                alt={product.title}
-                className="h-auto w-full max-w-80"
-              />
+              <div className="flex h-full w-full items-center justify-center">
+                <Image
+                  src={product.image}
+                  alt={product.title}
+                  className="h-auto max-h-96 w-full max-w-80 object-contain"
+                />
+              </div>
               <div className="flex w-full flex-col items-center text-gold">
                 <h3 className="text-center text-xl">{product.title}</h3>
                 <div>
