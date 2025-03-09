@@ -19,6 +19,15 @@ import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
 import WonderWoman from '@/assets/products/WONDER WOMAN REBIRTH  SILVER ARMOR.png'
 import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
 
+// Predator Ahab ////////////////
+import PredatorAhab1 from '@/assets/products/predator-ahab/1.png'
+import PredatorAhab2 from '@/assets/products/predator-ahab/2.jpg'
+import PredatorAhab3 from '@/assets/products/predator-ahab/3.jpg'
+import PredatorAhab4 from '@/assets/products/predator-ahab/4.jpg'
+import PredatorAhab5 from '@/assets/products/predator-ahab/5.jpg'
+import PredatorAhab6 from '@/assets/products/predator-ahab/6.jpg'
+// //////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -36,6 +45,19 @@ interface ProductProps {
       text: string
       image: StaticImageData
     }
+    section2: {
+      title: string
+      text: string
+      video: StaticImageData
+    }
+    section3: {
+      image: StaticImageData
+    }
+    section4: {
+      text: { title: string; text: string }[]
+      image: StaticImageData
+    }
+    section5: StaticImageData[]
   }
 }
 
@@ -195,8 +217,38 @@ export const products: ProductProps[] = [
     paginaProduto: {
       section1: {
         text: 'Inspirada na lendária história de Moby Dick, da fabricante Prime 1 Studios. Uma das estátuas mais impressionantes da série Premium Masterline: o Ahab Predator, direto dos quadrinhos da Dark Horse Comics!',
-        image: predatorMockup,
+        image: PredatorAhab1,
       },
+      section2: {
+        title: 'UM PREDADOR LENDÁRIO',
+        text: 'Apelidado de "Ahab" por Galgo, este Predator foi inspirado no Capitão Ahab da obra de Herman Mel-ville, mas, em vez de uma baleia branca, Ahab está obcecado pela caça de sua presa suprema: um En-genheiro. Esta peça captura Ahab em um momento de sua vida após atingir esse objetivo, enquanto ele derrota uma centopeia gigante em sua caçada mais recente, apenas para "manter-se ocupado".',
+        video: PredatorAhab1,
+      },
+      section3: {
+        image: PredatorAhab2,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES INCRÍVEIS',
+            text: 'Com mais de 85 cm de altura, a estátua apresenta:Armadura de batalha marcada pelo tempo, com texturas realistas.Capacete metálico com cicatrizes e troféus esqueléticos.Retrato detalhado de seu rosto, revelando as marcas deixadas por anos de caçadas, incluindo a perda de seu olho direito e parte da mandíbula durante um confronto épico.',
+          },
+          {
+            title: 'RECURSOS E MATERIAL DE ALTA QUALIDADE',
+            text: 'A Prime 1 Studio emprega materiais premium para criar uma experiência imersiva e colecionável:Cinto e alças de couro sintético com fivelas de metal.Manto de tecido e rede real.Canhão de Plasma com LED funcional.Base com uma impressionante centopeia gigante, detalhada com sangue verde, pernas espinhosas e dentes afiados.',
+          },
+          {
+            title: 'VERSÃO REGULAR INCLUI',
+            text: 'Base temática do Predador com centopeia gigante.Canhão de Plasma com iluminação em LED.Dois retratos intercambiáveis (com capacete ou sem capacete, destacando suas cicatrizes).Um suporte para a cabeça extra.Mãos intercambiáveis:Mão esquerda: fechada ou segurando a lança.Mão direita: aberta ou fechada.Troféu especial: Rifle de Engenheiro, que pode ser exibido nas costas.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Dimensões: A: 85 cm x L: 57 cm x P: 76 cm.Peso Aproximado: 37 kg.Materiais: Polystone e outros materiais de alta qualidade.',
+          },
+        ],
+        image: PredatorAhab3,
+      },
+      section5: [PredatorAhab4, PredatorAhab5, PredatorAhab6],
     },
   },
   {
