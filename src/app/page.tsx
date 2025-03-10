@@ -4,10 +4,20 @@ import Image from 'next/image'
 import HomeBg from '@/assets/home_bg.png'
 import HeroSectionBg from '@/assets/hero_section.png'
 import Logo1 from '@/assets/logo1.png'
-import Mockup1 from '@/assets/mockup1.jpg'
 import PredatorAhab from '@/assets/products/predator_ahab.png'
 import Logo2 from '@/assets/logo2.png'
 import { useEffect } from 'react'
+import HomePredator from '@/assets/home-predator.jpg'
+import HomeYuan from '@/assets/home-yuan.jpg'
+import HomeBatman from '@/assets/home-batman.jpg'
+import BatmanHush from '@/assets/products/BATMAN HUSH BATCAVE.png'
+import YuanFlower from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
+import Curadoria1 from '@/assets/home-curadoria-1.jpg'
+import Curadoria2 from '@/assets/home-curadoria-2.jpg'
+import Curadoria3 from '@/assets/home-curadoria-3.jpg'
+import Curadoria4 from '@/assets/home-curadoria-4.jpg'
+import Curadoria5 from '@/assets/home-curadoria-5.jpg'
+import Curadoria6 from '@/assets/home-curadoria-6.jpg'
 
 export default function Home() {
   useEffect(() => {
@@ -43,7 +53,7 @@ export default function Home() {
           <Image
             src={HeroSectionBg}
             alt={''}
-            className="absolute left-1/2 top-1/2 -z-10 h-auto w-full -translate-x-1/2 -translate-y-1/2"
+            className="absolute left-1/2 top-1/2 -z-10 h-auto w-[2000px] -translate-x-1/2 -translate-y-1/2 object-cover"
             quality={100}
           />
           <Image src={Logo1} alt={''} className="aspect-square h-auto w-20" />
@@ -52,59 +62,71 @@ export default function Home() {
             impactantes.
           </h1>
         </section>
-        <section>
+        <section className="mx-auto w-full max-w-7xl">
           <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
             <div className="relative flex h-auto w-[55%] items-center justify-center">
               <Image
-                src={Mockup1}
+                src={HomePredator}
                 alt={''}
-                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2"
+                className="absolute inset-1/2 w-[1500px] -translate-x-1/2 -translate-y-1/2 object-cover"
               />
             </div>
             <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
-              <Image src={PredatorAhab} alt="" className="h-full w-auto" />
-              <h3 className="text-center text-3xl font-light uppercase text-gold">
+              <Image
+                src={PredatorAhab}
+                alt=""
+                className="h-full w-auto object-contain"
+              />
+              <h3 className="text-center text-2xl font-light uppercase tracking-widest text-gold">
                 Predator Ahab
               </h3>
             </div>
           </div>
         </section>
-        <section>
+        <section className="mx-auto w-full max-w-7xl">
           <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
             <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
-              <Image src={PredatorAhab} alt="" className="h-full w-auto" />
-              <h3 className="text-center text-3xl font-light uppercase text-gold">
-                Predator Ahab
+              <Image
+                src={YuanFlower}
+                alt=""
+                className="h-full w-auto object-contain"
+              />
+              <h3 className="-mt-16 mb-16 text-center text-2xl font-light uppercase tracking-widest text-gold">
+                YUAN FLOWER
               </h3>
             </div>
             <div className="relative flex h-full w-[55%] items-center justify-center">
               <Image
-                src={Mockup1}
+                src={HomeYuan}
                 alt={''}
-                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2"
+                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2 object-cover"
               />
             </div>
           </div>
         </section>
-        <section>
+        <section className="mx-auto w-full max-w-7xl">
           <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
             <div className="relative flex h-full w-[55%] items-center justify-center">
               <Image
-                src={Mockup1}
+                src={HomeBatman}
                 alt={''}
-                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2"
+                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2 object-contain"
               />
             </div>
             <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
-              <Image src={PredatorAhab} alt="" className="h-full w-auto" />
-              <h3 className="text-center text-3xl font-light uppercase text-gold">
-                Predator Ahab
+              <Image
+                src={BatmanHush}
+                alt=""
+                className="h-full w-auto object-contain"
+              />
+              <h3 className="text-center text-2xl font-light uppercase tracking-widest text-gold">
+                Batman Hush
               </h3>
             </div>
           </div>
         </section>
         <section className="flex flex-col items-center justify-center px-20 py-40">
-          <h3 className="text-center text-3xl font-light text-gold">
+          <h3 className="text-center text-3xl font-light tracking-widest text-gold">
             Peças únicas, numeradas e limitadas,
             <br />
             em uma curadoria cuidadosa que
@@ -112,17 +134,17 @@ export default function Home() {
             garante qualidade e autenticidade.
           </h3>
         </section>
-        <section className="flex flex-col items-center justify-center gap-20">
-          <h2 className="text-center text-4xl text-gold">
+        <section className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-20">
+          <h2 className="text-center text-4xl tracking-[.5rem] text-white">
             DESTAQUES DA CURADORIA
           </h2>
-          <div className="grid grid-cols-3 gap-20 px-20 pb-20">
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
-            <Image src={PredatorAhab} alt="" className="h-auto w-40" />
+          <div className="grid grid-cols-3 gap-3 pb-20">
+            <Image src={Curadoria1} alt="" className="h-auto w-full" />
+            <Image src={Curadoria2} alt="" className="h-auto w-full" />
+            <Image src={Curadoria3} alt="" className="h-auto w-full" />
+            <Image src={Curadoria4} alt="" className="h-auto w-full" />
+            <Image src={Curadoria5} alt="" className="h-auto w-full" />
+            <Image src={Curadoria6} alt="" className="h-auto w-full" />
           </div>
         </section>
       </main>
