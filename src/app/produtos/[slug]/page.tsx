@@ -21,7 +21,7 @@ export default async function Produto({
               <div className="mb-14 flex w-full justify-start pl-10">
                 <Link href="/produtos"> {'> '}Menu de busca</Link>
               </div>
-              <h1 className="mb-8 text-center text-6xl font-normal">
+              <h1 className="mb-8 max-w-[800px] text-center text-6xl font-normal">
                 {produto?.title}
               </h1>
               <p className="mb-16 max-w-[600px] text-center font-light">
@@ -36,7 +36,7 @@ export default async function Produto({
               />
             </div>
           </section>
-          <section className="mx-auto my-20 flex max-w-7xl flex-col gap-5 px-20 text-gold">
+          {/* <section className="mx-auto my-20 flex max-w-7xl flex-col gap-5 px-20 text-gold">
             <h2 className="text-2xl">{pageContent.section2.title}</h2>
             <p className="font-light">{pageContent.section2.text}</p>
             <Image
@@ -44,7 +44,7 @@ export default async function Produto({
               src={pageContent.section2.video}
               className="w-full max-w-[1000px]"
             />
-          </section>
+          </section> */}
           <section className="mx-auto max-w-7xl">
             <Image alt="" src={pageContent.section3.image} className="w-full" />
           </section>

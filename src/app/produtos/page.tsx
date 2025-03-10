@@ -92,7 +92,7 @@ export default function Produtos() {
           <Image
             src={filteredProducts[selectedIndex].details?.image}
             alt=""
-            className="h-auto w-1/2"
+            className="h-[512px] w-1/2 object-cover"
           />
           <div className="flex w-1/2 flex-col items-center justify-center gap-1 text-center text-sm font-light text-black">
             <h3 className="mb-10 text-2xl font-normal">

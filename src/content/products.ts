@@ -28,6 +28,15 @@ import PredatorAhab5 from '@/assets/products/predator-ahab/5.jpg'
 import PredatorAhab6 from '@/assets/products/predator-ahab/6.jpg'
 // //////////////////////////////
 
+// Alita ////////////////////////
+import Alita1 from '@/assets/products/Alita/1.png'
+import Alita2 from '@/assets/products/Alita/2.png'
+import Alita3 from '@/assets/products/Alita/3.png'
+import Alita4 from '@/assets/products/Alita/4.png'
+import Alita5 from '@/assets/products/Alita/5.png'
+import Alita6 from '@/assets/products/Alita/6.png'
+// //////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -45,7 +54,7 @@ interface ProductProps {
       text: string
       image: StaticImageData
     }
-    section2: {
+    section2?: {
       title: string
       text: string
       video: StaticImageData
@@ -54,7 +63,7 @@ interface ProductProps {
       image: StaticImageData
     }
     section4: {
-      text: { title: string; text: string }[]
+      text: { title?: string; text: string }[]
       image: StaticImageData
     }
     section5: StaticImageData[]
@@ -324,6 +333,40 @@ export const products: ProductProps[] = [
       image: predatorMockup,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'ALITA BERSERKER MOTORBALL TRYOUT',
+    description1: '???',
+    details: {
+      image: Alita2,
+      info1: 'Escala 1/4',
+      info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: Alita1,
+    productUrl: '/alita-berserker',
+    paginaProduto: {
+      section1: {
+        text: 'Criado pelos visionários cineastas James Cameron e Robert Rodriguez, o filme é baseado no mangá dos anos 90 Gunnm e na animação original Battle Angel. A protagonista, Alita, é uma ciborgue que não possui memórias de seu passado. Adotada pelo cientista Dr. Dyson Ido, ela se torna uma máquina de combate letal, mestre na arte marcial mecânica conhecida como PanzerKurst. Apesar de sua força, Alita precisa descobrir seu passado misterioso e usar suas habilidades únicas para salvar a si mesma, sua família e o mundo.',
+        image: Alita1,
+      },
+      section3: {
+        image: Alita2,
+      },
+      section4: {
+        image: Alita3,
+        text: [
+          {
+            text: 'Além de sua impressionante presença visual, a estátua Alita Berserker Motorball Tryout é uma verdadeira obraprima de engenharia e design. Cada detalhe foi meticulosamente esculpido para capturar a essência do personagem e a intensidade da cena. A base temática inspirada no estádio de Motorball, com seu efeito de iluminação LED, não só realça a dramaticidade da peça, mas também cria uma atmosfera envolvente que transporta os fãs diretamente para o universo cyberpunk do filme. <br/>A escolha do material, Polystone, garante durabilidade e um acabamento de alta qualidade, enquanto a escala ¼ proporciona uma presença imponente que se destaca em qualquer coleção34. Com dimensões impressionantes de 64,4 cm de altura, 76,4 cm de largura e 87,2 cm de diâmetro, e um peso total de 47 kg, esta estátua é uma peça central que certamente atrairá a atenção de todos.<br/><br/>Seja para exibição em uma coleção particular ou como destaque em um evento, a estátua Alita Berserker Motorball Tryout é uma adição indispensável para qualquer fã de Alita: Anjo de Combate.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Escala: 1/4 <br/>Dimensões: Altura: 64,4 cm <br/>Largura: 76,4 cm<br/>Diâmetro: 87,2 cm<br/>Peso total: 47 kg',
+          },
+        ],
+      },
+      section5: [Alita4, Alita5, Alita6],
     },
   },
 ]
