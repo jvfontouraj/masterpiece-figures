@@ -1,7 +1,4 @@
 import { StaticImageData } from 'next/image'
-import Predator from '@/assets/products/predator_ahab.png'
-import Batman from '@/assets/products/batman.png'
-import predatorMockup from '@/assets/products/predator_mockup.jpg'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
 import Batcaverna from '@/assets/products/BATCAVERNA SÉRIE TV 1966.png'
 import BatmanDamned from '@/assets/products/BATMAN DAMNED.png'
@@ -16,11 +13,11 @@ import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
 import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
-import WonderWoman from '@/assets/products/WONDER WOMAN REBIRTH  SILVER ARMOR.png'
 import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
-import Alita from '@/assets/products/Alita.png'
 
 // Predator Ahab ////////////////
+import Predator from '@/assets/products/predator_ahab.png'
+import PreadtorAmbientacao from '@/assets/products/ambientacoes/ambPredator Ahab.png'
 import PredatorAhab1 from '@/assets/products/predator-ahab/1.png'
 import PredatorAhab2 from '@/assets/products/predator-ahab/2.jpg'
 import PredatorAhab3 from '@/assets/products/predator-ahab/3.jpg'
@@ -30,6 +27,8 @@ import PredatorAhab6 from '@/assets/products/predator-ahab/6.jpg'
 // //////////////////////////////
 
 // Alita ////////////////////////
+import Alita from '@/assets/products/Alita.png'
+import AlitaAmbientacao from '@/assets/products/ambientacoes/ambAlita.png'
 import Alita1 from '@/assets/products/Alita/1.png'
 import Alita2 from '@/assets/products/Alita/2.png'
 import Alita3 from '@/assets/products/Alita/3.png'
@@ -39,6 +38,8 @@ import Alita6 from '@/assets/products/Alita/6.png'
 // //////////////////////////////
 
 // Wonder Woman /////////////////
+import WonderWoman from '@/assets/products/WONDER WOMAN REBIRTH  SILVER ARMOR.png'
+import WonderWomanAmbientacao from '@/assets/products/ambientacoes/ambWonder Woman Rebirth.png'
 import WonderWoman1 from '@/assets/products/WonderWoman/1.png'
 import WonderWoman2 from '@/assets/products/WonderWoman/2.png'
 import WonderWoman3 from '@/assets/products/WonderWoman/3.png'
@@ -47,6 +48,30 @@ import WonderWoman5 from '@/assets/products/WonderWoman/5.png'
 import WonderWoman6 from '@/assets/products/WonderWoman/6.png'
 import WonderWoman7 from '@/assets/products/WonderWoman/7.png'
 // //////////////////////////////
+
+// Batman Bust //////////////////
+import BatmanBust from '@/assets/products/batman.png'
+import BatmanBustAmbientacao from '@/assets/products/ambientacoes/ambBatman Bust.png'
+import BatmanBust1 from '@/assets/products/BatmanBust/1.png'
+import BatmanBust2 from '@/assets/products/BatmanBust/2.png'
+import BatmanBust3 from '@/assets/products/BatmanBust/3.png'
+import BatmanBust4 from '@/assets/products/BatmanBust/4.png'
+import BatmanBust5 from '@/assets/products/BatmanBust/5.png'
+import BatmanBust6 from '@/assets/products/BatmanBust/6.png'
+import BatmanBust7 from '@/assets/products/BatmanBust/7.png'
+/// ////////////////////////////
+
+// Batcaverna //////////////////
+import BatcavernaAmbientacao from '@/assets/products/ambientacoes/ambBatcaverna.png'
+/// ////////////////////////////
+
+// Summer Drunken Beauty ///////
+import SummerDrunkenAmbientacao from '@/assets/products/ambientacoes/ambSummer Drunken.png'
+/// ////////////////////////////
+
+// Batman Hush //////////////////
+import BatmanHushAmbientacao from '@/assets/products/ambientacoes/ambBatman Hush.png'
+/// /////////////////////////////
 
 interface ProductProps {
   title: string
@@ -90,7 +115,7 @@ export const products: ProductProps[] = [
     image: AlienChap,
     productUrl: '/alien-chap',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -99,12 +124,12 @@ export const products: ProductProps[] = [
     title: 'ALITA BERSERKER MOTORBALL TRYOUT',
     description1: '???',
     details: {
-      image: Alita,
+      image: AlitaAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     tags: ['herois', 'filmes-e-series', 'games'],
-    image: Alita1,
+    image: Alita,
     productUrl: '/alita-berserker',
     paginaProduto: {
       section1: {
@@ -137,7 +162,7 @@ export const products: ProductProps[] = [
     image: Batcaverna,
     productUrl: '/batcave-desktop',
     details: {
-      image: predatorMockup,
+      image: BatcavernaAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -146,13 +171,40 @@ export const products: ProductProps[] = [
     title: 'BATMAN BUST - DETECTIVE COMICS',
     description1: 'PRIME 1 STUDIO',
     description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
-    image: Batman,
+    image: BatmanBust,
     tags: ['herois', 'filmes-e-series'],
     productUrl: '/batman-busto',
     details: {
-      image: predatorMockup,
+      image: BatmanBustAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Criminals are a superstitious, cowardly lot. So my disguise must be able to strike terror into their hearts. I must be a creature of the night, black, terrible...I shall become...a bat!" – Bruce Wayne, Detective Comics #1',
+        image: BatmanBust1,
+      },
+      section2: {
+        text: 'Da Prime 1 Studio, em colaboração com o renomado artista de quadrinhos Jason Fabok, da linha Premium Masterline DC Superhero Series: o busto do Batman inspirado no marco histórico da edição #1,000 de Detective Comics!',
+        video: BatmanBust2,
+      },
+      section3: {
+        image: BatmanBust3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO DESIGN',
+            text: 'Este busto incrível mede aproximadamente 10 polegadas (25,8 cm) de altura e apresenta o clássico logotipo amarelo com oval no peito, além de um retrato do Batman observando o horizonte sombrio de Gotham City. A peça captura perfeitamente a essência do Cavaleiro das Trevas conforme imaginado por Jason Fabok.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 25,8 cm</br>Largura: 16,1 cm</br>Profundidade: 12,4 cm</br>Peso Aproximado: 1,96 kg</br>Material: Polystone e outros materiais</br>Dimensões da Embalagem:</br>Peso da Caixa: 2,72 kg</br>Código do Produto: PBDC-07</br>Escala: 1/3</br>Licenciado por DC Comics e Warner Bros. Entertainment Inc.',
+          },
+        ],
+        image: BatmanBust4,
+      },
+      section5: [BatmanBust5, BatmanBust6, BatmanBust7],
     },
   },
   {
@@ -163,7 +215,7 @@ export const products: ProductProps[] = [
     image: BatmanDamned,
     productUrl: '/batman-damned',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -175,7 +227,7 @@ export const products: ProductProps[] = [
     image: BatmanHush,
     productUrl: '/batman-hush',
     details: {
-      image: predatorMockup,
+      image: BatmanHushAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -187,7 +239,7 @@ export const products: ProductProps[] = [
     image: BatmanKnightmare,
     productUrl: '/batman-knightmare',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -200,7 +252,7 @@ export const products: ProductProps[] = [
     image: BatmanWhoLaughs,
     productUrl: '/batman-who-laughs',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -213,7 +265,7 @@ export const products: ProductProps[] = [
     image: CyberCat,
     productUrl: '/cyber-cat',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -225,7 +277,7 @@ export const products: ProductProps[] = [
     image: GreenScarHulk,
     productUrl: '/green-scar-hulk',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -238,7 +290,7 @@ export const products: ProductProps[] = [
     image: JokerBust,
     productUrl: '/the-joker-bust',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -251,7 +303,7 @@ export const products: ProductProps[] = [
     image: BatmanPenguin,
     productUrl: '/batman-penguin-daimy',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -264,7 +316,7 @@ export const products: ProductProps[] = [
     tags: ['viloes', 'filmes-e-series', 'games'],
     productUrl: '/predator-ahab',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -312,7 +364,7 @@ export const products: ProductProps[] = [
     tags: ['viloes', 'filmes-e-series', 'games'],
     productUrl: '/jungle-hunter-predator',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -324,7 +376,7 @@ export const products: ProductProps[] = [
     image: SheRa,
     productUrl: '/she-ra-swift-wind-deluxe',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -337,7 +389,7 @@ export const products: ProductProps[] = [
     image: Terminator,
     productUrl: '/terminator-battle-damaged',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -349,7 +401,7 @@ export const products: ProductProps[] = [
     image: JokerStatue,
     productUrl: '/the-joker-statue',
     details: {
-      image: predatorMockup,
+      image: PreadtorAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -362,7 +414,7 @@ export const products: ProductProps[] = [
     image: WonderWoman,
     productUrl: '/wonder-woman-rebirth',
     details: {
-      image: predatorMockup,
+      image: WonderWomanAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -407,7 +459,7 @@ export const products: ProductProps[] = [
     image: SummerDrunkenBeauty,
     productUrl: '/summer-drunken-beauty-flower-pavilion',
     details: {
-      image: predatorMockup,
+      image: SummerDrunkenAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
