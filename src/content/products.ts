@@ -18,6 +18,7 @@ import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
 import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
 import WonderWoman from '@/assets/products/WONDER WOMAN REBIRTH  SILVER ARMOR.png'
 import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
+import Alita from '@/assets/products/Alita.png'
 
 // Predator Ahab ////////////////
 import PredatorAhab1 from '@/assets/products/predator-ahab/1.png'
@@ -35,6 +36,16 @@ import Alita3 from '@/assets/products/Alita/3.png'
 import Alita4 from '@/assets/products/Alita/4.png'
 import Alita5 from '@/assets/products/Alita/5.png'
 import Alita6 from '@/assets/products/Alita/6.png'
+// //////////////////////////////
+
+// Wonder Woman /////////////////
+import WonderWoman1 from '@/assets/products/WonderWoman/1.png'
+import WonderWoman2 from '@/assets/products/WonderWoman/2.png'
+import WonderWoman3 from '@/assets/products/WonderWoman/3.png'
+import WonderWoman4 from '@/assets/products/WonderWoman/4.png'
+import WonderWoman5 from '@/assets/products/WonderWoman/5.png'
+import WonderWoman6 from '@/assets/products/WonderWoman/6.png'
+import WonderWoman7 from '@/assets/products/WonderWoman/7.png'
 // //////////////////////////////
 
 interface ProductProps {
@@ -55,7 +66,7 @@ interface ProductProps {
       image: StaticImageData
     }
     section2?: {
-      title: string
+      title?: string
       text: string
       video: StaticImageData
     }
@@ -88,7 +99,7 @@ export const products: ProductProps[] = [
     title: 'ALITA BERSERKER MOTORBALL TRYOUT',
     description1: '???',
     details: {
-      image: Alita2,
+      image: Alita,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
@@ -274,19 +285,19 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES INCRÍVEIS',
-            text: 'Com mais de 85 cm de altura, a estátua apresenta:Armadura de batalha marcada pelo tempo, com texturas realistas.Capacete metálico com cicatrizes e troféus esqueléticos.Retrato detalhado de seu rosto, revelando as marcas deixadas por anos de caçadas, incluindo a perda de seu olho direito e parte da mandíbula durante um confronto épico.',
+            text: 'Com mais de 85 cm de altura, a estátua apresenta: </br> Armadura de batalha marcada pelo tempo, com texturas realistas.</br>Capacete metálico com cicatrizes e troféus esqueléticos.</br>Retrato detalhado de seu rosto, revelando as marcas deixadas por anos de caçadas, incluindo a perda de seu olho direito e parte da mandíbula durante um confronto épico.',
           },
           {
             title: 'RECURSOS E MATERIAL DE ALTA QUALIDADE',
-            text: 'A Prime 1 Studio emprega materiais premium para criar uma experiência imersiva e colecionável:Cinto e alças de couro sintético com fivelas de metal.Manto de tecido e rede real.Canhão de Plasma com LED funcional.Base com uma impressionante centopeia gigante, detalhada com sangue verde, pernas espinhosas e dentes afiados.',
+            text: 'A Prime 1 Studio emprega materiais premium para criar uma experiência imersiva e colecionável:</br>Cinto e alças de couro sintético com fivelas de metal.</br>Manto de tecido e rede real.Canhão de Plasma com LED funcional.</br>Base com uma impressionante centopeia gigante, detalhada com sangue verde, pernas espinhosas e dentes afiados.',
           },
           {
             title: 'VERSÃO REGULAR INCLUI',
-            text: 'Base temática do Predador com centopeia gigante.Canhão de Plasma com iluminação em LED.Dois retratos intercambiáveis (com capacete ou sem capacete, destacando suas cicatrizes).Um suporte para a cabeça extra.Mãos intercambiáveis:Mão esquerda: fechada ou segurando a lança.Mão direita: aberta ou fechada.Troféu especial: Rifle de Engenheiro, que pode ser exibido nas costas.',
+            text: 'Base temática do Predador com centopeia gigante.</br>Canhão de Plasma com iluminação em LED.</br>Dois retratos intercambiáveis (com capacete ou sem capacete, destacando suas cicatrizes).</br>Um suporte para a cabeça extra.</br>Mãos intercambiáveis:</br>Mão esquerda: fechada ou segurando a lança.</br>Mão direita: aberta ou fechada.</br>Troféu especial: Rifle de Engenheiro, que pode ser exibido nas costas.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões: A: 85 cm x L: 57 cm x P: 76 cm.Peso Aproximado: 37 kg.Materiais: Polystone e outros materiais de alta qualidade.',
+            text: 'Dimensões: A: 85 cm x L: 57 cm x P: 76 cm.</br>Peso Aproximado: 37 kg.</br>Materiais: Polystone e outros materiais de alta qualidade.',
           },
         ],
         image: PredatorAhab3,
@@ -349,11 +360,43 @@ export const products: ProductProps[] = [
     description2: 'SÉRIE MUSEUM MASTERLINE',
     tags: ['herois', 'filmes-e-series', 'fantasia'],
     image: WonderWoman,
-    productUrl: 'wonder-woman-rebirth',
+    productUrl: '/wonder-woman-rebirth',
     details: {
       image: predatorMockup,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        image: WonderWoman1,
+        text: 'Diana, princesa das Amazonas e filha da Rainha Hipólita, é a maior guerreira de Themyscira. Nascida do barro e abençoada pelos Deuses, a Mulher-Maravilha deixou sua terra natal para lutar contra o mal e ensinar ao mundo que a esperança e o amor são os verdadeiros caminhos para a salvação.',
+      },
+      section2: {
+        title: 'EDIÇÃO ESPECIAL',
+        text: 'Esta impressionante peça da Prime 1 Studio tem 74 cm de altura e exibe Diana em sua armadura icônica: um peitoral metálico vermelho e uma saia de gladiadora azul em couro. Os detalhes pratea-dos brilhantes realçam sua tiara, braçadeiras, botas e ornamentos do traje, dando um toque especial à sua vestimenta heroica.',
+        video: WonderWoman2,
+      },
+      section3: {
+        image: WonderWoman3,
+      },
+      section4: {
+        image: WonderWoman4,
+        text: [
+          {
+            title: 'DETALHES DO DESIGN',
+            text: 'A pose de Diana transmite força e beleza, refletindo o espírito da maior guerreira das Amazonas. Ela está preparada para a batalha, empunhando a Espada de Atena, seu escudo amazônico e o lendário Laço da Verdade. A capa heroica da estátua é removível e articulada, com elegantes detalhes prateados. A base, inspirada em fumaça e escombros, completa a cena, dando a sensação de que Diana está à beira da batalha.',
+          },
+          {
+            title: 'DETALHES',
+            text: 'Base temática com detalhes de fumaça e escombros.</br>Uma (1) capa removível e posável.</br>Edição limitada com unidades exclusivas!',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Escala 1/3</br>Altura: 74.7cm</br>Largura: 48.5cm</br>Profundidade: 47.1cm</br>Peso do Produto Aproximado: 14.98 kg ',
+          },
+        ],
+      },
+      section5: [WonderWoman5, WonderWoman6, WonderWoman7],
     },
   },
   {

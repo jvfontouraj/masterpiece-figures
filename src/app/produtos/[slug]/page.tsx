@@ -36,15 +36,21 @@ export default async function Produto({
               />
             </div>
           </section>
-          {/* <section className="mx-auto my-20 flex max-w-7xl flex-col gap-5 px-20 text-gold">
-            <h2 className="text-2xl">{pageContent.section2.title}</h2>
-            <p className="font-light">{pageContent.section2.text}</p>
-            <Image
-              alt=""
-              src={pageContent.section2.video}
-              className="w-full max-w-[1000px]"
-            />
-          </section> */}
+          {pageContent.section2 && (
+            <section className="mx-auto my-20 flex max-w-7xl flex-col gap-5 px-20 text-gold">
+              {pageContent.section2.title && (
+                <h2 className="text-2xl">{pageContent.section2.title}</h2>
+              )}
+              <p className="font-light">{pageContent.section2.text}</p>
+              <div className="flex w-full items-center justify-center">
+                <Image
+                  alt=""
+                  src={pageContent.section2.video}
+                  className="h-auto w-full max-w-[500px] object-contain"
+                />
+              </div>
+            </section>
+          )}
           <section className="mx-auto max-w-7xl">
             <Image alt="" src={pageContent.section3.image} className="w-full" />
           </section>
