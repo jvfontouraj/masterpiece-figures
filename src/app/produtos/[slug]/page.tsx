@@ -32,14 +32,16 @@ export default async function Produto({
               <Image
                 alt={produto?.title ?? ''}
                 src={pageContent.section1.image ?? ''}
-                className="w-full max-w-[1000px]"
+                className="w-full max-w-7xl"
               />
             </div>
           </section>
           {pageContent.section2 && (
             <section className="mx-auto my-20 flex max-w-7xl flex-col gap-5 px-20 text-gold">
               {pageContent.section2.title && (
-                <h2 className="text-2xl">{pageContent.section2.title}</h2>
+                <h2 className="mx-auto w-full max-w-4xl text-2xl">
+                  {pageContent.section2.title}
+                </h2>
               )}
               <p className="mx-auto max-w-4xl text-lg font-light">
                 {pageContent.section2.text}
@@ -48,7 +50,7 @@ export default async function Produto({
                 <Image
                   alt=""
                   src={pageContent.section2.video}
-                  className="h-auto w-full max-w-[500px] object-contain"
+                  className="h-auto w-full max-w-7xl object-contain"
                 />
               </div>
             </section>
@@ -57,8 +59,8 @@ export default async function Produto({
             <Image alt="" src={pageContent.section3.image} className="w-full" />
           </section>
           <section className="bg-[#bdaa80] px-10 py-20">
-            <div className="mx-auto flex max-w-7xl items-center justify-center gap-10">
-              <div className="flex w-3/5 flex-col">
+            <div className="mx-auto flex max-w-7xl items-start justify-center gap-10">
+              <div className="flex w-3/5 flex-col p-10">
                 {pageContent.section4.text.map((item, index) => (
                   <div key={index} className="mb-10 flex flex-col gap-2">
                     <h3 className="text-xl font-medium">{item.title}</h3>

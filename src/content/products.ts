@@ -1,6 +1,5 @@
 import { StaticImageData } from 'next/image'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
-import Batcaverna from '@/assets/products/BATCAVERNA SÉRIE TV 1966.png'
 import BatmanDamned from '@/assets/products/BATMAN DAMNED.png'
 import BatmanHush from '@/assets/products/BATMAN HUSH BATCAVE.png'
 import BatmanKnightmare from '@/assets/products/BATMAN KNIGHTMARE.png'
@@ -62,7 +61,16 @@ import BatmanBust7 from '@/assets/products/BatmanBust/7.png'
 /// ////////////////////////////
 
 // Batcaverna //////////////////
+import Batcaverna from '@/assets/products/BATCAVERNA SÉRIE TV 1966.png'
 import BatcavernaAmbientacao from '@/assets/products/ambientacoes/ambBatcaverna.png'
+import Batcaverna1 from '@/assets/products/Batcave desktop/1.png'
+import Batcaverna2 from '@/assets/products/Batcave desktop/2.png'
+import Batcaverna3 from '@/assets/products/Batcave desktop/3.png'
+import Batcaverna4 from '@/assets/products/Batcave desktop/4.png'
+import Batcaverna5 from '@/assets/products/Batcave desktop/5.png'
+import Batcaverna6 from '@/assets/products/Batcave desktop/6.png'
+import Batcaverna7 from '@/assets/products/Batcave desktop/7.png'
+
 /// ////////////////////////////
 
 // Summer Drunken Beauty ///////
@@ -165,6 +173,33 @@ export const products: ProductProps[] = [
       image: BatcavernaAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        image: Batcaverna1,
+        text: '"PARA A BATCAVERNA!" Três palavras que nos levam a um dos cenários mais memoráveis da cultura pop: o santuário secreto do Batman, sua base de operações, o centro de suas atividades – uma caverna subterrânea enigmática, misturando mistério e empolgação.',
+      },
+      section2: {
+        video: Batcaverna2,
+        title: 'RELÍQUIA VINTAGE',
+        text: 'A Batcaverna teve várias versões ao longo dos anos, tanto nos quadrinhos quanto nas telas, mas uma das mais icônicas é a da clássica série de TV do Batman de 1966. Este modelo replica a essência da Batcaverna da série, incluindo elementos personalizáveis que permitem ajustar a aparência da caverna em torno de peças fixas, como o famoso ‘núcleo atômico’.',
+      },
+      section3: {
+        image: Batcaverna3,
+      },
+      section4: {
+        image: Batcaverna4,
+        text: [
+          {
+            text: 'Cada peça deste modelo contém mais de uma dúzia de luzes de LED em várias cores e animações, que recriam a energia visual única dos anos 60, incluindo: </br> • Luzes ocultas no chão, que emulam os refletores coloridos usados no set.</br> • Efeito de mudança de cor pulsante no núcleo atômico.</br> • Luzes piscantes em monitores e telas.</br> Esta não é uma peça estática – ela conta com diversos componentes móveis, incluindo:</br> • Uma plataforma giratória que pode ser rotacionada manualmente.</br> • Móveis selecionados que podem ser movidos para personalizar o cenário.</br> • Uma porta de rocha falsa na entrada do túnel que pode ser removida para permitir a entrada do Batmóvel (modelo do Batmóvel não incluído).',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 45 cm </br>Largura: 35 cm </br>Profundidade: 22 cm </br>Peso: 9 kg',
+          },
+        ],
+      },
+      section5: [Batcaverna5, Batcaverna6, Batcaverna7],
     },
   },
   {
