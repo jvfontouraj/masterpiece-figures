@@ -89,6 +89,13 @@ import BatmanHush7 from '@/assets/products/Batman Hush/7.png'
 // Cheetah XM ///////////////////
 import Cheetah from '@/assets/products/Cheetah XM.png'
 import CheetahAmbientacao from '@/assets/products/ambientacoes/Cheetah XM.png'
+import Cheetah1 from '@/assets/products/Cheetah/1.png'
+import Cheetah2 from '@/assets/products/Cheetah/2.png'
+import Cheetah3 from '@/assets/products/Cheetah/3.png'
+import Cheetah4 from '@/assets/products/Cheetah/4.png'
+import Cheetah5 from '@/assets/products/Cheetah/5.png'
+import Cheetah6 from '@/assets/products/Cheetah/6.png'
+import Cheetah7 from '@/assets/products/Cheetah/7.png'
 /// /////////////////////////////
 
 // Batman HQS ///////////////////
@@ -519,11 +526,39 @@ export const products: ProductProps[] = [
     description1: '',
     tags: [],
     image: Cheetah,
-    productUrl: '',
+    productUrl: '/cheetah',
     details: {
       image: CheetahAmbientacao,
       info1: '',
       info2: '',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'A peça "Cheetah - 1/4 Scale – XM Studios" é uma estátua altamente detalhada que captura a essência da personagem Cheetah, uma das maiores arqui-inimigas da Mulher-Maravilha. Esta peça é conhecida por sua qualidade excepcional e atenção aos detalhes, tornando-a um item de colecionador muito desejado.',
+        image: Cheetah1,
+      },
+      section2: {
+        title: 'CURIOSIDADE',
+        text: 'Origem do Personagem Cheetah: Cheetah, também conhecida como Mulher-Leopardo, é uma super-vilã fictícia dos quadrinhos da DC Comics. Ela é uma das maiores e mais antigas arqui-inimigas da Mulher-Maravilha. A personagem foi criada por William Moulton Marston e H.G. Peter, e fez sua primeira aparição em "Wonder Woman #6" em 1943.',
+        video: Cheetah2,
+      },
+      section3: {
+        image: Cheetah3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'CHEETAH',
+            text: 'Ao longo dos anos, houve várias encarnações de Cheetah. A primeira foi Priscilla Rich, uma socialite que desenvolveu uma personalidade dividida e se transformou em Cheetah devido à inveja que sentia da Mulher-Maravilha. A segunda encarnação foi Deborah Domaine, sobrinha de Priscilla, que assumiu o manto de Cheetah após ser vítima de lavagem cerebral pela organização terrorista Kobra. </br> A versão mais conhecida e atual de Cheetah é Barbara Ann Minerva, uma arqueóloga que se transforma em Cheetah após uma expedição à África, onde é amaldiçoada pelo deus planta Urzkartaga. Esta versão do personagem possui habilidades sobre-humanas, incluindo super força, agilidade, velocidade, visão noturna, garras e presas afiadas. </br> Cheetah é conhecida por sua ferocidade e ódio pela Mulher-Maravilha, mas também é vista como uma personagem complexa, lutando contra seu lado negro e, às vezes, mostrando uma necessidade de redenção.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Material: A peça é feita de polystone, um material conhecido por sua durabilidade e capacidade de capturar detalhes finos. </br> Dimensões: A estátua é em escala 1/4, o que significa que é uma réplica em tamanho reduzido, mas ainda assim bastante detalhada. </br> Pintura: Cada estátua é pintada à mão individualmente, garantindo um acabamento de alta qualidade. </br> Edição Limitada: A peça é uma edição limitada, com apenas 199 unidades disponíveis. </br> Tamanho e Peso Estimados do Produto: 36x37x46cm, 15kg',
+          },
+        ],
+        image: Cheetah4,
+      },
+      section5: [Cheetah5, Cheetah6, Cheetah7],
     },
   },
   {
