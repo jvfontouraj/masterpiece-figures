@@ -1,9 +1,5 @@
 import { StaticImageData } from 'next/image'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
-import BatmanDamned from '@/assets/products/BATMAN DAMNED.png'
-import BatmanHush from '@/assets/products/BATMAN HUSH BATCAVE.png'
-import BatmanKnightmare from '@/assets/products/BATMAN KNIGHTMARE.png'
-import BatmanWhoLaughs from '@/assets/products/BATMAN WHO LAUGHS.png'
 import CyberCat from '@/assets/products/CYBER CAT.png'
 import GreenScarHulk from '@/assets/products/GREEN SCAR HULK.png'
 import JokerBust from '@/assets/products/THE JOKER LIMITED EDITION BUST.png'
@@ -12,7 +8,6 @@ import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
 import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
-import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
 
 // Predator Ahab ////////////////
 import Predator from '@/assets/products/predator_ahab.png'
@@ -72,15 +67,76 @@ import Batcaverna4 from '@/assets/products/Batcave desktop/4.png'
 import Batcaverna5 from '@/assets/products/Batcave desktop/5.png'
 import Batcaverna6 from '@/assets/products/Batcave desktop/6.png'
 import Batcaverna7 from '@/assets/products/Batcave desktop/7.png'
-
 /// ////////////////////////////
 
 // Summer Drunken Beauty ///////
+import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
 import SummerDrunkenAmbientacao from '@/assets/products/ambientacoes/ambSummer Drunken.png'
 /// ////////////////////////////
 
 // Batman Hush //////////////////
+import BatmanHush from '@/assets/products/BATMAN HUSH BATCAVE.png'
 import BatmanHushAmbientacao from '@/assets/products/ambientacoes/ambBatman Hush.png'
+import BatmanHush1 from '@/assets/products/Batman Hush/1.png'
+import BatmanHush2 from '@/assets/products/Batman Hush/2.png'
+import BatmanHush3 from '@/assets/products/Batman Hush/3.png'
+import BatmanHush4 from '@/assets/products/Batman Hush/4.png'
+import BatmanHush5 from '@/assets/products/Batman Hush/5.png'
+import BatmanHush6 from '@/assets/products/Batman Hush/6.png'
+import BatmanHush7 from '@/assets/products/Batman Hush/7.png'
+/// /////////////////////////////
+
+// Cheetah XM ///////////////////
+import Cheetah from '@/assets/products/Cheetah XM.png'
+import CheetahAmbientacao from '@/assets/products/ambientacoes/Cheetah XM.png'
+/// /////////////////////////////
+
+// Batman HQS ///////////////////
+import BatmanHQS from '@/assets/products/Batman HQS.png'
+import BatmanHQSAmbientacao from '@/assets/products/ambientacoes/Batman HQS.png'
+import BatmanHQS1 from '@/assets/products/Batman HQS/1.png'
+import BatmanHQS2 from '@/assets/products/Batman HQS/2.png'
+import BatmanHQS3 from '@/assets/products/Batman HQS/3.png'
+import BatmanHQS4 from '@/assets/products/Batman HQS/4.png'
+import BatmanHQS5 from '@/assets/products/Batman HQS/5.png'
+import BatmanHQS6 from '@/assets/products/Batman HQS/6.png'
+import BatmanHQS7 from '@/assets/products/Batman HQS/7.png'
+/// /////////////////////////////
+
+// Batman Damned ////////////////
+import BatmanDamned from '@/assets/products/BATMAN DAMNED.png'
+import BatmanDamnedAmbientacao from '@/assets/products/ambientacoes/Batman Damned.png'
+import BatmanDamned1 from '@/assets/products/Batman Damned/1.png'
+import BatmanDamned2 from '@/assets/products/Batman Damned/2.png'
+import BatmanDamned3 from '@/assets/products/Batman Damned/3.png'
+import BatmanDamned4 from '@/assets/products/Batman Damned/4.png'
+import BatmanDamned5 from '@/assets/products/Batman Damned/5.png'
+import BatmanDamned6 from '@/assets/products/Batman Damned/6.png'
+import BatmanDamned7 from '@/assets/products/Batman Damned/7.png'
+/// /////////////////////////////
+
+// Batman Who Laughs ////////////
+import BatmanWhoLaughs from '@/assets/products/BATMAN WHO LAUGHS.png'
+import BatmanWhoLaughsAmbientacao from '@/assets/products/ambientacoes/Batman Who Laughs.png'
+import BatmanWhoLaughs1 from '@/assets/products/Batman Who Laughs/1.png'
+import BatmanWhoLaughs2 from '@/assets/products/Batman Who Laughs/2.png'
+import BatmanWhoLaughs3 from '@/assets/products/Batman Who Laughs/3.png'
+import BatmanWhoLaughs4 from '@/assets/products/Batman Who Laughs/4.png'
+import BatmanWhoLaughs5 from '@/assets/products/Batman Who Laughs/5.png'
+import BatmanWhoLaughs6 from '@/assets/products/Batman Who Laughs/6.png'
+import BatmanWhoLaughs7 from '@/assets/products/Batman Who Laughs/7.png'
+/// /////////////////////////////
+
+// Batman Knightmare ////////////
+import BatmanKnightmare from '@/assets/products/BATMAN KNIGHTMARE.png'
+import BatmanKnightmareAmbientacao from '@/assets/products/ambientacoes/Batman Knightmare.png'
+import BatmanKnightmare1 from '@/assets/products/Batman Knightmare/1.png'
+import BatmanKnightmare2 from '@/assets/products/Batman Knightmare/2.png'
+import BatmanKnightmare3 from '@/assets/products/Batman Knightmare/3.png'
+import BatmanKnightmare4 from '@/assets/products/Batman Knightmare/4.png'
+import BatmanKnightmare5 from '@/assets/products/Batman Knightmare/5.png'
+import BatmanKnightmare6 from '@/assets/products/Batman Knightmare/6.png'
+import BatmanKnightmare7 from '@/assets/products/Batman Knightmare/7.png'
 /// /////////////////////////////
 
 interface ProductProps {
@@ -256,9 +312,77 @@ export const products: ProductProps[] = [
     image: BatmanDamned,
     productUrl: '/batman-damned',
     details: {
-      image: PreadtorAmbientacao,
+      image: BatmanDamnedAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Da Prime 1 Studio, a Estátua Batman Damned foi projetada pelo talentoso Lee Bermejo, artista de quadrinhos americano conhecido por sua colaboração com o escritor Brian Azzarello. Esta peça captura um visual sombrio e incrivelmente realista de Batman, incluindo uma base única com o Coringa segurando uma arma, também desenhada por Bermejo.',
+        image: BatmanDamned1,
+      },
+      section2: {
+        title: 'VERSÃO DX',
+        text: 'Esta é a versão DX da Estátua Batman Damned, que acompanha quatro cabeças intercambiáveis e um suporte de cabeça. A estátua possui aproximadamente 76 cm de altura, sendo um item essencial para os fãs do Batman e uma adição perfeita ao lado da estátua MMDC-35: The Joker!A versão DXS inclui um bônus especial: uma impressão artística no tamanho A4 assinada à mão por Lee Bermejo.',
+        video: BatmanDamned2,
+      },
+      section3: {
+        image: BatmanDamned3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO DESIGN',
+            text: 'Capa em tecido posável para ajuste de poses. </br> Um (1) suporte de cabeça. </br> Uma (1) base temática exclusiva. </br> Quatro (4) retratos intercambiáveis: Regular, Horror, Grin & Damaged Expression. </br> Três (3) mãos esquerdas intercambiáveis, com acessórios como dois pequenos Batarangs, uma Grapple Gun e um Batarang. </br> Impressão artística em A4 assinada à mão por Lee Bermejo (somente na versão DXS).',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Marca: Prime 1 Studio </br> Coleção: Museum Masterline </br> Série: DC Series, Batman Series </br> Escala: 1/3Tamanho da Estátua: 76,1 cm (A) x 44,6 cm (L) x 50,9 cm (P) </br> Tamanho do Suporte de Cabeça: 18,2 cm (A) x 26,2 cm (L) x 22,2 cm (P) </br> Tamanho da Capa: 68 cm (A) x 148 cm (L) </br> Peso do Produto: 19,7 kg </br> Materiais: Polystone e outros materiais',
+          },
+        ],
+        image: BatmanDamned4,
+      },
+      section5: [BatmanDamned5, BatmanDamned6, BatmanDamned7],
+    },
+  },
+  {
+    title: 'Batman HQS+',
+    description1: '',
+    tags: [],
+    image: BatmanHQS,
+    productUrl: '/batman-hqs',
+    details: {
+      image: BatmanHQSAmbientacao,
+      info1: '',
+      info2: '',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Sucumba à doce loucura do universo DC Comics enquanto percorre as ruas mais sombrias de Gotham City, observado por um certo Cavaleiro das Trevas: Batman!',
+        image: BatmanHQS1,
+      },
+      section2: {
+        title: 'ULTIMATE COMICS BATMAN #50',
+        text: 'Vemos aqui o Cavaleiro das Trevas atacando dois delinquentes, atravessando uma janela de vitral inspirada na capa da Ultimate Comics Batman #50, representando o retrato de seu pior oponente, enquanto a maquiagem dos dois atacantes reivindica sua afiliação com o infame Coringa!',
+        video: BatmanHQS2,
+      },
+      section3: {
+        image: BatmanHQS3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'INFORMAÇÕES ADICIONAIS',
+            text: 'Batman veste seu lendário traje inspirador de medo em kevlar e capa escura para patrulhar os becos de Gotham. Sua máscara com orelhas pontudas oculta sua identidade enquanto ele exibe orgulhosamente o mítico símbolo do morcego em seu peito. Desprovido de superpoderes, sua força reside em sua inteligência e grande domínio das disciplinas marciais, complementado pelo uso de gadgets de tecnologia avançada </br> .Ao decolar, Batman desce sobre sua presa e a joga violentamente nas latas de lixo, enquanto seu companheiro de crime é eletrocutado por um Batrang... Ele terminará sua corrida em uma posição desfavorável, esmagado no poste de luz, a única luz na escuridão...  </br> Cada detalhe desta cena nos prende neste universo sombrio, especialmente o grafite "sorriso" nas paredes de tijolos vermelhos, os cartazes de procurados dos dois delinquentes colados pelo departamento de polícia, as manchetes do Gotham Gazette ou Gotham Globe, os cartazes de eleição municipal com a efígie do ambicioso Oswald Cobblepot, o morcego negro na frente do pedestal, ou apenas uma máscara pendurada ali, provavelmente esperando o rosto certo... Como você pode imaginar, o Coringa está se aproximando perigosamente, pronto para recuperar o que lhe pertence!',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Marca: Tsume Arts </br> Dimensões: Altura: 60 cm, Largura: 53 cm, Profundidade: 43 cm </br> Material: Polystone (resina) </br> Escala: 1/6.  </br> Edição limitada de 600 peças.',
+          },
+        ],
+        image: BatmanHQS4,
+      },
+      section5: [BatmanHQS5, BatmanHQS6, BatmanHQS7],
     },
   },
   {
@@ -272,6 +396,38 @@ export const products: ProductProps[] = [
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
+    paginaProduto: {
+      section1: {
+        text: '“Fiz uma promessa no túmulo dos meus pais de que livraria esta cidade do mal que tirou suas vidas. Esta noite... quase me tornei parte desse mal…”',
+        image: BatmanHush1,
+      },
+      section2: {
+        title: 'UMA OBRA-PRIMA INSPIRADA EM BATMAN: HUSH',
+        text: 'A Estátua do Batman Batcave Version, baseada no icônico arco de histórias dos quadrinhos Batman: Hush (2002-2003). Escrita por Jeph Loeb e ilustrada por Jim Lee, a série apresenta um misterioso inimigo chamado Hush, que busca sabotar o Batman enquanto conta com a participação de diversos vilões clássicos do universo do Cavaleiro das Trevas. Inspirada pela arte de Jim Lee, esta estátua captura o Batman em sua essência, com texturas excepcionais que remetem diretamente aos traços dos quadrinhos.',
+        video: BatmanHush2,
+      },
+      section3: {
+        image: BatmanHush3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES INCOMPARÁVEIS',
+            text: 'Com aproximadamente 88 cm de altura, a estátua inclui: </br> - Base temática altamente detalhada inspirada na Batcaverna, com elementos que destacam a essência do santuário do Batman. </br> - Sistema de Console do Batman, com design que mistura tecnologia futurista e estética analógica, incluindo iluminação em LED integrada.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura Aproximada: 87,8 cm. </br> Largura Aproximada: 73,3 cm. </br> Profundidade Aproximada: 57,8 cm. </br> Peso Aproximado: 26,8 kg. </br> Escala: 1/3.',
+          },
+          {
+            title: 'RECURSOS ADICIONAIS',
+            text: 'Base exclusiva e personalizada, inspirada na Batcaverna. </br> Função de iluminação LED no console da base.',
+          },
+        ],
+        image: BatmanHush4,
+      },
+      section5: [BatmanHush5, BatmanHush6, BatmanHush7],
+    },
   },
   {
     title: 'BATMAN KNIGHTMARE',
@@ -280,9 +436,37 @@ export const products: ProductProps[] = [
     image: BatmanKnightmare,
     productUrl: '/batman-knightmare',
     details: {
-      image: PreadtorAmbientacao,
+      image: BatmanKnightmareAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: "Diretamente da cena Knightmare de Zack Snyder's Justice League, chega uma nova estátua da linha Legacy Replica do Batman! Esta peça impressionante captura o Cavaleiro das Trevas em um mundo apocalíptico, observando o terreno em busca de perigos iminentes.",
+        image: BatmanKnightmare1,
+      },
+      section2: {
+        title: 'EDIÇÃO LIMITADA',
+        text: 'Esta estátua faz parte de uma edição limitada, com apenas 500 peças disponíveis mundialmente. Cada estátua vem com um certificado de autenticidade, garantindo sua exclusividade e valor para colecionadores. Não perca a oportunidade de adicionar esta peça única e rara à sua coleção!',
+        video: BatmanKnightmare2,
+      },
+      section3: {
+        image: BatmanKnightmare3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO DESIGN',
+            text: "Com uma altura de 58 cm, largura de 39 cm e profundidade de 31 cm, esta estátua em escala 1/4 é feita de polystone, garantindo durabilidade e detalhes excepcionais. </br> A estátua é inspirada diretamente no filme Zack Snyder's Justice League e apresenta uma escultura altamente detalhada, com Batman posicionado sobre uma pilha de destroços apocalípticos. Cada detalhe foi cuidadosamente esculpido para capturar a essência do personagem e do cenário devastado, tornando esta peça um item indispensável para colecionadores e fãs do universo DC.",
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: "Marca: Iron Studios </br> Dimensões: 58 cm (A) x 39 cm (L) x 31 cm (P) </br> Escala: 1/4 </br> Material: Polystone </br> Inspirado em: Zack Snyder's Justice League </br> Detalhamento: Escultura altamente detalhada </br> Base: Batman posicionado sobre uma pilha de destroços apocalípticos",
+          },
+        ],
+        image: BatmanKnightmare4,
+      },
+      section5: [BatmanKnightmare5, BatmanKnightmare6, BatmanKnightmare7],
     },
   },
   {
@@ -293,9 +477,53 @@ export const products: ProductProps[] = [
     image: BatmanWhoLaughs,
     productUrl: '/batman-who-laughs',
     details: {
-      image: PreadtorAmbientacao,
+      image: BatmanWhoLaughsAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Introduzido na série Dark Knights: Metal, ele representa o que acontece quando o Batman “vence” — mas perde sua humanidade no processo.',
+        image: BatmanWhoLaughs1,
+      },
+      section2: {
+        title: 'SOBRE O PERSONAGEM',
+        text: 'O Batman Who Laughs é Bruce Wayne da Terra-22 do Dark Multiverse. Esta versão sombria do Batman surgiu ao ser infectada pela insanidade de seu maior inimigo, o Coringa. Após derrotar todos os vilões e heróis de seu universo, este Batman finalmente se transformou no Batman Who Laughs, uma fusão aterrorizante do Cavaleiro das Trevas e do Palhaço do Crime.',
+        video: BatmanWhoLaughs2,
+      },
+      section3: {
+        image: BatmanWhoLaughs3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO DESIGN',
+            text: 'A estátua Batman Who Laughs 1/4 da Queen Studios foi inspirada em uma das cenas mais icônicas dos quadrinhos de DC Comics: Batman Who Laughs Vol.1. Com 67 cm de altura, a peça captura a essência da loucura com detalhes impressionantes, incluindo duas cabeças intercambiáveis: </br> Sorriso cínico: para destacar o lado calculista e cruel do personagem. </br> Riso sinistro: mostrando sua insanidade incontrolável. </br> Ambas as opções de rosto foram pintadas à mão com atenção extraordinária para criar uma peça de qualidade premium.',
+          },
+          {
+            title: 'DETALHES DA BASE',
+            text: 'O design da base é inspirado em uma cena sombria dos quadrinhos, onde o Batman Who Laughs se senta em seu trono sinistro, cercado por seus "Rabid Robins" e mortos-vivos. Atrás do trono, metade do rosto do Coringa e metade do rosto do Batman estão esculpidos para simbolizar a origem deste ',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Licença: DC Comics. </br> Material: Resina, PU e Metal. </br> Tamanho: 67 cm (A) x 56 cm (L) x 70 cm (P). </br> Fabricante: Queen Studios.',
+          },
+        ],
+        image: BatmanWhoLaughs4,
+      },
+      section5: [BatmanWhoLaughs5, BatmanWhoLaughs6, BatmanWhoLaughs7],
+    },
+  },
+  {
+    title: 'Cheetah XM',
+    description1: '',
+    tags: [],
+    image: Cheetah,
+    productUrl: '',
+    details: {
+      image: CheetahAmbientacao,
+      info1: '',
+      info2: '',
     },
   },
   {

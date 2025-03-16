@@ -80,7 +80,7 @@ export default async function Produto({
               </div>
             </div>
           </section>
-          <section className="mx-auto my-20 flex max-w-7xl gap-10 px-10">
+          <section className="mx-auto my-20 grid w-full max-w-7xl grid-cols-3 gap-10 px-10">
             {pageContent.section5.map((item, index) => (
               <Image alt="" src={item} key={index} className="w-full" />
             ))}
