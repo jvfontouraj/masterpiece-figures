@@ -631,7 +631,7 @@ export const products: ProductProps[] = [
       },
       section2: {
         title: 'UM PREDADOR LENDÁRIO',
-        text: 'Apelidado de "Ahab" por Galgo, este Predator foi inspirado no Capitão Ahab da obra de Herman Mel-ville, mas, em vez de uma baleia branca, Ahab está obcecado pela caça de sua presa suprema: um En-genheiro. Esta peça captura Ahab em um momento de sua vida após atingir esse objetivo, enquanto ele derrota uma centopeia gigante em sua caçada mais recente, apenas para "manter-se ocupado".',
+        text: 'Apelidado de "Ahab" por Galgo, este Predator foi inspirado no Capitão Ahab da obra de Herman Melville, mas, em vez de uma baleia branca, Ahab está obcecado pela caça de sua presa suprema: um Engenheiro. Esta peça captura Ahab em um momento de sua vida após atingir esse objetivo, enquanto ele derrota uma centopeia gigante em sua caçada mais recente, apenas para "manter-se ocupado".',
         video: PredatorAhab2,
       },
       section3: {
@@ -686,7 +686,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'TERMINATOR 2 - T-800 ENDOSKELETON BATTLE DAMAGED',
+    title: 'TERMINATOR 2 - T-800 ART MASK',
     description1: 'PURE ARTS',
     description2: 'COLEÇÃO PREMIUM',
     tags: ['viloes', 'herois', 'filmes-e-series', 'games'],

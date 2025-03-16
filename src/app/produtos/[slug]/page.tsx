@@ -55,8 +55,13 @@ export default async function Produto({
               </div>
             </section>
           )}
-          <section className="mx-auto max-w-7xl">
-            <Image alt="" src={pageContent.section3.image} className="w-full" />
+          <section
+            className="mx-auto max-h-screen min-h-[calc(100vh-112px)] w-full max-w-7xl bg-contain bg-fixed bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url(${pageContent.section3.image.src})`,
+            }}
+          >
+            {/* <Image alt="" src={pageContent.section3.image} className="w-full" /> */}
           </section>
           <section className="bg-[#bdaa80] px-10 py-20">
             <div className="mx-auto flex max-w-7xl items-start justify-center gap-10">

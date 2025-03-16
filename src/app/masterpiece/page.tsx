@@ -11,16 +11,15 @@ export default function Masterpiece() {
       <div className="flex w-1/2 flex-col items-center justify-center gap-20 p-8 text-left">
         <Image alt="" src={Logo} />
         <p className="font-light text-white">
-          A Masterpiece Figures, empresa fundada pelos sócios Luciana Cordeiro
-          Distéfano de Oliveira e Sérgio Segantin Lopes, apaixonados por
-          colecionismo, tem como propósito elevar sonhos e ambientes através de
-          peças exclusivas e impactantes, transformando cada figura em um
-          símbolo de inspiração e sofisticação.
+          A Masterpiece Figures, fundada Luciana Distéfano e Sérgio Lopes, tem
+          como propósito elevar sonhos e ambientes através de peças exclusivas e
+          impactantes, transformando cada figura em um símbolo de inspiração e
+          sofisticação.
           <br />
           <br />
           Nosso foco reside na exclusividade e personalização de Action Figures
           Premium, e acreditamos em uma cultura que valoriza a arte, a
-          curadoria, a exclusividade e o atendimento personalizado, re-fletindo
+          curadoria, a exclusividade e o atendimento personalizado, refletindo
           nossa dedicação em oferecer uma experiência única, onde a paixão pela
           estética se encontra com a excelência do serviço.
           <br />
@@ -28,7 +27,7 @@ export default function Masterpiece() {
           Buscamos impactar positivamente, transformando espaços e contando
           histórias, permitindo que cada estatueta e personagem se tornem
           protagonistas em ambientes que exalam personalidade e refinamento,
-          sempre comprometidos a levar excelência aos clien-tes por meio de um
+          sempre comprometidos a levar excelência aos clientes por meio de um
           atendimento personalizado.
         </p>
       </div>
