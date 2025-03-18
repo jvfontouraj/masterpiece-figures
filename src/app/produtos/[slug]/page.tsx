@@ -43,9 +43,10 @@ export default async function Produto({
                   {pageContent.section2.title}
                 </h2>
               )}
-              <p className="mx-auto max-w-4xl text-lg font-light">
-                {pageContent.section2.text}
-              </p>
+              <p
+                className="mx-auto max-w-4xl text-lg font-light"
+                dangerouslySetInnerHTML={{ __html: pageContent.section2.text }}
+              ></p>
               <div className="flex w-full items-center justify-center">
                 <Image
                   alt=""

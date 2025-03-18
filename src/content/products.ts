@@ -1,9 +1,5 @@
 import { StaticImageData } from 'next/image'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
-import CyberCat from '@/assets/products/CYBER CAT.png'
-import GreenScarHulk from '@/assets/products/GREEN SCAR HULK.png'
-import JokerBust from '@/assets/products/THE JOKER LIMITED EDITION BUST.png'
-import BatmanPenguin from '@/assets/products/BATMAN PENGUIN DAIMY.png'
 import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
@@ -145,6 +141,59 @@ import BatmanKnightmare5 from '@/assets/products/Batman Knightmare/5.png'
 import BatmanKnightmare6 from '@/assets/products/Batman Knightmare/6.png'
 import BatmanKnightmare7 from '@/assets/products/Batman Knightmare/7.png'
 /// /////////////////////////////
+
+// Dungeon & Dragons ////////////
+// import DungeonAndDragons from '@/assets/products/DUNGEONS & DRAGONS.png'
+import DungeonAndDragonsAmbientacao from '@/assets/products/ambientacoes/Dungeons & Dragons.png'
+import DungeonAndDragons1 from '@/assets/products/Dungeons & Dragons/1.png'
+import DungeonAndDragons2 from '@/assets/products/Dungeons & Dragons/2.png'
+import DungeonAndDragons3 from '@/assets/products/Dungeons & Dragons/3.png'
+import DungeonAndDragons4 from '@/assets/products/Dungeons & Dragons/4.png'
+import DungeonAndDragons5 from '@/assets/products/Dungeons & Dragons/5.png'
+import DungeonAndDragons6 from '@/assets/products/Dungeons & Dragons/6.png'
+import DungeonAndDragons7 from '@/assets/products/Dungeons & Dragons/7.png'
+/// /////////////////////////////
+
+// Green Scar Hulk //////////////
+import GreenScarHulk from '@/assets/products/GREEN SCAR HULK.png'
+import GreenScarHulkAmbientacao from '@/assets/products/ambientacoes/Green Scar Hulk.png'
+import GreenScarHulk1 from '@/assets/products/Green Scar Hulk/1.png'
+import GreenScarHulk2 from '@/assets/products/Green Scar Hulk/2.png'
+import GreenScarHulk3 from '@/assets/products/Green Scar Hulk/3.png'
+import GreenScarHulk4 from '@/assets/products/Green Scar Hulk/4.png'
+import GreenScarHulk5 from '@/assets/products/Green Scar Hulk/5.png'
+import GreenScarHulk6 from '@/assets/products/Green Scar Hulk/6.png'
+import GreenScarHulk7 from '@/assets/products/Green Scar Hulk/7.png'
+/// /////////////////////////////
+
+// Joker Bust ///////////////////
+import JokerBust from '@/assets/products/THE JOKER LIMITED EDITION BUST.png'
+import JokerBustAmbientacao from '@/assets/products/ambientacoes/Joker Bust.png'
+import JokerBust1 from '@/assets/products/Joker Bust/1.png'
+import JokerBust2 from '@/assets/products/Joker Bust/2.png'
+import JokerBust3 from '@/assets/products/Joker Bust/3.png'
+import JokerBust4 from '@/assets/products/Joker Bust/4.png'
+import JokerBust5 from '@/assets/products/Joker Bust/5.png'
+import JokerBust6 from '@/assets/products/Joker Bust/6.png'
+import JokerBust7 from '@/assets/products/Joker Bust/7.png'
+/// /////////////////////////////
+
+// Cyber Cat ////////////////
+import CyberCat from '@/assets/products/CYBER CAT.png'
+import CyberCatAmbientacao from '@/assets/products/ambientacoes/Cyber Cat.png'
+// /////////////////////////////
+
+// Batman Penguin ////////////
+import BatmanPenguin from '@/assets/products/BATMAN PENGUIN DAIMY.png'
+import BatmanPenguinAmbientacao from '@/assets/products/ambientacoes/Batman Penguin.png'
+import BatmanPenguin1 from '@/assets/products/Batman Penguin/1.png'
+import BatmanPenguin2 from '@/assets/products/Batman Penguin/2.png'
+import BatmanPenguin3 from '@/assets/products/Batman Penguin/3.png'
+import BatmanPenguin4 from '@/assets/products/Batman Penguin/4.png'
+import BatmanPenguin5 from '@/assets/products/Batman Penguin/5.png'
+import BatmanPenguin6 from '@/assets/products/Batman Penguin/6.png'
+import BatmanPenguin7 from '@/assets/products/Batman Penguin/7.png'
+// /////////////////////////////
 
 interface ProductProps {
   title: string
@@ -569,9 +618,49 @@ export const products: ProductProps[] = [
     image: CyberCat,
     productUrl: '/cyber-cat',
     details: {
-      image: PreadtorAmbientacao,
+      image: CyberCatAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+  },
+  {
+    title: 'DUNGEONS & DRAGONS TIAMAT',
+    description1: '',
+    tags: [],
+    image: DungeonAndDragons2,
+    productUrl: '/dungeons-dragons',
+    details: {
+      image: DungeonAndDragonsAmbientacao,
+      info1: '',
+      info2: '',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Em colaboração com Yi Wan Tang Studio, ZenPunk Collectibles e Yi Ci Fang Studio, o artista Evan Lee apresenta sua personagem original: Cyber Cat. Baseada em um trabalho de 2018, a criação 2D agora ganha vida na forma desta estátua altamente detalhada, tornando-se uma adição única para qualquer coleção.',
+        image: DungeonAndDragons1,
+      },
+      section2: {
+        title: 'TIAMAT',
+        text: 'Enfrentando o sexteto heroico está a colossal figura central desta composição, temida até mesmo pelo poderoso e maligno feiticeiro conhecido como Venger, é o dragão supremo Tiamat, derivado da deusa dragão da mitologia mesopotâmica, este poderoso monstro tem cinco cabeças de cores diferentes e cada uma com seus próprios poderes. Sua cabeça vermelha do meio cospe chamas e é a única capaz de falar. No lado direito estão a cabeça branca, que dispara raios congelantes, e a cabeça verde, com um forte sopro de gás venenoso.',
+        video: DungeonAndDragons2,
+      },
+      section3: {
+        image: DungeonAndDragons3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Baseado no clássico jogo de RPG homônimo, a série animada chamada Dungeons & Dragons foi um grande sucesso entre as animações dos anos 80, retratando as aventuras de seis jovens amigos que, após embarcarem em uma montanha-russa em um parque de diversões, passam por um portal que os leva a outro mundo. Lá, vestindo roupas com habilidades particulares a eles, recebem armas mágicas de um velho anão conhecido como Mestre dos Magos. Lá, viverão grandes aventuras tentando voltar para suas casas na Terra.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Fabricante: Iron Studios </br> Tamanho do Produto: Altura: 56 cm, Largura: 57 cm, Profundidade: 56 cm, Peso: 18,5 kg',
+          },
+        ],
+        image: DungeonAndDragons4,
+      },
+      section5: [DungeonAndDragons5, DungeonAndDragons6, DungeonAndDragons7],
     },
   },
   {
@@ -581,9 +670,41 @@ export const products: ProductProps[] = [
     image: GreenScarHulk,
     productUrl: '/green-scar-hulk',
     details: {
-      image: PreadtorAmbientacao,
+      image: GreenScarHulkAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'A Green Scar Hulk Premium Version é uma figura de ação colecionável baseada em uma das versões mais icônicas do personagem Hulk, originada da aclamada saga "Planeta Hulk" da Marvel Comics. Vamos explorar a história por trás desse Hulk e o que torna essa versão premium tão especial.',
+        image: GreenScarHulk1,
+      },
+      section2: {
+        title: 'GREEN SCAR HULK PREMIUM VERSION',
+        text: 'Essa versão Premium é uma representação fiel e meticulosa do Hulk em seu auge como gladiador e rei de Sakaar. O foco está em capturar a fúria e o poder do personagem, além de trazer detalhes precisos que remetem à narrativa do quadrinho.',
+        video: GreenScarHulk2,
+      },
+      section3: {
+        image: GreenScarHulk3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA FIGURA',
+            text: '<strong>Escultura Realista:</strong> A figura traz uma expressão feroz do Hulk, com rugas profundas e cicatrizes visíveis. </br> <strong>Armadura de Gladiador:</strong> Inclui detalhes em couro, metal e tecido que reproduzem a armadura usada na arena de Sakaar. </br> <strong>Acessórios:</strong> Acompanha uma espada gigantesca e escudo, armas que ele utilizou nas batalhas mais icônicas. </br> <strong>Base Temática:</strong> A base é inspirada na arena de Sakaar, com elementos do cenário e partes quebradas dos adversários derrotados. </br> <strong>Tamanho e Escala:</strong> A peça é geralmente feita na escala 1/4, o que garante uma presença imponente, ideal para colecionadores de alto padrão.',
+          },
+          {
+            title: 'POR QUE ESSA FIGURA É ESPECIAL?',
+            text: '<strong>Edição Limitada:</strong> A versão Premium costuma ser limitada a poucas unidades, aumentando sua raridade e valor no mercado de colecionáveis. </br> <strong>Pintura Manual:</strong> Cada peça é pintada à mão, garantindo um acabamento único e diferenciado. </br> <strong>Material de Alta Qualidade:</strong> A figura é feita com resina polystone, conhecida pela durabilidade e detalhes intrincados. </br> <strong>Imersão na História:</strong> Não é apenas uma figura, mas uma representação emocional de um momento épico do personagem, que ressoa com a profundidade da saga "Planeta Hulk".',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: '<strong>Tamanho:</strong> 67 cm (A) x 72 cm (L) x 59 cm (P)',
+          },
+        ],
+        image: GreenScarHulk4,
+      },
+      section5: [GreenScarHulk5, GreenScarHulk6, GreenScarHulk7],
     },
   },
   {
@@ -594,9 +715,37 @@ export const products: ProductProps[] = [
     image: JokerBust,
     productUrl: '/the-joker-bust',
     details: {
-      image: PreadtorAmbientacao,
+      image: JokerBustAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: '"I’m a dog chasing cars! I wouldn’t know what to do with one if I caught it!"',
+        image: JokerBust1,
+      },
+      section2: {
+        title: 'UMA HOMENAGEM A HEATH LEDGER',
+        text: 'No papel do Coringa, Heath Ledger consolidou sua interpretação como uma das mais icônicas e cativantes do cinema. Para refletir a genialidade que permeou sua atuação, a Prime 1 Studio revela um busto que captura com precisão a essência desse personagem lendário. </br> Com 26 cm de altura, esta edição limitada a 1.000 peças apresenta metade do rosto de Ledger com a icônica maquiagem do Coringa, enquanto a outra metade revela o ator por trás do personagem, em uma pintura sutil e reverente que humaniza o vilão como nunca antes.',
+        video: JokerBust2,
+      },
+      section3: {
+        image: JokerBust3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA FIGURA',
+            text: '<strong>Likeness incrivelmente detalhado:</strong> O busto recria com precisão o rosto de Heath Ledger com cabelo esculpido de forma realista. </br> Base temática de The Dark Knight: Um design que complementa perfeitamente a atmosfera sombria do filme. </br> <strong>Cartão do Coringa de Batman Begins:</strong> Inclui uma réplica do icônico baralho do personagem. </br> <strong>Compatibilidade:</strong> O retrato e o cartão do Coringa são compatíveis com as estátuas MMTDK-01/01S The Joker em escala 1:3.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 26 cm </br> Largura: 17 cm </br> Profundidade: 14 cm </br> Peso Aproximado: 2,8 kg </br> Material: Polystone e outros materiais </br>  </br> Adicione este busto definitivo à sua coleção e celebre a atuação incomparável de Heath Ledger como o Coringa em The Dark Knight!Licenciado oficialmente por DC Comics e Warner Bros. Entertainment Inc.',
+          },
+        ],
+        image: JokerBust4,
+      },
+      section5: [JokerBust5, JokerBust6, JokerBust7],
     },
   },
   {
@@ -607,9 +756,41 @@ export const products: ProductProps[] = [
     image: BatmanPenguin,
     productUrl: '/batman-penguin-daimy',
     details: {
-      image: PreadtorAmbientacao,
+      image: BatmanPenguinAmbientacao,
       info1: 'Escala 1/4',
       info2: 'A: 85cm x L: 57cm x P: 76cm',
+    },
+    paginaProduto: {
+      section1: {
+        text: 'A espetacular estátua do Penguin Daimyo, parte da série Samurai da XM Studios é uma obra carregada de detalhes excepcionais! Esta peça em escala 1:4 foca no Pinguim, um dos mais icônicos inimigos do Batman, reimaginado como um poderoso Daimyo (Senhor Feudal) do Japão.',
+        image: BatmanPenguin1,
+      },
+      section2: {
+        title: 'SÉRIE SAMURAI',
+        text: 'Esta obra-prima é uma peça imperdível para qualquer colecionador, com detalhes intrincados e requintados, à altura de um Daimyo com recursos e conexões à disposição.',
+        video: BatmanPenguin2,
+      },
+      section3: {
+        image: BatmanPenguin3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA FIGURA',
+            text: 'O Penguin Daimyo se acomoda luxuosamente em um Norimono (palanquim japonês usado por nobres), acompanhado por seus subordinados pinguins. O palanquim é adornado com motivos tradicionais japoneses, ornamentos dourados intricados e detalhes inspirados no Pinguim. </br> Os guardas pinguins, maiores e mais fortes, carregam o Norimono, enquanto um pinguim menor serve saquê com um toque de pólvora para o Daimyo. Cada pinguim veste um kasa (chapéu de palha tradicional japonês) e carrega explosivos prontos para serem usados quando necessário. </br> Aos pés do Daimyo, há um baú de joias e um cesto de peixes com dinamite atravessando suas bocas, além de um emblema que lembra a máscara Oni inspirada no Coringa Orochi. Com quem o Daimyo está negociando?',
+          },
+          {
+            title: 'PEÇAS PARA TROCA',
+            text: '<strong>3 cabeças intercambiáveis:</strong> Uma com sorriso largo e monóculo; outra com sorriso alegre e monóculo; e uma usando uma máscara inspirada em Oni. </br> <strong>2 opções para a mão esquerda:</strong> O famoso guarda-chuva ou um Gunbai (leque de guerra japonês usado como sinalizador). </br> <strong>2 opções para a mão direita:</strong> Uma pistola ou uma katana (espada japonesa) embainhada na cintura.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: '<strong>Tamanho:</strong> 52 cm (C) x 44 cm (L) x 64 cm (A) (estimado) </br> <strong>Dimensões da Caixa:</strong> 73 cm (C) x 63 cm (L) x 55,5 cm (A) (estimado) </br> <strong>Peso do Produto:</strong> 24 kg (estimado)',
+          },
+        ],
+        image: BatmanPenguin4,
+      },
+      section5: [BatmanPenguin5, BatmanPenguin6, BatmanPenguin7],
     },
   },
   {
