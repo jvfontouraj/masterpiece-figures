@@ -204,8 +204,8 @@ interface ProductProps {
   productUrl: string
   details: {
     image: StaticImageData
-    info1: string
-    info2: string
+    info1?: string
+    info2?: string
   }
   paginaProduto?: {
     section1: {
@@ -231,24 +231,19 @@ interface ProductProps {
 export const products: ProductProps[] = [
   {
     title: 'ALIEN XENOMORFO BIG CHAP',
-    description1: 'MAFEX',
-    description2: 'MEDICOM',
+    description1: 'Medicom',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: AlienChap,
     productUrl: '/alien-chap',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
-    title: 'ALITA BERSERKER MOTORBALL TRYOUT',
-    description1: '???',
+    title: 'ALITA BERSERKER MOTORBALL',
+    description1: 'Prime 1 Studios',
     details: {
       image: AlitaAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     tags: ['herois', 'filmes-e-series', 'games'],
     image: Alita,
@@ -282,15 +277,12 @@ export const products: ProductProps[] = [
   },
   {
     title: 'BATCAVERNA SÉRIE TV 1966',
-    description1: '???',
-    description2: '???',
-    tags: ['herois', 'filmes-e-series'],
+    description1: 'Factory Entertainment ',
+    tags: ['herois', 'filmes-e-series', 'games'],
     image: Batcaverna,
     productUrl: '/batcave-desktop',
     details: {
       image: BatcavernaAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -323,14 +315,11 @@ export const products: ProductProps[] = [
   {
     title: 'BATMAN BUST - DETECTIVE COMICS',
     description1: 'PRIME 1 STUDIO',
-    description2: 'PREMIUM MASTERLINE DC SUPERHERO SERIES',
     image: BatmanBust,
-    tags: ['herois', 'filmes-e-series'],
+    tags: ['herois', 'filmes-e-series', 'games'],
     productUrl: '/batman-busto',
     details: {
       image: BatmanBustAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -363,14 +352,11 @@ export const products: ProductProps[] = [
   {
     title: 'BATMAN DAMNED',
     description1: 'PRIME 1 STUDIO',
-    description2: 'LEE BERMEJO',
-    tags: ['herois', 'filmes-e-series'],
+    tags: ['herois', 'filmes-e-series', 'games'],
     image: BatmanDamned,
     productUrl: '/batman-damned',
     details: {
       image: BatmanDamnedAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -403,8 +389,8 @@ export const products: ProductProps[] = [
   },
   {
     title: 'Batman HQS+',
-    description1: '',
-    tags: [],
+    description1: 'Tsume',
+    tags: ['herois', 'filmes-e-series', 'fantasia'],
     image: BatmanHQS,
     productUrl: '/batman-hqs',
     details: {
@@ -444,13 +430,11 @@ export const products: ProductProps[] = [
   {
     title: 'BATMAN HUSH BATCAVE',
     description1: 'PRIME 1 STUDIO',
-    tags: ['herois', 'filmes-e-series'],
+    tags: ['herois', 'filmes-e-series', 'games'],
     image: BatmanHush,
     productUrl: '/batman-hush',
     details: {
       image: BatmanHushAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -487,14 +471,12 @@ export const products: ProductProps[] = [
   },
   {
     title: 'BATMAN KNIGHTMARE',
-    description1: 'IRON STUDIOS',
-    tags: ['herois', 'filmes-e-series'],
+    description1: 'Sideshow Collectibles',
+    tags: ['herois', 'filmes-e-series', 'games'],
     image: BatmanKnightmare,
     productUrl: '/batman-knightmare',
     details: {
       image: BatmanKnightmareAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -528,14 +510,11 @@ export const products: ProductProps[] = [
   {
     title: 'BATMAN WHO LAUGHS',
     description1: 'QUEEN STUDIOS',
-    description2: 'DC COMICS',
     tags: ['herois', 'filmes-e-series', 'viloes', 'games', 'fantasia'],
     image: BatmanWhoLaughs,
     productUrl: '/batman-who-laughs',
     details: {
       image: BatmanWhoLaughsAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -572,8 +551,8 @@ export const products: ProductProps[] = [
   },
   {
     title: 'Cheetah XM',
-    description1: '',
-    tags: [],
+    description1: 'Iron Studios',
+    tags: ['herois', 'filmes-e-series'],
     image: Cheetah,
     productUrl: '/cheetah',
     details: {
@@ -612,21 +591,18 @@ export const products: ProductProps[] = [
   },
   {
     title: 'CYBER CAT',
-    description1:
-      'YI WAN TANG STUDIO, ZENPUNK COLLECTIBLES E YI CI FANG STUDIO',
+    description1: 'ZenPunk Collectibles',
     tags: ['fantasia'],
     image: CyberCat,
     productUrl: '/cyber-cat',
     details: {
       image: CyberCatAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
     title: 'DUNGEONS & DRAGONS TIAMAT',
-    description1: '',
-    tags: [],
+    description1: 'Iron Studios',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
     image: DungeonAndDragons2,
     productUrl: '/dungeons-dragons',
     details: {
@@ -665,14 +641,12 @@ export const products: ProductProps[] = [
   },
   {
     title: 'GREEN SCAR HULK',
-    description1: '???',
-    tags: ['herois', 'filmes-e-series'],
+    description1: 'Queen Studios',
+    tags: ['herois', 'filmes-e-series', 'games'],
     image: GreenScarHulk,
     productUrl: '/green-scar-hulk',
     details: {
       image: GreenScarHulkAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -709,15 +683,12 @@ export const products: ProductProps[] = [
   },
   {
     title: 'THE JOKER LIMITED EDITION BUST',
-    description1: 'PRIME 1 STUDIO E BLITZWAY',
-    description2: 'PREMIUM BUST SERIES',
+    description1: 'PRIME 1 STUDIO',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: JokerBust,
     productUrl: '/the-joker-bust',
     details: {
       image: JokerBustAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -750,15 +721,12 @@ export const products: ProductProps[] = [
   },
   {
     title: 'BATMAN PENGUIN DAIMY',
-    description1: 'XM STUDIO',
-    description2: 'SÉRIE SAMURAI',
-    tags: ['viloes', 'filmes-e-series', 'games'],
+    description1: 'XM STUDIOS',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
     image: BatmanPenguin,
     productUrl: '/batman-penguin-daimy',
     details: {
       image: BatmanPenguinAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -796,14 +764,11 @@ export const products: ProductProps[] = [
   {
     title: 'PREDATOR AHAB',
     description1: 'Prime 1 Studio',
-    description2: 'Série Premium Masterline',
     image: Predator,
-    tags: ['viloes', 'filmes-e-series', 'games'],
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
     productUrl: '/predator-ahab',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -850,58 +815,46 @@ export const products: ProductProps[] = [
     productUrl: '/jungle-hunter-predator',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
     title: 'SHE-RA & SWIFT WIND DELUXE',
-    description1: 'SIDESHOW E IRON STUDIOS',
-    tags: ['herois', 'fantasia'],
+    description1: 'Iron Studios',
+    tags: ['herois', 'filmes-e-series', 'fantasia'],
     image: SheRa,
     productUrl: '/she-ra-swift-wind-deluxe',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
     title: 'TERMINATOR 2 - T-800 ART MASK',
     description1: 'PURE ARTS',
-    description2: 'COLEÇÃO PREMIUM',
     tags: ['viloes', 'herois', 'filmes-e-series', 'games'],
     image: Terminator,
     productUrl: '/terminator-battle-damaged',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
     title: 'THE JOKER STATUE',
-    description1: 'PRIME 1 STUDIO',
+    description1: 'PRIME 1 STUDIOS',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: JokerStatue,
     productUrl: '/the-joker-statue',
     details: {
       image: PreadtorAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
   {
     title: 'WONDER WOMAN REBIRTH SILVER ARMOR',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE MUSEUM MASTERLINE',
-    tags: ['herois', 'filmes-e-series', 'fantasia'],
+    description1: 'PRIME 1 STUDIOS',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
     image: WonderWoman,
     productUrl: '/wonder-woman-rebirth',
     details: {
       image: WonderWomanAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
     paginaProduto: {
       section1: {
@@ -937,16 +890,13 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE',
-    description1: 'PRIME 1 STUDIO',
-    description2: 'SÉRIE MUSEUM MASTERLINE',
+    title: 'SUMMER DRUNKEN BEAUTY',
+    description1: 'Yuan Xing Liang',
     tags: ['fantasia', 'arte-asiática'],
     image: SummerDrunkenBeauty,
-    productUrl: '/summer-drunken-beauty-flower-pavilion',
+    productUrl: '/summer-drunken-beauty',
     details: {
       image: SummerDrunkenAmbientacao,
-      info1: 'Escala 1/4',
-      info2: 'A: 85cm x L: 57cm x P: 76cm',
     },
   },
 ]

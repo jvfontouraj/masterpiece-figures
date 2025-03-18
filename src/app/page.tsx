@@ -125,7 +125,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="flex flex-col items-center justify-center px-20 py-40">
+        <section className="flex flex-col items-center justify-center px-20 py-72">
           <h3 className="text-center text-3xl font-light tracking-widest text-gold">
             Peças únicas, numeradas e limitadas,
             <br />

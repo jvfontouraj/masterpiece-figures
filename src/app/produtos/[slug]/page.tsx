@@ -1,16 +1,32 @@
+'use client'
+
 import { products } from '@/content/products'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
-export default async function Produto({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-
-  const produto = products.find((product) => product.productUrl === '/' + slug)
+export default function Produto() {
+  const pathname = usePathname()
+  const produto = products.find(
+    (product) => '/produtos' + product.productUrl === pathname,
+  )
   const pageContent = produto?.paginaProduto ?? null
+
+  const [parallaxWidth, setParallaxWidth] = useState<number>(0)
+
+  useEffect(() => {
+    const updateSize = () => {
+      const parallaxSection = document.getElementById('parallaxSection')
+      if (parallaxSection) {
+        setParallaxWidth(parallaxSection.offsetWidth)
+      }
+    }
+
+    updateSize() // Set initial size
+    window.addEventListener('resize', updateSize) // Update on resize
+    return () => window.removeEventListener('resize', updateSize) // Cleanup
+  }, []) // Only run once on mount
 
   return (
     <main className="mx-auto mt-28">
@@ -57,9 +73,11 @@ export default async function Produto({
             </section>
           )}
           <section
-            className="mx-auto max-h-screen min-h-[calc(100vh-112px)] w-full max-w-7xl bg-contain bg-fixed bg-center bg-no-repeat"
+            id="parallaxSection"
+            className="mx-auto max-h-screen min-h-[calc(100vh-112px)] w-full max-w-7xl bg-fixed bg-center bg-no-repeat"
             style={{
               backgroundImage: `url(${pageContent.section3.image.src})`,
+              backgroundSize: `${parallaxWidth}px auto`,
             }}
           >
             {/* <Image alt="" src={pageContent.section3.image} className="w-full" /> */}

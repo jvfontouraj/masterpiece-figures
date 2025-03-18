@@ -98,11 +98,9 @@ export default function Produtos() {
             <h3 className="mb-10 text-2xl font-normal">
               {filteredProducts[selectedIndex].title}
             </h3>
-            <p>{filteredProducts[selectedIndex].description1}</p>
-            <p>{filteredProducts[selectedIndex].description2}</p>
-            <p>{filteredProducts[selectedIndex].details.info1}</p>
-            <p>{filteredProducts[selectedIndex].details.info2}</p>
-
+            <p className="uppercase">
+              {filteredProducts[selectedIndex].description1}
+            </p>
             <Image src={Arrow} alt="" className="mt-10 h-auto w-9" />
           </div>
         </Link>
@@ -154,8 +152,8 @@ export default function Produtos() {
               <div className="flex w-full flex-col items-center text-gold">
                 <h3 className="text-center text-xl">{product.title}</h3>
                 <div>
-                  <span className="text-xs font-light">
-                    {product.description1} {product.description2 && ' | '}
+                  <span className="text-xs font-light uppercase">
+                    {product.description1}
                   </span>
                   {product.description2 && (
                     <span className="text-xs font-light">
