@@ -12,12 +12,13 @@ import HomeYuan from '@/assets/home-yuan.jpg'
 import HomeBatman from '@/assets/home-batman.jpg'
 import BatmanHush from '@/assets/products/BATMAN HUSH BATCAVE.png'
 import YuanFlower from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
-import Curadoria1 from '@/assets/home-curadoria-1.jpg'
-import Curadoria2 from '@/assets/home-curadoria-2.jpg'
-import Curadoria3 from '@/assets/home-curadoria-3.jpg'
-import Curadoria4 from '@/assets/home-curadoria-4.jpg'
-import Curadoria5 from '@/assets/home-curadoria-5.jpg'
-import Curadoria6 from '@/assets/home-curadoria-6.jpg'
+import Curadoria1 from '@/assets/home-curadoria-1.png'
+import Curadoria2 from '@/assets/home-curadoria-2.png'
+import Curadoria3 from '@/assets/home-curadoria-3.png'
+import Curadoria4 from '@/assets/home-curadoria-4.png'
+import Curadoria5 from '@/assets/home-curadoria-5.png'
+import Curadoria6 from '@/assets/home-curadoria-6.png'
+import Link from 'next/link'
 
 export default function Home() {
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="fixed left-0 top-0 z-0 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
+      <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
         <Image
           src={Logo2}
           alt=""
@@ -40,7 +41,7 @@ export default function Home() {
           Onde a arte e exclusividade se encontram
         </h2>
       </div>
-      <div className="fixed left-0 top-0 z-0 flex h-screen w-screen max-w-full animate-layer2 items-center justify-center overflow-hidden bg-black/80 opacity-0 backdrop-blur">
+      <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen max-w-full animate-layer2 items-center justify-center overflow-hidden bg-black/80 opacity-0 backdrop-blur">
         <Image
           src={HomeBg}
           alt={''}
@@ -139,12 +140,72 @@ export default function Home() {
             DESTAQUES DA CURADORIA
           </h2>
           <div className="grid grid-cols-3 gap-3 pb-20">
-            <Image src={Curadoria1} alt="" className="h-auto w-full" />
-            <Image src={Curadoria2} alt="" className="h-auto w-full" />
-            <Image src={Curadoria3} alt="" className="h-auto w-full" />
-            <Image src={Curadoria4} alt="" className="h-auto w-full" />
-            <Image src={Curadoria5} alt="" className="h-auto w-full" />
-            <Image src={Curadoria6} alt="" className="h-auto w-full" />
+            <Link
+              href={'/produtos/batman-busto'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria1}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
+            <Link
+              href={'/produtos/green-scar-hulk'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria2}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
+            <Link
+              href={'/produtos/cheetah'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria3}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
+            <Link
+              href={'/produtos/the-joker-bust'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria4}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
+            <Link
+              href={'/produtos/dungeons-dragons'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria5}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
+            <Link
+              href={'/produtos/batman-who-laughs'}
+              target="_blank"
+              className="overflow-hidden"
+            >
+              <Image
+                src={Curadoria6}
+                alt=""
+                className="h-auto w-full transition-transform duration-500 hover:scale-105"
+              />
+            </Link>
           </div>
         </section>
       </main>
