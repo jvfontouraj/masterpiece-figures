@@ -1028,7 +1028,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'WONDER WOMAN GREAT HERA',
-    description1: '???',
+    description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
     image: WonderWomanGreatHera,
     productUrl: '/wonder-woman-great-hera',
