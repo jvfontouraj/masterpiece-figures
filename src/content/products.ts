@@ -1,5 +1,4 @@
 import { StaticImageData } from 'next/image'
-import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 
 // Predator Ahab ////////////////
@@ -65,6 +64,13 @@ import Batcaverna7 from '@/assets/products/Batcave desktop/7.png'
 // Summer Drunken Beauty ///////
 import SummerDrunkenBeauty from '@/assets/products/SUMMER DRUNKEN BEAUTY FLOWER PAVILION PAINTED VERSION STATUE.png'
 import SummerDrunkenAmbientacao from '@/assets/products/ambientacoes/ambSummer Drunken.png'
+import SummerDrunkenBeauty1 from '@/assets/products/Summer Drunken/1.png'
+import SummerDrunkenBeauty2 from '@/assets/products/Summer Drunken/2.png'
+import SummerDrunkenBeauty3 from '@/assets/products/Summer Drunken/3.png'
+import SummerDrunkenBeauty4 from '@/assets/products/Summer Drunken/4.png'
+import SummerDrunkenBeauty5 from '@/assets/products/Summer Drunken/5.png'
+import SummerDrunkenBeauty6 from '@/assets/products/Summer Drunken/6.png'
+import SummerDrunkenBeauty7 from '@/assets/products/Summer Drunken/7.png'
 /// ////////////////////////////
 
 // Batman Hush //////////////////
@@ -140,7 +146,7 @@ import BatmanKnightmare7 from '@/assets/products/Batman Knightmare/7.png'
 /// /////////////////////////////
 
 // Dungeon & Dragons ////////////
-// import DungeonAndDragons from '@/assets/products/DUNGEONS & DRAGONS.png'
+import DungeonAndDragons from '@/assets/products/Dungeos e Dragons.png'
 import DungeonAndDragonsAmbientacao from '@/assets/products/ambientacoes/Dungeons & Dragons.png'
 import DungeonAndDragons1 from '@/assets/products/Dungeons & Dragons/1.png'
 import DungeonAndDragons2 from '@/assets/products/Dungeons & Dragons/2.png'
@@ -250,6 +256,18 @@ import AlienChap4 from '@/assets/products/Alien Chap/4.png'
 import AlienChap5 from '@/assets/products/Alien Chap/5.png'
 import AlienChap6 from '@/assets/products/Alien Chap/6.png'
 import AlienChap7 from '@/assets/products/Alien Chap/7.png'
+// /////////////////////////////
+
+// Predator Jungle Hunter //////////////
+import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
+import JungleHunterAmbientacao from '@/assets/products/ambientacoes/Jungle hunter Predator.png'
+import JungleHunter1 from '@/assets/products/Predator Bust/1.png'
+import JungleHunter2 from '@/assets/products/Predator Bust/2.png'
+import JungleHunter3 from '@/assets/products/Predator Bust/3.png'
+import JungleHunter4 from '@/assets/products/Predator Bust/4.png'
+import JungleHunter5 from '@/assets/products/Predator Bust/5.png'
+import JungleHunter6 from '@/assets/products/Predator Bust/6.png'
+import JungleHunter7 from '@/assets/products/Predator Bust/7.png'
 // /////////////////////////////
 
 interface ProductProps {
@@ -726,12 +744,10 @@ export const products: ProductProps[] = [
     title: 'DUNGEONS & DRAGONS TIAMAT',
     description1: 'Iron Studios',
     tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
-    image: DungeonAndDragons2,
+    image: DungeonAndDragons,
     productUrl: '/dungeons-dragons',
     details: {
       image: DungeonAndDragonsAmbientacao,
-      info1: '',
-      info2: '',
     },
     paginaProduto: {
       section1: {
@@ -937,7 +953,35 @@ export const products: ProductProps[] = [
     tags: ['viloes', 'filmes-e-series', 'games'],
     productUrl: '/jungle-hunter-predator',
     details: {
-      image: PreadtorAmbientacao,
+      image: JungleHunterAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '“Há algo lá fora esperando por nós, e não é um homem. Todos nós vamos morrer.” – Billy',
+        image: JungleHunter1,
+      },
+      section2: {
+        title: 'VISUAL REVELADO',
+        text: 'Criado com a mesma precisão e atenção aos detalhes da estátua completa, o busto apresenta o visual grotesco sem máscara do Predator, como visto no momento em que ele enfrenta Dutch Schaefer no final do filme, revelando sua verdadeira forma e provocando a frase mais memorável do longa:“Você é um feio f#$%&# da p&#!*”. </br> Além disso, o busto vem equipado com um Canhão de Plasma com iluminação em LED, que traz ainda mais realismo e impacto visual à peça.',
+        video: JungleHunter2,
+      },
+      section3: {
+        image: JungleHunter3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES ADICIONAIS',
+            text: 'Da fabricante Prime 1 Studio, uma peça incrível para os fãs de Predator: o Busto Jungle Hunter Predator (sem máscara), escala 1/3, inspirado no clássico filme Predator (1987)! </br> Cabeça sem máscara detalhada. </br> Canhão de Plasma iluminado por LED. </br> Base temática detalhada.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 37 cm </br> Largura: 27 cm </br> Profundidade: 32 cm </br> Peso: 9,6 kg </br> Materiais: Polystone e outros materiais premium.',
+          },
+        ],
+        image: JungleHunter4,
+      },
+      section5: [JungleHunter5, JungleHunter6, JungleHunter7],
     },
   },
   {
@@ -1118,6 +1162,38 @@ export const products: ProductProps[] = [
     productUrl: '/summer-drunken-beauty',
     details: {
       image: SummerDrunkenAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Uma das peças de maior destaque de Yuan Xing Liang é a "Summer Drunken Beauty Flower Pavilion Painted Version Statue", uma escultura que reflete a delicadeza e a beleza imersiva da natureza e da figura feminina.',
+        image: SummerDrunkenBeauty1,
+      },
+      section2: {
+        title: 'DESTAQUE NA SUA COLEÇÃO',
+        text: 'A peça retrata uma mulher graciosa em um pavilhão florido, evocando uma sensação de serenidade e encantamento. O título sugere um ambiente de verão, onde a beleza da natureza e a figura feminina se encontram em um momento de tranquilidade e embriaguez poética.',
+        video: SummerDrunkenBeauty2,
+      },
+      section3: {
+        image: SummerDrunkenBeauty3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA OBRA',
+            text: 'A "Summer Drunken Beauty" é altamente detalhada, com cada elemento meticulosamente esculpido. A atenção aos detalhes, como as flores e os adornos do pavilhão, assim como os trajes fluidos da figura feminina, destacam o nível de dedicação e arte envolvido na criação desta peça. O uso das cores na versão pintada adiciona uma profundidade emocional à escultura, conferindo-lhe uma aura etérea e quase onírica. </br> Essa obra é uma celebração da beleza e da natureza, temas recorrentes no trabalho de Yuan, e reflete tanto o domínio técnico quanto o sensível uso de cores e formas para capturar a essência do verão e da feminilidade.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 39 cm </br> Largura: 22 cm </br> Profundidade: 34 cm',
+          },
+        ],
+        image: SummerDrunkenBeauty4,
+      },
+      section5: [
+        SummerDrunkenBeauty5,
+        SummerDrunkenBeauty6,
+        SummerDrunkenBeauty7,
+      ],
     },
   },
 ]
