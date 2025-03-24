@@ -2,8 +2,6 @@ import { StaticImageData } from 'next/image'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
 import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
-import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
-import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
 
 // Predator Ahab ////////////////
 import Predator from '@/assets/products/predator_ahab.png'
@@ -195,6 +193,54 @@ import BatmanPenguin6 from '@/assets/products/Batman Penguin/6.png'
 import BatmanPenguin7 from '@/assets/products/Batman Penguin/7.png'
 // /////////////////////////////
 
+// Wonder Woman Great Hera ////////////
+import WonderWomanGreatHera from '@/assets/products/Wonder Woman Great Hera.png'
+import WonderWomanGreatHeraAmbientacao from '@/assets/products/ambientacoes/Wonder Woman Great Hera.png'
+import WonderWomanGreatHera1 from '@/assets/products/Wonder Woman Great Hera/1.png'
+import WonderWomanGreatHera2 from '@/assets/products/Wonder Woman Great Hera/2.png'
+import WonderWomanGreatHera3 from '@/assets/products/Wonder Woman Great Hera/3.png'
+import WonderWomanGreatHera4 from '@/assets/products/Wonder Woman Great Hera/4.png'
+import WonderWomanGreatHera5 from '@/assets/products/Wonder Woman Great Hera/5.png'
+import WonderWomanGreatHera6 from '@/assets/products/Wonder Woman Great Hera/6.png'
+import WonderWomanGreatHera7 from '@/assets/products/Wonder Woman Great Hera/7.png'
+// ///////////////////////////////////
+
+// Boba Fett ////////////////////////
+import BobaFett from '@/assets/products/Boba Fett.png'
+import BobaFettAmbientacao from '@/assets/products/ambientacoes/Boba Fett.png'
+import BobaFett1 from '@/assets/products/Boba Fett/1.png'
+import BobaFett2 from '@/assets/products/Boba Fett/2.png'
+import BobaFett3 from '@/assets/products/Boba Fett/3.png'
+import BobaFett4 from '@/assets/products/Boba Fett/4.png'
+import BobaFett5 from '@/assets/products/Boba Fett/5.png'
+import BobaFett6 from '@/assets/products/Boba Fett/6.png'
+import BobaFett7 from '@/assets/products/Boba Fett/7.png'
+/// ///////////////////////////////////
+
+// The Joker Statue ///////////////////
+import JokerStatue from '@/assets/products/THE JOKER STATUE.png'
+import JokerStatueAmbientacao from '@/assets/products/ambientacoes/The Joker Statue.png'
+import JokerStatue1 from '@/assets/products/The Joker Statue/1.png'
+import JokerStatue2 from '@/assets/products/The Joker Statue/2.png'
+import JokerStatue3 from '@/assets/products/The Joker Statue/3.png'
+import JokerStatue4 from '@/assets/products/The Joker Statue/4.png'
+import JokerStatue5 from '@/assets/products/The Joker Statue/5.png'
+import JokerStatue6 from '@/assets/products/The Joker Statue/6.png'
+import JokerStatue7 from '@/assets/products/The Joker Statue/7.png'
+/// /////////////////////////////
+
+// Terminator T-800 //////////////
+import Terminator from '@/assets/products/TERMINATOR BATTLE DAMAGED.png'
+import TerminatorAmbientacao from '@/assets/products/ambientacoes/Terminator T-800.png'
+import Terminator1 from '@/assets/products/Terminator/1.png'
+import Terminator2 from '@/assets/products/Terminator/2.png'
+import Terminator3 from '@/assets/products/Terminator/3.png'
+import Terminator4 from '@/assets/products/Terminator/4.png'
+import Terminator5 from '@/assets/products/Terminator/5.png'
+import Terminator6 from '@/assets/products/Terminator/6.png'
+import Terminator7 from '@/assets/products/Terminator/7.png'
+/// /////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -241,7 +287,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'ALITA BERSERKER MOTORBALL',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     details: {
       image: AlitaAmbientacao,
     },
@@ -510,7 +556,7 @@ export const products: ProductProps[] = [
   {
     title: 'BATMAN WHO LAUGHS',
     description1: 'QUEEN STUDIOS',
-    tags: ['herois', 'filmes-e-series', 'viloes', 'games', 'fantasia'],
+    tags: ['filmes-e-series', 'viloes', 'games', 'fantasia'],
     image: BatmanWhoLaughs,
     productUrl: '/batman-who-laughs',
     details: {
@@ -550,8 +596,46 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'Cheetah XM',
-    description1: 'Iron Studios',
+    title: 'BOBA FETT & HAN SOLO EM CARBONITE',
+    description1: 'Sideshow Collectibles',
+    tags: ['herois', 'viloes', 'filmes-e-series', 'games'],
+    image: BobaFett,
+    productUrl: '/boba-fet',
+    details: {
+      image: BobaFettAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'O temido caçador de recompensas Boba Fett posa orgulhosamente em frente ao seu mais recente troféu.',
+        image: BobaFett1,
+      },
+      section2: {
+        title: 'HAN SOLO EM CABORNITE',
+        text: 'A captura de Han Solo resultou no congelamento do contrabandista em um bloco de carbonite, para que toda a galáxia testemunhe. Boba Fett exibe uma postura relaxada, enquanto o design único desta peça faz parecer que sua captura está flutuando acima da base da câmara de congelamento em corbonite. Tanto a base quanto os painéis do bloco de carbonite possuem elementos de iluminação, proporcionando uma exibição ainda mais imersiva para essas figuras icônicas.',
+        video: BobaFett2,
+      },
+      section3: {
+        image: BobaFett3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO PRODUTO',
+            text: 'A estátua é totalmente esculpida para capturar as aparições clássicas dos personagens na tela. Boba Fett veste sua icônica armadura Mandaloriana desgastada, como vista em Star Wars: O Império Contra-Ataca. Seu traje inclui detalhes impressionantes, como o tecido do uniforme, capa de ombro, trançados de Wookiee e seu arsenal de armas, incluindo seu jetpack, enquanto se apoia em Han Solo. Dentro da prisão prateada, o ousado rebelde Han Solo é esculpido com seu rosto congelado, mãos e pés visíveis, destacando as texturas únicas do processo de congelamento em carbonita. O bloco de contenção está completo com oito painéis laterais, tornando essa peça de alto valor uma adição única para qualquer coleção.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 70,5 cm </br> Largura: 27,9 cm </br> Profundidade: 27,9 cm </br> Peso: 6,8 kg </br> Studio: Sideshow',
+          },
+        ],
+        image: BobaFett4,
+      },
+      section5: [BobaFett5, BobaFett6, BobaFett7],
+    },
+  },
+  {
+    title: 'Cheetah',
+    description1: 'XM Studios',
     tags: ['herois', 'filmes-e-series'],
     image: Cheetah,
     productUrl: '/cheetah',
@@ -772,7 +856,7 @@ export const products: ProductProps[] = [
     },
     paginaProduto: {
       section1: {
-        text: 'Inspirada na lendária história de Moby Dick, da fabricante Prime 1 Studios. Uma das estátuas mais impressionantes da série Premium Masterline: o Ahab Predator, direto dos quadrinhos da Dark Horse Comics!',
+        text: 'Inspirada na lendária história de Moby Dick, da fabricante Prime 1 Studio. Uma das estátuas mais impressionantes da série Premium Masterline: o Ahab Predator, direto dos quadrinhos da Dark Horse Comics!',
         image: PredatorAhab1,
       },
       section2: {
@@ -808,7 +892,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'JUNGLE HUNTER PREDATOR',
+    title: 'JUNGLE HUNTER PREDATOR Bust',
     description1: 'Prime 1 Studio',
     image: JungleHunter,
     tags: ['viloes', 'filmes-e-series', 'games'],
@@ -830,26 +914,124 @@ export const products: ProductProps[] = [
   {
     title: 'TERMINATOR 2 - T-800 ART MASK',
     description1: 'PURE ARTS',
-    tags: ['viloes', 'herois', 'filmes-e-series', 'games'],
+    tags: ['viloes', 'filmes-e-series', 'games'],
     image: Terminator,
     productUrl: '/terminator-battle-damaged',
     details: {
-      image: PreadtorAmbientacao,
+      image: TerminatorAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Busto do T-800 Battle Damaged, uma obra-prima em escala real (1:1) inspirada no icônico personagem de Terminator 2: Judgment Day. Fabricado pela Pure Arts, este busto traz um nível de detalhamento impressionante, capturando cada dano de batalha do endoskeleton com uma precisão assustadora.',
+        image: Terminator1,
+      },
+      section2: {
+        title: 'DESTAQUE NA SUA COLEÇÃO',
+        text: 'Com este busto do T-800, você não está apenas adquirindo um item de coleção, mas um artefato que imortaliza a essência de uma das maiores franquias de ficção científica de todos os tempos. A presença imponente desta peça transformará qualquer ambiente – seja uma sala de entretenimento, home theater ou escritório – em uma verdadeira galeria cinematográfica.',
+        video: Terminator2,
+      },
+      section3: {
+        image: Terminator3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'POR QUE TER ESTA PEÇA?',
+            text: 'Escala real 1:1: A mesma proporção do filme, ideal para exibição. </br> Iluminação LED nos olhos: Um olhar intimidante que dará vida à sua coleção. </br> Acabamento premium: Metalizado, com pintura e texturas que simulam danos reais. </br> Exclusividade: Perfeito para fãs e colecionadores de alta performance.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Marca: Pure Arts </br> Material: Resina premium com acabamento metálico </br> Tamanho: Escala 1:1 (mais de 70 cm de altura) </br> Características: Olhos com LED vermelho </br> Edição Limitada: Colecionável raro e numerado',
+          },
+        ],
+        image: Terminator4,
+      },
+      section5: [Terminator5, Terminator6, Terminator7],
     },
   },
   {
     title: 'THE JOKER STATUE',
-    description1: 'PRIME 1 STUDIOS',
+    description1: 'Prime 1 Studio',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: JokerStatue,
     productUrl: '/the-joker-statue',
     details: {
-      image: PreadtorAmbientacao,
+      image: JokerStatueAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Don’t ever apologize to no one for the way you look." Impressionante estátua do Joker, projetada pelo renomado artista de quadrinhos americanos Lee Bermejo, conhecido por suas colaborações com o escritor Brian Azzarello, incluindo a graphic novel Joker.',
+        image: JokerStatue1,
+      },
+      section2: {
+        title: 'DETALHES DO DESIGN',
+        text: 'O design de Lee Bermejo para o Joker é incrivelmente sombrio e realista, trazendo características impressionantes em cada detalhe. A base da estátua foi especialmente desenhada pelo próprio Bermejo e inclui o Batman (inspirado na graphic novel Batman: Noel) acorrentado a uma pedra, acrescentando ainda mais profundidade e escuridão à peça.',
+        video: JokerStatue2,
+      },
+      section3: {
+        image: JokerStatue3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'OPÇÕES E EXCLUSIVIDADES',
+            text: 'Esta estátua altamente detalhada oferece: </br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. </br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. </br> Três suportes para cabeças: Para exibir os retratos não utilizados. </br> Base temática exclusiva: Inspirada no universo sombrio do Batman. </br> Arte exclusiva autografada: Impressão em tamanho A4 assinada à mão por Lee Bermejo (apenas na loja Prime 1).',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 70,6 cm </br> Largura: 47,2 cm </br> Profundidade: 44,2 cm </br> Peso: 24,8 kg </br> Studio: Sideshow',
+          },
+        ],
+        image: JokerStatue4,
+      },
+      section5: [JokerStatue5, JokerStatue6, JokerStatue7],
+    },
+  },
+  {
+    title: 'WONDER WOMAN GREAT HERA',
+    description1: '???',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
+    image: WonderWomanGreatHera,
+    productUrl: '/wonder-woman-great-hera',
+    details: {
+      image: WonderWomanGreatHeraAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"GRANDE HERA!" – Diana de ThemysciraUma versão impressionante da Mulher-Maravilha, inspirada no premiado jogo de luta Injustice 2. A Wonder Woman Great Hera chega em escala 1/4, medindo 52,6 cm de altura, vestindo uma poderosa armadura de batalha em tons de dourado e marrom, e posando sobre as ruínas de um campo de batalha.',
+        image: WonderWomanGreatHera1,
+      },
+      section2: {
+        title: 'DETALHES DO DESIGN',
+        text: 'Esta versão traz um traje autêntico e detalhado, com texturas que simulam couro resistente, complementado por detalhes dourados reluzentes. A pele impecável de Diana contrasta com a sua armadura de combate, ressaltando sua força e imponência.</br>A base da estátua, inspirada em Injustice 2, representa o campo de batalha onde Diana triunfou sobre seus inimigos. O cenário ainda conta com chamas azuis iluminadas por LED, trazendo um efeito cinematográfico digno dos fogos do submundo de Hades!',
+        video: WonderWomanGreatHera2,
+      },
+      section3: {
+        image: WonderWomanGreatHera3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'RECURSOS E ITENS INCLUSOS',
+            text: 'Duas decorações intercambiáveis para a base com espadas. </br>Três retratos intercambiáveis</strong> com expressões diferentes: boca fechada, boca aberta e expressão de fúria. </br>Duas espadas intercambiáveis</strong> (para a mão direita). </br>Dois escudos intercambiáveis.</strong> </br>Dois antebraços direitos intercambiáveis.</strong> </br>Uma opção com as mãos empunhando o Laço da Verdade.</strong> </br>Base temática de Injustice 2 com iluminação LED</strong> nas chamas.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 52,6 cm. </br> Studio: Prime 1 Studio. </br> Material: Polystone e outros materiais premium.',
+          },
+        ],
+        image: WonderWomanGreatHera4,
+      },
+      section5: [
+        WonderWomanGreatHera5,
+        WonderWomanGreatHera6,
+        WonderWomanGreatHera7,
+      ],
     },
   },
   {
     title: 'WONDER WOMAN REBIRTH SILVER ARMOR',
-    description1: 'PRIME 1 STUDIOS',
+    description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
     image: WonderWoman,
     productUrl: '/wonder-woman-rebirth',

@@ -8,8 +8,8 @@ import Image from 'next/image'
 
 export default function Artistas() {
   return (
-    <main className="mt-28">
-      <section className="mx-auto max-w-7xl">
+    <main className="mb-5 mt-28">
+      <section className="mx-auto max-w-7xl pt-5">
         <Accordion.Root
           className="w-full shadow-[0_2px_10px] shadow-black/5"
           type="single"
@@ -19,8 +19,33 @@ export default function Artistas() {
           {artistas.map((artista, index) =>
             index % 2 === 0 ? (
               <AccordionItemOdd value={`item-${index + 1}`} key={index}>
-                <AccordionTrigger className="text-gold">
+                <AccordionTrigger className="relative text-gold">
                   {artista.name}
+                  <svg
+                    className="absolute left-52 top-0 -translate-y-full"
+                    width="31"
+                    height="15"
+                    viewBox="0 0 31 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clipPath="url(#clip0_23_16)">
+                      <path
+                        d="M15.5 1L30.6554 16H0.344556L15.5 1Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M1 15L15.5 1L30 15"
+                        stroke="#DBC79A"
+                        strokeWidth="1.5"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_23_16">
+                        <rect width="31" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div>
@@ -28,24 +53,58 @@ export default function Artistas() {
                   </div>
                   <div className="col-span-2 gap-x-10 [column-count:2]">
                     {artista.description.map((desc, index) => (
-                      <p key={index} className="mb-4">
-                        {desc.text}
-                      </p>
+                      <p
+                        key={index}
+                        className="mb-4"
+                        dangerouslySetInnerHTML={{ __html: desc.text }}
+                      />
                     ))}
                   </div>
                 </AccordionContent>
               </AccordionItemOdd>
             ) : (
               <AccordionItemEven value={`item-${index + 1}`} key={index}>
-                <AccordionTrigger className="text-black">
+                <AccordionTrigger className="relative text-black">
                   {artista.name}
+                  <svg
+                    className="absolute left-52 top-0 -translate-y-full"
+                    width="31"
+                    height="15"
+                    viewBox="0 0 31 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clipPath="url(#clip0_24_17)">
+                      <path
+                        d="M15.5 1L30.6554 16H0.344556L15.5 1Z"
+                        fill="#DBC79A"
+                      />
+                      <path
+                        d="M1 15L15.5 1L30 15"
+                        stroke="black"
+                        strokeWidth="1.5"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_24_17">
+                        <rect width="31" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
                 </AccordionTrigger>
                 <AccordionContent>
-                  {artista.description.map((desc, index) => (
-                    <p key={index} className="mb-4">
-                      {desc.text}
-                    </p>
-                  ))}
+                  <div>
+                    <Image src={artista.image} alt={artista.name} />
+                  </div>
+                  <div className="col-span-2 gap-x-10 [column-count:2]">
+                    {artista.description.map((desc, index) => (
+                      <p
+                        key={index}
+                        className="mb-4"
+                        dangerouslySetInnerHTML={{ __html: desc.text }}
+                      />
+                    ))}
+                  </div>
                 </AccordionContent>
               </AccordionItemEven>
             ),
@@ -61,10 +120,7 @@ const AccordionItemEven = React.forwardRef<
   { children: React.ReactNode; className?: string; value: string }
 >(({ children, className, ...props }, forwardedRef) => (
   <Accordion.Item
-    className={classNames(
-      'mt-px overflow-hidden bg-gold first:mt-0 focus-within:relative focus-within:z-10 focus-within:shadow-[0_0_0_2px]',
-      className,
-    )}
+    className={classNames('bg-gold first:mt-0', className)}
     {...props}
     ref={forwardedRef}
   >
@@ -78,7 +134,7 @@ const AccordionItemOdd = React.forwardRef<
 >(({ children, className, ...props }, forwardedRef) => (
   <Accordion.Item
     className={classNames(
-      'overflow-hidden border-t border-t-[#dbc79a] bg-black text-white first:mt-0',
+      'border-t border-t-[#dbc79a] bg-black text-white first:mt-0',
       className,
     )}
     {...props}
@@ -121,6 +177,8 @@ const AccordionContent = React.forwardRef<
     {...props}
     ref={forwardedRef}
   >
-    <div className="grid grid-cols-3 gap-10 px-10 pb-20 pt-5">{children}</div>
+    <div className="grid grid-cols-[2fr_3fr_3fr] gap-10 px-10 pb-20 pt-5">
+      {children}
+    </div>
   </Accordion.Content>
 ))

@@ -64,7 +64,10 @@ export default function Home() {
           </h1>
         </section>
         <section className="mx-auto w-full max-w-7xl">
-          <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
+          <Link
+            href="/produtos/predator-ahab"
+            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+          >
             <div className="relative flex h-auto w-[55%] items-center justify-center">
               <Image
                 src={HomePredator}
@@ -82,10 +85,13 @@ export default function Home() {
                 Predator Ahab
               </h3>
             </div>
-          </div>
+          </Link>
         </section>
         <section className="mx-auto w-full max-w-7xl">
-          <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
+          <Link
+            href="/produtos/summer-drunken-beauty"
+            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+          >
             <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
               <Image
                 src={YuanFlower}
@@ -103,10 +109,13 @@ export default function Home() {
                 className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2 object-cover"
               />
             </div>
-          </div>
+          </Link>
         </section>
         <section className="mx-auto w-full max-w-7xl">
-          <div className="flex h-[calc(100vh-82px)] w-full overflow-hidden">
+          <Link
+            href="/produtos/batman-hush"
+            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+          >
             <div className="relative flex h-full w-[55%] items-center justify-center">
               <Image
                 src={HomeBatman}
@@ -124,7 +133,7 @@ export default function Home() {
                 Batman Hush
               </h3>
             </div>
-          </div>
+          </Link>
         </section>
         <section className="flex flex-col items-center justify-center px-20 py-72">
           <h3 className="text-center text-3xl font-light tracking-widest text-gold">
@@ -140,11 +149,7 @@ export default function Home() {
             DESTAQUES DA CURADORIA
           </h2>
           <div className="grid grid-cols-3 gap-3 pb-20">
-            <Link
-              href={'/produtos/batman-busto'}
-              target="_blank"
-              className="overflow-hidden"
-            >
+            <Link href={'/produtos/batman-busto'} className="overflow-hidden">
               <Image
                 src={Curadoria1}
                 alt=""
@@ -153,7 +158,6 @@ export default function Home() {
             </Link>
             <Link
               href={'/produtos/green-scar-hulk'}
-              target="_blank"
               className="overflow-hidden"
             >
               <Image
@@ -162,22 +166,14 @@ export default function Home() {
                 className="h-auto w-full transition-transform duration-500 hover:scale-105"
               />
             </Link>
-            <Link
-              href={'/produtos/cheetah'}
-              target="_blank"
-              className="overflow-hidden"
-            >
+            <Link href={'/produtos/cheetah'} className="overflow-hidden">
               <Image
                 src={Curadoria3}
                 alt=""
                 className="h-auto w-full transition-transform duration-500 hover:scale-105"
               />
             </Link>
-            <Link
-              href={'/produtos/the-joker-bust'}
-              target="_blank"
-              className="overflow-hidden"
-            >
+            <Link href={'/produtos/the-joker-bust'} className="overflow-hidden">
               <Image
                 src={Curadoria4}
                 alt=""
@@ -186,7 +182,6 @@ export default function Home() {
             </Link>
             <Link
               href={'/produtos/dungeons-dragons'}
-              target="_blank"
               className="overflow-hidden"
             >
               <Image
@@ -197,7 +192,6 @@ export default function Home() {
             </Link>
             <Link
               href={'/produtos/batman-who-laughs'}
-              target="_blank"
               className="overflow-hidden"
             >
               <Image

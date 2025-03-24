@@ -87,7 +87,6 @@ export default function Produtos() {
         <Link
           href={'/produtos' + filteredProducts[selectedIndex].productUrl}
           className="col-span-3 flex items-center gap-10 text-black"
-          target="_blank"
         >
           <Image
             src={filteredProducts[selectedIndex].details?.image}
@@ -199,7 +198,7 @@ export default function Produtos() {
         <div className="relative flex w-full justify-center">
           <div ref={menuRef} className="relative flex gap-6 pb-5">
             {categories.map((category, index) => (
-              <Link
+              <div
                 key={index}
                 onClick={() => setSelectedCategory(category)}
                 className={`relative px-4 py-1 text-center text-2xl text-black transition-all ${
@@ -207,10 +206,9 @@ export default function Produtos() {
                     ? 'active text-neutral-600'
                     : ''
                 }`}
-                href={'#' + category.url}
               >
                 {category.title}
-              </Link>
+              </div>
             ))}
             <motion.div
               className="absolute bottom-0 h-2 bg-black [clip-path:_polygon(50%_0%,_0_100%,_100%_100%)]"

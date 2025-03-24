@@ -15,34 +15,22 @@ export function Header() {
         <nav>
           <ul className="flex gap-10 text-xl font-light text-gold">
             <li>
-              <Link target="_blank" href="/">
-                Home
-              </Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link target="_blank" href="/masterpiece">
-                Masterpiece
-              </Link>
+              <Link href="/masterpiece">Masterpiece</Link>
             </li>
             <li>
-              <Link target="_blank" href="/produtos">
-                Produtos
-              </Link>
+              <Link href="/produtos">Produtos</Link>
             </li>
             <li>
-              <Link target="_blank" href="/artistas">
-                Artistas
-              </Link>
+              <Link href="/artistas">Artistas</Link>
             </li>
             <li>
-              <Link target="_blank" href="/curadoria">
-                Curadoria
-              </Link>
+              <Link href="/curadoria">Curadoria</Link>
             </li>
             <li>
-              <Link target="_blank" href="/contato">
-                Contato
-              </Link>
+              <Link href="/contato">Contato</Link>
             </li>
           </ul>
         </nav>

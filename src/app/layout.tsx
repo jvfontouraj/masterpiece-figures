@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: 'Masterpiece Figures',
   description:
     'Elevamos seus sonhos e ambientes com peças exclusivas e impactantes.',
+  icons: ['/favicon.png'],
 }
 
 export default function RootLayout({
