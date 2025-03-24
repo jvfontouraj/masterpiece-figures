@@ -1,5 +1,4 @@
 import { StaticImageData } from 'next/image'
-import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
 import JungleHunter from '@/assets/products/JUNGLE HUNTER PREDATOR.png'
 import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 
@@ -241,6 +240,18 @@ import Terminator6 from '@/assets/products/Terminator/6.png'
 import Terminator7 from '@/assets/products/Terminator/7.png'
 /// /////////////////////////////
 
+// Alien Chap ////////////////
+import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
+import AlienChapAmbientacao from '@/assets/products/ambientacoes/Alien Xenomorfo.png'
+import AlienChap1 from '@/assets/products/Alien Chap/1.png'
+import AlienChap2 from '@/assets/products/Alien Chap/2.png'
+import AlienChap3 from '@/assets/products/Alien Chap/3.png'
+import AlienChap4 from '@/assets/products/Alien Chap/4.png'
+import AlienChap5 from '@/assets/products/Alien Chap/5.png'
+import AlienChap6 from '@/assets/products/Alien Chap/6.png'
+import AlienChap7 from '@/assets/products/Alien Chap/7.png'
+// /////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -282,7 +293,35 @@ export const products: ProductProps[] = [
     image: AlienChap,
     productUrl: '/alien-chap',
     details: {
-      image: PreadtorAmbientacao,
+      image: AlienChapAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Diretamente do clássico filme de terror de 1979, Alien, o Xenomorfo Big Chap chega à linha MAFEX. Com aproximadamente 20,3 cm de altura, esta figura é altamente articulada e inclui acessórios incríveis que representam cenas icônicas, como o Facehugger e o efeito de alien saindo do peito.',
+        image: AlienChap1,
+      },
+      section2: {
+        title: 'SOBRE ALIEN',
+        text: 'O filme Alien (1979), dirigido por Ridley Scott, se tornou um marco do gênero ficção científica e terror. A franquia acompanha principalmente Ellen Ripley e sua luta contra os icônicos Xenomorfos em um cenário futurista. O sucesso do filme deu origem a diversas sequências, quadrinhos, videogames e até ao famoso crossover Alien vs. Predator.',
+        video: AlienChap2,
+      },
+      section3: {
+        image: AlienChap3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES ADICIONAIS',
+            text: 'MAFEX (Medicom Toy) </br> A linha MAFEX é conhecida por trazer personagens icônicos da cultura pop com articulação superior e acessórios premium, sempre com grande atenção aos detalhes.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 20,3 cm. </br> Material: Plástico de alta qualidade. </br> Altamente articulada, permitindo recriar diversas poses icônicas. </br> Baseada no filme Alien (1979), dirigido por Ridley Scott. </br> Possui mandíbula interna extensível.',
+          },
+        ],
+        image: AlienChap4,
+      },
+      section5: [AlienChap5, AlienChap6, AlienChap7],
     },
   },
   {
