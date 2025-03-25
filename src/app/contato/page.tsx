@@ -1,3 +1,4 @@
+'use client'
 import Logo from '@/assets/logo4.png'
 import Image from 'next/image'
 import EmailIcon from '@/assets/icones/emailAtivo 1.svg'
