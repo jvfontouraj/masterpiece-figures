@@ -270,6 +270,18 @@ import JungleHunter6 from '@/assets/products/Predator Bust/6.png'
 import JungleHunter7 from '@/assets/products/Predator Bust/7.png'
 // /////////////////////////////
 
+// Batman White Knight //////////////
+import BatmanWhiteKnight from '@/assets/products/Batman White Knight.png'
+import BatmanWhiteKnightAmbientacao from '@/assets/products/ambientacoes/Batman White Knight.png'
+import BatmanWhiteKnight1 from '@/assets/products/Batman White Knight/1.png'
+import BatmanWhiteKnight2 from '@/assets/products/Batman White Knight/2.png'
+import BatmanWhiteKnight3 from '@/assets/products/Batman White Knight/3.png'
+import BatmanWhiteKnight4 from '@/assets/products/Batman White Knight/4.png'
+import BatmanWhiteKnight5 from '@/assets/products/Batman White Knight/5.png'
+import BatmanWhiteKnight6 from '@/assets/products/Batman White Knight/6.png'
+import BatmanWhiteKnight7 from '@/assets/products/Batman White Knight/7.png'
+// /////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -608,6 +620,48 @@ export const products: ProductProps[] = [
         image: BatmanKnightmare4,
       },
       section5: [BatmanKnightmare5, BatmanKnightmare6, BatmanKnightmare7],
+    },
+  },
+  {
+    title: 'BATMAN: WHITE KNIGHT (BATCYCLE)',
+    description1: 'XM Studios',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: BatmanWhiteKnight,
+    productUrl: '/batman-white-knight',
+    details: {
+      image: BatmanWhiteKnightAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'A icônica Batcycle de Batman: White Knight agora em uma impressionante estátua da XM Studios! Apresentamos a primeira peça da linha premium de colecionáveis de Batman: White Knight, trazendo Batman montado em sua Batcycle em escala 1/4, com um design realista e dinâmico.',
+        image: BatmanWhiteKnight1,
+      },
+      section2: {
+        title: 'OBRA EXCLUSIVA EM GRANDE FORMATO',
+        text: 'Baseado na arte do próprio Sean Murphy, responsável pelo quadrinho, esta peça com aproximadamente 1 metro de comprimento recria uma cena icônica do Cavaleiro das Trevas navegando pelas ruas de Gotham, sua capa esvoaçante e rastros de derrapagem adicionando um realismo cinematográfico. O grande diferencial desta edição é a possibilidade de remover as carenagens laterais, revelando um detalhado motor interno, um recurso exclusivo que não foi mostrado nos quadrinhos!',
+        video: BatmanWhiteKnight2,
+      },
+      section3: {
+        image: BatmanWhiteKnight3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DA OBRA',
+            text: 'Carenagens removíveis na lateral da Batcycle, permitindo exibição do motor interno. <br/> Grappling gun intercambiável no lado esquerdo da moto. <br/> Lâmpada com iluminação LED, aumentando a ambientação de Gotham.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Dimensões do Produto: 110 cm (C) x 73 cm (L) x 64 cm (A) <br/> Peso do Produto: 36 kg <br/> Peso para Envio: 51 kg <br/> Fabricante: XM Studios <br/> Fabricado em Polystone, com um acabamento premium. <br/> Pintura feita à mão, garantindo um nível de detalhes impressionante. <br/> Edição Limitada a 899 unidades!',
+          },
+          {
+            title: 'NOTA',
+            text: 'Produto licenciado oficialmente pela DC Comics. <br/> Imagens são renderizações e o produto final pode ter pequenas variações. <br/> As baterias para iluminação não estão incluídas devido a restrições alfandegárias.',
+          },
+        ],
+        image: BatmanWhiteKnight4,
+      },
+      section5: [BatmanWhiteKnight5, BatmanWhiteKnight6, BatmanWhiteKnight7],
     },
   },
   {
