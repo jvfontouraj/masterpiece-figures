@@ -201,7 +201,7 @@ export default function Produtos() {
               <div
                 key={index}
                 onClick={() => setSelectedCategory(category)}
-                className={`relative px-4 py-1 text-center text-2xl text-black transition-all ${
+                className={`relative cursor-pointer px-4 py-1 text-center text-2xl text-black transition-all ${
                   selectedCategory.title === category.title
                     ? 'active text-neutral-600'
                     : ''

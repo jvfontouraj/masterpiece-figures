@@ -27,7 +27,9 @@ export default function Produto() {
     window.addEventListener('resize', updateSize) // Update on resize
     return () => window.removeEventListener('resize', updateSize) // Cleanup
   }, []) // Only run once on mount
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
   return (
     <main className="mx-auto mt-28">
       {pageContent ? (
@@ -108,6 +110,35 @@ export default function Produto() {
             {pageContent.section5.map((item, index) => (
               <Image alt="" src={item} key={index} className="w-full" />
             ))}
+          </section>
+          <section className="mx-auto flex w-full max-w-7xl items-center justify-between p-10 text-gold">
+            <Link href="/produtos"> {'> '}Menu de busca</Link>
+
+            <button
+              onClick={scrollToTop}
+              className="flex items-center justify-center gap-2"
+            >
+              <h4 className="">Topo da página</h4>
+              <svg
+                width="35"
+                height="35"
+                viewBox="0 0 57 57"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clipPath="url(#clip0_25_2)">
+                  <path
+                    d="M12.85 25.19L26.95 11.09C27.29 10.75 27.75 10.57 28.2 10.57C28.65 10.57 29.1 10.74 29.45 11.09L43.55 25.19C44.24 25.88 44.24 26.99 43.55 27.68C42.86 28.37 41.75 28.37 41.06 27.68L29.97 16.59V44.06C29.97 45.03 29.18 45.82 28.21 45.82C27.24 45.82 26.45 45.03 26.45 44.06V16.59L15.36 27.68C14.67 28.37 13.56 28.37 12.87 27.68C12.18 26.99 12.18 25.88 12.87 25.19H12.85ZM0 28.2C0 43.75 12.65 56.4 28.2 56.4C43.75 56.4 56.4 43.75 56.4 28.2C56.4 12.65 43.75 0 28.2 0C12.65 0 0 12.65 0 28.2ZM3.52 28.2C3.52 14.59 14.59 3.52 28.2 3.52C41.81 3.52 52.87 14.59 52.87 28.19C52.87 41.79 41.8 52.86 28.2 52.86C14.6 52.86 3.52 41.8 3.52 28.2Z"
+                    fill="#988D6E"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_25_2">
+                    <rect width="56.4" height="56.4" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
           </section>
         </>
       ) : (

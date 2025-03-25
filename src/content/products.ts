@@ -947,7 +947,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'JUNGLE HUNTER PREDATOR Bust',
+    title: 'JUNGLE HUNTER PREDATOR BUST',
     description1: 'Prime 1 Studio',
     image: JungleHunter,
     tags: ['viloes', 'filmes-e-series', 'games'],

@@ -49,7 +49,7 @@ export default function Home() {
           quality={100}
         />
       </div>
-      <main className="flex flex-col">
+      <main className="relative flex flex-col">
         <section className="relative flex h-[calc(100vh-20px)] w-full flex-col items-center justify-center gap-10 overflow-hidden">
           <Image
             src={HeroSectionBg}
@@ -60,10 +60,30 @@ export default function Home() {
           <Image src={Logo1} alt={''} className="aspect-square h-auto w-20" />
           <h1 className="text-center text-4xl font-light text-gold">
             Elevamos seus sonhos e ambientes <br /> com peças exclusivas e
-            impactantes.
+            impactantes, <br /> disponíveis para pronta entrega.
           </h1>
+          <Link href={'/#produtos'}>
+            <svg
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 cursor-pointer transition-all duration-500 hover:translate-y-1"
+              width="70"
+              height="70"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                fill="#dbc79a"
+                fillRule="evenodd"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+          </Link>
         </section>
-        <section className="mx-auto w-full max-w-7xl">
+        <section
+          id="produtos"
+          className="mx-auto -mt-20 w-full max-w-7xl pt-20"
+        >
           <Link
             href="/produtos/predator-ahab"
             className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
