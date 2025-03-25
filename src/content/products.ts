@@ -1,5 +1,4 @@
 import { StaticImageData } from 'next/image'
-import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
 
 // Predator Ahab ////////////////
 import Predator from '@/assets/products/predator_ahab.png'
@@ -184,6 +183,13 @@ import JokerBust7 from '@/assets/products/Joker Bust/7.png'
 // Cyber Cat ////////////////
 import CyberCat from '@/assets/products/CYBER CAT.png'
 import CyberCatAmbientacao from '@/assets/products/ambientacoes/Cyber Cat.png'
+import CyberCat1 from '@/assets/products/Cyber Cat/1.png'
+import CyberCat2 from '@/assets/products/Cyber Cat/2.png'
+import CyberCat3 from '@/assets/products/Cyber Cat/3.png'
+import CyberCat4 from '@/assets/products/Cyber Cat/4.png'
+import CyberCat5 from '@/assets/products/Cyber Cat/5.png'
+import CyberCat6 from '@/assets/products/Cyber Cat/6.png'
+import CyberCat7 from '@/assets/products/Cyber Cat/7.png'
 // /////////////////////////////
 
 // Batman Penguin ////////////
@@ -281,6 +287,18 @@ import BatmanWhiteKnight5 from '@/assets/products/Batman White Knight/5.png'
 import BatmanWhiteKnight6 from '@/assets/products/Batman White Knight/6.png'
 import BatmanWhiteKnight7 from '@/assets/products/Batman White Knight/7.png'
 // /////////////////////////////
+
+// She Ra //////////////////////
+import SheRa from '@/assets/products/SHE-RA & SWIFT WIND DELUXE.png'
+import SheRaAmbientacao from '@/assets/products/ambientacoes/She Ra.png'
+import SheRa1 from '@/assets/products/She-Ra/1.png'
+import SheRa2 from '@/assets/products/She-Ra/2.png'
+import SheRa3 from '@/assets/products/She-Ra/3.png'
+import SheRa4 from '@/assets/products/She-Ra/4.png'
+import SheRa5 from '@/assets/products/She-Ra/5.png'
+import SheRa6 from '@/assets/products/She-Ra/6.png'
+import SheRa7 from '@/assets/products/She-Ra/7.png'
+/// ////////////////////////////
 
 interface ProductProps {
   title: string
@@ -793,6 +811,34 @@ export const products: ProductProps[] = [
     details: {
       image: CyberCatAmbientacao,
     },
+    paginaProduto: {
+      section1: {
+        text: 'Em colaboração com Yi Wan Tang Studio, ZenPunk Collectibles e Yi Ci Fang Studio, o artista Evan Lee apresenta sua personagem original: Cyber Cat. Baseada em um trabalho de 2018, a criação 2D agora ganha vida na forma desta estátua altamente detalhada, tornando-se uma adição única para qualquer coleção.',
+        image: CyberCat1,
+      },
+      section2: {
+        title: 'Título',
+        text: 'texto',
+        video: CyberCat2,
+      },
+      section3: {
+        image: CyberCat3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Olhos de vidro com efeito de olho de gato perolado e estrelado <br/> Cílios reais para um toque ainda mais autêntico <br/> Armadura de tórax removível para personalização da estátua <br/> Materiais: Resina e PU',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Comprimento: 30 cm <br/> Largura: 30 cm <br/> Altura: 51 cm',
+          },
+        ],
+        image: CyberCat4,
+      },
+      section5: [CyberCat5, CyberCat6, CyberCat7],
+    },
   },
   {
     title: 'DUNGEONS & DRAGONS TIAMAT',
@@ -1045,7 +1091,35 @@ export const products: ProductProps[] = [
     image: SheRa,
     productUrl: '/she-ra-swift-wind-deluxe',
     details: {
-      image: PreadtorAmbientacao,
+      image: SheRaAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Inspirada no spin-off da série Masters of the Universe produzida em 1985 pela Filmation, esta estátua é uma celebração épica de uma das heroínas mais icônicas da cultura pop.',
+        image: SheRa1,
+      },
+      section2: {
+        title: 'APRESENTANDO A PRINCESA DO PODER E SEU UNICÓRNIO',
+        text: 'A majestosa figura de Swift Wind, o unicórnio alado branco, surge coberta por um elmo de batalha e uma armadura peitoral em tons de azul e rosa. Ele trota sobre a exuberante vegetação de Etheria, protegendo seu mundo enquanto abre suas grandes asas coloridas com tons de azul, rosa e laranja, pronto para voar. Montado em sua sela está She-Ra, a Princesa do Poder, erguendo sua espada mágica em defesa de seus aliados rebeldes e do povo de Etheria contra o regime opressor comandado por Hordak.',
+        video: SheRa2,
+      },
+      section3: {
+        image: SheRa3,
+      },
+      section4: {
+        text: [
+          {
+            title: 'A HISTÓRIA DE SHE-RA',
+            text: 'Nascida como a Princesa Adora, irmã gêmea de Príncipe Adam (He-Man), ela foi sequestrada ainda bebê por Hordak, comandante da Horda em Etheria. Sob o controle da Shadow Weaver, Adora cresceu como capitã das forças da Horda até descobrir a verdade sobre sua origem. <br/>  Ao receber a Espada da Proteção, Adora libertou sua mente e se transformou em She-Ra, a guerreira poderosa que lidera a Rebelião para libertar Etheria. <br/>  Com força sobre-humana, velocidade aprimorada, reflexos ágeis e quase invulnerabilidade, She-Ra também possui a habilidade de curar ferimentos e se comunicar telepaticamente com os animais. Seu fiel cavalo Spirit se transforma no poderoso alicórnio Swift Wind, que tem a capacidade de liberar rajadas de energia e detectar magia ao redor.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 42 cm </br> Largura: 53 cm </br> Profundidade: 30 cm </br> Peso: 3,3 kg </br> Material: Polystone pintado à mão',
+          },
+        ],
+        image: SheRa4,
+      },
+      section5: [SheRa5, SheRa6, SheRa7],
     },
   },
   {
