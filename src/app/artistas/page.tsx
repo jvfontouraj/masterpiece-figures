@@ -93,8 +93,10 @@ export default function Artistas() {
                   </svg>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <div>
-                    <Image src={artista.image} alt={artista.name} />
+                  <div className="w-full">
+                    {artista.image && (
+                      <Image src={artista.image} alt={artista.name} />
+                    )}
                   </div>
                   <div className="col-span-2 gap-x-10 [column-count:2]">
                     {artista.description.map((desc, index) => (

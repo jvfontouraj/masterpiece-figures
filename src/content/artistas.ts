@@ -4,13 +4,13 @@ import JasonImage from '@/assets/artistas/Jason-Fabok.png'
 import JimImage from '@/assets/artistas/Jim-Lee.png'
 import JorgeImage from '@/assets/artistas/Jorge-Jimenez.png'
 import LeeImage from '@/assets/artistas/Lee-Bermejo.png'
-import OswaldImage from '@/assets/artistas/Oswald-Cobblepot.png'
+// import OswaldImage from '@/assets/artistas/Oswald-Cobblepot.png'
 import TiagoImage from '@/assets/artistas/Tiago-Rios.png'
 import YuanImage from '@/assets/artistas/Yuan-Xing-Liang.png'
 
 interface ArtistasProps {
   name: string
-  image: StaticImageData
+  image?: StaticImageData
   description: {
     title?: string
     text: string
@@ -143,7 +143,6 @@ export const artistas: ArtistasProps[] = [
   },
   {
     name: 'OSWALD COBBLEPOT',
-    image: OswaldImage,
     description: [
       {
         text: 'Nascido em uma família abastada, conhecida por sua influência na alta sociedade. Desde cedo, ele demonstrou um interesse profundo pelas artes visuais, um fascínio que seria tanto sua salvação quanto sua perdição. Estudou nas melhores escolas de arte e foi treinado por alguns dos mestres mais prestigiados na Europa, onde absorveu técnicas clássicas e contemporâneas que enriqueceriam sua futura obra.',
