@@ -7,7 +7,7 @@ import PredatorAhab1 from '@/assets/products/predator-ahab/1.png'
 import PredatorAhab2 from '@/assets/products/predator-ahab/2.png'
 import PredatorAhab3 from '@/assets/products/predator-ahab/3.png'
 import PredatorAhab4 from '@/assets/products/predator-ahab/4.jpg'
-import PredatorAhab5 from '@/assets/products/predator-ahab/5.jpg'
+import PredatorAhab5 from '@/assets/products/predator-ahab/5.png'
 import PredatorAhab6 from '@/assets/products/predator-ahab/6.jpg'
 import PredatorAhab7 from '@/assets/products/predator-ahab/7.jpg'
 // //////////////////////////////
@@ -364,7 +364,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 20,3 cm. </br> Material: Plástico de alta qualidade. </br> Altamente articulada, permitindo recriar diversas poses icônicas. </br> Baseada no filme Alien (1979), dirigido por Ridley Scott. </br> Possui mandíbula interna extensível.',
+            text: 'Altura: 20,3 cm. </br> Material: Plástico de alta qualidade. </br> Altamente articulada, permitindo recriar diversas poses icônicas. </br> Baseada no filme Alien (1979), dirigido por Ridley Scott. </br> Peso: 1Kg.',
           },
         ],
         image: AlienChap4,
@@ -397,11 +397,11 @@ export const products: ProductProps[] = [
         image: Alita4,
         text: [
           {
-            text: 'Além de sua impressionante presença visual, a estátua Alita Berserker Motorball Tryout é uma verdadeira obraprima de engenharia e design. Cada detalhe foi meticulosamente esculpido para capturar a essência do personagem e a intensidade da cena. A base temática inspirada no estádio de Motorball, com seu efeito de iluminação LED, não só realça a dramaticidade da peça, mas também cria uma atmosfera envolvente que transporta os fãs diretamente para o universo cyberpunk do filme. <br/>A escolha do material, Polystone, garante durabilidade e um acabamento de alta qualidade, enquanto a escala ¼ proporciona uma presença imponente que se destaca em qualquer coleção34. Com dimensões impressionantes de 64,4 cm de altura, 76,4 cm de largura e 87,2 cm de diâmetro, e um peso total de 47 kg, esta estátua é uma peça central que certamente atrairá a atenção de todos.<br/><br/>Seja para exibição em uma coleção particular ou como destaque em um evento, a estátua Alita Berserker Motorball Tryout é uma adição indispensável para qualquer fã de Alita: Anjo de Combate.',
+            text: 'A escolha do material, Polystone, garante durabilidade e um acabamento de alta qualidade, enquanto a escala ¼ proporciona uma presença imponente que se destaca em qualquer coleção34. Com dimensões impressionantes de 64,4 cm de altura, 76,4 cm de largura e 87,2 cm de diâmetro, e um peso total de 47 kg, esta estátua é uma peça central que certamente atrairá a atenção de todos.<br/><br/>Seja para exibição em uma coleção particular ou como destaque em um evento, a estátua Alita Berserker Motorball Tryout é uma adição indispensável para qualquer fã de Alita: Anjo de Combate.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Escala: 1/4 <br/>Dimensões: Altura: 64,4 cm <br/>Largura: 76,4 cm<br/>Diâmetro: 87,2 cm<br/>Peso total: 47 kg',
+            text: 'Dimensões: Altura: 64,4 cm <br/>Largura: 76,4 cm<br/>Diâmetro: 87,2 cm<br/>Peso total: 47 kg',
           },
         ],
       },
@@ -474,7 +474,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 25,8 cm</br>Largura: 16,1 cm</br>Profundidade: 12,4 cm</br>Peso Aproximado: 1,96 kg</br>Material: Polystone e outros materiais</br>Dimensões da Embalagem:</br>Peso da Caixa: 2,72 kg</br>Código do Produto: PBDC-07</br>Escala: 1/3</br>Licenciado por DC Comics e Warner Bros. Entertainment Inc.',
+            text: 'Altura: 25,8 cm</br>Largura: 16,1 cm</br>Profundidade: 12,4 cm</br>Peso Aproximado: 1,96 kg</br>Material: Polystone e outros materiais',
           },
         ],
         image: BatmanBust4,
@@ -497,8 +497,8 @@ export const products: ProductProps[] = [
         image: BatmanDamned1,
       },
       section2: {
-        title: 'VERSÃO DX',
-        text: 'Esta é a versão DX da Estátua Batman Damned, que acompanha quatro cabeças intercambiáveis e um suporte de cabeça. A estátua possui aproximadamente 76 cm de altura, sendo um item essencial para os fãs do Batman e uma adição perfeita ao lado da estátua MMDC-35: The Joker!A versão DXS inclui um bônus especial: uma impressão artística no tamanho A4 assinada à mão por Lee Bermejo.',
+        title: 'VERSÃO DX (Deluxe)',
+        text: 'Esta é a versão DX da Estátua Batman Damned, que acompanha quatro cabeças intercambiáveis e um suporte de cabeça. A estátua possui aproximadamente 76 cm de altura, sendo um item essencial para os fãs do Batman e uma adição perfeita ao lado da estátua The Joker!',
         video: BatmanDamned2,
       },
       section3: {
@@ -508,11 +508,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DO DESIGN',
-            text: 'Capa em tecido posável para ajuste de poses. </br> Um (1) suporte de cabeça. </br> Uma (1) base temática exclusiva. </br> Quatro (4) retratos intercambiáveis: Regular, Horror, Grin & Damaged Expression. </br> Três (3) mãos esquerdas intercambiáveis, com acessórios como dois pequenos Batarangs, uma Grapple Gun e um Batarang. </br> Impressão artística em A4 assinada à mão por Lee Bermejo (somente na versão DXS).',
+            text: 'Capa em tecido posável para ajuste de poses. </br> Um (1) suporte de cabeça. </br> Uma (1) base temática exclusiva. </br> Quatro (4) retratos intercambiáveis: Regular, Horror, Grin & Damaged Expression. </br> Três (3) mãos esquerdas intercambiáveis, com acessórios como dois pequenos Batarangs, uma Grapple Gun e um Batarang.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Marca: Prime 1 Studio </br> Coleção: Museum Masterline </br> Série: DC Series, Batman Series </br> Escala: 1/3Tamanho da Estátua: 76,1 cm (A) x 44,6 cm (L) x 50,9 cm (P) </br> Tamanho do Suporte de Cabeça: 18,2 cm (A) x 26,2 cm (L) x 22,2 cm (P) </br> Tamanho da Capa: 68 cm (A) x 148 cm (L) </br> Peso do Produto: 19,7 kg </br> Materiais: Polystone e outros materiais',
+            text: 'Tamanho da Estátua: 76,1 cm (A) x 44,6 cm (L) x 50,9 cm (P) </br> Tamanho do Suporte de Cabeça: 18,2 cm (A) x 26,2 cm (L) x 22,2 cm (P) </br> Tamanho da Capa: 68 cm (A) x 148 cm (L) </br> Peso do Produto: 19,7 kg </br> Materiais: Polystone e outros materiais',
           },
         ],
         image: BatmanDamned4,
@@ -552,7 +552,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Marca: Tsume Arts </br> Dimensões: Altura: 60 cm, Largura: 53 cm, Profundidade: 43 cm </br> Material: Polystone (resina) </br> Escala: 1/6.  </br> Edição limitada de 600 peças.',
+            text: 'Dimensões: Altura: 60 cm, Largura: 53 cm, Profundidade: 43 cm </br> Material: Polystone (resina) </br> Edição limitada de 600 peças.',
           },
         ],
         image: BatmanHQS4,
@@ -590,11 +590,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura Aproximada: 87,8 cm. </br> Largura Aproximada: 73,3 cm. </br> Profundidade Aproximada: 57,8 cm. </br> Peso Aproximado: 26,8 kg. </br> Escala: 1/3.',
-          },
-          {
-            title: 'RECURSOS ADICIONAIS',
-            text: 'Base exclusiva e personalizada, inspirada na Batcaverna. </br> Função de iluminação LED no console da base.',
+            text: 'Altura Aproximada: 87,8 cm. </br> Largura Aproximada: 73,3 cm. </br> Profundidade Aproximada: 57,8 cm. </br> Peso Aproximado: 26,8 kg.',
           },
         ],
         image: BatmanHush4,
@@ -632,7 +628,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: "Marca: Iron Studios </br> Dimensões: 58 cm (A) x 39 cm (L) x 31 cm (P) </br> Escala: 1/4 </br> Material: Polystone </br> Inspirado em: Zack Snyder's Justice League </br> Detalhamento: Escultura altamente detalhada </br> Base: Batman posicionado sobre uma pilha de destroços apocalípticos",
+            text: "Marca: Sideshow </br> Dimensões: 58 cm (A) x 39 cm (L) x 31 cm (P) </br> Material: Polystone </br> Inspirado em: Zack Snyder's Justice League </br> Base: Batman posicionado sobre uma pilha de destroços apocalípticos",
           },
         ],
         image: BatmanKnightmare4,
@@ -670,11 +666,11 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões do Produto: 110 cm (C) x 73 cm (L) x 64 cm (A) <br/> Peso do Produto: 36 kg <br/> Peso para Envio: 51 kg <br/> Fabricante: XM Studios <br/> Fabricado em Polystone, com um acabamento premium. <br/> Pintura feita à mão, garantindo um nível de detalhes impressionante. <br/> Edição Limitada a 899 unidades!',
+            text: 'Dimensões do Produto: 110 cm (C) x 73 cm (L) x 64 cm (A) <br/> Peso do Produto: 36 kg <br/> Fabricado em Polystone, com um acabamento premium. <br/> Pintura feita à mão, garantindo um nível de detalhes impressionante. <br/> Edição Limitada a 899 unidades!',
           },
           {
             title: 'NOTA',
-            text: 'Produto licenciado oficialmente pela DC Comics. <br/> Imagens são renderizações e o produto final pode ter pequenas variações. <br/> As baterias para iluminação não estão incluídas devido a restrições alfandegárias.',
+            text: 'As baterias para iluminação não estão incluídas.',
           },
         ],
         image: BatmanWhiteKnight4,
@@ -716,7 +712,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Licença: DC Comics. </br> Material: Resina, PU e Metal. </br> Tamanho: 67 cm (A) x 56 cm (L) x 70 cm (P). </br> Fabricante: Queen Studios.',
+            text: 'Material: Resina, PU e Metal. </br> Tamanho: 67 cm (A) x 56 cm (L) x 70 cm (P).',
           },
         ],
         image: BatmanWhoLaughs4,
@@ -754,7 +750,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 70,5 cm </br> Largura: 27,9 cm </br> Profundidade: 27,9 cm </br> Peso: 6,8 kg </br> Studio: Sideshow',
+            text: 'Altura: 70,5 cm </br> Largura: 27,9 cm </br> Profundidade: 27,9 cm </br> Peso: 6,8 kg',
           },
         ],
         image: BobaFett4,
@@ -794,7 +790,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Material: A peça é feita de polystone, um material conhecido por sua durabilidade e capacidade de capturar detalhes finos. </br> Dimensões: A estátua é em escala 1/4, o que significa que é uma réplica em tamanho reduzido, mas ainda assim bastante detalhada. </br> Pintura: Cada estátua é pintada à mão individualmente, garantindo um acabamento de alta qualidade. </br> Edição Limitada: A peça é uma edição limitada, com apenas 199 unidades disponíveis. </br> Tamanho e Peso Estimados do Produto: 36x37x46cm, 15kg',
+            text: 'Material:Polystone. <br/> Pintura: Cada estátua é pintada à mão individualmente, garantindo um acabamento de alta qualidade. </br> Edição Limitada: A peça é uma edição limitada, com apenas 199 unidades disponíveis. </br> Tamanho e Peso Estimados do Produto: 36x37x46cm, 15kg',
           },
         ],
         image: Cheetah4,
@@ -851,7 +847,7 @@ export const products: ProductProps[] = [
     },
     paginaProduto: {
       section1: {
-        text: 'Em colaboração com Yi Wan Tang Studio, ZenPunk Collectibles e Yi Ci Fang Studio, o artista Evan Lee apresenta sua personagem original: Cyber Cat. Baseada em um trabalho de 2018, a criação 2D agora ganha vida na forma desta estátua altamente detalhada, tornando-se uma adição única para qualquer coleção.',
+        text: 'Na terra árida e hostil de um mundo mágico medieval de outra dimensão chamado Reino, seis jovens guerreiros levantam suas armas místicas para enfrentar a criatura mais temível e perigosa deste universo.',
         image: DungeonAndDragons1,
       },
       section2: {
@@ -870,7 +866,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Fabricante: Iron Studios </br> Tamanho do Produto: Altura: 56 cm, Largura: 57 cm, Profundidade: 56 cm, Peso: 18,5 kg',
+            text: 'Tamanho do Produto: Altura: 56 cm, Largura: 57 cm, Profundidade: 56 cm, Peso: 18,5 kg',
           },
         ],
         image: DungeonAndDragons4,
@@ -946,11 +942,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DA FIGURA',
-            text: '<strong>Likeness incrivelmente detalhado:</strong> O busto recria com precisão o rosto de Heath Ledger com cabelo esculpido de forma realista. </br> Base temática de The Dark Knight: Um design que complementa perfeitamente a atmosfera sombria do filme. </br> <strong>Cartão do Coringa de Batman Begins:</strong> Inclui uma réplica do icônico baralho do personagem. </br> <strong>Compatibilidade:</strong> O retrato e o cartão do Coringa são compatíveis com as estátuas MMTDK-01/01S The Joker em escala 1:3.',
+            text: '<strong>Likeness incrivelmente detalhado:</strong> O busto recria com precisão o rosto de Heath Ledger com cabelo esculpido de forma realista. </br> Base temática de The Dark Knight: Um design que complementa perfeitamente a atmosfera sombria do filme. </br> <strong>Cartão do Coringa de Batman Begins:</strong> Inclui uma réplica do icônico baralho do personagem.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 26 cm </br> Largura: 17 cm </br> Profundidade: 14 cm </br> Peso Aproximado: 2,8 kg </br> Material: Polystone e outros materiais </br>  </br> Adicione este busto definitivo à sua coleção e celebre a atuação incomparável de Heath Ledger como o Coringa em The Dark Knight!Licenciado oficialmente por DC Comics e Warner Bros. Entertainment Inc.',
+            text: 'Altura: 26 cm </br> Largura: 17 cm </br> Profundidade: 14 cm </br> Peso Aproximado: 2,8 kg </br> Material: Polystone e outros materiais.',
           },
         ],
         image: JokerBust4,
@@ -1123,7 +1119,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'TERMINATOR 2 - T-800 ART MASK',
+    title: 'TERMINATOR 2 - T-800 ART MASK ENDOSKELETON BATTLE DAMAGED',
     description1: 'PURE ARTS',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: Terminator,
@@ -1152,7 +1148,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Marca: Pure Arts </br> Material: Resina premium com acabamento metálico </br> Tamanho: Escala 1:1 (mais de 70 cm de altura) </br> Características: Olhos com LED vermelho </br> Edição Limitada: Colecionável raro e numerado',
+            text: 'Material: Resina premium com acabamento metálico </br> Tamanho: Escala 1:1 (mais de 70 cm de altura) </br> Características: Olhos com LED vermelho',
           },
         ],
         image: Terminator4,
@@ -1186,11 +1182,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'OPÇÕES E EXCLUSIVIDADES',
-            text: 'Esta estátua altamente detalhada oferece: </br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. </br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. </br> Três suportes para cabeças: Para exibir os retratos não utilizados. </br> Base temática exclusiva: Inspirada no universo sombrio do Batman. </br> Arte exclusiva autografada: Impressão em tamanho A4 assinada à mão por Lee Bermejo (apenas na loja Prime 1).',
+            text: 'Esta estátua altamente detalhada oferece: </br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. </br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. </br> Três suportes para cabeças: Para exibir os retratos não utilizados. </br> Base temática exclusiva: Inspirada no universo sombrio do Batman.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 70,6 cm </br> Largura: 47,2 cm </br> Profundidade: 44,2 cm </br> Peso: 24,8 kg </br> Studio: Sideshow',
+            text: 'Altura: 70,6 cm </br> Largura: 47,2 cm </br> Profundidade: 44,2 cm </br> Peso: 24,8 kg',
           },
         ],
         image: JokerStatue4,
@@ -1228,7 +1224,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 52,6 cm. </br> Studio: Prime 1 Studio. </br> Material: Polystone e outros materiais premium.',
+            text: 'Altura: 52,6cm. </br> Largura: 41,4cm  </br> Profundidade: 37,2cm  </br> Peso:8.7Kg  </br> Material: Polystone e outros materiais premium.',
           },
         ],
         image: WonderWomanGreatHera4,
@@ -1275,7 +1271,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Escala 1/3</br>Altura: 74.7cm</br>Largura: 48.5cm</br>Profundidade: 47.1cm</br>Peso do Produto Aproximado: 14.98 kg ',
+            text: 'Altura: 74.7cm</br>Largura: 48.5cm</br>Profundidade: 47.1cm</br>Peso do Produto Aproximado: 14.98 kg ',
           },
         ],
       },
