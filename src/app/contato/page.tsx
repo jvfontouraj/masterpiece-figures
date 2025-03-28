@@ -4,24 +4,24 @@ import Link from 'next/link'
 
 export default function Contato() {
   return (
-    <main className="mt-28 bg-[#BCAA80]">
-      <div className="mx-auto flex min-h-[calc(100vh-7rem-120px)] max-w-7xl flex-col items-start justify-center gap-10 px-20">
-        <Image src={Logo} alt="Logo" className="h-20 w-auto" />
+    <main className="mt-16 min-h-[calc(100vh-64px-60px)] bg-[#BCAA80] md:mt-28">
+      <div className="mx-auto flex min-h-[calc(100vh-7rem-120px)] max-w-7xl flex-col items-start justify-center gap-10 px-8 py-10 md:px-20 md:py-0">
+        <Image src={Logo} alt="Logo" className="h-14 w-auto md:h-20" />
 
-        <h2 className="max-w-2xl text-3xl tracking-wider">
+        <h2 className="text-xl tracking-wider md:max-w-2xl md:text-3xl">
           Agende seu atendimento personalizado com nossos curadores
         </h2>
 
-        <p>
+        <p className="text-sm md:text-base">
           Atendemos presencialmente em Curitiba e enviamos para todo o Brasil.
           <br />
           Todos os nossos produtos têm disponibilidade de pronta entrega.
         </p>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 text-sm md:text-base">
           <div className="flex items-center gap-3">
             <svg
-              className="h-auto w-8"
+              className="h-auto w-5 md:w-8"
               viewBox="0 0 56 38"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export default function Contato() {
           </div>
           <div className="flex items-center gap-3">
             <svg
-              className="h-auto w-8"
+              className="h-auto w-5 md:w-8"
               viewBox="0 0 53 52"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export default function Contato() {
           </div>
           <div className="flex items-center gap-3">
             <svg
-              className="h-auto w-8"
+              className="h-auto w-5 md:w-8"
               viewBox="0 0 55 54"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ export default function Contato() {
             'https://api.whatsapp.com/send?phone=5541987914002&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Masterpiece%20Figures.'
           }
           target="_blank"
-          className="rounded-md bg-gold px-3 py-3 shadow-md transition-shadow duration-300 hover:shadow-xl"
+          className="rounded-md bg-gold px-3 py-3 text-sm shadow-md transition-shadow duration-300 hover:shadow-xl md:text-base"
         >
           Clique aqui e nos envie uma mensagem
         </Link>

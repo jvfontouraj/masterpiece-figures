@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export default function Artistas() {
   return (
-    <main className="mb-5 mt-28">
+    <main className="mb-5 mt-16 md:mt-28">
       <section className="mx-auto max-w-7xl pt-5">
         <Accordion.Root
           className="w-full shadow-[0_2px_10px] shadow-black/5"
@@ -22,7 +22,7 @@ export default function Artistas() {
                 <AccordionTrigger className="relative text-gold">
                   {artista.name}
                   <svg
-                    className="absolute left-52 top-0 -translate-y-full"
+                    className="absolute left-20 top-0 -translate-y-full md:left-52"
                     width="31"
                     height="15"
                     viewBox="0 0 31 15"
@@ -53,7 +53,7 @@ export default function Artistas() {
                       <Image src={artista.image} alt={artista.name} />
                     )}
                   </div>
-                  <div className="col-span-2 gap-x-10 [column-count:2]">
+                  <div className="gap-x-10 md:col-span-2 md:[column-count:2]">
                     {artista.description.map((desc, index) => (
                       <p
                         key={index}
@@ -69,7 +69,7 @@ export default function Artistas() {
                 <AccordionTrigger className="relative text-black">
                   {artista.name}
                   <svg
-                    className="absolute left-52 top-0 -translate-y-full"
+                    className="absolute left-20 top-0 -translate-y-full md:left-52"
                     width="31"
                     height="15"
                     viewBox="0 0 31 15"
@@ -100,7 +100,7 @@ export default function Artistas() {
                       <Image src={artista.image} alt={artista.name} />
                     )}
                   </div>
-                  <div className="col-span-2 gap-x-10 [column-count:2]">
+                  <div className="gap-x-10 md:col-span-2 md:[column-count:2]">
                     {artista.description.map((desc, index) => (
                       <p
                         key={index}
@@ -155,7 +155,7 @@ const AccordionTrigger = React.forwardRef<
   <Accordion.Header className="flex">
     <Accordion.Trigger
       className={classNames(
-        'group flex h-[45px] flex-1 cursor-default items-center justify-between px-10 py-12 text-3xl leading-none tracking-[.5rem] outline-none',
+        'group flex h-[45px] flex-1 cursor-default items-center justify-between px-5 py-10 text-start text-xl leading-none tracking-[.5rem] outline-none md:px-10 md:py-12 md:text-3xl',
         className,
       )}
       {...props}
@@ -181,7 +181,7 @@ const AccordionContent = React.forwardRef<
     {...props}
     ref={forwardedRef}
   >
-    <div className="grid grid-cols-[2fr_3fr_3fr] gap-10 px-10 pb-20 pt-5">
+    <div className="grid gap-10 px-10 pb-20 pt-5 md:grid-cols-[2fr_3fr_3fr]">
       {children}
     </div>
   </Accordion.Content>

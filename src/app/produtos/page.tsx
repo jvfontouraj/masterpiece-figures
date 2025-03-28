@@ -22,6 +22,7 @@ export default function Produtos() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
   const [underlineX, setUnderlineX] = useState(0)
   const [searchQuery, setSearchQuery] = useState('')
+  const [rowsNumber, setRowsNumber] = useState(3)
   const menuRef = useRef<HTMLDivElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -36,6 +37,21 @@ export default function Produtos() {
       )
     }
   }, [selectedCategory])
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth > 768) {
+        setRowsNumber(3)
+      } else {
+        setRowsNumber(2)
+      }
+    }
+
+    window.addEventListener('resize', handleResize)
+    handleResize() // Set initial width
+
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   // Filtra produtos pela categoria
   const filteredProducts = products.filter((product) => {
@@ -73,7 +89,10 @@ export default function Produtos() {
 
   // Renderiza a fileira de detalhes acima da linha onde o produto está
   const renderDetailsRow = (rowIndex: number) => {
-    if (selectedIndex === null || Math.floor(selectedIndex / 3) !== rowIndex)
+    if (
+      selectedIndex === null ||
+      Math.floor(selectedIndex / rowsNumber) !== rowIndex
+    )
       return null
 
     return (
@@ -82,25 +101,32 @@ export default function Produtos() {
         animate={{ height: 'auto', opacity: 1 }}
         exit={{ height: 0, opacity: 0 }}
         transition={{ duration: 0.4, ease: 'easeInOut' }}
-        className="relative mb-4 grid grid-cols-3 gap-6 overflow-hidden bg-[#BDAA80]"
+        className="relative mb-4 grid grid-cols-2 gap-6 overflow-hidden bg-[#BDAA80] md:grid-cols-3"
       >
         <Link
           href={'/produtos' + filteredProducts[selectedIndex].productUrl}
-          className="col-span-3 flex items-center gap-10 text-black"
+          className="col-span-3 flex flex-col items-center gap-5 text-black md:flex-row md:gap-10"
         >
           <Image
             src={filteredProducts[selectedIndex].details?.image}
             alt=""
-            className="h-[512px] w-1/2 object-cover"
+            className="h-50 w-full object-cover md:h-[512px] md:w-1/2"
           />
-          <div className="flex w-1/2 flex-col items-center justify-center gap-1 text-center text-sm font-light text-black">
-            <h3 className="mb-10 text-2xl font-normal">
+          <div className="flex w-full flex-col items-center justify-center gap-1 pb-5 text-center text-sm font-light text-black md:w-1/2 md:pb-0">
+            <h3 className="mb-10 hidden text-2xl font-normal md:block">
               {filteredProducts[selectedIndex].title}
             </h3>
-            <p className="uppercase">
+            <p className="hidden uppercase md:block">
               {filteredProducts[selectedIndex].description1}
             </p>
-            <Image src={Arrow} alt="" className="mt-10 h-auto w-9" />
+            <div className="flex w-full items-center justify-center gap-2 text-sm font-light">
+              <span className="md:hidden">Página do produto</span>
+              <Image
+                src={Arrow}
+                alt=""
+                className="h-auto w-5 md:mt-10 md:w-9"
+              />
+            </div>
           </div>
         </Link>
         <button
@@ -128,13 +154,13 @@ export default function Produtos() {
 
   // Renderiza cada linha do grid
   const renderRow = (rowIndex: number) => {
-    const startIdx = rowIndex * 3
-    const rowItems = filteredProducts.slice(startIdx, startIdx + 3)
+    const startIdx = rowIndex * rowsNumber
+    const rowItems = filteredProducts.slice(startIdx, startIdx + rowsNumber)
 
     return (
       <div key={rowIndex}>
         <AnimatePresence>{renderDetailsRow(rowIndex)}</AnimatePresence>
-        <div className="mb-14 grid grid-cols-3 gap-14">
+        <div className="mb-14 grid grid-cols-2 gap-14 md:grid-cols-3">
           {rowItems.map((product, colIndex) => (
             <div
               key={colIndex}
@@ -149,16 +175,13 @@ export default function Produtos() {
                 />
               </div>
               <div className="flex w-full flex-col items-center text-gold">
-                <h3 className="text-center text-xl">{product.title}</h3>
+                <h3 className="text-center text-base leading-tight md:text-xl md:leading-7">
+                  {product.title}
+                </h3>
                 <div>
                   <span className="text-xs font-light uppercase">
                     {product.description1}
                   </span>
-                  {product.description2 && (
-                    <span className="text-xs font-light">
-                      {product.description2}
-                    </span>
-                  )}
                 </div>
               </div>
             </div>
@@ -169,14 +192,14 @@ export default function Produtos() {
   }
 
   return (
-    <main className="mt-28">
+    <main className="mt-16 min-h-[calc(100vh-64px-60px)] md:mt-28">
       {/* Navbar de Categorias */}
-      <nav className="flex flex-col items-center justify-center gap-20 bg-[#BDAA80] pt-20">
-        <div className="flex h-10 w-[500px] items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-5">
+      <nav className="flex flex-col items-center justify-center gap-10 bg-[#BDAA80] pt-10 md:gap-20 md:pt-20">
+        <div className="flex h-10 w-[300px] items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-5 md:w-[500px]">
           <input
             type="text"
-            placeholder="Digite a obra desejada ou pesquise pelos filtros abaixo"
-            className="w-full text-neutral-700 focus-visible:outline-none"
+            placeholder="Digite aqui a obra desejada"
+            className="w-full text-sm text-neutral-700 focus-visible:outline-none md:text-base"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -195,13 +218,16 @@ export default function Produtos() {
             />
           </svg>
         </div>
-        <div className="relative flex w-full justify-center">
-          <div ref={menuRef} className="relative flex gap-6 pb-5">
+        <div className="relative flex w-full justify-center overflow-hidden">
+          <div
+            ref={menuRef}
+            className="mb:gap-6 no-scrollbar relative flex gap-3 overflow-x-scroll pb-5 md:overflow-auto"
+          >
             {categories.map((category, index) => (
               <div
                 key={index}
                 onClick={() => setSelectedCategory(category)}
-                className={`relative cursor-pointer px-4 py-1 text-center text-2xl text-black transition-all ${
+                className={`relative shrink-0 cursor-pointer px-4 py-1 text-center text-lg text-black transition-all md:text-2xl ${
                   selectedCategory.title === category.title
                     ? 'active text-neutral-600'
                     : ''
@@ -221,10 +247,13 @@ export default function Produtos() {
       </nav>
 
       {/* Grid de Produtos */}
-      <section className="mx-auto max-w-7xl px-10 py-20" ref={containerRef}>
+      <section
+        className="mx-auto max-w-7xl px-5 py-10 md:px-10 md:py-20"
+        ref={containerRef}
+      >
         {filteredProducts.length > 0 ? (
           Array.from(
-            { length: Math.ceil(filteredProducts.length / 3) },
+            { length: Math.ceil(filteredProducts.length / rowsNumber) },
             (_, rowIndex) => renderRow(rowIndex),
           )
         ) : (
