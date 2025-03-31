@@ -813,8 +813,8 @@ export const products: ProductProps[] = [
         image: CyberCat1,
       },
       section2: {
-        title: 'Título',
-        text: 'texto',
+        title: '',
+        text: '',
         video: CyberCat2,
       },
       section3: {

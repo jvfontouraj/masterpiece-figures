@@ -18,7 +18,7 @@ export default function CuradoriaPage() {
               Cada peça é cuidadosamente escolhida para garantir que somente
               obras de altíssimo nível artístico e técnico componham nosso
               catálogo. Essa atenção assegura que os nossos produtos não só
-              encantem, mas também se tornem itens de valor e legado.
+              encantem, mas também se tornem itens de valor.
             </p>
           </div>
           <div className="-mr-24 flex flex-col items-center justify-center gap-2 text-center xl:-mr-32">

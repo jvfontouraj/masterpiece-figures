@@ -11,10 +11,10 @@ export default function Masterpiece() {
       <div className="flex w-1/2 flex-col items-center justify-center gap-20 p-8 text-left">
         <Image alt="" src={Logo} />
         <p className="font-light text-white">
-          A Masterpiece Figures, fundada Luciana Distéfano e Sérgio Lopes, tem
-          como propósito elevar sonhos e ambientes através de peças exclusivas e
-          impactantes, transformando cada figura em um símbolo de inspiração e
-          sofisticação.
+          A Masterpiece Figures, fundada por Luciana Distéfano e Sérgio Lopes,
+          tem como propósito elevar sonhos e ambientes através de peças
+          exclusivas e impactantes, transformando cada figura em um símbolo de
+          inspiração e sofisticação.
           <br />
           <br />
           Nosso foco reside na exclusividade e personalização de Action Figures
