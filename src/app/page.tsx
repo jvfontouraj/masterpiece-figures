@@ -21,17 +21,17 @@ import Curadoria6 from '@/assets/home-curadoria-6.png'
 import Link from 'next/link'
 
 export default function Home() {
-  useEffect(() => {
-    document.body.style.overflow = 'hidden'
-    const timeout = setTimeout(() => {
-      document.body.style.overflow = 'auto'
-    }, 5000)
-    return () => clearTimeout(timeout)
-  }, [])
+  // useEffect(() => {
+  //   document.body.style.overflow = 'hidden'
+  //   const timeout = setTimeout(() => {
+  //     document.body.style.overflow = 'auto'
+  //   }, 5000)
+  //   return () => clearTimeout(timeout)
+  // }, [])
 
   return (
     <>
-      <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
+      {/* <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
         <Image
           src={Logo2}
           alt=""
@@ -48,17 +48,17 @@ export default function Home() {
           className="h-screen w-auto animate-layer2image opacity-0"
           quality={100}
         />
-      </div>
+      </div> */}
       <main className="relative flex flex-col">
         <section className="relative flex h-[calc(100vh-20px)] w-full flex-col items-center justify-center gap-10 overflow-hidden">
           <Image
             src={HeroSectionBg}
-            alt={''}
-            className="absolute left-1/2 top-1/2 -z-10 h-auto w-[2000px] -translate-x-1/2 -translate-y-1/2 object-cover"
+            alt={'background image'}
+            className="absolute left-1/2 top-1/2 -z-10 h-screen w-auto -translate-x-1/2 -translate-y-1/2 object-cover md:h-auto md:w-[2000px]"
             quality={100}
           />
           <Image src={Logo1} alt={''} className="aspect-square h-auto w-20" />
-          <h1 className="text-center text-4xl font-light text-gold">
+          <h1 className="px-3 text-center text-xl font-light text-gold md:px-0 md:text-4xl">
             Elevamos seus sonhos e ambientes <br /> com peças exclusivas e
             impactantes, <br /> disponíveis para pronta entrega.
           </h1>
@@ -82,26 +82,26 @@ export default function Home() {
         </section>
         <section
           id="produtos"
-          className="mx-auto -mt-20 w-full max-w-7xl pt-20"
+          className="mx-auto -mt-20 h-auto w-full max-w-7xl pt-20"
         >
           <Link
             href="/produtos/predator-ahab"
-            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+            className="flex h-[calc(100vh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
           >
-            <div className="relative flex h-auto w-[55%] items-center justify-center">
+            <div className="relative flex h-1/2 w-full items-center justify-center md:h-auto md:w-[55%]">
               <Image
                 src={HomePredator}
                 alt={''}
                 className="absolute inset-1/2 w-[1500px] -translate-x-1/2 -translate-y-1/2 object-cover"
               />
             </div>
-            <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
+            <div className="flex h-1/2 w-full flex-col items-center justify-center gap-2 p-16 md:h-full md:w-[45%] md:gap-5 md:p-20">
               <Image
                 src={PredatorAhab}
                 alt=""
                 className="h-full w-auto object-contain"
               />
-              <h3 className="text-center text-2xl font-light uppercase tracking-widest text-gold">
+              <h3 className="text-center text-base font-light uppercase tracking-widest text-gold md:text-2xl">
                 Predator Ahab
               </h3>
             </div>
@@ -110,23 +110,23 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/summer-drunken-beauty"
-            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+            className="flex h-[calc(100vh-64px)] w-full flex-col overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
           >
-            <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
+            <div className="flex h-1/2 w-full flex-col items-center justify-center gap-2 p-16 md:h-full md:w-[45%] md:gap-5 md:p-20">
               <Image
                 src={YuanFlower}
                 alt=""
                 className="h-full w-auto object-contain"
               />
-              <h3 className="-mt-16 mb-16 text-center text-2xl font-light uppercase tracking-widest text-gold">
+              <h3 className="mb-16 text-center text-base font-light uppercase tracking-widest text-gold md:-mt-16 md:text-2xl">
                 YUAN FLOWER
               </h3>
             </div>
-            <div className="relative flex h-full w-[55%] items-center justify-center">
+            <div className="relative flex h-1/2 w-full items-center justify-center md:h-full md:w-[55%]">
               <Image
                 src={HomeYuan}
                 alt={''}
-                className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2 object-cover"
+                className="absolute inset-1/2 h-auto w-full -translate-x-1/2 -translate-y-1/2 object-cover md:h-full md:w-auto"
               />
             </div>
           </Link>
@@ -134,29 +134,29 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/batman-hush"
-            className="flex h-[calc(100vh-82px)] w-full overflow-hidden"
+            className="flex h-[calc(100vh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
           >
-            <div className="relative flex h-full w-[55%] items-center justify-center">
+            <div className="relative flex h-1/2 w-full items-center justify-center md:h-full md:w-[55%]">
               <Image
                 src={HomeBatman}
                 alt={''}
                 className="absolute inset-1/2 h-full w-auto -translate-x-1/2 -translate-y-1/2 object-contain"
               />
             </div>
-            <div className="flex h-full w-[45%] flex-col items-center justify-center gap-5 p-20">
+            <div className="flex h-1/2 w-full flex-col items-center justify-center gap-2 p-16 md:h-full md:w-[45%] md:gap-5 md:p-20">
               <Image
                 src={BatmanHush}
                 alt=""
                 className="h-full w-auto object-contain"
               />
-              <h3 className="text-center text-2xl font-light uppercase tracking-widest text-gold">
+              <h3 className="text-center text-base font-light uppercase tracking-widest text-gold md:text-2xl">
                 Batman Hush
               </h3>
             </div>
           </Link>
         </section>
-        <section className="flex flex-col items-center justify-center px-20 py-72">
-          <h3 className="text-center text-3xl font-light tracking-widest text-gold">
+        <section className="flex flex-col items-center justify-center px-2 py-72 md:px-20">
+          <h3 className="tex-base text-center font-light tracking-wide text-gold md:text-3xl md:tracking-widest">
             Peças únicas, numeradas e limitadas,
             <br />
             em uma curadoria cuidadosa que
@@ -165,10 +165,10 @@ export default function Home() {
           </h3>
         </section>
         <section className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-20">
-          <h2 className="text-center text-4xl tracking-[.5rem] text-white">
+          <h2 className="text-center text-lg tracking-widest text-white md:text-4xl md:tracking-[.5rem]">
             DESTAQUES DA CURADORIA
           </h2>
-          <div className="grid grid-cols-3 gap-3 pb-20">
+          <div className="grid grid-cols-2 gap-2 pb-10 md:grid-cols-3 md:gap-3 md:pb-20">
             <Link href={'/produtos/batman-busto'} className="overflow-hidden">
               <Image
                 src={Curadoria1}
