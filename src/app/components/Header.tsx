@@ -103,8 +103,8 @@ export function Header() {
             </button>
           </Dialog.Trigger>
           <Dialog.Portal>
-            <Dialog.Overlay className="fixed bottom-0 left-0 z-30 h-[calc(100vh-56px)] w-screen bg-black/60 data-[state=open]:animate-overlayShow" />
-            <Dialog.Content className="data-[state=open]:animate-contentShow fixed left-0 top-16 z-50 h-[calc(100vh-48px)] w-screen bg-black p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
+            <Dialog.Overlay className="fixed bottom-0 left-0 z-30 h-[calc(100dvh-56px)] w-screen bg-black/60 data-[state=open]:animate-overlayShow" />
+            <Dialog.Content className="data-[state=open]:animate-contentShow fixed left-0 top-16 z-50 h-[calc(100dvh-48px)] w-screen bg-black p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
               <ul className="flex h-full w-full flex-col justify-center gap-9 text-center text-xl font-light text-gold">
                 {menus.map((menu) => (
                   <li key={menu.title}>

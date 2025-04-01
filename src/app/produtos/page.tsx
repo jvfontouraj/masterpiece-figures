@@ -192,7 +192,7 @@ export default function Produtos() {
   }
 
   return (
-    <main className="mt-16 min-h-[calc(100vh-64px-60px)] md:mt-28">
+    <main className="mt-16 min-h-[calc(100dvh-64px-60px)] md:mt-28">
       {/* Navbar de Categorias */}
       <nav className="flex flex-col items-center justify-center gap-10 bg-[#BDAA80] pt-10 md:gap-20 md:pt-20">
         <div className="flex h-10 w-[300px] items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-5 md:w-[500px]">

@@ -50,7 +50,7 @@ export default function Home() {
         />
       </div>
       <main className="relative flex flex-col">
-        <section className="relative flex h-[calc(100vh-20px)] w-full flex-col items-center justify-center gap-10 overflow-hidden">
+        <section className="relative flex h-[calc(100dvh-20px)] w-full flex-col items-center justify-center gap-10 overflow-hidden">
           <Image
             src={HeroSectionBg}
             alt={'background image'}
@@ -58,7 +58,7 @@ export default function Home() {
             quality={100}
           />
           <Image src={Logo1} alt={''} className="aspect-square h-auto w-20" />
-          <h1 className="px-3 text-center text-xl font-light text-gold md:px-0 md:text-4xl">
+          <h1 className="px-3 text-center text-lg font-light text-gold md:px-0 md:text-4xl">
             Elevamos seus sonhos e ambientes <br /> com peças exclusivas e
             impactantes, <br /> disponíveis para pronta entrega.
           </h1>
@@ -86,7 +86,7 @@ export default function Home() {
         >
           <Link
             href="/produtos/predator-ahab"
-            className="flex h-[calc(100vh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
+            className="flex h-[calc(100dvh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="relative flex h-1/2 w-full items-center justify-center md:h-auto md:w-[55%]">
               <Image
@@ -110,7 +110,7 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/summer-drunken-beauty"
-            className="flex h-[calc(100vh-64px)] w-full flex-col overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
+            className="flex h-[calc(100dvh-64px)] w-full flex-col overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="flex h-1/2 w-full flex-col items-center justify-center gap-2 p-16 md:h-full md:w-[45%] md:gap-5 md:p-20">
               <Image
@@ -134,7 +134,7 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/batman-hush"
-            className="flex h-[calc(100vh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100vh-82px)] md:flex-row"
+            className="flex h-[calc(100dvh-64px)] w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="relative flex h-1/2 w-full items-center justify-center md:h-full md:w-[55%]">
               <Image

@@ -76,7 +76,7 @@ export default function Produto() {
           )}
           <section
             id="parallaxSection"
-            className="mx-auto max-h-screen min-h-[calc(100vh-112px)] w-full max-w-7xl bg-fixed bg-center bg-no-repeat"
+            className="mx-auto max-h-screen min-h-[calc(100dvh-112px)] w-full max-w-7xl bg-fixed bg-center bg-no-repeat"
             style={{
               backgroundImage: `url(${pageContent.section3.image.src})`,
               backgroundSize: `${parallaxWidth}px auto`,
@@ -142,7 +142,7 @@ export default function Produto() {
           </section>
         </>
       ) : (
-        <div className="flex h-[calc(100vh-232px)] flex-col items-center justify-center text-center text-white">
+        <div className="flex h-[calc(100dvh-232px)] flex-col items-center justify-center text-center text-white">
           <h1 className="text-5xl">Produto não encontrado</h1>
           <Link href="/produtos" className="mt-10 text-3xl underline">
             Voltar para página de produtos

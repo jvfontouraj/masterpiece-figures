@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 export default function Contato() {
   return (
-    <main className="mt-16 min-h-[calc(100vh-64px-60px)] bg-[#BCAA80] md:mt-28">
-      <div className="mx-auto flex min-h-[calc(100vh-7rem-120px)] max-w-7xl flex-col items-start justify-center gap-10 px-8 py-10 md:px-20 md:py-0">
+    <main className="mt-16 min-h-[calc(100dvh-64px-60px)] bg-[#BCAA80] md:mt-28">
+      <div className="mx-auto flex min-h-[calc(100dvh-7rem-120px)] max-w-7xl flex-col items-start justify-center gap-10 px-8 py-10 md:px-20 md:py-0">
         <Image src={Logo} alt="Logo" className="h-14 w-auto md:h-20" />
 
         <h2 className="text-xl tracking-wider md:max-w-2xl md:text-3xl">
