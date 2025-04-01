@@ -21,23 +21,23 @@ import Curadoria6 from '@/assets/home-curadoria-6.png'
 import Link from 'next/link'
 
 export default function Home() {
-  // useEffect(() => {
-  //   document.body.style.overflow = 'hidden'
-  //   const timeout = setTimeout(() => {
-  //     document.body.style.overflow = 'auto'
-  //   }, 5000)
-  //   return () => clearTimeout(timeout)
-  // }, [])
+  useEffect(() => {
+    document.body.style.overflow = 'hidden'
+    const timeout = setTimeout(() => {
+      document.body.style.overflow = 'auto'
+    }, 5000)
+    return () => clearTimeout(timeout)
+  }, [])
 
   return (
     <>
-      {/* <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
+      <div className="fixed left-0 top-0 -z-10 flex h-screen w-screen animate-layer1 flex-col items-center justify-center gap-20 bg-black/80 opacity-0 backdrop-blur">
         <Image
           src={Logo2}
           alt=""
-          className="h-40 w-auto animate-layer1Objects opacity-0"
+          className="h-auto w-full animate-layer1Objects px-20 opacity-0 md:h-40 md:w-auto md:px-0"
         />
-        <h2 className="animate-layer1Objects text-center text-4xl font-light text-gold opacity-0">
+        <h2 className="animate-layer1Objects px-5 text-center text-2xl font-light text-gold opacity-0 md:px-0 md:text-4xl">
           Onde a arte e exclusividade se encontram
         </h2>
       </div>
@@ -45,10 +45,10 @@ export default function Home() {
         <Image
           src={HomeBg}
           alt={''}
-          className="h-screen w-auto animate-layer2image opacity-0"
+          className="h-screen w-auto animate-layer2image object-cover opacity-0"
           quality={100}
         />
-      </div> */}
+      </div>
       <main className="relative flex flex-col">
         <section className="relative flex h-[calc(100vh-20px)] w-full flex-col items-center justify-center gap-10 overflow-hidden">
           <Image
@@ -82,7 +82,7 @@ export default function Home() {
         </section>
         <section
           id="produtos"
-          className="mx-auto -mt-20 h-auto w-full max-w-7xl pt-20"
+          className="mx-auto -mt-16 h-auto w-full max-w-7xl pt-16 md:-mt-20 md:pt-20"
         >
           <Link
             href="/produtos/predator-ahab"
@@ -155,7 +155,7 @@ export default function Home() {
             </div>
           </Link>
         </section>
-        <section className="flex flex-col items-center justify-center px-2 py-72 md:px-20">
+        <section className="flex flex-col items-center justify-center px-2 py-40 md:px-20 md:py-72">
           <h3 className="tex-base text-center font-light tracking-wide text-gold md:text-3xl md:tracking-widest">
             Peças únicas, numeradas e limitadas,
             <br />
@@ -164,7 +164,7 @@ export default function Home() {
             garante qualidade e autenticidade.
           </h3>
         </section>
-        <section className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-20">
+        <section className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-10 md:gap-20">
           <h2 className="text-center text-lg tracking-widest text-white md:text-4xl md:tracking-[.5rem]">
             DESTAQUES DA CURADORIA
           </h2>
