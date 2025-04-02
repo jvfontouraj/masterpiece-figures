@@ -40,7 +40,7 @@ export default function Produto() {
     <main className="mx-auto mt-16 md:mt-28">
       {pageContent ? (
         <>
-          <section className="h-mobileScreen overflow-hidden bg-[#bdaa80] px-2 md:px-10">
+          <section className="min-h-mobileScreen overflow-hidden bg-[#bdaa80] px-2 md:px-10">
             <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center pt-10">
               <div className="mb-14 flex w-full justify-start pl-5 text-sm md:pl-10 md:text-base">
                 <Link href="/produtos"> {'> '}Menu de busca</Link>
