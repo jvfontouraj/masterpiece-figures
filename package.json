@@ -13,6 +13,7 @@
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-icons": "^1.3.2",
     "@rocketseat/eslint-config": "^2.2.2",
+    "@splidejs/react-splide": "^0.7.12",
     "@svgr/webpack": "^8.1.0",
     "classnames": "^2.5.1",
     "firebase": "^11.6.0",

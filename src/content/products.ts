@@ -258,6 +258,9 @@ import AlienChapAmbientacao from '@/assets/products/ambientacoes/Alien Xenomorfo
 import AlienChap1 from '@/assets/products/Alien Chap/1.png'
 import AlienChap2 from '@/assets/products/Alien Chap/2.png'
 import AlienChap3 from '@/assets/products/Alien Chap/3.png'
+import AlienChap1Mobile from '@/assets/products/Alien Chap/1Mobile.png'
+import AlienChap2Mobile from '@/assets/products/Alien Chap/2Mobile.png'
+import AlienChap3Mobile from '@/assets/products/Alien Chap/3Mobile.png'
 import AlienChap4 from '@/assets/products/Alien Chap/4.png'
 import AlienChap5 from '@/assets/products/Alien Chap/5.png'
 import AlienChap6 from '@/assets/products/Alien Chap/6.png'
@@ -312,18 +315,21 @@ interface ProductProps {
     info1?: string
     info2?: string
   }
-  paginaProduto?: {
+  paginaProduto: {
     section1: {
       text: string
       image: StaticImageData
+      imageMobile?: StaticImageData
     }
-    section2?: {
+    section2: {
       title?: string
       text: string
       video: StaticImageData
+      videoMobile?: StaticImageData
     }
     section3: {
       image: StaticImageData
+      imageMobile?: StaticImageData
     }
     section4: {
       text: { title?: string; text: string }[]
@@ -347,14 +353,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Diretamente do clássico filme de terror de 1979, Alien, o Xenomorfo Big Chap chega à linha MAFEX. Com aproximadamente 20,3 cm de altura, esta figura é altamente articulada e inclui acessórios incríveis que representam cenas icônicas, como o Facehugger e o efeito de alien saindo do peito.',
         image: AlienChap1,
+        imageMobile: AlienChap1Mobile,
       },
       section2: {
         title: 'SOBRE ALIEN',
         text: 'O filme Alien (1979), dirigido por Ridley Scott, se tornou um marco do gênero ficção científica e terror. A franquia acompanha principalmente Ellen Ripley e sua luta contra os icônicos Xenomorfos em um cenário futurista. O sucesso do filme deu origem a diversas sequências, quadrinhos, videogames e até ao famoso crossover Alien vs. Predator.',
         video: AlienChap2,
+        videoMobile: AlienChap2Mobile,
       },
       section3: {
         image: AlienChap3,
+        imageMobile: AlienChap3Mobile,
       },
       section4: {
         text: [

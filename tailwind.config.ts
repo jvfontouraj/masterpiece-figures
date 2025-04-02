@@ -12,6 +12,9 @@ export default {
       colors: {
         gold: '#DBC79A',
       },
+      height: {
+        mobileScreen: 'calc(100dvh - 64px)',
+      },
       keyframes: {
         slideDown: {
           from: { height: '0px' },

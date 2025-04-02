@@ -4,13 +4,17 @@ import Logo from '@/assets/logo3.png'
 
 export default function Masterpiece() {
   return (
-    <main className="mx-auto mt-28 flex w-full max-w-7xl py-10">
-      <div className="w-1/2">
+    <main className="mx-auto mt-10 flex w-full max-w-7xl flex-col-reverse py-10 md:mt-28 md:flex-row">
+      <div className="w-full max-w-[80%] md:w-1/2">
         <Image alt="" src={Imagem} />
       </div>
-      <div className="flex w-1/2 flex-col items-center justify-center gap-20 p-8 text-left">
-        <Image alt="" src={Logo} />
-        <p className="font-light text-white">
+      <div className="flex flex-col-reverse items-center justify-center gap-5 px-8 py-5 text-left md:w-1/2 md:flex-col md:gap-20 md:p-8">
+        <Image
+          alt=""
+          src={Logo}
+          className="h-8 w-auto self-end md:h-auto md:self-auto"
+        />
+        <p className="text-sm font-light text-white md:text-base">
           A Masterpiece Figures, fundada por Luciana Distéfano e Sérgio Lopes,
           tem como propósito elevar sonhos e ambientes através de peças
           exclusivas e impactantes, transformando cada figura em um símbolo de
