@@ -10,6 +10,9 @@ import PredatorAhab4 from '@/assets/products/predator-ahab/4.jpg'
 import PredatorAhab5 from '@/assets/products/predator-ahab/5.png'
 import PredatorAhab6 from '@/assets/products/predator-ahab/6.jpg'
 import PredatorAhab7 from '@/assets/products/predator-ahab/7.jpg'
+import PredatorAhab1Mobile from '@/assets/products/predator-ahab/1Mobile.png'
+import PredatorAhab2Mobile from '@/assets/products/predator-ahab/2Mobile.png'
+import PredatorAhab3Mobile from '@/assets/products/predator-ahab/3Mobile.png'
 // //////////////////////////////
 
 // Alita ////////////////////////
@@ -22,6 +25,9 @@ import Alita4 from '@/assets/products/Alita/4.png'
 import Alita5 from '@/assets/products/Alita/5.png'
 import Alita6 from '@/assets/products/Alita/6.png'
 import Alita7 from '@/assets/products/Alita/7.png'
+import Alita1Mobile from '@/assets/products/Alita/1Mobile.png'
+import Alita2Mobile from '@/assets/products/Alita/2Mobile.png'
+import Alita3Mobile from '@/assets/products/Alita/3Mobile.png'
 // //////////////////////////////
 
 // Wonder Woman /////////////////
@@ -34,6 +40,9 @@ import WonderWoman4 from '@/assets/products/WonderWoman/4.png'
 import WonderWoman5 from '@/assets/products/WonderWoman/5.png'
 import WonderWoman6 from '@/assets/products/WonderWoman/6.png'
 import WonderWoman7 from '@/assets/products/WonderWoman/7.png'
+import WonderWoman1Mobile from '@/assets/products/WonderWoman/1Mobile.png'
+import WonderWoman2Mobile from '@/assets/products/WonderWoman/2Mobile.png'
+import WonderWoman3Mobile from '@/assets/products/WonderWoman/3Mobile.png'
 // //////////////////////////////
 
 // Batman Bust //////////////////
@@ -46,6 +55,9 @@ import BatmanBust4 from '@/assets/products/BatmanBust/4.png'
 import BatmanBust5 from '@/assets/products/BatmanBust/5.png'
 import BatmanBust6 from '@/assets/products/BatmanBust/6.png'
 import BatmanBust7 from '@/assets/products/BatmanBust/7.png'
+import BatmanBust1Mobile from '@/assets/products/BatmanBust/1Mobile.png'
+import BatmanBust2Mobile from '@/assets/products/BatmanBust/2Mobile.png'
+import BatmanBust3Mobile from '@/assets/products/BatmanBust/3Mobile.png'
 /// ////////////////////////////
 
 // Batcaverna //////////////////
@@ -58,6 +70,9 @@ import Batcaverna4 from '@/assets/products/Batcave desktop/4.png'
 import Batcaverna5 from '@/assets/products/Batcave desktop/5.png'
 import Batcaverna6 from '@/assets/products/Batcave desktop/6.png'
 import Batcaverna7 from '@/assets/products/Batcave desktop/7.png'
+import Batcaverna1Mobile from '@/assets/products/Batcave desktop/1Mobile.png'
+import Batcaverna2Mobile from '@/assets/products/Batcave desktop/2Mobile.png'
+import Batcaverna3Mobile from '@/assets/products/Batcave desktop/3Mobile.png'
 /// ////////////////////////////
 
 // Summer Drunken Beauty ///////
@@ -70,6 +85,9 @@ import SummerDrunkenBeauty4 from '@/assets/products/Summer Drunken/4.png'
 import SummerDrunkenBeauty5 from '@/assets/products/Summer Drunken/5.png'
 import SummerDrunkenBeauty6 from '@/assets/products/Summer Drunken/6.png'
 import SummerDrunkenBeauty7 from '@/assets/products/Summer Drunken/7.png'
+import SummerDrunkenBeauty1Mobile from '@/assets/products/Summer Drunken/1Mobile.png'
+import SummerDrunkenBeauty2Mobile from '@/assets/products/Summer Drunken/2Mobile.png'
+import SummerDrunkenBeauty3Mobile from '@/assets/products/Summer Drunken/3Mobile.png'
 /// ////////////////////////////
 
 // Batman Hush //////////////////
@@ -82,6 +100,9 @@ import BatmanHush4 from '@/assets/products/Batman Hush/4.png'
 import BatmanHush5 from '@/assets/products/Batman Hush/5.png'
 import BatmanHush6 from '@/assets/products/Batman Hush/6.png'
 import BatmanHush7 from '@/assets/products/Batman Hush/7.png'
+import BatmanHush1Mobile from '@/assets/products/Batman Hush/1Mobile.png'
+import BatmanHush2Mobile from '@/assets/products/Batman Hush/2Mobile.png'
+import BatmanHush3Mobile from '@/assets/products/Batman Hush/3Mobile.png'
 /// /////////////////////////////
 
 // Cheetah XM ///////////////////
@@ -94,6 +115,9 @@ import Cheetah4 from '@/assets/products/Cheetah/4.png'
 import Cheetah5 from '@/assets/products/Cheetah/5.png'
 import Cheetah6 from '@/assets/products/Cheetah/6.png'
 import Cheetah7 from '@/assets/products/Cheetah/7.png'
+import Cheetah1Mobile from '@/assets/products/Cheetah/1Mobile.png'
+import Cheetah2Mobile from '@/assets/products/Cheetah/2Mobile.png'
+import Cheetah3Mobile from '@/assets/products/Cheetah/3Mobile.png'
 /// /////////////////////////////
 
 // Batman HQS ///////////////////
@@ -106,6 +130,9 @@ import BatmanHQS4 from '@/assets/products/Batman HQS/4.png'
 import BatmanHQS5 from '@/assets/products/Batman HQS/5.png'
 import BatmanHQS6 from '@/assets/products/Batman HQS/6.png'
 import BatmanHQS7 from '@/assets/products/Batman HQS/7.png'
+import BatmanHQS1Mobile from '@/assets/products/Batman HQS/1Mobile.png'
+import BatmanHQS2Mobile from '@/assets/products/Batman HQS/2Mobile.png'
+import BatmanHQS3Mobile from '@/assets/products/Batman HQS/3Mobile.png'
 /// /////////////////////////////
 
 // Batman Damned ////////////////
@@ -118,6 +145,9 @@ import BatmanDamned4 from '@/assets/products/Batman Damned/4.png'
 import BatmanDamned5 from '@/assets/products/Batman Damned/5.png'
 import BatmanDamned6 from '@/assets/products/Batman Damned/6.png'
 import BatmanDamned7 from '@/assets/products/Batman Damned/7.png'
+import BatmanDamned1Mobile from '@/assets/products/Batman Damned/1Mobile.png'
+import BatmanDamned2Mobile from '@/assets/products/Batman Damned/2Mobile.png'
+import BatmanDamned3Mobile from '@/assets/products/Batman Damned/3Mobile.png'
 /// /////////////////////////////
 
 // Batman Who Laughs ////////////
@@ -130,6 +160,9 @@ import BatmanWhoLaughs4 from '@/assets/products/Batman Who Laughs/4.png'
 import BatmanWhoLaughs5 from '@/assets/products/Batman Who Laughs/5.png'
 import BatmanWhoLaughs6 from '@/assets/products/Batman Who Laughs/6.png'
 import BatmanWhoLaughs7 from '@/assets/products/Batman Who Laughs/7.png'
+import BatmanWhoLaughs1Mobile from '@/assets/products/Batman Who Laughs/1Mobile.png'
+import BatmanWhoLaughs2Mobile from '@/assets/products/Batman Who Laughs/2Mobile.png'
+import BatmanWhoLaughs3Mobile from '@/assets/products/Batman Who Laughs/3Mobile.png'
 /// /////////////////////////////
 
 // Batman Knightmare ////////////
@@ -142,6 +175,9 @@ import BatmanKnightmare4 from '@/assets/products/Batman Knightmare/4.png'
 import BatmanKnightmare5 from '@/assets/products/Batman Knightmare/5.png'
 import BatmanKnightmare6 from '@/assets/products/Batman Knightmare/6.png'
 import BatmanKnightmare7 from '@/assets/products/Batman Knightmare/7.png'
+import BatmanKnightmare1Mobile from '@/assets/products/Batman Knightmare/1Mobile.png'
+import BatmanKnightmare2Mobile from '@/assets/products/Batman Knightmare/2Mobile.png'
+import BatmanKnightmare3Mobile from '@/assets/products/Batman Knightmare/3Mobile.png'
 /// /////////////////////////////
 
 // Dungeon & Dragons ////////////
@@ -154,6 +190,9 @@ import DungeonAndDragons4 from '@/assets/products/Dungeons & Dragons/4.png'
 import DungeonAndDragons5 from '@/assets/products/Dungeons & Dragons/5.png'
 import DungeonAndDragons6 from '@/assets/products/Dungeons & Dragons/6.png'
 import DungeonAndDragons7 from '@/assets/products/Dungeons & Dragons/7.png'
+import DungeonAndDragons1Mobile from '@/assets/products/Dungeons & Dragons/1Mobile.png'
+import DungeonAndDragons2Mobile from '@/assets/products/Dungeons & Dragons/2Mobile.png'
+import DungeonAndDragons3Mobile from '@/assets/products/Dungeons & Dragons/3Mobile.png'
 /// /////////////////////////////
 
 // Green Scar Hulk //////////////
@@ -166,6 +205,9 @@ import GreenScarHulk4 from '@/assets/products/Green Scar Hulk/4.png'
 import GreenScarHulk5 from '@/assets/products/Green Scar Hulk/5.png'
 import GreenScarHulk6 from '@/assets/products/Green Scar Hulk/6.png'
 import GreenScarHulk7 from '@/assets/products/Green Scar Hulk/7.png'
+import GreenScarHulk1Mobile from '@/assets/products/Green Scar Hulk/1Mobile.png'
+import GreenScarHulk2Mobile from '@/assets/products/Green Scar Hulk/2Mobile.png'
+import GreenScarHulk3Mobile from '@/assets/products/Green Scar Hulk/3Mobile.png'
 /// /////////////////////////////
 
 // Joker Bust ///////////////////
@@ -178,6 +220,9 @@ import JokerBust4 from '@/assets/products/Joker Bust/4.png'
 import JokerBust5 from '@/assets/products/Joker Bust/5.png'
 import JokerBust6 from '@/assets/products/Joker Bust/6.png'
 import JokerBust7 from '@/assets/products/Joker Bust/7.png'
+import JokerBust1Mobile from '@/assets/products/Joker Bust/1Mobile.png'
+import JokerBust2Mobile from '@/assets/products/Joker Bust/2Mobile.png'
+import JokerBust3Mobile from '@/assets/products/Joker Bust/3Mobile.png'
 /// /////////////////////////////
 
 // Cyber Cat ////////////////
@@ -190,6 +235,9 @@ import CyberCat4 from '@/assets/products/Cyber Cat/4.png'
 import CyberCat5 from '@/assets/products/Cyber Cat/5.png'
 import CyberCat6 from '@/assets/products/Cyber Cat/6.png'
 import CyberCat7 from '@/assets/products/Cyber Cat/7.png'
+import CyberCat1Mobile from '@/assets/products/Cyber Cat/1Mobile.png'
+import CyberCat2Mobile from '@/assets/products/Cyber Cat/2Mobile.png'
+import CyberCat3Mobile from '@/assets/products/Cyber Cat/3Mobile.png'
 // /////////////////////////////
 
 // Batman Penguin ////////////
@@ -202,6 +250,9 @@ import BatmanPenguin4 from '@/assets/products/Batman Penguin/4.png'
 import BatmanPenguin5 from '@/assets/products/Batman Penguin/5.png'
 import BatmanPenguin6 from '@/assets/products/Batman Penguin/6.png'
 import BatmanPenguin7 from '@/assets/products/Batman Penguin/7.png'
+import BatmanPenguin1Mobile from '@/assets/products/Batman Penguin/1Mobile.png'
+import BatmanPenguin2Mobile from '@/assets/products/Batman Penguin/2Mobile.png'
+import BatmanPenguin3Mobile from '@/assets/products/Batman Penguin/3Mobile.png'
 // /////////////////////////////
 
 // Wonder Woman Great Hera ////////////
@@ -214,6 +265,9 @@ import WonderWomanGreatHera4 from '@/assets/products/Wonder Woman Great Hera/4.p
 import WonderWomanGreatHera5 from '@/assets/products/Wonder Woman Great Hera/5.png'
 import WonderWomanGreatHera6 from '@/assets/products/Wonder Woman Great Hera/6.png'
 import WonderWomanGreatHera7 from '@/assets/products/Wonder Woman Great Hera/7.png'
+import WonderWomanGreatHera1Mobile from '@/assets/products/Wonder Woman Great Hera/1Mobile.png'
+import WonderWomanGreatHera2Mobile from '@/assets/products/Wonder Woman Great Hera/2Mobile.png'
+import WonderWomanGreatHera3Mobile from '@/assets/products/Wonder Woman Great Hera/3Mobile.png'
 // ///////////////////////////////////
 
 // Boba Fett ////////////////////////
@@ -226,6 +280,9 @@ import BobaFett4 from '@/assets/products/Boba Fett/4.png'
 import BobaFett5 from '@/assets/products/Boba Fett/5.png'
 import BobaFett6 from '@/assets/products/Boba Fett/6.png'
 import BobaFett7 from '@/assets/products/Boba Fett/7.png'
+import BobaFett1Mobile from '@/assets/products/Boba Fett/1Mobile.png'
+import BobaFett2Mobile from '@/assets/products/Boba Fett/2Mobile.png'
+import BobaFett3Mobile from '@/assets/products/Boba Fett/3Mobile.png'
 /// ///////////////////////////////////
 
 // The Joker Statue ///////////////////
@@ -238,6 +295,9 @@ import JokerStatue4 from '@/assets/products/The Joker Statue/4.png'
 import JokerStatue5 from '@/assets/products/The Joker Statue/5.png'
 import JokerStatue6 from '@/assets/products/The Joker Statue/6.png'
 import JokerStatue7 from '@/assets/products/The Joker Statue/7.png'
+import JokerStatue1Mobile from '@/assets/products/The Joker Statue/1Mobile.png'
+import JokerStatue2Mobile from '@/assets/products/The Joker Statue/2Mobile.png'
+import JokerStatue3Mobile from '@/assets/products/The Joker Statue/3Mobile.png'
 /// /////////////////////////////
 
 // Terminator T-800 //////////////
@@ -250,6 +310,9 @@ import Terminator4 from '@/assets/products/Terminator/4.png'
 import Terminator5 from '@/assets/products/Terminator/5.png'
 import Terminator6 from '@/assets/products/Terminator/6.png'
 import Terminator7 from '@/assets/products/Terminator/7.png'
+import Terminator1Mobile from '@/assets/products/Terminator/1Mobile.png'
+import Terminator2Mobile from '@/assets/products/Terminator/2Mobile.png'
+import Terminator3Mobile from '@/assets/products/Terminator/3Mobile.png'
 /// /////////////////////////////
 
 // Alien Chap ////////////////
@@ -277,6 +340,9 @@ import JungleHunter4 from '@/assets/products/Predator Bust/4.png'
 import JungleHunter5 from '@/assets/products/Predator Bust/5.png'
 import JungleHunter6 from '@/assets/products/Predator Bust/6.png'
 import JungleHunter7 from '@/assets/products/Predator Bust/7.png'
+import JungleHunter1Mobile from '@/assets/products/Predator Bust/1Mobile.png'
+import JungleHunter2Mobile from '@/assets/products/Predator Bust/2Mobile.png'
+import JungleHunter3Mobile from '@/assets/products/Predator Bust/3Mobile.png'
 // /////////////////////////////
 
 // Batman White Knight //////////////
@@ -289,6 +355,9 @@ import BatmanWhiteKnight4 from '@/assets/products/Batman White Knight/4.png'
 import BatmanWhiteKnight5 from '@/assets/products/Batman White Knight/5.png'
 import BatmanWhiteKnight6 from '@/assets/products/Batman White Knight/6.png'
 import BatmanWhiteKnight7 from '@/assets/products/Batman White Knight/7.png'
+import BatmanWhiteKnight1Mobile from '@/assets/products/Batman White Knight/1Mobile.png'
+import BatmanWhiteKnight2Mobile from '@/assets/products/Batman White Knight/2Mobile.png'
+import BatmanWhiteKnight3Mobile from '@/assets/products/Batman White Knight/3Mobile.png'
 // /////////////////////////////
 
 // She Ra //////////////////////
@@ -301,6 +370,9 @@ import SheRa4 from '@/assets/products/She-Ra/4.png'
 import SheRa5 from '@/assets/products/She-Ra/5.png'
 import SheRa6 from '@/assets/products/She-Ra/6.png'
 import SheRa7 from '@/assets/products/She-Ra/7.png'
+import SheRa1Mobile from '@/assets/products/She-Ra/1Mobile.png'
+import SheRa2Mobile from '@/assets/products/She-Ra/2Mobile.png'
+import SheRa3Mobile from '@/assets/products/She-Ra/3Mobile.png'
 /// ////////////////////////////
 
 interface ProductProps {
@@ -394,13 +466,16 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Criado pelos visionários cineastas James Cameron e Robert Rodriguez, o filme é baseado no mangá dos anos 90 Gunnm e na animação original Battle Angel. A protagonista, Alita, é uma ciborgue que não possui memórias de seu passado. Adotada pelo cientista Dr. Dyson Ido, ela se torna uma máquina de combate letal, mestre na arte marcial mecânica conhecida como PanzerKurst. Apesar de sua força, Alita precisa descobrir seu passado misterioso e usar suas habilidades únicas para salvar a si mesma, sua família e o mundo.',
         image: Alita1,
+        imageMobile: Alita1Mobile,
       },
       section2: {
         text: 'Além de sua impressionante presença visual, a estátua Alita Berserker Motorball Tryout é uma verdadeira obra-prima de engenharia e design. Cada detalhe foi meticulosamente esculpido para capturar a essência do personagem e a intensidade da cena. A base temática inspirada no estádio de Motorball, com seu efeito de iluminação LED, não só realça a dramaticidade da peça, mas também cria uma atmosfera envolvente que transporta os fãs diretamente para o universo cyberpunk do filme.',
         video: Alita2,
+        videoMobile: Alita2Mobile,
       },
       section3: {
         image: Alita3,
+        imageMobile: Alita3Mobile,
       },
       section4: {
         image: Alita4,
@@ -429,15 +504,18 @@ export const products: ProductProps[] = [
     paginaProduto: {
       section1: {
         image: Batcaverna1,
+        imageMobile: Batcaverna1Mobile,
         text: '"PARA A BATCAVERNA!" Três palavras que nos levam a um dos cenários mais memoráveis da cultura pop: o santuário secreto do Batman, sua base de operações, o centro de suas atividades – uma caverna subterrânea enigmática, misturando mistério e empolgação.',
       },
       section2: {
         video: Batcaverna2,
+        videoMobile: Batcaverna2Mobile,
         title: 'RELÍQUIA VINTAGE',
         text: 'A Batcaverna teve várias versões ao longo dos anos, tanto nos quadrinhos quanto nas telas, mas uma das mais icônicas é a da clássica série de TV do Batman de 1966. Este modelo replica a essência da Batcaverna da série, incluindo elementos personalizáveis que permitem ajustar a aparência da caverna em torno de peças fixas, como o famoso ‘núcleo atômico’.',
       },
       section3: {
         image: Batcaverna3,
+        imageMobile: Batcaverna3Mobile,
       },
       section4: {
         image: Batcaverna4,
@@ -467,13 +545,16 @@ export const products: ProductProps[] = [
       section1: {
         text: '"Criminals are a superstitious, cowardly lot. So my disguise must be able to strike terror into their hearts. I must be a creature of the night, black, terrible...I shall become...a bat!" – Bruce Wayne, Detective Comics #1',
         image: BatmanBust1,
+        imageMobile: BatmanBust1Mobile,
       },
       section2: {
         text: 'Da Prime 1 Studio, em colaboração com o renomado artista de quadrinhos Jason Fabok, da linha Premium Masterline DC Superhero Series: o busto do Batman inspirado no marco histórico da edição #1,000 de Detective Comics!',
         video: BatmanBust2,
+        videoMobile: BatmanBust2Mobile,
       },
       section3: {
         image: BatmanBust3,
+        imageMobile: BatmanBust3Mobile,
       },
       section4: {
         text: [
@@ -504,14 +585,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Da Prime 1 Studio, a Estátua Batman Damned foi projetada pelo talentoso Lee Bermejo, artista de quadrinhos americano conhecido por sua colaboração com o escritor Brian Azzarello. Esta peça captura um visual sombrio e incrivelmente realista de Batman, incluindo uma base única com o Coringa segurando uma arma, também desenhada por Bermejo.',
         image: BatmanDamned1,
+        imageMobile: BatmanDamned1Mobile,
       },
       section2: {
         title: 'VERSÃO DX (Deluxe)',
         text: 'Esta é a versão DX da Estátua Batman Damned, que acompanha quatro cabeças intercambiáveis e um suporte de cabeça. A estátua possui aproximadamente 76 cm de altura, sendo um item essencial para os fãs do Batman e uma adição perfeita ao lado da estátua The Joker!',
         video: BatmanDamned2,
+        videoMobile: BatmanDamned2Mobile,
       },
       section3: {
         image: BatmanDamned3,
+        imageMobile: BatmanDamned3Mobile,
       },
       section4: {
         text: [
@@ -537,21 +621,22 @@ export const products: ProductProps[] = [
     productUrl: '/batman-hqs',
     details: {
       image: BatmanHQSAmbientacao,
-      info1: '',
-      info2: '',
     },
     paginaProduto: {
       section1: {
         text: 'Sucumba à doce loucura do universo DC Comics enquanto percorre as ruas mais sombrias de Gotham City, observado por um certo Cavaleiro das Trevas: Batman!',
         image: BatmanHQS1,
+        imageMobile: BatmanHQS1Mobile,
       },
       section2: {
         title: 'ULTIMATE COMICS BATMAN #50',
         text: 'Vemos aqui o Cavaleiro das Trevas atacando dois delinquentes, atravessando uma janela de vitral inspirada na capa da Ultimate Comics Batman #50, representando o retrato de seu pior oponente, enquanto a maquiagem dos dois atacantes reivindica sua afiliação com o infame Coringa!',
         video: BatmanHQS2,
+        videoMobile: BatmanHQS2Mobile,
       },
       section3: {
         image: BatmanHQS3,
+        imageMobile: BatmanHQS3Mobile,
       },
       section4: {
         text: [
@@ -582,14 +667,17 @@ export const products: ProductProps[] = [
       section1: {
         text: '“Fiz uma promessa no túmulo dos meus pais de que livraria esta cidade do mal que tirou suas vidas. Esta noite... quase me tornei parte desse mal…”',
         image: BatmanHush1,
+        imageMobile: BatmanHush1Mobile,
       },
       section2: {
         title: 'UMA OBRA-PRIMA INSPIRADA EM BATMAN: HUSH',
         text: 'A Estátua do Batman Batcave Version, baseada no icônico arco de histórias dos quadrinhos Batman: Hush (2002-2003). Escrita por Jeph Loeb e ilustrada por Jim Lee, a série apresenta um misterioso inimigo chamado Hush, que busca sabotar o Batman enquanto conta com a participação de diversos vilões clássicos do universo do Cavaleiro das Trevas. Inspirada pela arte de Jim Lee, esta estátua captura o Batman em sua essência, com texturas excepcionais que remetem diretamente aos traços dos quadrinhos.',
         video: BatmanHush2,
+        videoMobile: BatmanHush2Mobile,
       },
       section3: {
         image: BatmanHush3,
+        imageMobile: BatmanHush3Mobile,
       },
       section4: {
         text: [
@@ -620,14 +708,17 @@ export const products: ProductProps[] = [
       section1: {
         text: "Diretamente da cena Knightmare de Zack Snyder's Justice League, chega uma nova estátua da linha Legacy Replica do Batman! Esta peça impressionante captura o Cavaleiro das Trevas em um mundo apocalíptico, observando o terreno em busca de perigos iminentes.",
         image: BatmanKnightmare1,
+        imageMobile: BatmanKnightmare1Mobile,
       },
       section2: {
         title: 'EDIÇÃO LIMITADA',
         text: 'Esta estátua faz parte de uma edição limitada, com apenas 500 peças disponíveis mundialmente. Cada estátua vem com um certificado de autenticidade, garantindo sua exclusividade e valor para colecionadores. Não perca a oportunidade de adicionar esta peça única e rara à sua coleção!',
         video: BatmanKnightmare2,
+        videoMobile: BatmanKnightmare2Mobile,
       },
       section3: {
         image: BatmanKnightmare3,
+        imageMobile: BatmanKnightmare3Mobile,
       },
       section4: {
         text: [
@@ -658,14 +749,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'A icônica Batcycle de Batman: White Knight agora em uma impressionante estátua da XM Studios! Apresentamos a primeira peça da linha premium de colecionáveis de Batman: White Knight, trazendo Batman montado em sua Batcycle em escala 1/4, com um design realista e dinâmico.',
         image: BatmanWhiteKnight1,
+        imageMobile: BatmanWhiteKnight1Mobile,
       },
       section2: {
         title: 'OBRA EXCLUSIVA EM GRANDE FORMATO',
         text: 'Baseado na arte do próprio Sean Murphy, responsável pelo quadrinho, esta peça com aproximadamente 1 metro de comprimento recria uma cena icônica do Cavaleiro das Trevas navegando pelas ruas de Gotham, sua capa esvoaçante e rastros de derrapagem adicionando um realismo cinematográfico. O grande diferencial desta edição é a possibilidade de remover as carenagens laterais, revelando um detalhado motor interno, um recurso exclusivo que não foi mostrado nos quadrinhos!',
         video: BatmanWhiteKnight2,
+        videoMobile: BatmanWhiteKnight2Mobile,
       },
       section3: {
         image: BatmanWhiteKnight3,
+        imageMobile: BatmanWhiteKnight3Mobile,
       },
       section4: {
         text: [
@@ -700,14 +794,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Introduzido na série Dark Knights: Metal, ele representa o que acontece quando o Batman “vence” — mas perde sua humanidade no processo.',
         image: BatmanWhoLaughs1,
+        imageMobile: BatmanWhoLaughs1Mobile,
       },
       section2: {
         title: 'SOBRE O PERSONAGEM',
         text: 'O Batman Who Laughs é Bruce Wayne da Terra-22 do Dark Multiverse. Esta versão sombria do Batman surgiu ao ser infectada pela insanidade de seu maior inimigo, o Coringa. Após derrotar todos os vilões e heróis de seu universo, este Batman finalmente se transformou no Batman Who Laughs, uma fusão aterrorizante do Cavaleiro das Trevas e do Palhaço do Crime.',
         video: BatmanWhoLaughs2,
+        videoMobile: BatmanWhoLaughs2Mobile,
       },
       section3: {
         image: BatmanWhoLaughs3,
+        imageMobile: BatmanWhoLaughs3Mobile,
       },
       section4: {
         text: [
@@ -742,14 +839,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'O temido caçador de recompensas Boba Fett posa orgulhosamente em frente ao seu mais recente troféu.',
         image: BobaFett1,
+        imageMobile: BobaFett1Mobile,
       },
       section2: {
         title: 'HAN SOLO EM CABORNITE',
         text: 'A captura de Han Solo resultou no congelamento do contrabandista em um bloco de carbonite, para que toda a galáxia testemunhe. Boba Fett exibe uma postura relaxada, enquanto o design único desta peça faz parecer que sua captura está flutuando acima da base da câmara de congelamento em corbonite. Tanto a base quanto os painéis do bloco de carbonite possuem elementos de iluminação, proporcionando uma exibição ainda mais imersiva para essas figuras icônicas.',
         video: BobaFett2,
+        videoMobile: BobaFett2Mobile,
       },
       section3: {
         image: BobaFett3,
+        imageMobile: BobaFett3Mobile,
       },
       section4: {
         text: [
@@ -775,21 +875,22 @@ export const products: ProductProps[] = [
     productUrl: '/cheetah',
     details: {
       image: CheetahAmbientacao,
-      info1: '',
-      info2: '',
     },
     paginaProduto: {
       section1: {
         text: 'A peça "Cheetah - 1/4 Scale – XM Studios" é uma estátua altamente detalhada que captura a essência da personagem Cheetah, uma das maiores arqui-inimigas da Mulher-Maravilha. Esta peça é conhecida por sua qualidade excepcional e atenção aos detalhes, tornando-a um item de colecionador muito desejado.',
         image: Cheetah1,
+        imageMobile: Cheetah1Mobile,
       },
       section2: {
         title: 'CURIOSIDADE',
         text: 'Origem do Personagem Cheetah: Cheetah, também conhecida como Mulher-Leopardo, é uma super-vilã fictícia dos quadrinhos da DC Comics. Ela é uma das maiores e mais antigas arqui-inimigas da Mulher-Maravilha. A personagem foi criada por William Moulton Marston e H.G. Peter, e fez sua primeira aparição em "Wonder Woman #6" em 1943.',
         video: Cheetah2,
+        videoMobile: Cheetah2Mobile,
       },
       section3: {
         image: Cheetah3,
+        imageMobile: Cheetah3Mobile,
       },
       section4: {
         text: [
@@ -820,14 +921,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Em colaboração com Yi Wan Tang Studio, ZenPunk Collectibles e Yi Ci Fang Studio, o artista Evan Lee apresenta sua personagem original: Cyber Cat. Baseada em um trabalho de 2018, a criação 2D agora ganha vida na forma desta estátua altamente detalhada, tornando-se uma adição única para qualquer coleção.',
         image: CyberCat1,
+        imageMobile: CyberCat1Mobile,
       },
       section2: {
         title: '',
         text: '',
         video: CyberCat2,
+        videoMobile: CyberCat2Mobile,
       },
       section3: {
         image: CyberCat3,
+        imageMobile: CyberCat3Mobile,
       },
       section4: {
         text: [
@@ -858,14 +962,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Na terra árida e hostil de um mundo mágico medieval de outra dimensão chamado Reino, seis jovens guerreiros levantam suas armas místicas para enfrentar a criatura mais temível e perigosa deste universo.',
         image: DungeonAndDragons1,
+        imageMobile: DungeonAndDragons1Mobile,
       },
       section2: {
         title: 'TIAMAT',
         text: 'Enfrentando o sexteto heroico está a colossal figura central desta composição, temida até mesmo pelo poderoso e maligno feiticeiro conhecido como Venger, é o dragão supremo Tiamat, derivado da deusa dragão da mitologia mesopotâmica, este poderoso monstro tem cinco cabeças de cores diferentes e cada uma com seus próprios poderes. Sua cabeça vermelha do meio cospe chamas e é a única capaz de falar. No lado direito estão a cabeça branca, que dispara raios congelantes, e a cabeça verde, com um forte sopro de gás venenoso.',
         video: DungeonAndDragons2,
+        videoMobile: DungeonAndDragons2Mobile,
       },
       section3: {
         image: DungeonAndDragons3,
+        imageMobile: DungeonAndDragons3Mobile,
       },
       section4: {
         text: [
@@ -896,14 +1003,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'A Green Scar Hulk Premium Version é uma figura de ação colecionável baseada em uma das versões mais icônicas do personagem Hulk, originada da aclamada saga "Planeta Hulk" da Marvel Comics. Vamos explorar a história por trás desse Hulk e o que torna essa versão premium tão especial.',
         image: GreenScarHulk1,
+        imageMobile: GreenScarHulk1Mobile,
       },
       section2: {
         title: 'GREEN SCAR HULK PREMIUM VERSION',
         text: 'Essa versão Premium é uma representação fiel e meticulosa do Hulk em seu auge como gladiador e rei de Sakaar. O foco está em capturar a fúria e o poder do personagem, além de trazer detalhes precisos que remetem à narrativa do quadrinho.',
         video: GreenScarHulk2,
+        videoMobile: GreenScarHulk2Mobile,
       },
       section3: {
         image: GreenScarHulk3,
+        imageMobile: GreenScarHulk3Mobile,
       },
       section4: {
         text: [
@@ -938,14 +1048,17 @@ export const products: ProductProps[] = [
       section1: {
         text: '"I’m a dog chasing cars! I wouldn’t know what to do with one if I caught it!"',
         image: JokerBust1,
+        imageMobile: JokerBust1Mobile,
       },
       section2: {
         title: 'UMA HOMENAGEM A HEATH LEDGER',
         text: 'No papel do Coringa, Heath Ledger consolidou sua interpretação como uma das mais icônicas e cativantes do cinema. Para refletir a genialidade que permeou sua atuação, a Prime 1 Studio revela um busto que captura com precisão a essência desse personagem lendário. </br> Com 26 cm de altura, esta edição limitada a 1.000 peças apresenta metade do rosto de Ledger com a icônica maquiagem do Coringa, enquanto a outra metade revela o ator por trás do personagem, em uma pintura sutil e reverente que humaniza o vilão como nunca antes.',
         video: JokerBust2,
+        videoMobile: JokerBust2Mobile,
       },
       section3: {
         image: JokerBust3,
+        imageMobile: JokerBust3Mobile,
       },
       section4: {
         text: [
@@ -976,14 +1089,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'A espetacular estátua do Penguin Daimyo, parte da série Samurai da XM Studios é uma obra carregada de detalhes excepcionais! Esta peça em escala 1:4 foca no Pinguim, um dos mais icônicos inimigos do Batman, reimaginado como um poderoso Daimyo (Senhor Feudal) do Japão.',
         image: BatmanPenguin1,
+        imageMobile: BatmanPenguin1Mobile,
       },
       section2: {
         title: 'SÉRIE SAMURAI',
         text: 'Esta obra-prima é uma peça imperdível para qualquer colecionador, com detalhes intrincados e requintados, à altura de um Daimyo com recursos e conexões à disposição.',
         video: BatmanPenguin2,
+        videoMobile: BatmanPenguin2Mobile,
       },
       section3: {
         image: BatmanPenguin3,
+        imageMobile: BatmanPenguin3Mobile,
       },
       section4: {
         text: [
@@ -1018,14 +1134,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Inspirada na lendária história de Moby Dick, da fabricante Prime 1 Studio. Uma das estátuas mais impressionantes da série Premium Masterline: o Ahab Predator, direto dos quadrinhos da Dark Horse Comics!',
         image: PredatorAhab1,
+        imageMobile: PredatorAhab1Mobile,
       },
       section2: {
         title: 'UM PREDADOR LENDÁRIO',
         text: 'Apelidado de "Ahab" por Galgo, este Predator foi inspirado no Capitão Ahab da obra de Herman Melville, mas, em vez de uma baleia branca, Ahab está obcecado pela caça de sua presa suprema: um Engenheiro. Esta peça captura Ahab em um momento de sua vida após atingir esse objetivo, enquanto ele derrota uma centopeia gigante em sua caçada mais recente, apenas para "manter-se ocupado".',
         video: PredatorAhab2,
+        videoMobile: PredatorAhab2Mobile,
       },
       section3: {
         image: PredatorAhab3,
+        imageMobile: PredatorAhab3Mobile,
       },
       section4: {
         text: [
@@ -1064,14 +1183,17 @@ export const products: ProductProps[] = [
       section1: {
         text: '“Há algo lá fora esperando por nós, e não é um homem. Todos nós vamos morrer.” – Billy',
         image: JungleHunter1,
+        imageMobile: JungleHunter1Mobile,
       },
       section2: {
         title: 'VISUAL REVELADO',
         text: 'Criado com a mesma precisão e atenção aos detalhes da estátua completa, o busto apresenta o visual grotesco sem máscara do Predator, como visto no momento em que ele enfrenta Dutch Schaefer no final do filme, revelando sua verdadeira forma e provocando a frase mais memorável do longa:“Você é um feio f#$%&# da p&#!*”. </br> Além disso, o busto vem equipado com um Canhão de Plasma com iluminação em LED, que traz ainda mais realismo e impacto visual à peça.',
         video: JungleHunter2,
+        videoMobile: JungleHunter2Mobile,
       },
       section3: {
         image: JungleHunter3,
+        imageMobile: JungleHunter3Mobile,
       },
       section4: {
         text: [
@@ -1102,14 +1224,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Inspirada no spin-off da série Masters of the Universe produzida em 1985 pela Filmation, esta estátua é uma celebração épica de uma das heroínas mais icônicas da cultura pop.',
         image: SheRa1,
+        imageMobile: SheRa1Mobile,
       },
       section2: {
         title: 'APRESENTANDO A PRINCESA DO PODER E SEU UNICÓRNIO',
         text: 'A majestosa figura de Swift Wind, o unicórnio alado branco, surge coberta por um elmo de batalha e uma armadura peitoral em tons de azul e rosa. Ele trota sobre a exuberante vegetação de Etheria, protegendo seu mundo enquanto abre suas grandes asas coloridas com tons de azul, rosa e laranja, pronto para voar. Montado em sua sela está She-Ra, a Princesa do Poder, erguendo sua espada mágica em defesa de seus aliados rebeldes e do povo de Etheria contra o regime opressor comandado por Hordak.',
         video: SheRa2,
+        videoMobile: SheRa2Mobile,
       },
       section3: {
         image: SheRa3,
+        imageMobile: SheRa3Mobile,
       },
       section4: {
         text: [
@@ -1140,14 +1265,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Busto do T-800 Battle Damaged, uma obra-prima em escala real (1:1) inspirada no icônico personagem de Terminator 2: Judgment Day. Fabricado pela Pure Arts, este busto traz um nível de detalhamento impressionante, capturando cada dano de batalha do endoskeleton com uma precisão assustadora.',
         image: Terminator1,
+        imageMobile: Terminator1Mobile,
       },
       section2: {
         title: 'DESTAQUE NA SUA COLEÇÃO',
         text: 'Com este busto do T-800, você não está apenas adquirindo um item de coleção, mas um artefato que imortaliza a essência de uma das maiores franquias de ficção científica de todos os tempos. A presença imponente desta peça transformará qualquer ambiente – seja uma sala de entretenimento, home theater ou escritório – em uma verdadeira galeria cinematográfica.',
         video: Terminator2,
+        videoMobile: Terminator2Mobile,
       },
       section3: {
         image: Terminator3,
+        imageMobile: Terminator3Mobile,
       },
       section4: {
         text: [
@@ -1178,14 +1306,17 @@ export const products: ProductProps[] = [
       section1: {
         text: '"Don’t ever apologize to no one for the way you look." Impressionante estátua do Joker, projetada pelo renomado artista de quadrinhos americanos Lee Bermejo, conhecido por suas colaborações com o escritor Brian Azzarello, incluindo a graphic novel Joker.',
         image: JokerStatue1,
+        imageMobile: JokerStatue1Mobile,
       },
       section2: {
         title: 'DETALHES DO DESIGN',
         text: 'O design de Lee Bermejo para o Joker é incrivelmente sombrio e realista, trazendo características impressionantes em cada detalhe. A base da estátua foi especialmente desenhada pelo próprio Bermejo e inclui o Batman (inspirado na graphic novel Batman: Noel) acorrentado a uma pedra, acrescentando ainda mais profundidade e escuridão à peça.',
         video: JokerStatue2,
+        videoMobile: JokerStatue2Mobile,
       },
       section3: {
         image: JokerStatue3,
+        imageMobile: JokerStatue3Mobile,
       },
       section4: {
         text: [
@@ -1216,14 +1347,17 @@ export const products: ProductProps[] = [
       section1: {
         text: '"GRANDE HERA!" – Diana de ThemysciraUma versão impressionante da Mulher-Maravilha, inspirada no premiado jogo de luta Injustice 2. A Wonder Woman Great Hera chega em escala 1/4, medindo 52,6 cm de altura, vestindo uma poderosa armadura de batalha em tons de dourado e marrom, e posando sobre as ruínas de um campo de batalha.',
         image: WonderWomanGreatHera1,
+        imageMobile: WonderWomanGreatHera1Mobile,
       },
       section2: {
         title: 'DETALHES DO DESIGN',
         text: 'Esta versão traz um traje autêntico e detalhado, com texturas que simulam couro resistente, complementado por detalhes dourados reluzentes. A pele impecável de Diana contrasta com a sua armadura de combate, ressaltando sua força e imponência.</br>A base da estátua, inspirada em Injustice 2, representa o campo de batalha onde Diana triunfou sobre seus inimigos. O cenário ainda conta com chamas azuis iluminadas por LED, trazendo um efeito cinematográfico digno dos fogos do submundo de Hades!',
         video: WonderWomanGreatHera2,
+        videoMobile: WonderWomanGreatHera2Mobile,
       },
       section3: {
         image: WonderWomanGreatHera3,
+        imageMobile: WonderWomanGreatHera3Mobile,
       },
       section4: {
         text: [
@@ -1257,15 +1391,18 @@ export const products: ProductProps[] = [
     paginaProduto: {
       section1: {
         image: WonderWoman1,
+        imageMobile: WonderWoman1Mobile,
         text: 'Diana, princesa das Amazonas e filha da Rainha Hipólita, é a maior guerreira de Themyscira. Nascida do barro e abençoada pelos Deuses, a Mulher-Maravilha deixou sua terra natal para lutar contra o mal e ensinar ao mundo que a esperança e o amor são os verdadeiros caminhos para a salvação.',
       },
       section2: {
         title: 'EDIÇÃO ESPECIAL',
         text: 'Esta impressionante peça da Prime 1 Studio tem 74 cm de altura e exibe Diana em sua armadura icônica: um peitoral metálico vermelho e uma saia de gladiadora azul em couro. Os detalhes pratea-dos brilhantes realçam sua tiara, braçadeiras, botas e ornamentos do traje, dando um toque especial à sua vestimenta heroica.',
         video: WonderWoman2,
+        videoMobile: WonderWoman2Mobile,
       },
       section3: {
         image: WonderWoman3,
+        imageMobile: WonderWoman3Mobile,
       },
       section4: {
         image: WonderWoman4,
@@ -1300,14 +1437,17 @@ export const products: ProductProps[] = [
       section1: {
         text: 'Uma das peças de maior destaque de Yuan Xing Liang é a "Summer Drunken Beauty Flower Pavilion Painted Version Statue", uma escultura que reflete a delicadeza e a beleza imersiva da natureza e da figura feminina.',
         image: SummerDrunkenBeauty1,
+        imageMobile: SummerDrunkenBeauty1Mobile,
       },
       section2: {
         title: 'DESTAQUE NA SUA COLEÇÃO',
         text: 'A peça retrata uma mulher graciosa em um pavilhão florido, evocando uma sensação de serenidade e encantamento. O título sugere um ambiente de verão, onde a beleza da natureza e a figura feminina se encontram em um momento de tranquilidade e embriaguez poética.',
         video: SummerDrunkenBeauty2,
+        videoMobile: SummerDrunkenBeauty2Mobile,
       },
       section3: {
         image: SummerDrunkenBeauty3,
+        imageMobile: SummerDrunkenBeauty3Mobile,
       },
       section4: {
         text: [

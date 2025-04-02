@@ -1,7 +1,7 @@
 'use client'
 
 import { products } from '@/content/products'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
@@ -135,7 +135,26 @@ export default function Produto() {
             ))}
           </section>
           <section className="px-2 py-10 md:hidden">
-            <SplideSection splideImages={splideImages} />
+            {splideImages && (
+              <Splide
+                options={{
+                  perPage: 1,
+                  rewind: true,
+                  gap: '1rem',
+                }}
+                aria-labelledby="basic-example-heading"
+              >
+                {splideImages!.map((item, index) => (
+                  <SplideSlide key={index}>
+                    <Image
+                      alt=""
+                      src={item}
+                      className="h-full w-full object-cover"
+                    />
+                  </SplideSlide>
+                ))}
+              </Splide>
+            )}
           </section>
           <section className="mx-auto flex w-full max-w-7xl items-center justify-between p-10 text-sm text-gold md:text-base">
             <Link href="/produtos"> {'> '}Menu de busca</Link>
@@ -200,28 +219,5 @@ export default function Produto() {
         </div>
       )}
     </main>
-  )
-}
-
-export const SplideSection = ({
-  splideImages,
-}: {
-  splideImages: StaticImageData[] | undefined
-}) => {
-  return (
-    <Splide
-      options={{
-        perPage: 1,
-        rewind: true,
-        gap: '1rem',
-      }}
-      aria-labelledby="basic-example-heading"
-    >
-      {splideImages!.map((item, index) => (
-        <SplideSlide key={index}>
-          <Image alt="" src={item} className="h-full w-full object-cover" />
-        </SplideSlide>
-      ))}
-    </Splide>
   )
 }

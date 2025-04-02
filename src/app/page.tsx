@@ -86,7 +86,7 @@ export default function Home() {
         >
           <Link
             href="/produtos/predator-ahab"
-            className="h-mobileScreen flex w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
+            className="flex h-mobileScreen w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="relative flex h-1/2 w-full items-center justify-center md:h-auto md:w-[55%]">
               <Image
@@ -110,7 +110,7 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/summer-drunken-beauty"
-            className="h-mobileScreen flex w-full flex-col overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
+            className="flex h-mobileScreen w-full flex-col overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="flex h-1/2 w-full flex-col items-center justify-center gap-2 p-16 md:h-full md:w-[45%] md:gap-5 md:p-20">
               <Image
@@ -134,7 +134,7 @@ export default function Home() {
         <section className="mx-auto w-full max-w-7xl">
           <Link
             href="/produtos/batman-hush"
-            className="h-mobileScreen flex w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
+            className="flex h-mobileScreen w-full flex-col-reverse overflow-hidden md:h-[calc(100dvh-82px)] md:flex-row"
           >
             <div className="relative flex h-1/2 w-full items-center justify-center md:h-full md:w-[55%]">
               <Image
