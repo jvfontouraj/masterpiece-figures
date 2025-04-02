@@ -55,7 +55,11 @@ export default function CuradoriaPage() {
           </div>
         </div>
         <div className="fixed -z-10 w-full md:static md:w-[60%]">
-          <Image alt="" src={Curadoria} className="max-h-[450px] w-full" />
+          <Image
+            alt=""
+            src={Curadoria}
+            className="max-h-[450px] w-full md:max-h-none"
+          />
         </div>
       </section>
     </main>
