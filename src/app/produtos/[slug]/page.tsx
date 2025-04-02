@@ -40,8 +40,8 @@ export default function Produto() {
     <main className="mx-auto mt-16 md:mt-28">
       {pageContent ? (
         <>
-          <section className="min-h-mobileScreen overflow-hidden bg-[#bdaa80] px-2 md:px-10">
-            <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center pt-10">
+          <section className="min-h-mobileScreen overflow-hidden bg-[#bdaa80] md:px-10">
+            <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-2 pt-10 md:px-0">
               <div className="mb-14 flex w-full justify-start pl-5 text-sm md:pl-10 md:text-base">
                 <Link href="/produtos"> {'> '}Menu de busca</Link>
               </div>
@@ -67,14 +67,14 @@ export default function Produto() {
               />
             </div>
           </section>
-          <section className="mx-auto my-20 flex max-w-7xl flex-col gap-2 px-10 text-gold md:h-auto md:gap-5 md:px-20">
+          <section className="mx-auto my-20 flex max-w-7xl flex-col gap-2 text-gold md:h-auto md:gap-5 md:px-20">
             {pageContent.section2.title && (
-              <h2 className="mx-auto w-full max-w-4xl text-lg md:text-2xl">
+              <h2 className="mx-auto w-full max-w-4xl px-10 text-lg md:px-0 md:text-2xl">
                 {pageContent.section2.title}
               </h2>
             )}
             <p
-              className="mx-auto max-w-4xl text-sm font-light md:text-lg"
+              className="mx-auto max-w-4xl px-10 text-sm font-light md:px-0 md:text-lg"
               dangerouslySetInnerHTML={{ __html: pageContent.section2.text }}
             ></p>
             <div className="flex w-full items-center justify-center">
