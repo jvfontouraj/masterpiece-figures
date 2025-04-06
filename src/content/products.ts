@@ -49,14 +49,14 @@ import WonderWoman3Mobile from '@/assets/products/WonderWoman/3Mobile.png'
 import BatmanBust from '@/assets/products/batman.png'
 import BatmanBustAmbientacao from '@/assets/products/ambientacoes/ambBatman Bust.png'
 import BatmanBust1 from '@/assets/products/BatmanBust/1.png'
-import BatmanBust2 from '@/assets/products/BatmanBust/2.png'
+// import BatmanBust2 from '@/assets/products/BatmanBust/2.png'
 import BatmanBust3 from '@/assets/products/BatmanBust/3.png'
 import BatmanBust4 from '@/assets/products/BatmanBust/4.png'
 import BatmanBust5 from '@/assets/products/BatmanBust/5.png'
 import BatmanBust6 from '@/assets/products/BatmanBust/6.png'
 import BatmanBust7 from '@/assets/products/BatmanBust/7.png'
 import BatmanBust1Mobile from '@/assets/products/BatmanBust/1Mobile.png'
-import BatmanBust2Mobile from '@/assets/products/BatmanBust/2Mobile.png'
+// import BatmanBust2Mobile from '@/assets/products/BatmanBust/2Mobile.png'
 import BatmanBust3Mobile from '@/assets/products/BatmanBust/3Mobile.png'
 /// ////////////////////////////
 
@@ -124,14 +124,14 @@ import Cheetah3Mobile from '@/assets/products/Cheetah/3Mobile.png'
 import BatmanHQS from '@/assets/products/Batman HQS.png'
 import BatmanHQSAmbientacao from '@/assets/products/ambientacoes/Batman HQS.png'
 import BatmanHQS1 from '@/assets/products/Batman HQS/1.png'
-import BatmanHQS2 from '@/assets/products/Batman HQS/2.png'
+// import BatmanHQS2 from '@/assets/products/Batman HQS/2.png'
 import BatmanHQS3 from '@/assets/products/Batman HQS/3.png'
 import BatmanHQS4 from '@/assets/products/Batman HQS/4.png'
 import BatmanHQS5 from '@/assets/products/Batman HQS/5.png'
 import BatmanHQS6 from '@/assets/products/Batman HQS/6.png'
 import BatmanHQS7 from '@/assets/products/Batman HQS/7.png'
 import BatmanHQS1Mobile from '@/assets/products/Batman HQS/1Mobile.png'
-import BatmanHQS2Mobile from '@/assets/products/Batman HQS/2Mobile.png'
+// import BatmanHQS2Mobile from '@/assets/products/Batman HQS/2Mobile.png'
 import BatmanHQS3Mobile from '@/assets/products/Batman HQS/3Mobile.png'
 /// /////////////////////////////
 
@@ -139,14 +139,14 @@ import BatmanHQS3Mobile from '@/assets/products/Batman HQS/3Mobile.png'
 import BatmanDamned from '@/assets/products/BATMAN DAMNED.png'
 import BatmanDamnedAmbientacao from '@/assets/products/ambientacoes/Batman Damned.png'
 import BatmanDamned1 from '@/assets/products/Batman Damned/1.png'
-import BatmanDamned2 from '@/assets/products/Batman Damned/2.png'
+// import BatmanDamned2 from '@/assets/products/Batman Damned/2.png'
 import BatmanDamned3 from '@/assets/products/Batman Damned/3.png'
 import BatmanDamned4 from '@/assets/products/Batman Damned/4.png'
 import BatmanDamned5 from '@/assets/products/Batman Damned/5.png'
 import BatmanDamned6 from '@/assets/products/Batman Damned/6.png'
 import BatmanDamned7 from '@/assets/products/Batman Damned/7.png'
 import BatmanDamned1Mobile from '@/assets/products/Batman Damned/1Mobile.png'
-import BatmanDamned2Mobile from '@/assets/products/Batman Damned/2Mobile.png'
+// import BatmanDamned2Mobile from '@/assets/products/Batman Damned/2Mobile.png'
 import BatmanDamned3Mobile from '@/assets/products/Batman Damned/3Mobile.png'
 /// /////////////////////////////
 
@@ -169,14 +169,14 @@ import BatmanWhoLaughs3Mobile from '@/assets/products/Batman Who Laughs/3Mobile.
 import BatmanKnightmare from '@/assets/products/BATMAN KNIGHTMARE.png'
 import BatmanKnightmareAmbientacao from '@/assets/products/ambientacoes/Batman Knightmare.png'
 import BatmanKnightmare1 from '@/assets/products/Batman Knightmare/1.png'
-import BatmanKnightmare2 from '@/assets/products/Batman Knightmare/2.png'
+// import BatmanKnightmare2 from '@/assets/products/Batman Knightmare/2.png'
 import BatmanKnightmare3 from '@/assets/products/Batman Knightmare/3.png'
 import BatmanKnightmare4 from '@/assets/products/Batman Knightmare/4.png'
 import BatmanKnightmare5 from '@/assets/products/Batman Knightmare/5.png'
 import BatmanKnightmare6 from '@/assets/products/Batman Knightmare/6.png'
 import BatmanKnightmare7 from '@/assets/products/Batman Knightmare/7.png'
 import BatmanKnightmare1Mobile from '@/assets/products/Batman Knightmare/1Mobile.png'
-import BatmanKnightmare2Mobile from '@/assets/products/Batman Knightmare/2Mobile.png'
+// import BatmanKnightmare2Mobile from '@/assets/products/Batman Knightmare/2Mobile.png'
 import BatmanKnightmare3Mobile from '@/assets/products/Batman Knightmare/3Mobile.png'
 /// /////////////////////////////
 
@@ -259,14 +259,14 @@ import BatmanPenguin3Mobile from '@/assets/products/Batman Penguin/3Mobile.png'
 import WonderWomanGreatHera from '@/assets/products/Wonder Woman Great Hera.png'
 import WonderWomanGreatHeraAmbientacao from '@/assets/products/ambientacoes/Wonder Woman Great Hera.png'
 import WonderWomanGreatHera1 from '@/assets/products/Wonder Woman Great Hera/1.png'
-import WonderWomanGreatHera2 from '@/assets/products/Wonder Woman Great Hera/2.png'
+// import WonderWomanGreatHera2 from '@/assets/products/Wonder Woman Great Hera/2.png'
 import WonderWomanGreatHera3 from '@/assets/products/Wonder Woman Great Hera/3.png'
 import WonderWomanGreatHera4 from '@/assets/products/Wonder Woman Great Hera/4.png'
 import WonderWomanGreatHera5 from '@/assets/products/Wonder Woman Great Hera/5.png'
 import WonderWomanGreatHera6 from '@/assets/products/Wonder Woman Great Hera/6.png'
 import WonderWomanGreatHera7 from '@/assets/products/Wonder Woman Great Hera/7.png'
 import WonderWomanGreatHera1Mobile from '@/assets/products/Wonder Woman Great Hera/1Mobile.png'
-import WonderWomanGreatHera2Mobile from '@/assets/products/Wonder Woman Great Hera/2Mobile.png'
+// import WonderWomanGreatHera2Mobile from '@/assets/products/Wonder Woman Great Hera/2Mobile.png'
 import WonderWomanGreatHera3Mobile from '@/assets/products/Wonder Woman Great Hera/3Mobile.png'
 // ///////////////////////////////////
 
@@ -274,14 +274,14 @@ import WonderWomanGreatHera3Mobile from '@/assets/products/Wonder Woman Great He
 import BobaFett from '@/assets/products/Boba Fett.png'
 import BobaFettAmbientacao from '@/assets/products/ambientacoes/Boba Fett.png'
 import BobaFett1 from '@/assets/products/Boba Fett/1.png'
-import BobaFett2 from '@/assets/products/Boba Fett/2.png'
+// import BobaFett2 from '@/assets/products/Boba Fett/2.png'
 import BobaFett3 from '@/assets/products/Boba Fett/3.png'
 import BobaFett4 from '@/assets/products/Boba Fett/4.png'
 import BobaFett5 from '@/assets/products/Boba Fett/5.png'
 import BobaFett6 from '@/assets/products/Boba Fett/6.png'
 import BobaFett7 from '@/assets/products/Boba Fett/7.png'
 import BobaFett1Mobile from '@/assets/products/Boba Fett/1Mobile.png'
-import BobaFett2Mobile from '@/assets/products/Boba Fett/2Mobile.png'
+// import BobaFett2Mobile from '@/assets/products/Boba Fett/2Mobile.png'
 import BobaFett3Mobile from '@/assets/products/Boba Fett/3Mobile.png'
 /// ///////////////////////////////////
 
@@ -319,10 +319,10 @@ import Terminator3Mobile from '@/assets/products/Terminator/3Mobile.png'
 import AlienChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
 import AlienChapAmbientacao from '@/assets/products/ambientacoes/Alien Xenomorfo.png'
 import AlienChap1 from '@/assets/products/Alien Chap/1.png'
-import AlienChap2 from '@/assets/products/Alien Chap/2.png'
+// import AlienChap2 from '@/assets/products/Alien Chap/2.png'
 import AlienChap3 from '@/assets/products/Alien Chap/3.png'
 import AlienChap1Mobile from '@/assets/products/Alien Chap/1Mobile.png'
-import AlienChap2Mobile from '@/assets/products/Alien Chap/2Mobile.png'
+// import AlienChap2Mobile from '@/assets/products/Alien Chap/2Mobile.png'
 import AlienChap3Mobile from '@/assets/products/Alien Chap/3Mobile.png'
 import AlienChap4 from '@/assets/products/Alien Chap/4.png'
 import AlienChap5 from '@/assets/products/Alien Chap/5.png'
@@ -384,8 +384,6 @@ interface ProductProps {
   productUrl: string
   details: {
     image: StaticImageData
-    info1?: string
-    info2?: string
   }
   paginaProduto: {
     section1: {
@@ -396,8 +394,9 @@ interface ProductProps {
     section2: {
       title?: string
       text: string
-      video: StaticImageData
-      videoMobile?: StaticImageData
+      image?: StaticImageData
+      imageMobile?: StaticImageData
+      video?: string
     }
     section3: {
       image: StaticImageData
@@ -429,9 +428,11 @@ export const products: ProductProps[] = [
       },
       section2: {
         title: 'SOBRE ALIEN',
-        text: 'O filme Alien (1979), dirigido por Ridley Scott, se tornou um marco do gênero ficção científica e terror. A franquia acompanha principalmente Ellen Ripley e sua luta contra os icônicos Xenomorfos em um cenário futurista. O sucesso do filme deu origem a diversas sequências, quadrinhos, videogames e até ao famoso crossover Alien vs. Predator.',
-        video: AlienChap2,
-        videoMobile: AlienChap2Mobile,
+        text: 'O filme Alien (1979), dirigido por Ridley Scott, se tornou um marco do gênero ficção científica e terror. A franquia acompanha principalmente Ellen Ripley e sua luta contra os icônicos Xenomorfos em um cenário futurista. O sucesso do filme deu origem a diversas sequências, quadrinhos, imagegames e até ao famoso crossover Alien vs. Predator.',
+        // image: AlienChap2,
+        // imageMobile: AlienChap2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Alien%20Xenomorfo%20Big%20Chap.mp4?alt=media&token=9eae5422-8eb8-40b2-9390-fdfab40fe266,',
       },
       section3: {
         image: AlienChap3,
@@ -470,8 +471,8 @@ export const products: ProductProps[] = [
       },
       section2: {
         text: 'Além de sua impressionante presença visual, a estátua Alita Berserker Motorball Tryout é uma verdadeira obra-prima de engenharia e design. Cada detalhe foi meticulosamente esculpido para capturar a essência do personagem e a intensidade da cena. A base temática inspirada no estádio de Motorball, com seu efeito de iluminação LED, não só realça a dramaticidade da peça, mas também cria uma atmosfera envolvente que transporta os fãs diretamente para o universo cyberpunk do filme.',
-        video: Alita2,
-        videoMobile: Alita2Mobile,
+        image: Alita2,
+        imageMobile: Alita2Mobile,
       },
       section3: {
         image: Alita3,
@@ -508,8 +509,8 @@ export const products: ProductProps[] = [
         text: '"PARA A BATCAVERNA!" Três palavras que nos levam a um dos cenários mais memoráveis da cultura pop: o santuário secreto do Batman, sua base de operações, o centro de suas atividades – uma caverna subterrânea enigmática, misturando mistério e empolgação.',
       },
       section2: {
-        video: Batcaverna2,
-        videoMobile: Batcaverna2Mobile,
+        image: Batcaverna2,
+        imageMobile: Batcaverna2Mobile,
         title: 'RELÍQUIA VINTAGE',
         text: 'A Batcaverna teve várias versões ao longo dos anos, tanto nos quadrinhos quanto nas telas, mas uma das mais icônicas é a da clássica série de TV do Batman de 1966. Este modelo replica a essência da Batcaverna da série, incluindo elementos personalizáveis que permitem ajustar a aparência da caverna em torno de peças fixas, como o famoso ‘núcleo atômico’.',
       },
@@ -549,8 +550,10 @@ export const products: ProductProps[] = [
       },
       section2: {
         text: 'Da Prime 1 Studio, em colaboração com o renomado artista de quadrinhos Jason Fabok, da linha Premium Masterline DC Superhero Series: o busto do Batman inspirado no marco histórico da edição #1,000 de Detective Comics!',
-        video: BatmanBust2,
-        videoMobile: BatmanBust2Mobile,
+        // image: BatmanBust2,
+        // imageMobile: BatmanBust2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20Busto%201.mp4?alt=media&token=eec081f6-91c9-4f40-8139-67e74e5f3d59',
       },
       section3: {
         image: BatmanBust3,
@@ -590,8 +593,10 @@ export const products: ProductProps[] = [
       section2: {
         title: 'VERSÃO DX (Deluxe)',
         text: 'Esta é a versão DX da Estátua Batman Damned, que acompanha quatro cabeças intercambiáveis e um suporte de cabeça. A estátua possui aproximadamente 76 cm de altura, sendo um item essencial para os fãs do Batman e uma adição perfeita ao lado da estátua The Joker!',
-        video: BatmanDamned2,
-        videoMobile: BatmanDamned2Mobile,
+        // image: BatmanDamned2,
+        // imageMobile: BatmanDamned2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20Damned.mp4?alt=media&token=b5566a97-9b2f-4457-8734-c663ce650779',
       },
       section3: {
         image: BatmanDamned3,
@@ -631,8 +636,10 @@ export const products: ProductProps[] = [
       section2: {
         title: 'ULTIMATE COMICS BATMAN #50',
         text: 'Vemos aqui o Cavaleiro das Trevas atacando dois delinquentes, atravessando uma janela de vitral inspirada na capa da Ultimate Comics Batman #50, representando o retrato de seu pior oponente, enquanto a maquiagem dos dois atacantes reivindica sua afiliação com o infame Coringa!',
-        video: BatmanHQS2,
-        videoMobile: BatmanHQS2Mobile,
+        // image: BatmanHQS2,
+        // imageMobile: BatmanHQS2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20HQS%20Tsume.mp4?alt=media&token=2088901d-f8cc-4185-bf6d-d09ed9b74226',
       },
       section3: {
         image: BatmanHQS3,
@@ -672,8 +679,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'UMA OBRA-PRIMA INSPIRADA EM BATMAN: HUSH',
         text: 'A Estátua do Batman Batcave Version, baseada no icônico arco de histórias dos quadrinhos Batman: Hush (2002-2003). Escrita por Jeph Loeb e ilustrada por Jim Lee, a série apresenta um misterioso inimigo chamado Hush, que busca sabotar o Batman enquanto conta com a participação de diversos vilões clássicos do universo do Cavaleiro das Trevas. Inspirada pela arte de Jim Lee, esta estátua captura o Batman em sua essência, com texturas excepcionais que remetem diretamente aos traços dos quadrinhos.',
-        video: BatmanHush2,
-        videoMobile: BatmanHush2Mobile,
+        image: BatmanHush2,
+        imageMobile: BatmanHush2Mobile,
       },
       section3: {
         image: BatmanHush3,
@@ -713,8 +720,10 @@ export const products: ProductProps[] = [
       section2: {
         title: 'EDIÇÃO LIMITADA',
         text: 'Esta estátua faz parte de uma edição limitada, com apenas 500 peças disponíveis mundialmente. Cada estátua vem com um certificado de autenticidade, garantindo sua exclusividade e valor para colecionadores. Não perca a oportunidade de adicionar esta peça única e rara à sua coleção!',
-        video: BatmanKnightmare2,
-        videoMobile: BatmanKnightmare2Mobile,
+        // image: BatmanKnightmare2,
+        // imageMobile: BatmanKnightmare2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20Nightmare%201(1).mp4?alt=media&token=a3eedb9a-2592-4ef9-8503-d4566a5ab8dc',
       },
       section3: {
         image: BatmanKnightmare3,
@@ -754,8 +763,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'OBRA EXCLUSIVA EM GRANDE FORMATO',
         text: 'Baseado na arte do próprio Sean Murphy, responsável pelo quadrinho, esta peça com aproximadamente 1 metro de comprimento recria uma cena icônica do Cavaleiro das Trevas navegando pelas ruas de Gotham, sua capa esvoaçante e rastros de derrapagem adicionando um realismo cinematográfico. O grande diferencial desta edição é a possibilidade de remover as carenagens laterais, revelando um detalhado motor interno, um recurso exclusivo que não foi mostrado nos quadrinhos!',
-        video: BatmanWhiteKnight2,
-        videoMobile: BatmanWhiteKnight2Mobile,
+        image: BatmanWhiteKnight2,
+        imageMobile: BatmanWhiteKnight2Mobile,
       },
       section3: {
         image: BatmanWhiteKnight3,
@@ -799,8 +808,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'SOBRE O PERSONAGEM',
         text: 'O Batman Who Laughs é Bruce Wayne da Terra-22 do Dark Multiverse. Esta versão sombria do Batman surgiu ao ser infectada pela insanidade de seu maior inimigo, o Coringa. Após derrotar todos os vilões e heróis de seu universo, este Batman finalmente se transformou no Batman Who Laughs, uma fusão aterrorizante do Cavaleiro das Trevas e do Palhaço do Crime.',
-        video: BatmanWhoLaughs2,
-        videoMobile: BatmanWhoLaughs2Mobile,
+        image: BatmanWhoLaughs2,
+        imageMobile: BatmanWhoLaughs2Mobile,
       },
       section3: {
         image: BatmanWhoLaughs3,
@@ -844,8 +853,10 @@ export const products: ProductProps[] = [
       section2: {
         title: 'HAN SOLO EM CABORNITE',
         text: 'A captura de Han Solo resultou no congelamento do contrabandista em um bloco de carbonite, para que toda a galáxia testemunhe. Boba Fett exibe uma postura relaxada, enquanto o design único desta peça faz parecer que sua captura está flutuando acima da base da câmara de congelamento em corbonite. Tanto a base quanto os painéis do bloco de carbonite possuem elementos de iluminação, proporcionando uma exibição ainda mais imersiva para essas figuras icônicas.',
-        video: BobaFett2,
-        videoMobile: BobaFett2Mobile,
+        // image: BobaFett2,
+        // imageMobile: BobaFett2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Star%20Wars%20Boba%20Fett.mp4?alt=media&token=323a9c1b-f3d6-48b6-85f8-dea5be6f6041',
       },
       section3: {
         image: BobaFett3,
@@ -885,8 +896,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'CURIOSIDADE',
         text: 'Origem do Personagem Cheetah: Cheetah, também conhecida como Mulher-Leopardo, é uma super-vilã fictícia dos quadrinhos da DC Comics. Ela é uma das maiores e mais antigas arqui-inimigas da Mulher-Maravilha. A personagem foi criada por William Moulton Marston e H.G. Peter, e fez sua primeira aparição em "Wonder Woman #6" em 1943.',
-        video: Cheetah2,
-        videoMobile: Cheetah2Mobile,
+        image: Cheetah2,
+        imageMobile: Cheetah2Mobile,
       },
       section3: {
         image: Cheetah3,
@@ -926,8 +937,8 @@ export const products: ProductProps[] = [
       section2: {
         title: '',
         text: '',
-        video: CyberCat2,
-        videoMobile: CyberCat2Mobile,
+        image: CyberCat2,
+        imageMobile: CyberCat2Mobile,
       },
       section3: {
         image: CyberCat3,
@@ -967,8 +978,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'TIAMAT',
         text: 'Enfrentando o sexteto heroico está a colossal figura central desta composição, temida até mesmo pelo poderoso e maligno feiticeiro conhecido como Venger, é o dragão supremo Tiamat, derivado da deusa dragão da mitologia mesopotâmica, este poderoso monstro tem cinco cabeças de cores diferentes e cada uma com seus próprios poderes. Sua cabeça vermelha do meio cospe chamas e é a única capaz de falar. No lado direito estão a cabeça branca, que dispara raios congelantes, e a cabeça verde, com um forte sopro de gás venenoso.',
-        video: DungeonAndDragons2,
-        videoMobile: DungeonAndDragons2Mobile,
+        image: DungeonAndDragons2,
+        imageMobile: DungeonAndDragons2Mobile,
       },
       section3: {
         image: DungeonAndDragons3,
@@ -1008,8 +1019,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'GREEN SCAR HULK PREMIUM VERSION',
         text: 'Essa versão Premium é uma representação fiel e meticulosa do Hulk em seu auge como gladiador e rei de Sakaar. O foco está em capturar a fúria e o poder do personagem, além de trazer detalhes precisos que remetem à narrativa do quadrinho.',
-        video: GreenScarHulk2,
-        videoMobile: GreenScarHulk2Mobile,
+        image: GreenScarHulk2,
+        imageMobile: GreenScarHulk2Mobile,
       },
       section3: {
         image: GreenScarHulk3,
@@ -1053,8 +1064,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'UMA HOMENAGEM A HEATH LEDGER',
         text: 'No papel do Coringa, Heath Ledger consolidou sua interpretação como uma das mais icônicas e cativantes do cinema. Para refletir a genialidade que permeou sua atuação, a Prime 1 Studio revela um busto que captura com precisão a essência desse personagem lendário. </br> Com 26 cm de altura, esta edição limitada a 1.000 peças apresenta metade do rosto de Ledger com a icônica maquiagem do Coringa, enquanto a outra metade revela o ator por trás do personagem, em uma pintura sutil e reverente que humaniza o vilão como nunca antes.',
-        video: JokerBust2,
-        videoMobile: JokerBust2Mobile,
+        image: JokerBust2,
+        imageMobile: JokerBust2Mobile,
       },
       section3: {
         image: JokerBust3,
@@ -1094,8 +1105,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'SÉRIE SAMURAI',
         text: 'Esta obra-prima é uma peça imperdível para qualquer colecionador, com detalhes intrincados e requintados, à altura de um Daimyo com recursos e conexões à disposição.',
-        video: BatmanPenguin2,
-        videoMobile: BatmanPenguin2Mobile,
+        image: BatmanPenguin2,
+        imageMobile: BatmanPenguin2Mobile,
       },
       section3: {
         image: BatmanPenguin3,
@@ -1139,8 +1150,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'UM PREDADOR LENDÁRIO',
         text: 'Apelidado de "Ahab" por Galgo, este Predator foi inspirado no Capitão Ahab da obra de Herman Melville, mas, em vez de uma baleia branca, Ahab está obcecado pela caça de sua presa suprema: um Engenheiro. Esta peça captura Ahab em um momento de sua vida após atingir esse objetivo, enquanto ele derrota uma centopeia gigante em sua caçada mais recente, apenas para "manter-se ocupado".',
-        video: PredatorAhab2,
-        videoMobile: PredatorAhab2Mobile,
+        image: PredatorAhab2,
+        imageMobile: PredatorAhab2Mobile,
       },
       section3: {
         image: PredatorAhab3,
@@ -1188,8 +1199,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'VISUAL REVELADO',
         text: 'Criado com a mesma precisão e atenção aos detalhes da estátua completa, o busto apresenta o visual grotesco sem máscara do Predator, como visto no momento em que ele enfrenta Dutch Schaefer no final do filme, revelando sua verdadeira forma e provocando a frase mais memorável do longa:“Você é um feio f#$%&# da p&#!*”. </br> Além disso, o busto vem equipado com um Canhão de Plasma com iluminação em LED, que traz ainda mais realismo e impacto visual à peça.',
-        video: JungleHunter2,
-        videoMobile: JungleHunter2Mobile,
+        image: JungleHunter2,
+        imageMobile: JungleHunter2Mobile,
       },
       section3: {
         image: JungleHunter3,
@@ -1229,8 +1240,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'APRESENTANDO A PRINCESA DO PODER E SEU UNICÓRNIO',
         text: 'A majestosa figura de Swift Wind, o unicórnio alado branco, surge coberta por um elmo de batalha e uma armadura peitoral em tons de azul e rosa. Ele trota sobre a exuberante vegetação de Etheria, protegendo seu mundo enquanto abre suas grandes asas coloridas com tons de azul, rosa e laranja, pronto para voar. Montado em sua sela está She-Ra, a Princesa do Poder, erguendo sua espada mágica em defesa de seus aliados rebeldes e do povo de Etheria contra o regime opressor comandado por Hordak.',
-        video: SheRa2,
-        videoMobile: SheRa2Mobile,
+        image: SheRa2,
+        imageMobile: SheRa2Mobile,
       },
       section3: {
         image: SheRa3,
@@ -1270,8 +1281,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'DESTAQUE NA SUA COLEÇÃO',
         text: 'Com este busto do T-800, você não está apenas adquirindo um item de coleção, mas um artefato que imortaliza a essência de uma das maiores franquias de ficção científica de todos os tempos. A presença imponente desta peça transformará qualquer ambiente – seja uma sala de entretenimento, home theater ou escritório – em uma verdadeira galeria cinematográfica.',
-        video: Terminator2,
-        videoMobile: Terminator2Mobile,
+        image: Terminator2,
+        imageMobile: Terminator2Mobile,
       },
       section3: {
         image: Terminator3,
@@ -1311,8 +1322,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'DETALHES DO DESIGN',
         text: 'O design de Lee Bermejo para o Joker é incrivelmente sombrio e realista, trazendo características impressionantes em cada detalhe. A base da estátua foi especialmente desenhada pelo próprio Bermejo e inclui o Batman (inspirado na graphic novel Batman: Noel) acorrentado a uma pedra, acrescentando ainda mais profundidade e escuridão à peça.',
-        video: JokerStatue2,
-        videoMobile: JokerStatue2Mobile,
+        image: JokerStatue2,
+        imageMobile: JokerStatue2Mobile,
       },
       section3: {
         image: JokerStatue3,
@@ -1352,8 +1363,10 @@ export const products: ProductProps[] = [
       section2: {
         title: 'DETALHES DO DESIGN',
         text: 'Esta versão traz um traje autêntico e detalhado, com texturas que simulam couro resistente, complementado por detalhes dourados reluzentes. A pele impecável de Diana contrasta com a sua armadura de combate, ressaltando sua força e imponência.</br>A base da estátua, inspirada em Injustice 2, representa o campo de batalha onde Diana triunfou sobre seus inimigos. O cenário ainda conta com chamas azuis iluminadas por LED, trazendo um efeito cinematográfico digno dos fogos do submundo de Hades!',
-        video: WonderWomanGreatHera2,
-        videoMobile: WonderWomanGreatHera2Mobile,
+        // image: WonderWomanGreatHera2,
+        // imageMobile: WonderWomanGreatHera2Mobile,
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Wonder%20Woman%20Great%20Hera.mp4?alt=media&token=d3f4341c-a712-40e7-84c7-d6c81e32475c',
       },
       section3: {
         image: WonderWomanGreatHera3,
@@ -1397,8 +1410,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'EDIÇÃO ESPECIAL',
         text: 'Esta impressionante peça da Prime 1 Studio tem 74 cm de altura e exibe Diana em sua armadura icônica: um peitoral metálico vermelho e uma saia de gladiadora azul em couro. Os detalhes pratea-dos brilhantes realçam sua tiara, braçadeiras, botas e ornamentos do traje, dando um toque especial à sua vestimenta heroica.',
-        video: WonderWoman2,
-        videoMobile: WonderWoman2Mobile,
+        image: WonderWoman2,
+        imageMobile: WonderWoman2Mobile,
       },
       section3: {
         image: WonderWoman3,
@@ -1442,8 +1455,8 @@ export const products: ProductProps[] = [
       section2: {
         title: 'DESTAQUE NA SUA COLEÇÃO',
         text: 'A peça retrata uma mulher graciosa em um pavilhão florido, evocando uma sensação de serenidade e encantamento. O título sugere um ambiente de verão, onde a beleza da natureza e a figura feminina se encontram em um momento de tranquilidade e embriaguez poética.',
-        video: SummerDrunkenBeauty2,
-        videoMobile: SummerDrunkenBeauty2Mobile,
+        image: SummerDrunkenBeauty2,
+        imageMobile: SummerDrunkenBeauty2Mobile,
       },
       section3: {
         image: SummerDrunkenBeauty3,

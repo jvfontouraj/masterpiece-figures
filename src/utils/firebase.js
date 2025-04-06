@@ -1,5 +1,5 @@
 // lib/firebase.js
-import { initializeApp, getApps, getApp } from 'firebase/app'
+import { initializeApp } from 'firebase/app'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
@@ -12,7 +12,7 @@ const firebaseConfig = {
 }
 
 // Initialize Firebase
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp()
+const app = initializeApp(firebaseConfig)
 
 // Initialize Storage
 const storage = getStorage(app)

@@ -67,7 +67,7 @@ export default function Produto() {
               />
             </div>
           </section>
-          <section className="mx-auto my-20 flex max-w-7xl flex-col gap-2 text-gold md:h-auto md:gap-5 md:px-20">
+          <section className="mx-auto my-20 flex min-h-screen max-w-7xl flex-col gap-2 text-gold md:h-auto md:gap-5 md:px-20">
             {pageContent.section2.title && (
               <h2 className="mx-auto w-full max-w-4xl px-10 text-lg md:px-0 md:text-2xl">
                 {pageContent.section2.title}
@@ -77,18 +77,35 @@ export default function Produto() {
               className="mx-auto max-w-4xl px-10 text-sm font-light md:px-0 md:text-lg"
               dangerouslySetInnerHTML={{ __html: pageContent.section2.text }}
             ></p>
-            <div className="flex w-full items-center justify-center">
-              <Image
-                alt=""
-                src={pageContent.section2.video}
-                className="hidden h-auto w-full max-w-7xl object-contain md:block"
-              />
-              <Image
-                alt=""
-                src={pageContent.section2.videoMobile ?? ''}
-                className="block h-auto w-full max-w-7xl object-contain md:hidden"
-              />
-            </div>
+            {pageContent.section2.image && (
+              <div className="flex w-full items-center justify-center">
+                <Image
+                  alt=""
+                  src={pageContent.section2.image}
+                  className="hidden h-auto w-full max-w-7xl object-contain md:block"
+                />
+                <Image
+                  alt=""
+                  src={pageContent.section2.imageMobile ?? ''}
+                  className="block h-auto w-full max-w-7xl object-contain md:hidden"
+                />
+              </div>
+            )}
+            {pageContent.section2.video && (
+              <div className="mt-5 flex w-full items-center justify-center px-5 md:mt-0 md:px-0">
+                <video
+                  width="400"
+                  height="400"
+                  autoPlay
+                  loop
+                  muted
+                  className="h-auto w-full max-w-[500px]"
+                >
+                  <source src={pageContent.section2.video} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
           </section>
           <section>
             <div
