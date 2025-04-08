@@ -596,7 +596,7 @@ export const products: ProductProps[] = [
         // image: BatmanDamned2,
         // imageMobile: BatmanDamned2Mobile,
         video:
-          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20Damned.mp4?alt=media&token=b5566a97-9b2f-4457-8734-c663ce650779',
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20Damned(1).mp4?alt=media&token=8d290b6c-6fe0-4cd3-8439-c9bf8e485142',
       },
       section3: {
         image: BatmanDamned3,
@@ -639,7 +639,7 @@ export const products: ProductProps[] = [
         // image: BatmanHQS2,
         // imageMobile: BatmanHQS2Mobile,
         video:
-          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20HQS%20Tsume.mp4?alt=media&token=2088901d-f8cc-4185-bf6d-d09ed9b74226',
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Batman%20HQS%20Tsume(1).mp4?alt=media&token=1eb6a158-59da-4a53-8084-46c35633d9b7',
       },
       section3: {
         image: BatmanHQS3,
