@@ -375,6 +375,111 @@ import SheRa2Mobile from '@/assets/products/She-Ra/2Mobile.png'
 import SheRa3Mobile from '@/assets/products/She-Ra/3Mobile.png'
 /// ////////////////////////////
 
+// Alien Big Chap ////////////////
+// import AlienBigChap from '@/assets/products/ALIEN XENOMORFO BIG CHAP.png'
+// import AlienChapAmbientacao from '@/assets/products/ambientacoes/Alien Xenomorfo.png'
+import AlienBigChap1 from '@/assets/products/Alien Big Chap/1.png'
+import AlienBigChap2 from '@/assets/products/Alien Big Chap/2.png'
+import AlienBigChap3 from '@/assets/products/Alien Big Chap/3.png'
+import AlienBigChap1Mobile from '@/assets/products/Alien Big Chap/1Mobile.png'
+import AlienBigChap2Mobile from '@/assets/products/Alien Big Chap/2Mobile.png'
+import AlienBigChap3Mobile from '@/assets/products/Alien Big Chap/3Mobile.png'
+import AlienBigChap4 from '@/assets/products/Alien Big Chap/4.png'
+import AlienBigChap5 from '@/assets/products/Alien Big Chap/5.png'
+import AlienBigChap6 from '@/assets/products/Alien Big Chap/6.png'
+import AlienBigChap7 from '@/assets/products/Alien Big Chap/7.png'
+// /////////////////////////////
+
+// Alien Prowler ///////////////
+import AlienProwler from '@/assets/products/Alien Prowler.png'
+import AlienProwlerAmbientacao from '@/assets/products/ambientacoes/Alien Prowler.png'
+import AlienProwler1 from '@/assets/products/Alien Prowler/1.png'
+// import AlienProwler2 from '@/assets/products/Alien Prowler/2.png'
+import AlienProwler3 from '@/assets/products/Alien Prowler/3.png'
+import AlienProwler1Mobile from '@/assets/products/Alien Prowler/1Mobile.png'
+// import AlienProwler2Mobile from '@/assets/products/Alien Prowler/2Mobile.png'
+import AlienProwler3Mobile from '@/assets/products/Alien Prowler/3Mobile.png'
+import AlienProwler4 from '@/assets/products/Alien Prowler/4.png'
+import AlienProwler5 from '@/assets/products/Alien Prowler/5.png'
+import AlienProwler6 from '@/assets/products/Alien Prowler/6.png'
+import AlienProwler7 from '@/assets/products/Alien Prowler/7.png'
+/// ////////////////////////////
+
+// Batman The Grim Knight ////////
+import BatmanGrimKnight from '@/assets/products/Batman Grim Knight.png'
+import BatmanGrimKnightAmbientacao from '@/assets/products/ambientacoes/Batman Grim Knight.png'
+import BatmanGrimKnight1 from '@/assets/products/Batman Grim/1.png'
+import BatmanGrimKnight2 from '@/assets/products/Batman Grim/2.png'
+import BatmanGrimKnight3 from '@/assets/products/Batman Grim/3.png'
+import BatmanGrimKnight4 from '@/assets/products/Batman Grim/4.png'
+import BatmanGrimKnight5 from '@/assets/products/Batman Grim/5.png'
+import BatmanGrimKnight6 from '@/assets/products/Batman Grim/6.png'
+import BatmanGrimKnight7 from '@/assets/products/Batman Grim/7.png'
+import BatmanGrimKnight1Mobile from '@/assets/products/Batman Grim/1Mobile.png'
+import BatmanGrimKnight2Mobile from '@/assets/products/Batman Grim/2Mobile.png'
+import BatmanGrimKnight3Mobile from '@/assets/products/Batman Grim/3Mobile.png'
+/// //////////////////////////////
+
+// Batman Zero Year ////////
+import BatmanZeroYear from '@/assets/products/Batman Zero Year.png'
+import BatmanZeroYearAmbientacao from '@/assets/products/ambientacoes/Batman Zero Year.png'
+import BatmanZeroYear1 from '@/assets/products/Batman Zero Year/1.png'
+import BatmanZeroYear2 from '@/assets/products/Batman Zero Year/2.png'
+import BatmanZeroYear3 from '@/assets/products/Batman Zero Year/3.png'
+import BatmanZeroYear4 from '@/assets/products/Batman Zero Year/4.png'
+import BatmanZeroYear5 from '@/assets/products/Batman Zero Year/5.png'
+import BatmanZeroYear6 from '@/assets/products/Batman Zero Year/6.png'
+import BatmanZeroYear7 from '@/assets/products/Batman Zero Year/7.png'
+import BatmanZeroYear1Mobile from '@/assets/products/Batman Zero Year/1Mobile.png'
+import BatmanZeroYear2Mobile from '@/assets/products/Batman Zero Year/2Mobile.png'
+import BatmanZeroYear3Mobile from '@/assets/products/Batman Zero Year/3Mobile.png'
+/// //////////////////////////////
+
+// Batman Premium Format ////////
+import BatmanPremiumFormat from '@/assets/products/Batman Premium Format .png'
+import BatmanPremiumFormatAmbientacao from '@/assets/products/ambientacoes/Batman Premium Format.png'
+import BatmanPremiumFormat1 from '@/assets/products/Batman Premium Format/1.png'
+import BatmanPremiumFormat2 from '@/assets/products/Batman Premium Format/2.png'
+import BatmanPremiumFormat3 from '@/assets/products/Batman Premium Format/3.png'
+import BatmanPremiumFormat4 from '@/assets/products/Batman Premium Format/4.png'
+import BatmanPremiumFormat5 from '@/assets/products/Batman Premium Format/5.png'
+import BatmanPremiumFormat6 from '@/assets/products/Batman Premium Format/6.png'
+import BatmanPremiumFormat7 from '@/assets/products/Batman Premium Format/7.png'
+import BatmanPremiumFormat1Mobile from '@/assets/products/Batman Premium Format/1Mobile.png'
+import BatmanPremiumFormat2Mobile from '@/assets/products/Batman Premium Format/2Mobile.png'
+import BatmanPremiumFormat3Mobile from '@/assets/products/Batman Premium Format/3Mobile.png'
+/// //////////////////////////////
+
+// CHAINSAW MAN //////////////////
+import ChainsawMan from '@/assets/products/Chainsaw Man.png'
+import ChainsawManAmbientacao from '@/assets/products/ambientacoes/Chainsaw Man.png'
+import ChainsawMan1 from '@/assets/products/Chainsaw Man/1.png'
+import ChainsawMan2 from '@/assets/products/Chainsaw Man/2.png'
+import ChainsawMan3 from '@/assets/products/Chainsaw Man/3.png'
+import ChainsawMan4 from '@/assets/products/Chainsaw Man/4.png'
+import ChainsawMan5 from '@/assets/products/Chainsaw Man/5.png'
+import ChainsawMan6 from '@/assets/products/Chainsaw Man/6.png'
+import ChainsawMan7 from '@/assets/products/Chainsaw Man/7.png'
+import ChainsawMan1Mobile from '@/assets/products/Chainsaw Man/1Mobile.png'
+import ChainsawMan2Mobile from '@/assets/products/Chainsaw Man/2Mobile.png'
+import ChainsawMan3Mobile from '@/assets/products/Chainsaw Man/3Mobile.png'
+/// ///////////////////////////////
+
+// GUTS – BERSERK //////////////////
+import GutsBerserk from '@/assets/products/Guts Bersek.png'
+import GutsBerserkAmbientacao from '@/assets/products/ambientacoes/Guts Berserk.png'
+import GutsBerserk1 from '@/assets/products/Guts Bersek/1.png'
+import GutsBerserk2 from '@/assets/products/Guts Bersek/2.png'
+import GutsBerserk3 from '@/assets/products/Guts Bersek/3.png'
+import GutsBerserk4 from '@/assets/products/Guts Bersek/4.png'
+import GutsBerserk5 from '@/assets/products/Guts Bersek/5.png'
+import GutsBerserk6 from '@/assets/products/Guts Bersek/6.png'
+import GutsBerserk7 from '@/assets/products/Guts Bersek/7.png'
+import GutsBerserk1Mobile from '@/assets/products/Guts Bersek/1Mobile.png'
+import GutsBerserk2Mobile from '@/assets/products/Guts Bersek/2Mobile.png'
+import GutsBerserk3Mobile from '@/assets/products/Guts Bersek/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -442,16 +547,102 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES ADICIONAIS',
-            text: 'MAFEX (Medicom Toy) </br> A linha MAFEX é conhecida por trazer personagens icônicos da cultura pop com articulação superior e acessórios premium, sempre com grande atenção aos detalhes.',
+            text: 'MAFEX (Medicom Toy) <br> A linha MAFEX é conhecida por trazer personagens icônicos da cultura pop com articulação superior e acessórios premium, sempre com grande atenção aos detalhes.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 20,3 cm. </br> Material: Plástico de alta qualidade. </br> Altamente articulada, permitindo recriar diversas poses icônicas. </br> Baseada no filme Alien (1979), dirigido por Ridley Scott. </br> Peso: 1Kg.',
+            text: 'Altura: 20,3 cm. <br> Material: Plástico de alta qualidade. <br> Altamente articulada, permitindo recriar diversas poses icônicas. <br> Baseada no filme Alien (1979), dirigido por Ridley Scott. <br> Peso: 1Kg.',
           },
         ],
         image: AlienChap4,
       },
       section5: [AlienChap5, AlienChap6, AlienChap7],
+    },
+  },
+  {
+    title: 'ALIEN BIG CHAP “MUSEUM ART”',
+    description1: 'Prime 1 Studio',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: AlienBigChap2Mobile,
+    productUrl: '/alien-big-chap',
+    details: {
+      image: AlienBigChap3,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Você ainda não entende com o que está lidando, entende? O organismo perfeito. Sua perfeição estrutural só é igualada por sua hostilidade." — Ash (Alien, 1979)',
+        image: AlienBigChap1,
+        imageMobile: AlienBigChap1Mobile,
+      },
+      section2: {
+        title: 'SOBRE ALIEN',
+        text: 'Relançamento de um dos colecionáveis mais icônicos de sua linha Alien: a Alien Big Chap “Museum Art” - Limited Version em escala 1/3!<br>O Big Chap, também conhecido como "Kane’s Son", "Little Rascal" e até "Alien Dessert", é o primeiro e mais aterrorizante Xenomorfo apresentado no clássico Alien, O Oitavo Passageiro (1979). Um monstro tão assustador que fez o tubarão de Tubarão parecer um peixinho dourado!',
+        image: AlienBigChap2,
+        imageMobile: AlienBigChap2Mobile,
+      },
+      section3: {
+        image: AlienBigChap3,
+        imageMobile: AlienBigChap3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'Sobre a Estátua',
+            text: 'Com impressionantes 85 cm de altura, esta estátua traz o Xenomorfo em sua forma mais intimidadora, reproduzindo cada detalhe do design icônico de H.R. Giger.<br> Pele brilhante, ossos e costelas detalhados, recriando fielmente a criatura.<br> Crânio semi-translúcido, adicionando um toque de realismo ao design.<br> Postura majestosa e ameaçadora, capturando toda a imponência da criatura.<br> Base temática inspirada na Nostromo, trazendo um visual minimalista para destacar a presença do Alien.',
+          },
+          {
+            title: 'Especificações Técnicas',
+            text: 'Altura: 85 cm. <br> Largura: 41 cm. <br> Profundidade: 41 cm. <br> Peso: 17 kg. <br> Materiais: Polystone e outros materiais premium.',
+          },
+        ],
+        image: AlienBigChap4,
+      },
+      section5: [AlienBigChap5, AlienBigChap6, AlienBigChap7],
+    },
+  },
+  {
+    title: 'ALIEN PROWLER',
+    description1: 'Prime 1 Studios',
+    tags: ['viloes', 'filmes-e-series', 'games'],
+    image: AlienProwler,
+    productUrl: '/alien-prowler',
+    details: {
+      image: AlienProwlerAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Diretamente do game, este Xenomorfo ágil e astuto é um dos inimigos mais letais enfrentados pelos Fuzileiros Coloniais. Com 38 cm de altura, o Prowler Alien compartilha várias características com seus parentes humanoides.',
+        image: AlienProwler1,
+        imageMobile: AlienProwler1Mobile,
+      },
+      section2: {
+        title: 'SOBRE ALIEN',
+        text: 'A base temática é inspirada na Refinaria Katanga, repleta de detalhes que remetem ao mundo dos Xenomorfos. Um ovo Alien espreita próximo à criatura, pronto para liberar um Facehugger em sua próxima vítima.',
+        video:
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Alien%20Prowler.mp4?alt=media&token=e1af9e22-658c-45cc-8edb-778f5fae6c3d',
+      },
+      section3: {
+        image: AlienProwler3,
+        imageMobile: AlienProwler3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'VERSÃO BÔNUS EXCLUSIVA',
+            text: 'Ao adquirir a Bonus Version, você recebe um Alien Egg com Facehugger e Placa de Título, um extra perfeito para complementar sua coleção!<br><br>Com 38 cm de altura, o Prowler Alien compartilha várias características com seus parentes humanoides:<br>Exoesqueleto escuro e brilhante, com detalhes esculpidos para máxima fidelidade ao jogo.<br>Cabeça alongada e dentes cromados afiados.<br>Boca interna retrátil, podendo ser exibida nas versões retraída ou estendida.<br>Cauda laminada imponente, finalizando o visual letal da criatura.,',
+          },
+          {
+            title: 'O QUE ESTÁ INCLUÍDO',
+            text: 'Base temática inspirada na Estação Refinaria Katanga.<br>Boca interna intercambiável (versões retraída e estendida).<br>Edição Bônus: Ovo Alien com Facehugger e Placa de Título.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 38 cm (Prowler Alien) | 11 cm (Ovo e Facehugger).<br>Largura: 25 cm (Prowler Alien) | 16 cm (Ovo e Facehugger).<br>Profundidade: 29 cm (Prowler Alien) | 16 cm (Ovo e Facehugger).<br>Peso: 3,37 kg (Prowler Alien) | 1 kg (Ovo e Facehugger).<br>Materiais: Polystone e outros materiais de alta qualidade.',
+          },
+        ],
+        image: AlienProwler4,
+      },
+      section5: [AlienProwler5, AlienProwler6, AlienProwler7],
     },
   },
   {
@@ -482,11 +673,11 @@ export const products: ProductProps[] = [
         image: Alita4,
         text: [
           {
-            text: 'A escolha do material, Polystone, garante durabilidade e um acabamento de alta qualidade, enquanto a escala ¼ proporciona uma presença imponente que se destaca em qualquer coleção34. Com dimensões impressionantes de 64,4 cm de altura, 76,4 cm de largura e 87,2 cm de diâmetro, e um peso total de 47 kg, esta estátua é uma peça central que certamente atrairá a atenção de todos.<br/><br/>Seja para exibição em uma coleção particular ou como destaque em um evento, a estátua Alita Berserker Motorball Tryout é uma adição indispensável para qualquer fã de Alita: Anjo de Combate.',
+            text: 'A escolha do material, Polystone, garante durabilidade e um acabamento de alta qualidade, enquanto a escala ¼ proporciona uma presença imponente que se destaca em qualquer coleção34. Com dimensões impressionantes de 64,4 cm de altura, 76,4 cm de largura e 87,2 cm de diâmetro, e um peso total de 47 kg, esta estátua é uma peça central que certamente atrairá a atenção de todos.<br><br>Seja para exibição em uma coleção particular ou como destaque em um evento, a estátua Alita Berserker Motorball Tryout é uma adição indispensável para qualquer fã de Alita: Anjo de Combate.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões: Altura: 64,4 cm <br/>Largura: 76,4 cm<br/>Diâmetro: 87,2 cm<br/>Peso total: 47 kg',
+            text: 'Dimensões: Altura: 64,4 cm <br>Largura: 76,4 cm<br>Diâmetro: 87,2 cm<br>Peso total: 47 kg',
           },
         ],
       },
@@ -522,11 +713,11 @@ export const products: ProductProps[] = [
         image: Batcaverna4,
         text: [
           {
-            text: 'Cada peça deste modelo contém mais de uma dúzia de luzes de LED em várias cores e animações, que recriam a energia visual única dos anos 60, incluindo: </br> • Luzes ocultas no chão, que emulam os refletores coloridos usados no set.</br> • Efeito de mudança de cor pulsante no núcleo atômico.</br> • Luzes piscantes em monitores e telas.</br> Esta não é uma peça estática – ela conta com diversos componentes móveis, incluindo:</br> • Uma plataforma giratória que pode ser rotacionada manualmente.</br> • Móveis selecionados que podem ser movidos para personalizar o cenário.</br> • Uma porta de rocha falsa na entrada do túnel que pode ser removida para permitir a entrada do Batmóvel (modelo do Batmóvel não incluído).',
+            text: 'Cada peça deste modelo contém mais de uma dúzia de luzes de LED em várias cores e animações, que recriam a energia visual única dos anos 60, incluindo: <br> • Luzes ocultas no chão, que emulam os refletores coloridos usados no set.<br> • Efeito de mudança de cor pulsante no núcleo atômico.<br> • Luzes piscantes em monitores e telas.<br> Esta não é uma peça estática – ela conta com diversos componentes móveis, incluindo:<br> • Uma plataforma giratória que pode ser rotacionada manualmente.<br> • Móveis selecionados que podem ser movidos para personalizar o cenário.<br> • Uma porta de rocha falsa na entrada do túnel que pode ser removida para permitir a entrada do Batmóvel (modelo do Batmóvel não incluído).',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 45 cm </br>Largura: 35 cm </br>Profundidade: 22 cm </br>Peso: 9 kg',
+            text: 'Altura: 45 cm <br>Largura: 35 cm <br>Profundidade: 22 cm <br>Peso: 9 kg',
           },
         ],
       },
@@ -567,7 +758,7 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 25,8 cm</br>Largura: 16,1 cm</br>Profundidade: 12,4 cm</br>Peso Aproximado: 1,96 kg</br>Material: Polystone e outros materiais',
+            text: 'Altura: 25,8 cm<br>Largura: 16,1 cm<br>Profundidade: 12,4 cm<br>Peso Aproximado: 1,96 kg<br>Material: Polystone e outros materiais',
           },
         ],
         image: BatmanBust4,
@@ -606,16 +797,61 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DO DESIGN',
-            text: 'Capa em tecido posável para ajuste de poses. </br> Um (1) suporte de cabeça. </br> Uma (1) base temática exclusiva. </br> Quatro (4) retratos intercambiáveis: Regular, Horror, Grin & Damaged Expression. </br> Três (3) mãos esquerdas intercambiáveis, com acessórios como dois pequenos Batarangs, uma Grapple Gun e um Batarang.',
+            text: 'Capa em tecido posável para ajuste de poses. <br> Um (1) suporte de cabeça. <br> Uma (1) base temática exclusiva. <br> Quatro (4) retratos intercambiáveis: Regular, Horror, Grin & Damaged Expression. <br> Três (3) mãos esquerdas intercambiáveis, com acessórios como dois pequenos Batarangs, uma Grapple Gun e um Batarang.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Tamanho da Estátua: 76,1 cm (A) x 44,6 cm (L) x 50,9 cm (P) </br> Tamanho do Suporte de Cabeça: 18,2 cm (A) x 26,2 cm (L) x 22,2 cm (P) </br> Tamanho da Capa: 68 cm (A) x 148 cm (L) </br> Peso do Produto: 19,7 kg </br> Materiais: Polystone e outros materiais',
+            text: 'Tamanho da Estátua: 76,1 cm (A) x 44,6 cm (L) x 50,9 cm (P) <br> Tamanho do Suporte de Cabeça: 18,2 cm (A) x 26,2 cm (L) x 22,2 cm (P) <br> Tamanho da Capa: 68 cm (A) x 148 cm (L) <br> Peso do Produto: 19,7 kg <br> Materiais: Polystone e outros materiais',
           },
         ],
         image: BatmanDamned4,
       },
       section5: [BatmanDamned5, BatmanDamned6, BatmanDamned7],
+    },
+  },
+  {
+    title: 'BATMAN THE GRIM KNIGHT - BATMAN WHO LAUGHS',
+    description1: 'PRIME 1 STUDIO',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: BatmanGrimKnight,
+    productUrl: '/batman-grim-knight',
+    details: {
+      image: BatmanGrimKnightAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"O homem mais letal vivo. Ele é nós, se Joe Chill tivesse deixado cair a arma no beco e nós a pegássemos." – The Batman Who Laughs Apresentamos The Grim Knight, uma das versões mais brutais e implacáveis do Batman, diretamente dos quadrinhos Dark Nights: Metal!',
+        image: BatmanGrimKnight1,
+        imageMobile: BatmanGrimKnight1Mobile,
+      },
+      section2: {
+        title: 'BATMAN DO MULTIVERSO SOMBRIO',
+        text: 'Este Batman do Multiverso Sombrio tomou um caminho muito diferente do Batman da Terra Principal: ao invés de ser dominado pelo medo após o assassinato de seus pais, o jovem Bruce Wayne é consumido pela fúria, pegando a arma de Joe Chill e se tornando um vigilante impiedoso. Recrutado pelo Batman Who Laughs, The Grim Knight se tornou "O Batman em Guerra Total", usando um arsenal completo para eliminar sem piedade aqueles que ele considera criminosos.',
+        image: BatmanGrimKnight2,
+        imageMobile: BatmanGrimKnight2Mobile,
+      },
+      section3: {
+        image: BatmanGrimKnight3,
+        imageMobile: BatmanGrimKnight3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA ESTÁTUA',
+            text: 'Baseada na arte icônica de Jason Fabok, esta peça captura The Grim Knight em uma pose imponente de 82,5 cm de altura, empunhando suas armas e pronto para a batalha.<br>A estátua faz parte da Museum Masterline e inclui múltiplas opções de exibição com braços e mãos intercambiáveis, tornando-o um dos Batmans mais mortais já criados.<br>Nota: Devido às diretrizes da Warner Bros., algumas imagens promocionais podem não exibir as armas do personagem.',
+          },
+          {
+            title: 'RECURSOS E ITENS INCLUSOS',
+            text: 'Base temática exclusiva inspirada no universo DC Metal.<br>Dois (2) pares de braços intercambiáveis (levantados e abaixados).<br>Seis (6) mãos intercambiáveis, incluindo mãos segurando armas e<br>mãos fechadas.<br>Um (1) retrato alternativo exclusivo [Versão Exclusiva].<br>Uma (1) arte impressa em A4 assinada à mão por Jason Fabok [Versão Exclusiva Bônus].',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 82,5 cm.<br>Largura: 51,7 cm.<br>Profundidade: 43,8 cm (braços levantados) | 35,8 cm (braços<br>abaixados).<br>Peso: 21 kg.<br>Materiais: Polystone e outros materiais premium.',
+          },
+        ],
+        image: BatmanGrimKnight4,
+      },
+      section5: [BatmanGrimKnight5, BatmanGrimKnight6, BatmanGrimKnight7],
     },
   },
   {
@@ -649,11 +885,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'INFORMAÇÕES ADICIONAIS',
-            text: 'Batman veste seu lendário traje inspirador de medo em kevlar e capa escura para patrulhar os becos de Gotham. Sua máscara com orelhas pontudas oculta sua identidade enquanto ele exibe orgulhosamente o mítico símbolo do morcego em seu peito. Desprovido de superpoderes, sua força reside em sua inteligência e grande domínio das disciplinas marciais, complementado pelo uso de gadgets de tecnologia avançada </br> .Ao decolar, Batman desce sobre sua presa e a joga violentamente nas latas de lixo, enquanto seu companheiro de crime é eletrocutado por um Batrang... Ele terminará sua corrida em uma posição desfavorável, esmagado no poste de luz, a única luz na escuridão...  </br> Cada detalhe desta cena nos prende neste universo sombrio, especialmente o grafite "sorriso" nas paredes de tijolos vermelhos, os cartazes de procurados dos dois delinquentes colados pelo departamento de polícia, as manchetes do Gotham Gazette ou Gotham Globe, os cartazes de eleição municipal com a efígie do ambicioso Oswald Cobblepot, o morcego negro na frente do pedestal, ou apenas uma máscara pendurada ali, provavelmente esperando o rosto certo... Como você pode imaginar, o Coringa está se aproximando perigosamente, pronto para recuperar o que lhe pertence!',
+            text: 'Batman veste seu lendário traje inspirador de medo em kevlar e capa escura para patrulhar os becos de Gotham. Sua máscara com orelhas pontudas oculta sua identidade enquanto ele exibe orgulhosamente o mítico símbolo do morcego em seu peito. Desprovido de superpoderes, sua força reside em sua inteligência e grande domínio das disciplinas marciais, complementado pelo uso de gadgets de tecnologia avançada <br> .Ao decolar, Batman desce sobre sua presa e a joga violentamente nas latas de lixo, enquanto seu companheiro de crime é eletrocutado por um Batrang... Ele terminará sua corrida em uma posição desfavorável, esmagado no poste de luz, a única luz na escuridão...  <br> Cada detalhe desta cena nos prende neste universo sombrio, especialmente o grafite "sorriso" nas paredes de tijolos vermelhos, os cartazes de procurados dos dois delinquentes colados pelo departamento de polícia, as manchetes do Gotham Gazette ou Gotham Globe, os cartazes de eleição municipal com a efígie do ambicioso Oswald Cobblepot, o morcego negro na frente do pedestal, ou apenas uma máscara pendurada ali, provavelmente esperando o rosto certo... Como você pode imaginar, o Coringa está se aproximando perigosamente, pronto para recuperar o que lhe pertence!',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões: Altura: 60 cm, Largura: 53 cm, Profundidade: 43 cm </br> Material: Polystone (resina) </br> Edição limitada de 600 peças.',
+            text: 'Dimensões: Altura: 60 cm, Largura: 53 cm, Profundidade: 43 cm <br> Material: Polystone (resina) <br> Edição limitada de 600 peças.',
           },
         ],
         image: BatmanHQS4,
@@ -690,11 +926,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES INCOMPARÁVEIS',
-            text: 'Com aproximadamente 88 cm de altura, a estátua inclui: </br> - Base temática altamente detalhada inspirada na Batcaverna, com elementos que destacam a essência do santuário do Batman. </br> - Sistema de Console do Batman, com design que mistura tecnologia futurista e estética analógica, incluindo iluminação em LED integrada.',
+            text: 'Com aproximadamente 88 cm de altura, a estátua inclui: <br> - Base temática altamente detalhada inspirada na Batcaverna, com elementos que destacam a essência do santuário do Batman. <br> - Sistema de Console do Batman, com design que mistura tecnologia futurista e estética analógica, incluindo iluminação em LED integrada.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura Aproximada: 87,8 cm. </br> Largura Aproximada: 73,3 cm. </br> Profundidade Aproximada: 57,8 cm. </br> Peso Aproximado: 26,8 kg.',
+            text: 'Altura Aproximada: 87,8 cm. <br> Largura Aproximada: 73,3 cm. <br> Profundidade Aproximada: 57,8 cm. <br> Peso Aproximado: 26,8 kg.',
           },
         ],
         image: BatmanHush4,
@@ -733,16 +969,61 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DO DESIGN',
-            text: "Com uma altura de 58 cm, largura de 39 cm e profundidade de 31 cm, esta estátua em escala 1/4 é feita de polystone, garantindo durabilidade e detalhes excepcionais. </br> A estátua é inspirada diretamente no filme Zack Snyder's Justice League e apresenta uma escultura altamente detalhada, com Batman posicionado sobre uma pilha de destroços apocalípticos. Cada detalhe foi cuidadosamente esculpido para capturar a essência do personagem e do cenário devastado, tornando esta peça um item indispensável para colecionadores e fãs do universo DC.",
+            text: "Com uma altura de 58 cm, largura de 39 cm e profundidade de 31 cm, esta estátua em escala 1/4 é feita de polystone, garantindo durabilidade e detalhes excepcionais. <br> A estátua é inspirada diretamente no filme Zack Snyder's Justice League e apresenta uma escultura altamente detalhada, com Batman posicionado sobre uma pilha de destroços apocalípticos. Cada detalhe foi cuidadosamente esculpido para capturar a essência do personagem e do cenário devastado, tornando esta peça um item indispensável para colecionadores e fãs do universo DC.",
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: "Marca: Sideshow </br> Dimensões: 58 cm (A) x 39 cm (L) x 31 cm (P) </br> Material: Polystone </br> Inspirado em: Zack Snyder's Justice League </br> Base: Batman posicionado sobre uma pilha de destroços apocalípticos",
+            text: "Marca: Sideshow <br> Dimensões: 58 cm (A) x 39 cm (L) x 31 cm (P) <br> Material: Polystone <br> Inspirado em: Zack Snyder's Justice League <br> Base: Batman posicionado sobre uma pilha de destroços apocalípticos",
           },
         ],
         image: BatmanKnightmare4,
       },
       section5: [BatmanKnightmare5, BatmanKnightmare6, BatmanKnightmare7],
+    },
+  },
+  {
+    title: 'BATMAN PREMIUM FORMAT',
+    description1: 'Sideshow Collectibles',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: BatmanPremiumFormat,
+    productUrl: '/batman-premium-format',
+    details: {
+      image: BatmanPremiumFormatAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Eu não sei o que fez sua vida se desviar, mas quem sabe? Talvez eu já tenha passado por isso também. Talvez eu possa ajudar." — Batman Apresentamos a impressionante Batman Premium FormatTM, uma estátua que destaca o lado sombrio e investigativo do Maior Detetive do Mundo.',
+        image: BatmanPremiumFormat1,
+        imageMobile: BatmanPremiumFormat1Mobile,
+      },
+      section2: {
+        title: 'O MAIOR DETETIVE DO MUNDO',
+        text: 'Com 71 cm de altura, esta peça captura Batman no topo de uma torre de igreja, equilibrado sobre uma gárgula enquanto observa Gotham. Sua longa e detalhada capa se funde com uma colônia de morcegos, tornando-o uma verdadeira criatura da noite, sempre à espreita de seus inimigos nas sombras.',
+        image: BatmanPremiumFormat2,
+        imageMobile: BatmanPremiumFormat2Mobile,
+      },
+      section3: {
+        image: BatmanPremiumFormat3,
+        imageMobile: BatmanPremiumFormat3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA ESTÁTUA',
+            text: 'Batman em uma pose dinâmica e investigativa, transmitindo sua presença imponente.<br>Capa esculpida com efeito de morcegos voando, criando uma atmosfera sombria e realista.<br>Uniforme clássico em tons de azul e cinza, com cinto de utilidades amarelo icônico.<br>Esculpido com expressão séria e misteriosa, evidenciando o lado detetive do Cavaleiro das Trevas.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 71 cm.<br>Largura: 53 cm.<br>Profundidade: 46 cm.<br>Peso: 10,9 kg.<br>Materiais: Polystone de alta qualidade.<br>Fabricante: Sideshow Collectibles.',
+          },
+        ],
+        image: BatmanPremiumFormat4,
+      },
+      section5: [
+        BatmanPremiumFormat5,
+        BatmanPremiumFormat6,
+        BatmanPremiumFormat7,
+      ],
     },
   },
   {
@@ -774,11 +1055,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DESTAQUES DA OBRA',
-            text: 'Carenagens removíveis na lateral da Batcycle, permitindo exibição do motor interno. <br/> Grappling gun intercambiável no lado esquerdo da moto. <br/> Lâmpada com iluminação LED, aumentando a ambientação de Gotham.',
+            text: 'Carenagens removíveis na lateral da Batcycle, permitindo exibição do motor interno. <br> Grappling gun intercambiável no lado esquerdo da moto. <br> Lâmpada com iluminação LED, aumentando a ambientação de Gotham.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões do Produto: 110 cm (C) x 73 cm (L) x 64 cm (A) <br/> Peso do Produto: 36 kg <br/> Fabricado em Polystone, com um acabamento premium. <br/> Pintura feita à mão, garantindo um nível de detalhes impressionante. <br/> Edição Limitada a 899 unidades!',
+            text: 'Dimensões do Produto: 110 cm (C) x 73 cm (L) x 64 cm (A) <br> Peso do Produto: 36 kg <br> Fabricado em Polystone, com um acabamento premium. <br> Pintura feita à mão, garantindo um nível de detalhes impressionante. <br> Edição Limitada a 899 unidades!',
           },
           {
             title: 'NOTA',
@@ -819,7 +1100,7 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DO DESIGN',
-            text: 'A estátua Batman Who Laughs 1/4 da Queen Studios foi inspirada em uma das cenas mais icônicas dos quadrinhos de DC Comics: Batman Who Laughs Vol.1. Com 67 cm de altura, a peça captura a essência da loucura com detalhes impressionantes, incluindo duas cabeças intercambiáveis: </br> Sorriso cínico: para destacar o lado calculista e cruel do personagem. </br> Riso sinistro: mostrando sua insanidade incontrolável. </br> Ambas as opções de rosto foram pintadas à mão com atenção extraordinária para criar uma peça de qualidade premium.',
+            text: 'A estátua Batman Who Laughs 1/4 da Queen Studios foi inspirada em uma das cenas mais icônicas dos quadrinhos de DC Comics: Batman Who Laughs Vol.1. Com 67 cm de altura, a peça captura a essência da loucura com detalhes impressionantes, incluindo duas cabeças intercambiáveis: <br> Sorriso cínico: para destacar o lado calculista e cruel do personagem. <br> Riso sinistro: mostrando sua insanidade incontrolável. <br> Ambas as opções de rosto foram pintadas à mão com atenção extraordinária para criar uma peça de qualidade premium.',
           },
           {
             title: 'DETALHES DA BASE',
@@ -827,12 +1108,57 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Material: Resina, PU e Metal. </br> Tamanho: 67 cm (A) x 56 cm (L) x 70 cm (P).',
+            text: 'Material: Resina, PU e Metal. <br> Tamanho: 67 cm (A) x 56 cm (L) x 70 cm (P).',
           },
         ],
         image: BatmanWhoLaughs4,
       },
       section5: [BatmanWhoLaughs5, BatmanWhoLaughs6, BatmanWhoLaughs7],
+    },
+  },
+  {
+    title: 'BATMAN ZERO YEAR',
+    description1: 'Prime 1 Studios',
+    tags: ['filmes-e-series', 'herois', 'games'],
+    image: BatmanZeroYear,
+    productUrl: '/batman-zero-year',
+    details: {
+      image: BatmanZeroYearAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Talvez seja isso que o Batman representa. Não vencer. Mas falhar e se levantar. Saber que vai falhar mil vezes, mas ainda assim nunca desistir."— Scott Snyder, Batman, Volume 5: Zero Year: Dark City',
+        image: BatmanZeroYear1,
+        imageMobile: BatmanZeroYear1Mobile,
+      },
+      section2: {
+        title: 'ZERO YERA DC COMICS',
+        text: 'Apresentamos a estátua Batman Zero Year, inspirada na icônica saga Zero Year da DC Comics. Parte do The New 52, essa história redefiniu a origem do Cavaleiro das Trevas, trazendo uma nova perspectiva sobre sua luta inicial contra o crime em Gotham.<br>Antes da Batcaverna, Robin, Coringa e o Batmóvel, existia o Ano Zero. A cidade de Gotham foi mergulhada na escuridão pelo Charada, e um jovem Bruce Wayne retorna para enfrentar um novo tipo de crime, lutando para restaurar a ordem em meio ao caos.',
+        image: BatmanZeroYear2,
+        imageMobile: BatmanZeroYear2Mobile,
+      },
+      section3: {
+        image: BatmanZeroYear3,
+        imageMobile: BatmanZeroYear3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA ESTÁTUA',
+            text: 'Nesta estátua impressionante, Batman está montado em sua moto, pronto para a batalha. Com 63,8 cm de altura (e até 69,2 cm segurando a besta), a peça inclui acessórios intercambiáveis, proporcionando múltiplas opções de exibição.<br>Versão Exclusiva: Inclui uma mão direita extra segurando o Grapple Hook!',
+          },
+          {
+            title: 'RECURSOS E ITENS INCLUSOS',
+            text: 'Base temática detalhada, representando o cenário pós-caos de Gotham.<br>Braço direito intercambiável com mão aberta.<br>Braço direito intercambiável segurando uma besta (Crossbow).<br>Mão direita segurando o Grapple Hook (Somente na Versão Exclusiva).',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 63,8 cm (padrão) | 69,2 cm (com a besta).<br>Largura: 61,6 cm.<br>Profundidade: 68,3 cm.<br>Peso: 27,4 kg.<br>Materiais: Polystone de alta qualidade.',
+          },
+        ],
+        image: BatmanZeroYear4,
+      },
+      section5: [BatmanZeroYear5, BatmanZeroYear6, BatmanZeroYear7],
     },
   },
   {
@@ -870,12 +1196,61 @@ export const products: ProductProps[] = [
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 70,5 cm </br> Largura: 27,9 cm </br> Profundidade: 27,9 cm </br> Peso: 6,8 kg',
+            text: 'Altura: 70,5 cm <br> Largura: 27,9 cm <br> Profundidade: 27,9 cm <br> Peso: 6,8 kg',
           },
         ],
         image: BobaFett4,
       },
       section5: [BobaFett5, BobaFett6, BobaFett7],
+    },
+  },
+  {
+    title: 'CHAINSAW MAN DENJI DELUXE BONUS VERSION',
+    description1: 'Prime 1 Studio',
+    tags: ['herois', 'fantasia'],
+    image: ChainsawMan,
+    productUrl: '/chainsaw-man',
+    details: {
+      image: ChainsawManAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Se existem demônios com quem eu possa ser amigo, então sim...Porque eu não tenho nenhum amigo."',
+        image: ChainsawMan1,
+        imageMobile: ChainsawMan1Mobile,
+      },
+      section2: {
+        title: 'CAÇADOR DE DEMÔNIOS',
+        text: 'Apresentamos um dos personagens mais icônicos e eletrizantes do mundo dos animes na linha Ultimate Premium Masterline: Denji - Deluxe Bonus Version de Chainsaw Man!<br>Denji não tinha dinheiro, comida, namorada – nem futuro! Até que assumiu a dívida de seu pai e se tornou um Caçador de Demônios. No auge do desespero, ele faz um pacto com seu amado demônio Pochita, tornando-se o letal Chainsaw Man!',
+        image: ChainsawMan2,
+        imageMobile: ChainsawMan2Mobile,
+      },
+      section3: {
+        image: ChainsawMan3,
+        imageMobile: ChainsawMan3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA ESTÁTUA',
+            text: 'Com impressionantes 57 cm de altura, esta peça traz Denji em sua forma híbrida, em meio a uma pilha de demônios destruídos, pronto para dilacerar tudo ao seu redor!',
+          },
+          {
+            title: 'DESTAQUES DA ESTÁTUA',
+            text: 'Pose dinâmica e brutal, com Denji emergindo de uma pilha de inimigos derrotados.<br>Olhos iluminados por LED nas cabeças híbridas, destacando sua presença aterrorizante.<br>Base temática detalhada, inspirada nos mecanismos de suas motosserras e no banho de sangue de seus inimigos.<br>Edição Deluxe Bonus Exclusiva – Inclui um Pochita em pedestal próprio como um bônus especial!',
+          },
+          {
+            title: 'ITENS INCLUSOS',
+            text: 'Quatro (4) cabeças intercambiáveis:<br>Duas (2) cabeças humanas com expressões diferentes.<br>Duas (2) cabeças híbridas de Chainsaw Man com LED e expressões únicas.<br>Dois (2) braços direitos intercambiáveis.<br>Três (3) braços esquerdos intercambiáveis.<br>Um (1) Pochita em pedestal próprio [Bônus Exclusivo].',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 57 cm.<br>Largura: 44 cm.<br>Profundidade: 35 cm.<br>Peso: 13,7 kg.<br>Materiais: Polystone e outros materiais premium.',
+          },
+        ],
+        image: ChainsawMan4,
+      },
+      section5: [ChainsawMan5, ChainsawMan6, ChainsawMan7],
     },
   },
   {
@@ -907,11 +1282,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'CHEETAH',
-            text: 'Ao longo dos anos, houve várias encarnações de Cheetah. A primeira foi Priscilla Rich, uma socialite que desenvolveu uma personalidade dividida e se transformou em Cheetah devido à inveja que sentia da Mulher-Maravilha. A segunda encarnação foi Deborah Domaine, sobrinha de Priscilla, que assumiu o manto de Cheetah após ser vítima de lavagem cerebral pela organização terrorista Kobra. </br> A versão mais conhecida e atual de Cheetah é Barbara Ann Minerva, uma arqueóloga que se transforma em Cheetah após uma expedição à África, onde é amaldiçoada pelo deus planta Urzkartaga. Esta versão do personagem possui habilidades sobre-humanas, incluindo super força, agilidade, velocidade, visão noturna, garras e presas afiadas. </br> Cheetah é conhecida por sua ferocidade e ódio pela Mulher-Maravilha, mas também é vista como uma personagem complexa, lutando contra seu lado negro e, às vezes, mostrando uma necessidade de redenção.',
+            text: 'Ao longo dos anos, houve várias encarnações de Cheetah. A primeira foi Priscilla Rich, uma socialite que desenvolveu uma personalidade dividida e se transformou em Cheetah devido à inveja que sentia da Mulher-Maravilha. A segunda encarnação foi Deborah Domaine, sobrinha de Priscilla, que assumiu o manto de Cheetah após ser vítima de lavagem cerebral pela organização terrorista Kobra. <br> A versão mais conhecida e atual de Cheetah é Barbara Ann Minerva, uma arqueóloga que se transforma em Cheetah após uma expedição à África, onde é amaldiçoada pelo deus planta Urzkartaga. Esta versão do personagem possui habilidades sobre-humanas, incluindo super força, agilidade, velocidade, visão noturna, garras e presas afiadas. <br> Cheetah é conhecida por sua ferocidade e ódio pela Mulher-Maravilha, mas também é vista como uma personagem complexa, lutando contra seu lado negro e, às vezes, mostrando uma necessidade de redenção.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Material:Polystone. <br/> Pintura: Cada estátua é pintada à mão individualmente, garantindo um acabamento de alta qualidade. </br> Edição Limitada: A peça é uma edição limitada, com apenas 199 unidades disponíveis. </br> Tamanho e Peso Estimados do Produto: 36x37x46cm, 15kg',
+            text: 'Material:Polystone. <br> Pintura: Cada estátua é pintada à mão individualmente, garantindo um acabamento de alta qualidade. <br> Edição Limitada: A peça é uma edição limitada, com apenas 199 unidades disponíveis. <br> Tamanho e Peso Estimados do Produto: 36x37x46cm, 15kg',
           },
         ],
         image: Cheetah4,
@@ -948,11 +1323,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DESTAQUES DO PRODUTO',
-            text: 'Olhos de vidro com efeito de olho de gato perolado e estrelado <br/> Cílios reais para um toque ainda mais autêntico <br/> Armadura de tórax removível para personalização da estátua <br/> Materiais: Resina e PU',
+            text: 'Olhos de vidro com efeito de olho de gato perolado e estrelado <br> Cílios reais para um toque ainda mais autêntico <br> Armadura de tórax removível para personalização da estátua <br> Materiais: Resina e PU',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Comprimento: 30 cm <br/> Largura: 30 cm <br/> Altura: 51 cm',
+            text: 'Comprimento: 30 cm <br> Largura: 30 cm <br> Altura: 51 cm',
           },
         ],
         image: CyberCat4,
@@ -1030,11 +1405,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DA FIGURA',
-            text: '<strong>Escultura Realista:</strong> A figura traz uma expressão feroz do Hulk, com rugas profundas e cicatrizes visíveis. </br> <strong>Armadura de Gladiador:</strong> Inclui detalhes em couro, metal e tecido que reproduzem a armadura usada na arena de Sakaar. </br> <strong>Acessórios:</strong> Acompanha uma espada gigantesca e escudo, armas que ele utilizou nas batalhas mais icônicas. </br> <strong>Base Temática:</strong> A base é inspirada na arena de Sakaar, com elementos do cenário e partes quebradas dos adversários derrotados. </br> <strong>Tamanho e Escala:</strong> A peça é geralmente feita na escala 1/4, o que garante uma presença imponente, ideal para colecionadores de alto padrão.',
+            text: '<strong>Escultura Realista:</strong> A figura traz uma expressão feroz do Hulk, com rugas profundas e cicatrizes visíveis. <br> <strong>Armadura de Gladiador:</strong> Inclui detalhes em couro, metal e tecido que reproduzem a armadura usada na arena de Sakaar. <br> <strong>Acessórios:</strong> Acompanha uma espada gigantesca e escudo, armas que ele utilizou nas batalhas mais icônicas. <br> <strong>Base Temática:</strong> A base é inspirada na arena de Sakaar, com elementos do cenário e partes quebradas dos adversários derrotados. <br> <strong>Tamanho e Escala:</strong> A peça é geralmente feita na escala 1/4, o que garante uma presença imponente, ideal para colecionadores de alto padrão.',
           },
           {
             title: 'POR QUE ESSA FIGURA É ESPECIAL?',
-            text: '<strong>Edição Limitada:</strong> A versão Premium costuma ser limitada a poucas unidades, aumentando sua raridade e valor no mercado de colecionáveis. </br> <strong>Pintura Manual:</strong> Cada peça é pintada à mão, garantindo um acabamento único e diferenciado. </br> <strong>Material de Alta Qualidade:</strong> A figura é feita com resina polystone, conhecida pela durabilidade e detalhes intrincados. </br> <strong>Imersão na História:</strong> Não é apenas uma figura, mas uma representação emocional de um momento épico do personagem, que ressoa com a profundidade da saga "Planeta Hulk".',
+            text: '<strong>Edição Limitada:</strong> A versão Premium costuma ser limitada a poucas unidades, aumentando sua raridade e valor no mercado de colecionáveis. <br> <strong>Pintura Manual:</strong> Cada peça é pintada à mão, garantindo um acabamento único e diferenciado. <br> <strong>Material de Alta Qualidade:</strong> A figura é feita com resina polystone, conhecida pela durabilidade e detalhes intrincados. <br> <strong>Imersão na História:</strong> Não é apenas uma figura, mas uma representação emocional de um momento épico do personagem, que ressoa com a profundidade da saga "Planeta Hulk".',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
@@ -1044,6 +1419,47 @@ export const products: ProductProps[] = [
         image: GreenScarHulk4,
       },
       section5: [GreenScarHulk5, GreenScarHulk6, GreenScarHulk7],
+    },
+  },
+  {
+    title: 'GUTS – BERSERK',
+    description1: 'Prime 1 Studios',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: GutsBerserk,
+    productUrl: '/guts-berserk',
+    details: {
+      image: GutsBerserkAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Quando você encontrar seu Deus, diga para ele me deixar em paz." Apresentamos a primeira peça da nova Legacy Art Series, uma homenagem ao lendário criador de Berserk, Kentaro Miura.',
+        image: GutsBerserk1,
+        imageMobile: GutsBerserk1Mobile,
+      },
+      section2: {
+        title: 'BONUS VERSION',
+        text: 'A Guts - Legacy Art "Kentaro Miura" Bonus Version traz o icônico protagonista do mangá em um design impactante e cheio de simbolismo, retratando sua incansável busca por vingança e redenção. Inspirada na icônica armadura Berserker, esta peça captura Guts em uma pose imponente, sobre uma base repleta de crânios e armas de inimigos derrotados.',
+        image: GutsBerserk2,
+        imageMobile: GutsBerserk2Mobile,
+      },
+      section3: {
+        image: GutsBerserk3,
+        imageMobile: GutsBerserk3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'SOBRE GUTS E A ESTÁTUA',
+            text: 'Cada detalhe da armadura foi meticulosamente esculpido e pintado, misturando tons de preto e azul para realçar sua imponência.<br>A Dragon Slayer, a icônica espada de Guts, está empunhada, reforçando sua inabalável determinação.<br>A capa esvoaçante, com um design exclusivo que esconde o rosto de Guts, adiciona um tom sombrio e atmosférico à peça.<br>Edição Bônus: Inclui um rosto intercambiável sem elmo, mostrando a expressão intensa e determinada de Guts!',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 45 cm.<br>Largura: 49 cm.<br>Profundidade: 34 cm.<br>Peso: 6 kg.<br>Materiais: Polystone e outros materiais premium.',
+          },
+        ],
+        image: GutsBerserk4,
+      },
+      section5: [GutsBerserk5, GutsBerserk6, GutsBerserk7],
     },
   },
   {
@@ -1063,7 +1479,7 @@ export const products: ProductProps[] = [
       },
       section2: {
         title: 'UMA HOMENAGEM A HEATH LEDGER',
-        text: 'No papel do Coringa, Heath Ledger consolidou sua interpretação como uma das mais icônicas e cativantes do cinema. Para refletir a genialidade que permeou sua atuação, a Prime 1 Studio revela um busto que captura com precisão a essência desse personagem lendário. </br> Com 26 cm de altura, esta edição limitada a 1.000 peças apresenta metade do rosto de Ledger com a icônica maquiagem do Coringa, enquanto a outra metade revela o ator por trás do personagem, em uma pintura sutil e reverente que humaniza o vilão como nunca antes.',
+        text: 'No papel do Coringa, Heath Ledger consolidou sua interpretação como uma das mais icônicas e cativantes do cinema. Para refletir a genialidade que permeou sua atuação, a Prime 1 Studio revela um busto que captura com precisão a essência desse personagem lendário. <br> Com 26 cm de altura, esta edição limitada a 1.000 peças apresenta metade do rosto de Ledger com a icônica maquiagem do Coringa, enquanto a outra metade revela o ator por trás do personagem, em uma pintura sutil e reverente que humaniza o vilão como nunca antes.',
         image: JokerBust2,
         imageMobile: JokerBust2Mobile,
       },
@@ -1075,11 +1491,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DA FIGURA',
-            text: '<strong>Likeness incrivelmente detalhado:</strong> O busto recria com precisão o rosto de Heath Ledger com cabelo esculpido de forma realista. </br> Base temática de The Dark Knight: Um design que complementa perfeitamente a atmosfera sombria do filme. </br> <strong>Cartão do Coringa de Batman Begins:</strong> Inclui uma réplica do icônico baralho do personagem.',
+            text: '<strong>Likeness incrivelmente detalhado:</strong> O busto recria com precisão o rosto de Heath Ledger com cabelo esculpido de forma realista. <br> Base temática de The Dark Knight: Um design que complementa perfeitamente a atmosfera sombria do filme. <br> <strong>Cartão do Coringa de Batman Begins:</strong> Inclui uma réplica do icônico baralho do personagem.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 26 cm </br> Largura: 17 cm </br> Profundidade: 14 cm </br> Peso Aproximado: 2,8 kg </br> Material: Polystone e outros materiais.',
+            text: 'Altura: 26 cm <br> Largura: 17 cm <br> Profundidade: 14 cm <br> Peso Aproximado: 2,8 kg <br> Material: Polystone e outros materiais.',
           },
         ],
         image: JokerBust4,
@@ -1116,15 +1532,15 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DA FIGURA',
-            text: 'O Penguin Daimyo se acomoda luxuosamente em um Norimono (palanquim japonês usado por nobres), acompanhado por seus subordinados pinguins. O palanquim é adornado com motivos tradicionais japoneses, ornamentos dourados intricados e detalhes inspirados no Pinguim. </br> Os guardas pinguins, maiores e mais fortes, carregam o Norimono, enquanto um pinguim menor serve saquê com um toque de pólvora para o Daimyo. Cada pinguim veste um kasa (chapéu de palha tradicional japonês) e carrega explosivos prontos para serem usados quando necessário. </br> Aos pés do Daimyo, há um baú de joias e um cesto de peixes com dinamite atravessando suas bocas, além de um emblema que lembra a máscara Oni inspirada no Coringa Orochi. Com quem o Daimyo está negociando?',
+            text: 'O Penguin Daimyo se acomoda luxuosamente em um Norimono (palanquim japonês usado por nobres), acompanhado por seus subordinados pinguins. O palanquim é adornado com motivos tradicionais japoneses, ornamentos dourados intricados e detalhes inspirados no Pinguim. <br> Os guardas pinguins, maiores e mais fortes, carregam o Norimono, enquanto um pinguim menor serve saquê com um toque de pólvora para o Daimyo. Cada pinguim veste um kasa (chapéu de palha tradicional japonês) e carrega explosivos prontos para serem usados quando necessário. <br> Aos pés do Daimyo, há um baú de joias e um cesto de peixes com dinamite atravessando suas bocas, além de um emblema que lembra a máscara Oni inspirada no Coringa Orochi. Com quem o Daimyo está negociando?',
           },
           {
             title: 'PEÇAS PARA TROCA',
-            text: '<strong>3 cabeças intercambiáveis:</strong> Uma com sorriso largo e monóculo; outra com sorriso alegre e monóculo; e uma usando uma máscara inspirada em Oni. </br> <strong>2 opções para a mão esquerda:</strong> O famoso guarda-chuva ou um Gunbai (leque de guerra japonês usado como sinalizador). </br> <strong>2 opções para a mão direita:</strong> Uma pistola ou uma katana (espada japonesa) embainhada na cintura.',
+            text: '<strong>3 cabeças intercambiáveis:</strong> Uma com sorriso largo e monóculo; outra com sorriso alegre e monóculo; e uma usando uma máscara inspirada em Oni. <br> <strong>2 opções para a mão esquerda:</strong> O famoso guarda-chuva ou um Gunbai (leque de guerra japonês usado como sinalizador). <br> <strong>2 opções para a mão direita:</strong> Uma pistola ou uma katana (espada japonesa) embainhada na cintura.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: '<strong>Tamanho:</strong> 52 cm (C) x 44 cm (L) x 64 cm (A) (estimado) </br> <strong>Dimensões da Caixa:</strong> 73 cm (C) x 63 cm (L) x 55,5 cm (A) (estimado) </br> <strong>Peso do Produto:</strong> 24 kg (estimado)',
+            text: '<strong>Tamanho:</strong> 52 cm (C) x 44 cm (L) x 64 cm (A) (estimado) <br> <strong>Dimensões da Caixa:</strong> 73 cm (C) x 63 cm (L) x 55,5 cm (A) (estimado) <br> <strong>Peso do Produto:</strong> 24 kg (estimado)',
           },
         ],
         image: BatmanPenguin4,
@@ -1161,19 +1577,19 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES INCRÍVEIS',
-            text: 'Com mais de 85 cm de altura, a estátua apresenta: </br> Armadura de batalha marcada pelo tempo, com texturas realistas.</br>Capacete metálico com cicatrizes e troféus esqueléticos.</br>Retrato detalhado de seu rosto, revelando as marcas deixadas por anos de caçadas, incluindo a perda de seu olho direito e parte da mandíbula durante um confronto épico.',
+            text: 'Com mais de 85 cm de altura, a estátua apresenta: <br> Armadura de batalha marcada pelo tempo, com texturas realistas.<br>Capacete metálico com cicatrizes e troféus esqueléticos.<br>Retrato detalhado de seu rosto, revelando as marcas deixadas por anos de caçadas, incluindo a perda de seu olho direito e parte da mandíbula durante um confronto épico.',
           },
           {
             title: 'RECURSOS E MATERIAL DE ALTA QUALIDADE',
-            text: 'A Prime 1 Studio emprega materiais premium para criar uma experiência imersiva e colecionável:</br>Cinto e alças de couro sintético com fivelas de metal.</br>Manto de tecido e rede real.Canhão de Plasma com LED funcional.</br>Base com uma impressionante centopeia gigante, detalhada com sangue verde, pernas espinhosas e dentes afiados.',
+            text: 'A Prime 1 Studio emprega materiais premium para criar uma experiência imersiva e colecionável:<br>Cinto e alças de couro sintético com fivelas de metal.<br>Manto de tecido e rede real.Canhão de Plasma com LED funcional.<br>Base com uma impressionante centopeia gigante, detalhada com sangue verde, pernas espinhosas e dentes afiados.',
           },
           {
             title: 'VERSÃO REGULAR INCLUI',
-            text: 'Base temática do Predador com centopeia gigante.</br>Canhão de Plasma com iluminação em LED.</br>Dois retratos intercambiáveis (com capacete ou sem capacete, destacando suas cicatrizes).</br>Um suporte para a cabeça extra.</br>Mãos intercambiáveis:</br>Mão esquerda: fechada ou segurando a lança.</br>Mão direita: aberta ou fechada.</br>Troféu especial: Rifle de Engenheiro, que pode ser exibido nas costas.',
+            text: 'Base temática do Predador com centopeia gigante.<br>Canhão de Plasma com iluminação em LED.<br>Dois retratos intercambiáveis (com capacete ou sem capacete, destacando suas cicatrizes).<br>Um suporte para a cabeça extra.<br>Mãos intercambiáveis:<br>Mão esquerda: fechada ou segurando a lança.<br>Mão direita: aberta ou fechada.<br>Troféu especial: Rifle de Engenheiro, que pode ser exibido nas costas.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Dimensões: A: 85 cm x L: 57 cm x P: 76 cm.</br>Peso Aproximado: 37 kg.</br>Materiais: Polystone e outros materiais de alta qualidade.',
+            text: 'Dimensões: A: 85 cm x L: 57 cm x P: 76 cm.<br>Peso Aproximado: 37 kg.<br>Materiais: Polystone e outros materiais de alta qualidade.',
           },
         ],
         image: PredatorAhab4,
@@ -1198,7 +1614,7 @@ export const products: ProductProps[] = [
       },
       section2: {
         title: 'VISUAL REVELADO',
-        text: 'Criado com a mesma precisão e atenção aos detalhes da estátua completa, o busto apresenta o visual grotesco sem máscara do Predator, como visto no momento em que ele enfrenta Dutch Schaefer no final do filme, revelando sua verdadeira forma e provocando a frase mais memorável do longa:“Você é um feio f#$%&# da p&#!*”. </br> Além disso, o busto vem equipado com um Canhão de Plasma com iluminação em LED, que traz ainda mais realismo e impacto visual à peça.',
+        text: 'Criado com a mesma precisão e atenção aos detalhes da estátua completa, o busto apresenta o visual grotesco sem máscara do Predator, como visto no momento em que ele enfrenta Dutch Schaefer no final do filme, revelando sua verdadeira forma e provocando a frase mais memorável do longa:“Você é um feio f#$%&# da p&#!*”. <br> Além disso, o busto vem equipado com um Canhão de Plasma com iluminação em LED, que traz ainda mais realismo e impacto visual à peça.',
         image: JungleHunter2,
         imageMobile: JungleHunter2Mobile,
       },
@@ -1210,11 +1626,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES ADICIONAIS',
-            text: 'Da fabricante Prime 1 Studio, uma peça incrível para os fãs de Predator: o Busto Jungle Hunter Predator (sem máscara), escala 1/3, inspirado no clássico filme Predator (1987)! </br> Cabeça sem máscara detalhada. </br> Canhão de Plasma iluminado por LED. </br> Base temática detalhada.',
+            text: 'Da fabricante Prime 1 Studio, uma peça incrível para os fãs de Predator: o Busto Jungle Hunter Predator (sem máscara), escala 1/3, inspirado no clássico filme Predator (1987)! <br> Cabeça sem máscara detalhada. <br> Canhão de Plasma iluminado por LED. <br> Base temática detalhada.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 37 cm </br> Largura: 27 cm </br> Profundidade: 32 cm </br> Peso: 9,6 kg </br> Materiais: Polystone e outros materiais premium.',
+            text: 'Altura: 37 cm <br> Largura: 27 cm <br> Profundidade: 32 cm <br> Peso: 9,6 kg <br> Materiais: Polystone e outros materiais premium.',
           },
         ],
         image: JungleHunter4,
@@ -1251,11 +1667,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'A HISTÓRIA DE SHE-RA',
-            text: 'Nascida como a Princesa Adora, irmã gêmea de Príncipe Adam (He-Man), ela foi sequestrada ainda bebê por Hordak, comandante da Horda em Etheria. Sob o controle da Shadow Weaver, Adora cresceu como capitã das forças da Horda até descobrir a verdade sobre sua origem. <br/>  Ao receber a Espada da Proteção, Adora libertou sua mente e se transformou em She-Ra, a guerreira poderosa que lidera a Rebelião para libertar Etheria. <br/>  Com força sobre-humana, velocidade aprimorada, reflexos ágeis e quase invulnerabilidade, She-Ra também possui a habilidade de curar ferimentos e se comunicar telepaticamente com os animais. Seu fiel cavalo Spirit se transforma no poderoso alicórnio Swift Wind, que tem a capacidade de liberar rajadas de energia e detectar magia ao redor.',
+            text: 'Nascida como a Princesa Adora, irmã gêmea de Príncipe Adam (He-Man), ela foi sequestrada ainda bebê por Hordak, comandante da Horda em Etheria. Sob o controle da Shadow Weaver, Adora cresceu como capitã das forças da Horda até descobrir a verdade sobre sua origem. <br>  Ao receber a Espada da Proteção, Adora libertou sua mente e se transformou em She-Ra, a guerreira poderosa que lidera a Rebelião para libertar Etheria. <br>  Com força sobre-humana, velocidade aprimorada, reflexos ágeis e quase invulnerabilidade, She-Ra também possui a habilidade de curar ferimentos e se comunicar telepaticamente com os animais. Seu fiel cavalo Spirit se transforma no poderoso alicórnio Swift Wind, que tem a capacidade de liberar rajadas de energia e detectar magia ao redor.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 42 cm </br> Largura: 53 cm </br> Profundidade: 30 cm </br> Peso: 3,3 kg </br> Material: Polystone pintado à mão',
+            text: 'Altura: 42 cm <br> Largura: 53 cm <br> Profundidade: 30 cm <br> Peso: 3,3 kg <br> Material: Polystone pintado à mão',
           },
         ],
         image: SheRa4,
@@ -1292,11 +1708,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'POR QUE TER ESTA PEÇA?',
-            text: 'Escala real 1:1: A mesma proporção do filme, ideal para exibição. </br> Iluminação LED nos olhos: Um olhar intimidante que dará vida à sua coleção. </br> Acabamento premium: Metalizado, com pintura e texturas que simulam danos reais. </br> Exclusividade: Perfeito para fãs e colecionadores de alta performance.',
+            text: 'Escala real 1:1: A mesma proporção do filme, ideal para exibição. <br> Iluminação LED nos olhos: Um olhar intimidante que dará vida à sua coleção. <br> Acabamento premium: Metalizado, com pintura e texturas que simulam danos reais. <br> Exclusividade: Perfeito para fãs e colecionadores de alta performance.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Material: Resina premium com acabamento metálico </br> Tamanho: Escala 1:1 (mais de 70 cm de altura) </br> Características: Olhos com LED vermelho',
+            text: 'Material: Resina premium com acabamento metálico <br> Tamanho: Escala 1:1 (mais de 70 cm de altura) <br> Características: Olhos com LED vermelho',
           },
         ],
         image: Terminator4,
@@ -1333,11 +1749,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'OPÇÕES E EXCLUSIVIDADES',
-            text: 'Esta estátua altamente detalhada oferece: </br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. </br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. </br> Três suportes para cabeças: Para exibir os retratos não utilizados. </br> Base temática exclusiva: Inspirada no universo sombrio do Batman.',
+            text: 'Esta estátua altamente detalhada oferece: <br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. <br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. <br> Três suportes para cabeças: Para exibir os retratos não utilizados. <br> Base temática exclusiva: Inspirada no universo sombrio do Batman.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 70,6 cm </br> Largura: 47,2 cm </br> Profundidade: 44,2 cm </br> Peso: 24,8 kg',
+            text: 'Altura: 70,6 cm <br> Largura: 47,2 cm <br> Profundidade: 44,2 cm <br> Peso: 24,8 kg',
           },
         ],
         image: JokerStatue4,
@@ -1362,7 +1778,7 @@ export const products: ProductProps[] = [
       },
       section2: {
         title: 'DETALHES DO DESIGN',
-        text: 'Esta versão traz um traje autêntico e detalhado, com texturas que simulam couro resistente, complementado por detalhes dourados reluzentes. A pele impecável de Diana contrasta com a sua armadura de combate, ressaltando sua força e imponência.</br>A base da estátua, inspirada em Injustice 2, representa o campo de batalha onde Diana triunfou sobre seus inimigos. O cenário ainda conta com chamas azuis iluminadas por LED, trazendo um efeito cinematográfico digno dos fogos do submundo de Hades!',
+        text: 'Esta versão traz um traje autêntico e detalhado, com texturas que simulam couro resistente, complementado por detalhes dourados reluzentes. A pele impecável de Diana contrasta com a sua armadura de combate, ressaltando sua força e imponência.<br>A base da estátua, inspirada em Injustice 2, representa o campo de batalha onde Diana triunfou sobre seus inimigos. O cenário ainda conta com chamas azuis iluminadas por LED, trazendo um efeito cinematográfico digno dos fogos do submundo de Hades!',
         // image: WonderWomanGreatHera2,
         // imageMobile: WonderWomanGreatHera2Mobile,
         video:
@@ -1376,11 +1792,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'RECURSOS E ITENS INCLUSOS',
-            text: 'Duas decorações intercambiáveis para a base com espadas. </br>Três retratos intercambiáveis</strong> com expressões diferentes: boca fechada, boca aberta e expressão de fúria. </br>Duas espadas intercambiáveis</strong> (para a mão direita). </br>Dois escudos intercambiáveis.</strong> </br>Dois antebraços direitos intercambiáveis.</strong> </br>Uma opção com as mãos empunhando o Laço da Verdade.</strong> </br>Base temática de Injustice 2 com iluminação LED</strong> nas chamas.',
+            text: 'Duas decorações intercambiáveis para a base com espadas. <br>Três retratos intercambiáveis</strong> com expressões diferentes: boca fechada, boca aberta e expressão de fúria. <br>Duas espadas intercambiáveis</strong> (para a mão direita). <br>Dois escudos intercambiáveis.</strong> <br>Dois antebraços direitos intercambiáveis.</strong> <br>Uma opção com as mãos empunhando o Laço da Verdade.</strong> <br>Base temática de Injustice 2 com iluminação LED</strong> nas chamas.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 52,6cm. </br> Largura: 41,4cm  </br> Profundidade: 37,2cm  </br> Peso:8.7Kg  </br> Material: Polystone e outros materiais premium.',
+            text: 'Altura: 52,6cm. <br> Largura: 41,4cm  <br> Profundidade: 37,2cm  <br> Peso:8.7Kg  <br> Material: Polystone e outros materiais premium.',
           },
         ],
         image: WonderWomanGreatHera4,
@@ -1426,11 +1842,11 @@ export const products: ProductProps[] = [
           },
           {
             title: 'DETALHES',
-            text: 'Base temática com detalhes de fumaça e escombros.</br>Uma (1) capa removível e posável.</br>Edição limitada com unidades exclusivas!',
+            text: 'Base temática com detalhes de fumaça e escombros.<br>Uma (1) capa removível e posável.<br>Edição limitada com unidades exclusivas!',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 74.7cm</br>Largura: 48.5cm</br>Profundidade: 47.1cm</br>Peso do Produto Aproximado: 14.98 kg ',
+            text: 'Altura: 74.7cm<br>Largura: 48.5cm<br>Profundidade: 47.1cm<br>Peso do Produto Aproximado: 14.98 kg ',
           },
         ],
       },
@@ -1466,11 +1882,11 @@ export const products: ProductProps[] = [
         text: [
           {
             title: 'DETALHES DA OBRA',
-            text: 'A "Summer Drunken Beauty" é altamente detalhada, com cada elemento meticulosamente esculpido. A atenção aos detalhes, como as flores e os adornos do pavilhão, assim como os trajes fluidos da figura feminina, destacam o nível de dedicação e arte envolvido na criação desta peça. O uso das cores na versão pintada adiciona uma profundidade emocional à escultura, conferindo-lhe uma aura etérea e quase onírica. </br> Essa obra é uma celebração da beleza e da natureza, temas recorrentes no trabalho de Yuan, e reflete tanto o domínio técnico quanto o sensível uso de cores e formas para capturar a essência do verão e da feminilidade.',
+            text: 'A "Summer Drunken Beauty" é altamente detalhada, com cada elemento meticulosamente esculpido. A atenção aos detalhes, como as flores e os adornos do pavilhão, assim como os trajes fluidos da figura feminina, destacam o nível de dedicação e arte envolvido na criação desta peça. O uso das cores na versão pintada adiciona uma profundidade emocional à escultura, conferindo-lhe uma aura etérea e quase onírica. <br> Essa obra é uma celebração da beleza e da natureza, temas recorrentes no trabalho de Yuan, e reflete tanto o domínio técnico quanto o sensível uso de cores e formas para capturar a essência do verão e da feminilidade.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 39 cm </br> Largura: 22 cm </br> Profundidade: 34 cm',
+            text: 'Altura: 39 cm <br> Largura: 22 cm <br> Profundidade: 34 cm',
           },
         ],
         image: SummerDrunkenBeauty4,
