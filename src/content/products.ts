@@ -480,6 +480,81 @@ import GutsBerserk2Mobile from '@/assets/products/Guts Bersek/2Mobile.png'
 import GutsBerserk3Mobile from '@/assets/products/Guts Bersek/3Mobile.png'
 /// ///////////////////////////////
 
+// Jagi //////////////////////////
+import Jagi from '@/assets/products/Jagi.png'
+import JagiAmbientacao from '@/assets/products/ambientacoes/Jagi.png'
+import Jagi1 from '@/assets/products/Jagi/1.png'
+import Jagi2 from '@/assets/products/Jagi/2.png'
+import Jagi3 from '@/assets/products/Jagi/3.png'
+import Jagi4 from '@/assets/products/Jagi/4.png'
+import Jagi5 from '@/assets/products/Jagi/5.png'
+import Jagi6 from '@/assets/products/Jagi/6.png'
+import Jagi7 from '@/assets/products/Jagi/7.png'
+import Jagi1Mobile from '@/assets/products/Jagi/1Mobile.png'
+import Jagi2Mobile from '@/assets/products/Jagi/2Mobile.png'
+import Jagi3Mobile from '@/assets/products/Jagi/3Mobile.png'
+/// ///////////////////////////////
+
+// Minas Tirith //////////////////
+import MinasTirith from '@/assets/products/Minas Tirith.png'
+import MinasTirithAmbientacao from '@/assets/products/ambientacoes/Minas Tirith.png'
+import MinasTirith1 from '@/assets/products/Minas Tirith/1.png'
+import MinasTirith2 from '@/assets/products/Minas Tirith/2.png'
+import MinasTirith3 from '@/assets/products/Minas Tirith/3.png'
+import MinasTirith4 from '@/assets/products/Minas Tirith/4.png'
+import MinasTirith5 from '@/assets/products/Minas Tirith/5.png'
+import MinasTirith6 from '@/assets/products/Minas Tirith/6.png'
+import MinasTirith7 from '@/assets/products/Minas Tirith/7.png'
+import MinasTirith1Mobile from '@/assets/products/Minas Tirith/1Mobile.png'
+import MinasTirith2Mobile from '@/assets/products/Minas Tirith/2Mobile.png'
+import MinasTirith3Mobile from '@/assets/products/Minas Tirith/3Mobile.png'
+/// ///////////////////////////////
+
+// Supergirl ///////////////////////
+import Supergirl from '@/assets/products/Supergirl.png'
+import SupergirlAmbientacao from '@/assets/products/ambientacoes/Supergirl.png'
+import Supergirl1 from '@/assets/products/Supergirl/1.png'
+import Supergirl2 from '@/assets/products/Supergirl/2.png'
+import Supergirl3 from '@/assets/products/Supergirl/3.png'
+import Supergirl4 from '@/assets/products/Supergirl/4.png'
+import Supergirl5 from '@/assets/products/Supergirl/5.png'
+import Supergirl6 from '@/assets/products/Supergirl/6.png'
+import Supergirl7 from '@/assets/products/Supergirl/7.png'
+import Supergirl1Mobile from '@/assets/products/Supergirl/1Mobile.png'
+import Supergirl2Mobile from '@/assets/products/Supergirl/2Mobile.png'
+import Supergirl3Mobile from '@/assets/products/Supergirl/3Mobile.png'
+/// ///////////////////////////////
+
+// Terminator 2 Motorcycle //////////////////////
+import Terminator2Motor from '@/assets/products/Terminator 2 Motorcycle.png'
+import Terminator2MotorAmbientacao from '@/assets/products/ambientacoes/Terminator 2 Motorcycle.png'
+import Terminator2Motor1 from '@/assets/products/Terminator 2 Motorcycle/1.png'
+import Terminator2Motor2 from '@/assets/products/Terminator 2 Motorcycle/2.png'
+import Terminator2Motor3 from '@/assets/products/Terminator 2 Motorcycle/3.png'
+import Terminator2Motor4 from '@/assets/products/Terminator 2 Motorcycle/4.png'
+import Terminator2Motor5 from '@/assets/products/Terminator 2 Motorcycle/5.png'
+import Terminator2Motor6 from '@/assets/products/Terminator 2 Motorcycle/6.png'
+import Terminator2Motor7 from '@/assets/products/Terminator 2 Motorcycle/7.png'
+import Terminator2Motor1Mobile from '@/assets/products/Terminator 2 Motorcycle/1Mobile.png'
+import Terminator2Motor2Mobile from '@/assets/products/Terminator 2 Motorcycle/2Mobile.png'
+import Terminator2Motor3Mobile from '@/assets/products/Terminator 2 Motorcycle/3Mobile.png'
+/// ///////////////////////////////
+
+// Terminator 2 Bust //////////////////////
+import Terminator2Bust from '@/assets/products/Terminator 2 Bust.png'
+import Terminator2BustAmbientacao from '@/assets/products/ambientacoes/Terminator 2 Bust.png'
+import Terminator2Bust1 from '@/assets/products/Terminator 2 Bust/1.png'
+import Terminator2Bust2 from '@/assets/products/Terminator 2 Bust/2.png'
+import Terminator2Bust3 from '@/assets/products/Terminator 2 Bust/3.png'
+import Terminator2Bust4 from '@/assets/products/Terminator 2 Bust/4.png'
+import Terminator2Bust5 from '@/assets/products/Terminator 2 Bust/5.png'
+import Terminator2Bust6 from '@/assets/products/Terminator 2 Bust/6.png'
+import Terminator2Bust7 from '@/assets/products/Terminator 2 Bust/7.png'
+import Terminator2Bust1Mobile from '@/assets/products/Terminator 2 Bust/1Mobile.png'
+import Terminator2Bust2Mobile from '@/assets/products/Terminator 2 Bust/2Mobile.png'
+import Terminator2Bust3Mobile from '@/assets/products/Terminator 2 Bust/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -1463,6 +1538,51 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'JAGI – FIST OF THE NORH STAR',
+    description1: 'Prime 1 Studios',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
+    image: Jagi,
+    productUrl: '/jagi',
+    details: {
+      image: JagiAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Jagi é o irmão mais velho de Kenshiro, protagonista da série e sucessor do estilo de artes marciais Hokuto Shinken. Sua inveja por não ser o escolhido do mestre Ryuken para suceder o estilo transforma-se em ódio, levando-o a se tornar um vilão impiedoso. Ele usa suas habilidades marciais para aterrorizar e destruir, tornando-se um dos antagonistas mais icônicos da trama.',
+        image: Jagi1,
+        imageMobile: Jagi1Mobile,
+      },
+      section2: {
+        title: 'DETALHES DA OBRA',
+        text: 'A estátua de 27 polegadas é um tributo fiel à personalidade perversa e brutal de Jagi. Ela retrata o personagem em uma pose dinâmica e intimidadora: sua mão esquerda abre o casaco, revelando a marca da constelação da Ursa Maior em seu peito, enquanto sua mão direita aponta uma espingarda serrada, símbolo de seu comportamento violento. A Prime 1 Studio reproduziu com perfeição os traços faciais e físicos do personagem, como seus olhos insanos, músculos saltados, e sua postura dominante.',
+        image: Jagi2,
+        imageMobile: Jagi2Mobile,
+      },
+      section3: {
+        image: Jagi3,
+        imageMobile: Jagi3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'TEXTURAS E CORES',
+            text: 'A riqueza nos detalhes das roupas e acessórios de Jagi é impressionante. O metal dos espinhos nos ombros e o brilho da fivela de caveira são realçados com uma pintura meticulosa. O couro envelhecido do colete e do coldre adiciona realismo à peça, trazendo a sensação de desgaste que condiz com o ambiente pós-apocalíptico. Cabeças intercambiáveis: A versão bônus permite trocar o capacete metálico por uma cabeça sem máscara, revelando o rosto cicatrizado de Jagi, com tubos salientes e placas de metal que refletem seu ódio profundo por Kenshiro. <br>Mãos intercambiáveis: A estátua também vem com três opções de mãos direitas intercambiáveis: uma com a espingarda, outra com uma palma aberta, refletindo seu desejo insaciável por violência, e um punho fechado, pronto para a batalha.',
+          },
+          {
+            title: 'BASE E DESIGN',
+            text: 'A base da estátua é um espetáculo à parte, projetada com elementos que remetem à motocicleta de Jagi e outros itens icônicos do universo de Fist of the North Star, como motores e escapamentos desgastados. Tudo isso proporciona uma sensação de imersão no ambiente caótico e devastado do mundo da série. <br>Esses pontos destacam a estátua do Jagi como uma obra de arte colecionável, atraente tanto para fãs dedicados de Fist of the North Star quanto para colecionadores de figuras de alta qualidade e valor agregado.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Fabricante: Prime 1 Studio (Premium Masterline Series)<br>Altura: 27 polegadas (~68 cm)<br>Material: Polystone de alta qualidade<br>Edição Limitada: 11/50',
+          },
+        ],
+        image: Jagi4,
+      },
+      section5: [Jagi5, Jagi6, Jagi7],
+    },
+  },
+  {
     title: 'THE JOKER LIMITED EDITION BUST',
     description1: 'PRIME 1 STUDIO',
     tags: ['viloes', 'filmes-e-series', 'games'],
@@ -1501,6 +1621,47 @@ export const products: ProductProps[] = [
         image: JokerBust4,
       },
       section5: [JokerBust5, JokerBust6, JokerBust7],
+    },
+  },
+  {
+    title: 'LORD OF THE RINGS - MINAS TIRITH DIORAMA',
+    description1: 'Weta Workshop',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
+    image: MinasTirith,
+    productUrl: '/minas-tirith',
+    details: {
+      image: MinasTirithAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Vencedor de 17 prêmios da Academia, O Senhor dos Anéis foi trazido para as telonas pela New Line Cinema, com direção de Peter Jackson. A Wētā Workshop, responsável pelo design e efeitos físicos dos filmes, apresenta esta impressionante réplica da cidade de Minas Tirith, a maior e mais imponente fortaleza de Gondor.',
+        image: MinasTirith1,
+        imageMobile: MinasTirith1Mobile,
+      },
+      section2: {
+        title: 'MINAS TIRITH',
+        text: 'Construída nas encostas das Montanhas Brancas, Minas Tirith é dividida em sete níveis, cada um cercado por muralhas concêntricas. No topo da cidadela, erguem-se a Torre de Ecthelion e o Pátio da Fonte, onde cresce a lendária Árvore Branca de Gondor. Um grande rochedo se projeta da montanha como a proa de um navio, dividindo a cidade. <br>No auge da Guerra do Anel, a cidade é sitiada pelos exércitos de Mordor, e os povos livres da Terra-Média se reúnem para sua última resistência contra as forças sombrias de Sauron.',
+        image: MinasTirith2,
+        imageMobile: MinasTirith2Mobile,
+      },
+      section3: {
+        image: MinasTirith3,
+        imageMobile: MinasTirith3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'UMA OBRA-PRIMA EM MINIATURA',
+            text: 'Esta peça da Wētā Workshop é baseada diretamente na miniatura utilizada no filme, garantindo um nível de fidelidade impressionante. Oito artistas dedicaram mais de 1.000 horas de trabalho para criar esta escultura intrincada e detalhada. <br>Edição Aberta (Open Edition), feita à mão e pintada artesanalmente.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 21 cm<br>Largura: 46 cm<br>Profundidade: 31 cm<br>Peso: 6 kg',
+          },
+        ],
+        image: MinasTirith4,
+      },
+      section5: [MinasTirith5, MinasTirith6, MinasTirith7],
     },
   },
   {
@@ -1721,6 +1882,88 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'TERMINATOR BUST T-800 ENDOSKELETON',
+    description1: 'PURE ARTS',
+    tags: ['viloes', 'filmes-e-series', 'games'],
+    image: Terminator2Bust,
+    productUrl: '/terminator-bust-endoskeleton',
+    details: {
+      image: Terminator2BustAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Diretamente do universo de O Exterminador do Futuro, o impressionante busto do T-800 Endoskeleton chega em escala 1/1, trazendo detalhes incríveis para os fãs da franquia.',
+        image: Terminator2Bust1,
+        imageMobile: Terminator2Bust1Mobile,
+      },
+      section2: {
+        title: 'MÁSCARA 1:1',
+        text: 'Esta peça possui olhos iluminados por LED e uma base detalhada, representando a cidade destruída após o Dia do Julgamento. Com 45 cm de altura, esta máscara é indispensável para qualquer colecionador de Terminator.',
+        image: Terminator2Bust2,
+        imageMobile: Terminator2Bust2Mobile,
+      },
+      section3: {
+        image: Terminator2Bust3,
+        imageMobile: Terminator2Bust3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Edição Limitada: Apenas 800 unidades no mundo.<br>Escala: 1/1 (tamanho real).<br>Material: Poliresina de alta qualidade.<br>Olhos iluminados por LED para um efeito realista.<br>Base temática com iluminação LED, representando o cenário pós-apocalíptico.<br>Opção de exibição: pode ser colocada em mesa ou montada na parede.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 45 cm.<br>Largura: 32 cm.<br>Profundidade: 24 cm.<br>Peso: 4,4 kg.<br>Alimentação: Requer 3 pilhas AA (não incluídas).<br>Perfeito para exibição, seja em prateleiras, mesas ou paredes.',
+          },
+        ],
+        image: Terminator2Bust4,
+      },
+      section5: [Terminator2Bust5, Terminator2Bust6, Terminator2Bust7],
+    },
+  },
+  {
+    title: 'TERMINATOR 2 MOTORCYCLE T-800: JUDGMENT DAY',
+    description1: 'Darkside Collectibles ',
+    tags: ['herois', 'viloes', 'filmes-e-series', 'games'],
+    image: Terminator2Motor,
+    productUrl: '/terminator-2-motorcycle',
+    details: {
+      image: Terminator2MotorAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Diretamente de "O Exterminador do Futuro 2: O Julgamento Final", a icônica cena da saída do bar ganha vida nesta impressionante estátua!',
+        image: Terminator2Motor1,
+        imageMobile: Terminator2Motor1Mobile,
+      },
+      section2: {
+        title: 'DETALHES IMPRESSIONANTES',
+        text: 'Uma peça detalhadamente esculpida com a semelhança realista de Arnold Schwarzenegger, recriando um dos momentos mais memoráveis do cinema de ação. <br>Além da moto altamente detalhada, esta edição inclui dois retratos intercambiáveis, óculos escuros, e uma base metálica prateada com iluminação LED. Para os verdadeiros fãs, a estátua acompanha um Certificado de Autenticidade assinado pelo próprio Arnold Schwarzenegger.',
+        image: Terminator2Motor2,
+        imageMobile: Terminator2Motor2Mobile,
+      },
+      section3: {
+        image: Terminator2Motor3,
+        imageMobile: Terminator2Motor3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Estátua completamente esculpida com detalhes realistas da pele do T-800.<br>Motocicleta altamente detalhada, recriação fiel do modelo do filme.<br>Dois retratos intercambiáveis:<br>Cabeça olhando para frente.<br>Cabeça olhando para o lado.<br>Óculos escuros removíveis para personalização.<br>Base metálica prateada com iluminação LED.<br>Certificado de Autenticidade com a assinatura original de Arnold Schwarzenegger.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 50 cm.<br>Largura: 70 cm.<br>Profundidade: 35 cm.<br>Peso: 20 kg.<br>Fabricante: Darkside Collectibles Studio.<br>Edição Limitada e Licenciada Oficialmente.',
+          },
+        ],
+        image: Terminator2Motor4,
+      },
+      section5: [Terminator2Motor5, Terminator2Motor6, Terminator2Motor7],
+    },
+  },
+  {
     title: 'THE JOKER STATUE',
     description1: 'Prime 1 Studio',
     tags: ['viloes', 'filmes-e-series', 'games'],
@@ -1759,6 +2002,47 @@ export const products: ProductProps[] = [
         image: JokerStatue4,
       },
       section5: [JokerStatue5, JokerStatue6, JokerStatue7],
+    },
+  },
+  {
+    title: 'SUPERGIRL',
+    description1: 'Prime 1 Studios',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
+    image: Supergirl,
+    productUrl: '/supergirl',
+    details: {
+      image: SupergirlAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Uma incrível estátua da Supergirl, uma das heroínas mais poderosas do planeta, capaz de superar edifícios de um salto e correr mais rápido que balas. Inspirada nos quadrinhos de sucesso da DC Comics, essa peça traz a versão feminina do icônico Superman!',
+        image: Supergirl1,
+        imageMobile: Supergirl1Mobile,
+      },
+      section2: {
+        title: 'KARA, A KRYPTONIANA',
+        text: 'Kara Zor-El, uma adolescente enviada à Terra do moribundo planeta Krypton, enfrenta desafios para se adaptar ao novo mundo e encontrar seu lugar. Lutando para compreender sua nova casa, Kara se torna a heroína definitiva: Supergirl.',
+        image: Supergirl2,
+        imageMobile: Supergirl2Mobile,
+      },
+      section3: {
+        image: Supergirl3,
+        imageMobile: Supergirl3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'SOBRE A OBRA',
+            text: 'Nesta estátua, Supergirl voa pelos céus com elegância, tocando levemente a superfície de uma nuvem com um pé. A base, com pássaros voando e a capa esvoaçante, captura o dinamismo do vento em pleno ar. Mesmo enfrentando desafios, Kara mantém um leve sorriso no rosto, refletindo a força e beleza da personagem. A pose única da estátua destaca a delicadeza de Supergirl, enquanto ela segura seu adorável gato de estimação, conhecido como Streaky, o Supergato.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Uma base em formato de nuvem. <br>Um retrato alternativo com expressão regular. Essa é uma peça indispensável para os fãs da Supergirl e Superman. Adicione esta estátua exclusiva à sua coleção e tenha uma das representações mais belas e poderosas dessa icônica personagem da DC Comics!',
+          },
+        ],
+        image: Supergirl4,
+      },
+      section5: [Supergirl5, Supergirl6, Supergirl7],
     },
   },
   {
