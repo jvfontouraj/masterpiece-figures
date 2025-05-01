@@ -1885,7 +1885,7 @@ export const products: ProductProps[] = [
         imageMobile: ThePenguinPureArts1Mobile,
       },
       section2: {
-        title: 'O PENGUIM',
+        title: 'PREFEITO DE GOTHAM',
         text: 'A Edição Exclusiva é super limitada a apenas 100 peças e vem com uma mini réplica do barco de pato do vilão que o elevou acima dos esgotos de GOTHAM CITY™ para sua nova posição como Prefeito.',
         image: ThePenguinPureArts2,
         imageMobile: ThePenguinPureArts2Mobile,
