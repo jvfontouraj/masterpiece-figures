@@ -555,6 +555,51 @@ import Terminator2Bust2Mobile from '@/assets/products/Terminator 2 Bust/2Mobile.
 import Terminator2Bust3Mobile from '@/assets/products/Terminator 2 Bust/3Mobile.png'
 /// ///////////////////////////////
 
+// The Joker 2 //////////////////////
+import TheJoker2 from '@/assets/products/The Joker 2.png'
+import TheJoker2Ambientacao from '@/assets/products/ambientacoes/The Joker 2.png'
+import TheJoker21 from '@/assets/products/The Joker 2/1.png'
+import TheJoker22 from '@/assets/products/The Joker 2/2.png'
+import TheJoker23 from '@/assets/products/The Joker 2/3.png'
+import TheJoker24 from '@/assets/products/The Joker 2/4.png'
+import TheJoker25 from '@/assets/products/The Joker 2/5.png'
+import TheJoker26 from '@/assets/products/The Joker 2/6.png'
+import TheJoker27 from '@/assets/products/The Joker 2/7.png'
+import TheJoker21Mobile from '@/assets/products/The Joker 2/1Mobile.png'
+import TheJoker22Mobile from '@/assets/products/The Joker 2/2Mobile.png'
+import TheJoker23Mobile from '@/assets/products/The Joker 2/3Mobile.png'
+/// ///////////////////////////////
+
+// The Godfather //////////////////////
+import TheGodfather from '@/assets/products/The Godfather.png'
+import TheGodfatherAmbientacao from '@/assets/products/ambientacoes/The Godfather.png'
+import TheGodfather1 from '@/assets/products/The Godfather/1.png'
+import TheGodfather2 from '@/assets/products/The Godfather/2.png'
+import TheGodfather3 from '@/assets/products/The Godfather/3.png'
+import TheGodfather4 from '@/assets/products/The Godfather/4.png'
+import TheGodfather5 from '@/assets/products/The Godfather/5.png'
+import TheGodfather6 from '@/assets/products/The Godfather/6.png'
+import TheGodfather7 from '@/assets/products/The Godfather/7.png'
+import TheGodfather1Mobile from '@/assets/products/The Godfather/1Mobile.png'
+import TheGodfather2Mobile from '@/assets/products/The Godfather/2Mobile.png'
+import TheGodfather3Mobile from '@/assets/products/The Godfather/3Mobile.png'
+/// ///////////////////////////////
+
+// The Penguin – Pure Arts //////////////////////
+import ThePenguinPureArts from '@/assets/products/The Penguin – Pure Arts.png'
+import ThePenguinPureArtsAmbientacao from '@/assets/products/ambientacoes/The Penguin – Pure Arts.png'
+import ThePenguinPureArts1 from '@/assets/products/The Penguin – Pure Arts/1.png'
+import ThePenguinPureArts2 from '@/assets/products/The Penguin – Pure Arts/2.png'
+import ThePenguinPureArts3 from '@/assets/products/The Penguin – Pure Arts/3.png'
+import ThePenguinPureArts4 from '@/assets/products/The Penguin – Pure Arts/4.png'
+import ThePenguinPureArts5 from '@/assets/products/The Penguin – Pure Arts/5.png'
+import ThePenguinPureArts6 from '@/assets/products/The Penguin – Pure Arts/6.png'
+import ThePenguinPureArts7 from '@/assets/products/The Penguin – Pure Arts/7.png'
+import ThePenguinPureArts1Mobile from '@/assets/products/The Penguin – Pure Arts/1Mobile.png'
+import ThePenguinPureArts2Mobile from '@/assets/products/The Penguin – Pure Arts/2Mobile.png'
+import ThePenguinPureArts3Mobile from '@/assets/products/The Penguin – Pure Arts/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -1452,6 +1497,43 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'THE GODFATHER DON VITO CORLEONE DELUXE',
+    description1: 'Iron Studios',
+    tags: ['filmes-e-series'],
+    image: TheGodfather,
+    productUrl: '/the-godfather',
+    details: {
+      image: TheGodfatherAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Incrível estátua Don Vito Corleone Deluxe, parte da linha Art Scale 1/10. Inspirada no icônico personagem de O Poderoso Chefão, esta peça captura com perfeição todos os detalhes do chefão da máfia mais lendário do cinema.',
+        image: TheGodfather1,
+        imageMobile: TheGodfather1Mobile,
+      },
+      section2: {
+        title: 'DETALHES IMPRESSIONANTES',
+        text: 'Fabricada em polystone e pintada à mão, esta estátua é edição limitada, tornando-se um item indispensável para fãs da saga The Godfather.',
+        image: TheGodfather2,
+        imageMobile: TheGodfather2Mobile,
+      },
+      section3: {
+        image: TheGodfather3,
+        imageMobile: TheGodfather3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Studio: Iron Studios<br>Material: Polystone de alta qualidade.<br>Altura: 20 cm.<br>Largura: 23 cm.<br>Profundidade: 28 cm.<br>Peso: 1,8 kg.<br>Edição Limitada.',
+          },
+        ],
+        image: TheGodfather4,
+      },
+      section5: [TheGodfather5, TheGodfather6, TheGodfather7],
+    },
+  },
+  {
     title: 'GREEN SCAR HULK',
     description1: 'Queen Studios',
     tags: ['herois', 'filmes-e-series', 'games'],
@@ -1624,6 +1706,84 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'THE JOKER STATUE',
+    description1: 'Prime 1 Studio',
+    tags: ['viloes', 'filmes-e-series', 'games'],
+    image: JokerStatue,
+    productUrl: '/the-joker-statue',
+    details: {
+      image: JokerStatueAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Don’t ever apologize to no one for the way you look." Impressionante estátua do Joker, projetada pelo renomado artista de quadrinhos americanos Lee Bermejo, conhecido por suas colaborações com o escritor Brian Azzarello, incluindo a graphic novel Joker.',
+        image: JokerStatue1,
+        imageMobile: JokerStatue1Mobile,
+      },
+      section2: {
+        title: 'DETALHES DO DESIGN',
+        text: 'O design de Lee Bermejo para o Joker é incrivelmente sombrio e realista, trazendo características impressionantes em cada detalhe. A base da estátua foi especialmente desenhada pelo próprio Bermejo e inclui o Batman (inspirado na graphic novel Batman: Noel) acorrentado a uma pedra, acrescentando ainda mais profundidade e escuridão à peça.',
+        image: JokerStatue2,
+        imageMobile: JokerStatue2Mobile,
+      },
+      section3: {
+        image: JokerStatue3,
+        imageMobile: JokerStatue3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'OPÇÕES E EXCLUSIVIDADES',
+            text: 'Esta estátua altamente detalhada oferece: <br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. <br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. <br> Três suportes para cabeças: Para exibir os retratos não utilizados. <br> Base temática exclusiva: Inspirada no universo sombrio do Batman.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 70,6 cm <br> Largura: 47,2 cm <br> Profundidade: 44,2 cm <br> Peso: 24,8 kg',
+          },
+        ],
+        image: JokerStatue4,
+      },
+      section5: [JokerStatue5, JokerStatue6, JokerStatue7],
+    },
+  },
+  {
+    title: 'THE JOKER',
+    description1: 'Prime 1 Studio',
+    tags: ['viloes', 'filmes-e-series', 'games'],
+    image: TheJoker2,
+    productUrl: '/the-joker',
+    details: {
+      image: TheJoker2Ambientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Todo dia ele está lá fora mudando o mundo. Fazendo-os ver os palhaços que realmente são. Mostrando que deveriam rir da morte e destruir a sociedade." — Punchline',
+        image: TheJoker21,
+        imageMobile: TheJoker21Mobile,
+      },
+      section2: {
+        title: 'PRÍNCIPE PALHAÇO DO CRIME',
+        text: 'A estátua The Joker, baseada no design conceitual de Jorge Jimenez! Esta peça em escala 1/3 captura a essência do Príncipe Palhaço do Crime, com um visual icônico e detalhes impressionantes. O Joker é retratado em uma pose relaxada, reclinando em seu trono temático de teatro, enquanto observa Gotham de forma enigmática. Seu terno roxo e verde clássico ganha um toque moderno graças ao design inovador de Jorge Jimenez, que combina elementos clássicos e contemporâneos.',
+        image: TheJoker22,
+        imageMobile: TheJoker22Mobile,
+      },
+      section3: {
+        image: TheJoker23,
+        imageMobile: TheJoker23Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Studio: Prime 1<br>Altura: 52,8 cm<br>Largura: 51,2 cm<br>Profundidade: 37,6 cm<br>Peso: 17,4 kg<br>Materiais: Polystone e outros materiais premium',
+          },
+        ],
+        image: TheJoker24,
+      },
+      section5: [TheJoker25, TheJoker26, TheJoker27],
+    },
+  },
+  {
     title: 'LORD OF THE RINGS - MINAS TIRITH DIORAMA',
     description1: 'Weta Workshop',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
@@ -1707,6 +1867,47 @@ export const products: ProductProps[] = [
         image: BatmanPenguin4,
       },
       section5: [BatmanPenguin5, BatmanPenguin6, BatmanPenguin7],
+    },
+  },
+  {
+    title: 'THE PENGUIN 1:1 SCALEART MASK EXCLUSIVE EDITION',
+    description1: 'Pure Arts',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
+    image: ThePenguinPureArts,
+    productUrl: '/the-penguim-mask',
+    details: {
+      image: ThePenguinPureArtsAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"I’ve been down here too long. It’s time for me to ascend." – THE PENGUIN™ "Eu estive aqui embaixo por muito tempo. É hora de eu ascender." – O PINGUIM™',
+        image: ThePenguinPureArts1,
+        imageMobile: ThePenguinPureArts1Mobile,
+      },
+      section2: {
+        title: 'O PENGUIM',
+        text: 'A Edição Exclusiva é super limitada a apenas 100 peças e vem com uma mini réplica do barco de pato do vilão que o elevou acima dos esgotos de GOTHAM CITY™ para sua nova posição como Prefeito.',
+        image: ThePenguinPureArts2,
+        imageMobile: ThePenguinPureArts2Mobile,
+      },
+      section3: {
+        image: ThePenguinPureArts3,
+        imageMobile: ThePenguinPureArts3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'SOBRE A OBRA',
+            text: 'O mafioso de GOTHAM CITY™, O PINGUIM™, surge com seu visual macabro característico, incluindo monóculo removível e cartola! Nossa máscara de arte hiper-realista BATMAN RETURNS™ O PINGUIM 1:1 tem uma semelhança impressionante com o icônico supervilão em BATMAN RETURNS™, até mesmo com seu cabelo individualmente perfurado, tez anêmica e bile escura ao redor da boca.<BR> Com uma careta sobre uma base de estátua da casa do prefeito, O PINGUIM™ é nossa primeira máscara de arte com pele de silicone. Personalize a exibição com uma variedade de combinações de acessórios diferentes, incluindo seu porta-cigarros e cravat.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Licenciado pela Warner Bros. Consumer Products<br>Tamanho da Edição: 100 Edições Exclusivas, 400 Edições Padrão<br>Quantidade: 1 Máscara de Arte (não utilizável)<br>Altura com chapéu: 61 cm<br>Altura sem chapéu: 48 cm<br>Largura: 27 cm<br>Profundidade: 33 cm<br>Peso: 3,6 kg',
+          },
+        ],
+        image: ThePenguinPureArts4,
+      },
+      section5: [ThePenguinPureArts5, ThePenguinPureArts6, ThePenguinPureArts7],
     },
   },
   {
@@ -1963,47 +2164,7 @@ export const products: ProductProps[] = [
       section5: [Terminator2Motor5, Terminator2Motor6, Terminator2Motor7],
     },
   },
-  {
-    title: 'THE JOKER STATUE',
-    description1: 'Prime 1 Studio',
-    tags: ['viloes', 'filmes-e-series', 'games'],
-    image: JokerStatue,
-    productUrl: '/the-joker-statue',
-    details: {
-      image: JokerStatueAmbientacao,
-    },
-    paginaProduto: {
-      section1: {
-        text: '"Don’t ever apologize to no one for the way you look." Impressionante estátua do Joker, projetada pelo renomado artista de quadrinhos americanos Lee Bermejo, conhecido por suas colaborações com o escritor Brian Azzarello, incluindo a graphic novel Joker.',
-        image: JokerStatue1,
-        imageMobile: JokerStatue1Mobile,
-      },
-      section2: {
-        title: 'DETALHES DO DESIGN',
-        text: 'O design de Lee Bermejo para o Joker é incrivelmente sombrio e realista, trazendo características impressionantes em cada detalhe. A base da estátua foi especialmente desenhada pelo próprio Bermejo e inclui o Batman (inspirado na graphic novel Batman: Noel) acorrentado a uma pedra, acrescentando ainda mais profundidade e escuridão à peça.',
-        image: JokerStatue2,
-        imageMobile: JokerStatue2Mobile,
-      },
-      section3: {
-        image: JokerStatue3,
-        imageMobile: JokerStatue3Mobile,
-      },
-      section4: {
-        text: [
-          {
-            title: 'OPÇÕES E EXCLUSIVIDADES',
-            text: 'Esta estátua altamente detalhada oferece: <br> Quatro retratos alternativos: Regular, Rindo, Danificado e Expressão de Horror. <br> Três mãos intercambiáveis: Segurando um revólver, uma faca ou cartas de baralho. <br> Três suportes para cabeças: Para exibir os retratos não utilizados. <br> Base temática exclusiva: Inspirada no universo sombrio do Batman.',
-          },
-          {
-            title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 70,6 cm <br> Largura: 47,2 cm <br> Profundidade: 44,2 cm <br> Peso: 24,8 kg',
-          },
-        ],
-        image: JokerStatue4,
-      },
-      section5: [JokerStatue5, JokerStatue6, JokerStatue7],
-    },
-  },
+
   {
     title: 'SUPERGIRL',
     description1: 'Prime 1 Studios',
