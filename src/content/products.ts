@@ -600,6 +600,81 @@ import ThePenguinPureArts2Mobile from '@/assets/products/The Penguin – Pure Ar
 import ThePenguinPureArts3Mobile from '@/assets/products/The Penguin – Pure Arts/3Mobile.png'
 /// ///////////////////////////////
 
+// Wolverine X-Force //////////////////////
+import WolverineXForce from '@/assets/products/Wolverine X-Force.png'
+import WolverineXForceAmbientacao from '@/assets/products/ambientacoes/Wolverine X-Force.png'
+import WolverineXForce1 from '@/assets/products/Wolverine X-Force/1.png'
+import WolverineXForce2 from '@/assets/products/Wolverine X-Force/2.png'
+import WolverineXForce3 from '@/assets/products/Wolverine X-Force/3.png'
+import WolverineXForce4 from '@/assets/products/Wolverine X-Force/4.png'
+import WolverineXForce5 from '@/assets/products/Wolverine X-Force/5.png'
+import WolverineXForce6 from '@/assets/products/Wolverine X-Force/6.png'
+import WolverineXForce7 from '@/assets/products/Wolverine X-Force/7.png'
+import WolverineXForce1Mobile from '@/assets/products/Wolverine X-Force/1Mobile.png'
+import WolverineXForce2Mobile from '@/assets/products/Wolverine X-Force/2Mobile.png'
+import WolverineXForce3Mobile from '@/assets/products/Wolverine X-Force/3Mobile.png'
+/// ///////////////////////////////
+
+// Harley Quinn Who Laughs //////////////////////
+import HarleyQuinnWhoLaughs from '@/assets/products/Harley Quinn Who Laughs.png'
+import HarleyQuinnWhoLaughsAmbientacao from '@/assets/products/ambientacoes/Harley Quinn Who Laughs.png'
+import HarleyQuinnWhoLaughs1 from '@/assets/products/Harley Quinn Who Laughs/1.png'
+import HarleyQuinnWhoLaughs2 from '@/assets/products/Harley Quinn Who Laughs/2.png'
+import HarleyQuinnWhoLaughs3 from '@/assets/products/Harley Quinn Who Laughs/3.png'
+import HarleyQuinnWhoLaughs4 from '@/assets/products/Harley Quinn Who Laughs/4.png'
+import HarleyQuinnWhoLaughs5 from '@/assets/products/Harley Quinn Who Laughs/5.png'
+import HarleyQuinnWhoLaughs6 from '@/assets/products/Harley Quinn Who Laughs/6.png'
+import HarleyQuinnWhoLaughs7 from '@/assets/products/Harley Quinn Who Laughs/7.png'
+import HarleyQuinnWhoLaughs1Mobile from '@/assets/products/Harley Quinn Who Laughs/1Mobile.png'
+import HarleyQuinnWhoLaughs2Mobile from '@/assets/products/Harley Quinn Who Laughs/2Mobile.png'
+import HarleyQuinnWhoLaughs3Mobile from '@/assets/products/Harley Quinn Who Laughs/3Mobile.png'
+/// ///////////////////////////////
+
+// Jimei Palace //////////////////////
+import JimeiPalace from '@/assets/products/Jimei Palace.png'
+import JimeiPalaceAmbientacao from '@/assets/products/ambientacoes/Jimei Palace.png'
+import JimeiPalace1 from '@/assets/products/Jimei Palace/1.png'
+import JimeiPalace2 from '@/assets/products/Jimei Palace/2.png'
+import JimeiPalace3 from '@/assets/products/Jimei Palace/3.png'
+import JimeiPalace4 from '@/assets/products/Jimei Palace/4.png'
+import JimeiPalace5 from '@/assets/products/Jimei Palace/5.png'
+import JimeiPalace6 from '@/assets/products/Jimei Palace/6.png'
+import JimeiPalace7 from '@/assets/products/Jimei Palace/7.png'
+import JimeiPalace1Mobile from '@/assets/products/Jimei Palace/1Mobile.png'
+import JimeiPalace2Mobile from '@/assets/products/Jimei Palace/2Mobile.png'
+import JimeiPalace3Mobile from '@/assets/products/Jimei Palace/3Mobile.png'
+/// ///////////////////////////////
+
+// Nika Luffy //////////////////////
+import NikaLuffy from '@/assets/products/Nika Luffy.png'
+import NikaLuffyAmbientacao from '@/assets/products/ambientacoes/Nika Luffy.png'
+import NikaLuffy1 from '@/assets/products/Nika Luffy/1.png'
+import NikaLuffy2 from '@/assets/products/Nika Luffy/2.png'
+import NikaLuffy3 from '@/assets/products/Nika Luffy/3.png'
+import NikaLuffy4 from '@/assets/products/Nika Luffy/4.png'
+import NikaLuffy5 from '@/assets/products/Nika Luffy/5.png'
+import NikaLuffy6 from '@/assets/products/Nika Luffy/6.png'
+import NikaLuffy7 from '@/assets/products/Nika Luffy/7.png'
+import NikaLuffy1Mobile from '@/assets/products/Nika Luffy/1Mobile.png'
+import NikaLuffy2Mobile from '@/assets/products/Nika Luffy/2Mobile.png'
+import NikaLuffy3Mobile from '@/assets/products/Nika Luffy/3Mobile.png'
+/// ///////////////////////////////
+
+// Siegfried //////////////////////
+import Siegfried from '@/assets/products/Siegfried.png'
+import SiegfriedAmbientacao from '@/assets/products/ambientacoes/Siegfried.png'
+import Siegfried1 from '@/assets/products/Siegfried/1.png'
+import Siegfried2 from '@/assets/products/Siegfried/2.png'
+import Siegfried3 from '@/assets/products/Siegfried/3.png'
+import Siegfried4 from '@/assets/products/Siegfried/4.png'
+import Siegfried5 from '@/assets/products/Siegfried/5.png'
+import Siegfried6 from '@/assets/products/Siegfried/6.png'
+import Siegfried7 from '@/assets/products/Siegfried/7.png'
+import Siegfried1Mobile from '@/assets/products/Siegfried/1Mobile.png'
+import Siegfried2Mobile from '@/assets/products/Siegfried/2Mobile.png'
+import Siegfried3Mobile from '@/assets/products/Siegfried/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -1620,6 +1695,51 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'HARLEY QUINN WHO LAUGHS (DELUXE BONUS VERSION)',
+    description1: 'Prime 1 Studio',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
+    image: HarleyQuinnWhoLaughs,
+    productUrl: '/harley-quinn-who-laughs',
+    details: {
+      image: HarleyQuinnWhoLaughsAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '“Eu sou a piada final que você nunca viu chegando.”',
+        image: HarleyQuinnWhoLaughs1,
+        imageMobile: HarleyQuinnWhoLaughs1Mobile,
+      },
+      section2: {
+        title: 'HARLEY QUINN SOMBRIA',
+        text: 'Nesta versão distorcida e brutal do multiverso sombrio da DC, Harley Quinn Who Laughs assume sua forma mais sombria — uma fusão perfeita entre loucura, caos e sadismo visual. Apresentamos com orgulho uma das peças mais impactantes da linha Museum Masterline, baseada na arte de Carlos D’Anda.',
+        image: HarleyQuinnWhoLaughs2,
+        imageMobile: HarleyQuinnWhoLaughs2Mobile,
+      },
+      section3: {
+        image: HarleyQuinnWhoLaughs3,
+        imageMobile: HarleyQuinnWhoLaughs3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Versão Deluxe Bonus: A edição mais completa com 5 cabeças intercambiáveis e 4 pedestais exclusivos para exposição.<br>Altura impressionante de 78 cm: Uma peça monumental, pronta para dominar qualquer vitrine de colecionador.<br>Detalhamento extremo: Texturas de couro e metal realistas, pintura à mão, correntes reais, espinhos, sangue e os hienas Bud e Lou com escultura feroz.<br>Base temática Dark Nights Metal: Repleta de crânios, correntes e ruínas — um cenário pesado e apocalíptico.<br>Armas intercambiáveis: Cleaver ensanguentado, marreta brutal e taco com pregos — permitindo diferentes poses icônicas.<br>Cabeça bônus adicional exclusiva para quem adquiriu via distribuidor autorizado — com suporte próprio.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Marca: Prime 1 Studio<br>Linha: Museum Masterline<br>Série: DC / Batman – Dark Nights: Metal<br>Escala: 1/3<br>Altura Aproximada: 78 cm<br>Largura/Profundidade : 44 x 51 cm (cleaver) | 46 x 51 cm (marreta) | 48 x 56 cm (taco)<br>Peso da Estátua: 24,4 kg<br>Materiais: Polystone e materiais mistos de alta qualidade<br>Base Temática “Dark Metal Madness” com efeitos visuais sombrios<br>Partes Extras: 5 cabeças, 4 pedestais, 3 mãos direitas, 2 mãos esquerdas, 1 cabeça bônus com pedestal',
+          },
+        ],
+        image: HarleyQuinnWhoLaughs4,
+      },
+      section5: [
+        HarleyQuinnWhoLaughs5,
+        HarleyQuinnWhoLaughs6,
+        HarleyQuinnWhoLaughs7,
+      ],
+    },
+  },
+  {
     title: 'JAGI – FIST OF THE NORH STAR',
     description1: 'Prime 1 Studios',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
@@ -1825,6 +1945,47 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'NIKA LUFFY VS KAIDO ESCALA PREMIUM',
+    description1: 'Fantasy Studio',
+    tags: ['filmes-e-series', 'games', 'fantasia'],
+    image: NikaLuffy,
+    productUrl: '/nika-luffy-vs-kaido',
+    details: {
+      image: NikaLuffyAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '“Joy Boy voltou!” – O confronto dos titãs entre Nika Luffy e Kaido agora eternizado em uma obra-prima colecionável!',
+        image: NikaLuffy1,
+        imageMobile: NikaLuffy1Mobile,
+      },
+      section2: {
+        title: 'LUTA EMBLEMÁTICA',
+        text: 'Uma das peças mais impressionantes do universo One Piece: Nika Luffy enfrentando Kaido, em uma batalha épica que marcou a nova era do anime. Esta estátua de resina em escala premium captura com perfeição o momento em que Luffy desperta o Gear 5 (Forma Nika) e desafia o imperador Kaido em sua forma mais bestial.',
+        image: NikaLuffy2,
+        imageMobile: NikaLuffy2Mobile,
+      },
+      section3: {
+        image: NikaLuffy3,
+        imageMobile: NikaLuffy3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Representação icônica do confronto em Wano, com Luffy em sua forma “Deus do Sol” Nika, em pose dinâmica e repleta de energia<br>Kaido esculpido em sua forma dragão híbrida, imponente e detalhado<br>Efeitos de energia e impacto visual com pintura vibrante e rica em contrastes<br>Pintura à mão com cores fiéis às imagens oficiais',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 70 cm<br>Largura: 53 cm<br>Profundidade: 42 cm<br>Material: Resina de alta qualidade<br>Cores: Conforme mostrado nas imagens<br>Fabricante: Fantasy Studio<br>Franquia: One Piece',
+          },
+        ],
+        image: NikaLuffy4,
+      },
+      section5: [NikaLuffy5, NikaLuffy6, NikaLuffy7],
+    },
+  },
+  {
     title: 'BATMAN PENGUIN DAIMY',
     description1: 'XM STUDIOS',
     tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
@@ -1908,6 +2069,47 @@ export const products: ProductProps[] = [
         image: ThePenguinPureArts4,
       },
       section5: [ThePenguinPureArts5, ThePenguinPureArts6, ThePenguinPureArts7],
+    },
+  },
+  {
+    title: 'PORTGAS D. ACE VS MARSHALL D. TEACH (BLACKBEARD)',
+    description1: 'Jimei Palace',
+    tags: ['filmes-e-series', 'games', 'fantasia'],
+    image: JimeiPalace,
+    productUrl: '/portgas-d-ace-vs-marshall-d-teach',
+    details: {
+      image: JimeiPalaceAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'O embate lendário entre fogo e trevas ganha forma em uma obra de arte épica!',
+        image: JimeiPalace1,
+        imageMobile: JimeiPalace1Mobile,
+      },
+      section2: {
+        title: 'BATALHA ÉPICA',
+        text: 'Uma das lutas mais impactantes da saga One Piece: Portgas D. Ace contra Marshall D. Teach (Barba Negra). Esta estátua em resina de alta qualidade retrata com riqueza de detalhes o confronto que mudou os rumos da Grand Line e deixou marcas profundas na história dos Piratas.',
+        image: JimeiPalace2,
+        imageMobile: JimeiPalace2Mobile,
+      },
+      section3: {
+        image: JimeiPalace3,
+        imageMobile: JimeiPalace3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Escala 1/8 fiel ao universo One Piece.<br>Composição dinâmica, com os dois personagens em poses de ataque, envoltos por efeitos de seus poderes (Mera Mera no Mi vs Yami Yami no Mi).<br>Base tematizada com elementos de destruição, chamas e sombras<br>Acabamento artesanal em resina de alta resistência, pintada à mão.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura: 39 cm<br>Largura: 38 cm<br>Profundidade: 36 cm<br>Material: Resina premium<br>Franquia: One Piece<br>Fabricante: Jimei Palace',
+          },
+        ],
+        image: JimeiPalace4,
+      },
+      section5: [JimeiPalace5, JimeiPalace6, JimeiPalace7],
     },
   },
   {
@@ -2039,6 +2241,47 @@ export const products: ProductProps[] = [
         image: SheRa4,
       },
       section5: [SheRa5, SheRa6, SheRa7],
+    },
+  },
+  {
+    title: 'SIEGFRIED – SOUL EMBRACE EDIÇÃO DELUXE',
+    description1: 'PureArts',
+    tags: ['filmes-e-series', 'games', 'fantasia'],
+    image: Siegfried,
+    productUrl: '/siegfried',
+    details: {
+      image: SiegfriedAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"A alma que clama por justiça contra a escuridão!"',
+        image: Siegfried1,
+        imageMobile: Siegfried1Mobile,
+      },
+      section2: {
+        title: 'ESCULTURA ÉPICA',
+        text: 'Apresentamos a Soul Embrace – Siegfried Deluxe Edition, uma estátua monumental em escala 1/4, baseada na lendária cena de abertura de SoulCalibur III <br>Nesta peça impressionante, Siegfried é retratado no momento épico em que crava a Soul Calibur na Soul Edge, evocando a luta definitiva entre luz e trevas. Uma obra de arte que une composição dramática, escultura refinada e efeitos visuais envolventes.',
+        image: Siegfried2,
+        imageMobile: Siegfried2Mobile,
+      },
+      section3: {
+        image: Siegfried3,
+        imageMobile: Siegfried3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DA EDIÇÃO DELUXE',
+            text: 'Base iluminada por LED, com efeitos dramáticos e ambientação poderosa. <br>Painel traseiro com janelas de vitrais esculpidas, feitas em plexiglass translúcido, adicionando profundidade visual e realismo (exclusivo da edição Deluxe). <br>Cenário completo da Soul Edge como parte da base temática. <br>Composição diretamente inspirada na abertura de SoulCalibur III, com pose dinâmica e narrativa visual intensa.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Altura estimada: Aproximadamente 60–65 cm (escala 1/4) <br>Material: Poliresina (Polystone) <br>Edição Limitada: Apenas 250 unidades no mundo. <br>Fabricante: PureArts',
+          },
+        ],
+        image: Siegfried4,
+      },
+      section5: [Siegfried5, Siegfried6, Siegfried7],
     },
   },
   {
@@ -2204,6 +2447,47 @@ export const products: ProductProps[] = [
         image: Supergirl4,
       },
       section5: [Supergirl5, Supergirl6, Supergirl7],
+    },
+  },
+  {
+    title: 'WOLVERINE X-FORCE (VERSÃO B)',
+    description1: 'XM Studios',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: WolverineXForce,
+    productUrl: '/wolverine-x-force-versao-b',
+    details: {
+      image: WolverineXForceAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Wolverine entra em ação!',
+        image: WolverineXForce1,
+        imageMobile: WolverineXForce1Mobile,
+      },
+      section2: {
+        title: 'X-FORCE',
+        text: 'Apresentamos a impressionante X-Force Wolverine (Versão B), uma peça dinâmica da linha MARVEL Premium Collectibles. Em meio ao combate, Logan avança sobre destroços mecânicos, vestindo seu uniforme X-Force danificado pela batalha, com uma expressão intensa e determinada.',
+        image: WolverineXForce2,
+        imageMobile: WolverineXForce2Mobile,
+      },
+      section3: {
+        image: WolverineXForce3,
+        imageMobile: WolverineXForce3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Dois (2) torsos intercambiáveis para diferentes exibições:<br>Pose de ataque, com Wolverine avançando.<br>Pose provocativa, desafiando seus inimigos.<br>Quatro (4) esculturas de cabeça intercambiáveis:<br>Máscara completa com boca aberta.<br>Máscara rasgada com boca aberta.<br>Máscara completa com dentes cerrados.<br>Máscara rasgada com dentes cerrados.<br><br>Importante:<br>Os rostos com boca aberta são ideais para o torso de ataque, enquanto os rostos com dentes cerrados são recomendados para o torso provocativo',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Dimensões:<br>Estátua principal: 39 cm (C) x 37 cm (L) x 50 cm (A).<br>Torso adicional: 33 cm (C) x 18 cm (L) x 50 cm (A).<br>Peso: 15 kg.<br>Material: Polystone de alta qualidade.<br>Fabricante: XM Studios.',
+          },
+        ],
+        image: WolverineXForce4,
+      },
+      section5: [WolverineXForce5, WolverineXForce6, WolverineXForce7],
     },
   },
   {
