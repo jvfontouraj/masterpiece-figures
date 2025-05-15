@@ -1554,7 +1554,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'Cheetah',
+    title: 'CHEETAH',
     description1: 'XM Studios',
     tags: ['herois', 'filmes-e-series'],
     image: Cheetah,
