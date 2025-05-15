@@ -615,6 +615,21 @@ import WolverineXForce2Mobile from '@/assets/products/Wolverine X-Force/2Mobile.
 import WolverineXForce3Mobile from '@/assets/products/Wolverine X-Force/3Mobile.png'
 /// ///////////////////////////////
 
+// Harley Quinn //////////////////////
+import HarleyQuinn from '@/assets/products/Harley Quinn.png'
+import HarleyQuinnAmbientacao from '@/assets/products/ambientacoes/Harley Quinn.png'
+import HarleyQuinn1 from '@/assets/products/Harley Quinn/1.png'
+import HarleyQuinn2 from '@/assets/products/Harley Quinn/2.png'
+import HarleyQuinn3 from '@/assets/products/Harley Quinn/3.png'
+import HarleyQuinn4 from '@/assets/products/Harley Quinn/4.png'
+import HarleyQuinn5 from '@/assets/products/Harley Quinn/5.png'
+import HarleyQuinn6 from '@/assets/products/Harley Quinn/6.png'
+import HarleyQuinn7 from '@/assets/products/Harley Quinn/7.png'
+import HarleyQuinn1Mobile from '@/assets/products/Harley Quinn/1Mobile.png'
+import HarleyQuinn2Mobile from '@/assets/products/Harley Quinn/2Mobile.png'
+import HarleyQuinn3Mobile from '@/assets/products/Harley Quinn/3Mobile.png'
+/// ///////////////////////////////
+
 // Harley Quinn Who Laughs //////////////////////
 import HarleyQuinnWhoLaughs from '@/assets/products/Harley Quinn Who Laughs.png'
 import HarleyQuinnWhoLaughsAmbientacao from '@/assets/products/ambientacoes/Harley Quinn Who Laughs.png'
@@ -675,6 +690,51 @@ import Siegfried2Mobile from '@/assets/products/Siegfried/2Mobile.png'
 import Siegfried3Mobile from '@/assets/products/Siegfried/3Mobile.png'
 /// ///////////////////////////////
 
+// Batman Hellbat //////////////////////
+import BatmanHellbat from '@/assets/products/Batman Hellbat.png'
+import BatmanHellbatAmbientacao from '@/assets/products/ambientacoes/Batman Hellbat.png'
+import BatmanHellbat1 from '@/assets/products/Batman Hellbat/1.webp'
+import BatmanHellbat2 from '@/assets/products/Batman Hellbat/2.png'
+import BatmanHellbat3 from '@/assets/products/Batman Hellbat/3.png'
+import BatmanHellbat4 from '@/assets/products/Batman Hellbat/4.png'
+import BatmanHellbat5 from '@/assets/products/Batman Hellbat/5.png'
+import BatmanHellbat6 from '@/assets/products/Batman Hellbat/6.png'
+import BatmanHellbat7 from '@/assets/products/Batman Hellbat/7.png'
+import BatmanHellbat1Mobile from '@/assets/products/Batman Hellbat/1Mobile.png'
+import BatmanHellbat2Mobile from '@/assets/products/Batman Hellbat/2Mobile.png'
+import BatmanHellbat3Mobile from '@/assets/products/Batman Hellbat/3Mobile.png'
+/// ///////////////////////////////
+
+// Scarecrow //////////////////////
+import Scarecrow from '@/assets/products/Scarecrow.png'
+import ScarecrowAmbientacao from '@/assets/products/ambientacoes/Scarecrow.png'
+import Scarecrow1 from '@/assets/products/Scarecrow/1.png'
+import Scarecrow2 from '@/assets/products/Scarecrow/2.png'
+import Scarecrow3 from '@/assets/products/Scarecrow/3.png'
+import Scarecrow4 from '@/assets/products/Scarecrow/4.png'
+import Scarecrow5 from '@/assets/products/Scarecrow/5.png'
+import Scarecrow6 from '@/assets/products/Scarecrow/6.png'
+import Scarecrow7 from '@/assets/products/Scarecrow/7.png'
+import Scarecrow1Mobile from '@/assets/products/Scarecrow/1Mobile.png'
+import Scarecrow2Mobile from '@/assets/products/Scarecrow/2Mobile.png'
+import Scarecrow3Mobile from '@/assets/products/Scarecrow/3Mobile.png'
+/// ///////////////////////////////
+
+// Joker Batsuit //////////////////////
+import JokerBatsuit from '@/assets/products/Joker Batsuit.png'
+import JokerBatsuitAmbientacao from '@/assets/products/ambientacoes/Joker Batsuit.png'
+import JokerBatsuit1 from '@/assets/products/Joker Batsuit/1.png'
+import JokerBatsuit2 from '@/assets/products/Joker Batsuit/2.png'
+import JokerBatsuit3 from '@/assets/products/Joker Batsuit/3.png'
+import JokerBatsuit4 from '@/assets/products/Joker Batsuit/4.png'
+import JokerBatsuit5 from '@/assets/products/Joker Batsuit/5.png'
+import JokerBatsuit6 from '@/assets/products/Joker Batsuit/6.png'
+import JokerBatsuit7 from '@/assets/products/Joker Batsuit/7.png'
+import JokerBatsuit1Mobile from '@/assets/products/Joker Batsuit/1Mobile.png'
+import JokerBatsuit2Mobile from '@/assets/products/Joker Batsuit/2Mobile.png'
+import JokerBatsuit3Mobile from '@/assets/products/Joker Batsuit/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -732,7 +792,7 @@ export const products: ProductProps[] = [
         // image: AlienChap2,
         // imageMobile: AlienChap2Mobile,
         video:
-          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Alien%20Xenomorfo%20Big%20Chap.mp4?alt=media&token=9eae5422-8eb8-40b2-9390-fdfab40fe266,',
+          'https://firebasestorage.googleapis.com/v0/b/masterpiece-figures-teste.firebasestorage.app/o/Alien%20Xenomorfo%20Big%20Chap.mp4?alt=media&token=9eae5422-8eb8-40b2-9390-fdfab40fe266',
       },
       section3: {
         image: AlienChap3,
@@ -1047,6 +1107,51 @@ export const products: ProductProps[] = [
         image: BatmanGrimKnight4,
       },
       section5: [BatmanGrimKnight5, BatmanGrimKnight6, BatmanGrimKnight7],
+    },
+  },
+  {
+    title: 'BATMAN HELLBAT DX BONUS DELUXE JOSH NIZZI',
+    description1: 'Prime 1 studio',
+    tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
+    image: BatmanHellbat,
+    productUrl: '/batman-hellbat',
+    details: {
+      image: BatmanHellbatAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '“Você diz que estou fadado a morrer neste traje. Minha vitória diz o contrário.”',
+        image: BatmanHellbat1,
+        imageMobile: BatmanHellbat1Mobile,
+      },
+      section2: {
+        title: 'PEÇA ULTIMATE PREMIUM MASTERLINE',
+        text: 'A armadura mais brutal e emblemática do universo DC chega em sua versão definitiva pela Prime 1 Studio. Com design exclusivo do artista Josh Nizzi (Transformers, Avengers), esta peça faz parte da linha Ultimate Premium Masterline, trazendo o Batman em sua jornada mais sombria: enfrentar Darkseid para salvar seu filho, Damian Wayne.',
+        image: BatmanHellbat2,
+        imageMobile: BatmanHellbat2Mobile,
+      },
+      section3: {
+        image: BatmanHellbat3,
+        imageMobile: BatmanHellbat3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Design conceitual exclusivo de Josh Nizzi<br>Deluxe Bonus Version com peças intercambiáveis e cabeça bônus (Bruce Wayne sem capacete)<br>Base com iluminação LED inspirada em Apokolips<br>Acabamento premium em polystone, com pintura feita à mão<br>Peça imponente de 76cm – presença marcante em qualquer coleção<br>Edição de colecionador com potencial de valorização a longo prazo',
+          },
+          {
+            title: 'ITENS INCLUSOS NA VERSÃO DX BONUS',
+            text: '2 cabeças (com e sem capacete) + 1 cabeça bônus (Bruce Wayne)<br>2 braços direitos intercambiáveis<br>2 mãos esquerdas<br>4 mãos direitas (aberta, apontando, baixa e em punho)<br>2 versões de armadura frontal (com e sem espinhos longos)<br>Base temática com chamas iluminadas por LED',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Marca: Prime 1 Studio<br>Linha: Ultimate Premium Masterline<br>Série DC Comics<br>Escala: 1/4<br>Altura Aproximada: 76 cm<br>Largura x Profundidade: 49 cm x 40 cm (normal)<br>47 cm x 38 cm (c/ mão apontando e punho)<br>Peso Aproximado: 15,5 kg<br>Materiais: Polystone e outros materiais premium',
+          },
+        ],
+        image: BatmanHellbat4,
+      },
+      section5: [BatmanHellbat5, BatmanHellbat6, BatmanHellbat7],
     },
   },
   {
@@ -1695,6 +1800,51 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'HARLEY QUINN – BATMAN COMICS',
+    description1: '',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
+    image: HarleyQuinn,
+    productUrl: '/harley-quinn',
+    details: {
+      image: HarleyQuinnAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'A supervilã mais adorável do universo DC, em uma obra de arte explosiva.',
+        image: HarleyQuinn1,
+        imageMobile: HarleyQuinn1Mobile,
+      },
+      section2: {
+        title: 'O TEMIDO ESPANTALHO',
+        text: 'Uma das peças mais icônicas da sua linha Museum Masterline: Harley Quinn, diretamente dos quadrinhos da DC Comics. <br>Com traços que capturam o espírito irreverente da personagem, esta estátua hiper-realista em escala 1/3 reúne tudo o que faz de Harley uma das vilãs mais amadas do universo Batman: carisma, ousadia e caos colorido.',
+        image: HarleyQuinn2,
+        imageMobile: HarleyQuinn2Mobile,
+      },
+      section3: {
+        image: HarleyQuinn3,
+        imageMobile: HarleyQuinn3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Dois retratos intercambiáveis, incluindo o clássico loiro e uma versão estilizada com mechas vermelhas e verdes para combinar com o figurino; <br>Base temática com iluminação LED, decorada com cartuchos de dinamite e o lendário malho da Harley, simbolizando sua assinatura explosiva; <br>Acompanha suporte exclusivo para o retrato extra (headstand), ideal para exibição colecionável.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Código do Produto: MMDC-36<br>Altura: 90,6 cm<br>Largura: 56,7 cm<br>Profundidade: 53,4 cm<br>Peso Aproximado: 24,8 kg<br>Materiais: Polystone Premium',
+          },
+          {
+            title: 'OBSERVAÇÕES IMPORTANTES',
+            text: 'Produto feito à mão, podendo apresentar variações leves de cor e acabamento; <br>Edição limitada, ideal para colecionadores exigentes e fãs da DC Comics.',
+          },
+        ],
+        image: HarleyQuinn4,
+      },
+      section5: [HarleyQuinn5, HarleyQuinn6, HarleyQuinn7],
+    },
+  },
+  {
     title: 'HARLEY QUINN WHO LAUGHS (DELUXE BONUS VERSION)',
     description1: 'Prime 1 Studio',
     tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
@@ -1782,6 +1932,47 @@ export const products: ProductProps[] = [
         image: Jagi4,
       },
       section5: [Jagi5, Jagi6, Jagi7],
+    },
+  },
+  {
+    title: 'THE JOKER BATSUIT CONCEPT BONUS VERSION',
+    description1: 'PRIME 1 STUDIO',
+    tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
+    image: JokerBatsuit,
+    productUrl: '/the-joker-batsuit',
+    details: {
+      image: JokerBatsuitAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '“Veja, Bruce... Eu prometi. E você não está nem um pouco pronto para isso.”',
+        image: JokerBatsuit1,
+        imageMobile: JokerBatsuit1Mobile,
+      },
+      section2: {
+        title: 'VERSÃO BÔNUS',
+        text: 'Direto das páginas de Batman #99, na icônica saga The Joker War, a Prime 1 Studio dá vida a um dos momentos mais perturbadores e memoráveis do Universo DC: The Joker usando o Batsuit do Futuro, um traje criado por Alfred para um Batman mais iluminado... agora profundamente corrompido pelo próprio Coringa. <br>Esta é a versão BONUS da estátua oficial Prime 1 Studio, com design do artista Jorge Jiménez, e escala monumental 1/3, com mais de 79 cm de altura. Uma peça que é tanto uma obra de arte quanto uma distorção macabra do legado do Cavaleiro das Trevas.',
+        image: JokerBatsuit2,
+        imageMobile: JokerBatsuit2Mobile,
+      },
+      section3: {
+        image: JokerBatsuit3,
+        imageMobile: JokerBatsuit3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DESTAQUES DO PRODUTO',
+            text: 'Design oficial de Jorge Jiménez, direto dos quadrinhos da DC Comics<br>Edição BONUS com 3 cabeças intercambiáveis:<br>Coringa com máscara completa<br>Coringa com máscara danificada<br>Coringa totalmente sem máscara (EXCLUSIVO da versão BONUS)<br>Traje do Batman futurista corrompido com cores vibrantes e insígnias alteradas (sorriso vermelho sobre o símbolo do morcego)<br>Capa roxa imponente + Batarangs modificados<br>Base ambiental: Um Batmóvel totalmente destruído – um verdadeiro pesadelo visual para Bruce Wayne<br>Produção em polystone com pintura artesanal e texturas realistas<br>Presença monumental: mais de 79 cm e quase 30 kg, distribuídos em duas caixas de envio',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Marca: Prime 1 Studio<br>Linha: Museum Masterline<br>Série: DC / Batman Series<br>Altura: 79 cm<br>Largura x Profundidade: 65 cm x 57 cm<br>Peso do Produto: 28,3 kg<br>Materiais: Polystone e outros materiais de alta qualidade<br><br>The Joker Batsuit Concept é uma das versões mais impactantes e<br>sombrias do Palhaço do Crime.<br>Ideal para fãs da saga The Joker War, de Jorge Jiménez e para<br>colecionadores que desejam uma peça única, provocadora e de<br>altíssimo nível artístico.',
+          },
+        ],
+        image: JokerBatsuit4,
+      },
+      section5: [JokerBatsuit5, JokerBatsuit6, JokerBatsuit7],
     },
   },
   {
@@ -2200,6 +2391,47 @@ export const products: ProductProps[] = [
         image: JungleHunter4,
       },
       section5: [JungleHunter5, JungleHunter6, JungleHunter7],
+    },
+  },
+  {
+    title: 'SCARECROW SAMURAI',
+    description1: 'XM Studios',
+    tags: ['herois', 'filmes-e-series', 'fantasia'],
+    image: Scarecrow,
+    productUrl: '/scarecrow-samurai',
+    details: {
+      image: ScarecrowAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '"Talvez ele seja um mestre das poções... ou dos seus maiores medos."',
+        image: Scarecrow1,
+        imageMobile: Scarecrow1Mobile,
+      },
+      section2: {
+        title: 'O TEMIDO ESPANTALHO',
+        text: 'Uma figura lendária entre os vilarejos, este misterioso samurai alquimista surge agora em sua versão mais temida. Inspirado na mitologia japonesa e reinterpretado como um mestre do terror, o Espantalho (Scarecrow) ganha forma nesta escultura surreal e detalhada da XM Studios, com acabamento de nível museu.',
+        image: Scarecrow2,
+        imageMobile: Scarecrow2Mobile,
+      },
+      section3: {
+        image: Scarecrow3,
+        imageMobile: Scarecrow3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DIFERENCIAIS E ITENS INCLUSOS (VERSÃO PREMIUM)',
+            text: '2 Cabeças intercambiáveis:<br>Máscara com chapéu de palha estilo samurai.<br>Elmo alto e máscara parcial com expressão feroz.<br>2 Mãos direitas intercambiáveis:<br>Uma com o borrifador em formato de crânio humano.<br>Outra com dedos curvados, em pose ameaçadora.<br>2 Mãos esquerdas intercambiáveis:<br>Uma delas segurando uma foice japonesa, arma preferida do personagem.<br>Base altamente detalhada, com fumaça esculpida transformando-se em morcego.<br>Placa de exibição do personagem incluída.<br>Feita em porcelana fria (cold-cast), com pintura manual de altíssima qualidade.<br>Edição Limitada: Apenas 338 peças no mundo – cada uma numerada individualmente.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES TÉCNICAS',
+            text: 'Marca: XM Studios<br>Artistas: Amilcar Aldana Fong (2D e Escultura)<br>Escala: 1/4 Scale<br>Material: Porcelana fria (cold-cast)<br>Altura (aprox.): 60,5 cm<br>Largura x Profundidade: 41,5 cm x 38 cm<br>Peso (produto): 11 kg<br>Edição Limitada: 338 unidades no mundo',
+          },
+        ],
+        image: Scarecrow4,
+      },
+      section5: [Scarecrow5, Scarecrow6, Scarecrow7],
     },
   },
   {
