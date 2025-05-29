@@ -735,6 +735,66 @@ import JokerBatsuit2Mobile from '@/assets/products/Joker Batsuit/2Mobile.png'
 import JokerBatsuit3Mobile from '@/assets/products/Joker Batsuit/3Mobile.png'
 /// ///////////////////////////////
 
+// Batman Tactical Throne /////////
+import BatmanTacticalThrone from '@/assets/products/Batman Tactical Throne.png'
+import BatmanTacticalThroneAmbientacao from '@/assets/products/ambientacoes/Batman Tactical Throne.png'
+import BatmanTacticalThrone1 from '@/assets/products/Batman Tactical Throne/1.png'
+import BatmanTacticalThrone2 from '@/assets/products/Batman Tactical Throne/2.png'
+import BatmanTacticalThrone3 from '@/assets/products/Batman Tactical Throne/3.png'
+import BatmanTacticalThrone4 from '@/assets/products/Batman Tactical Throne/4.png'
+import BatmanTacticalThrone5 from '@/assets/products/Batman Tactical Throne/5.png'
+import BatmanTacticalThrone6 from '@/assets/products/Batman Tactical Throne/6.png'
+import BatmanTacticalThrone7 from '@/assets/products/Batman Tactical Throne/7.png'
+import BatmanTacticalThrone1Mobile from '@/assets/products/Batman Tactical Throne/1Mobile.png'
+import BatmanTacticalThrone2Mobile from '@/assets/products/Batman Tactical Throne/2Mobile.png'
+import BatmanTacticalThrone3Mobile from '@/assets/products/Batman Tactical Throne/3Mobile.png'
+/// ///////////////////////////////
+
+// Ghostbusters ECTO 1 ////////////
+import GhostbustersECTO1 from '@/assets/products/Ghostbusters ECTO 1.png'
+import GhostbustersECTO1Ambientacao from '@/assets/products/ambientacoes/Ghostbusters ECTO 1.png'
+import GhostbustersECTO11 from '@/assets/products/Ghostbusters ECTO 1/1.png'
+import GhostbustersECTO12 from '@/assets/products/Ghostbusters ECTO 1/2.png'
+import GhostbustersECTO13 from '@/assets/products/Ghostbusters ECTO 1/3.png'
+import GhostbustersECTO14 from '@/assets/products/Ghostbusters ECTO 1/4.png'
+import GhostbustersECTO15 from '@/assets/products/Ghostbusters ECTO 1/5.png'
+import GhostbustersECTO16 from '@/assets/products/Ghostbusters ECTO 1/6.png'
+import GhostbustersECTO17 from '@/assets/products/Ghostbusters ECTO 1/7.png'
+import GhostbustersECTO11Mobile from '@/assets/products/Ghostbusters ECTO 1/1Mobile.png'
+import GhostbustersECTO12Mobile from '@/assets/products/Ghostbusters ECTO 1/2Mobile.png'
+import GhostbustersECTO13Mobile from '@/assets/products/Ghostbusters ECTO 1/3Mobile.png'
+/// ///////////////////////////////
+
+// Winter Tibet Shambhala /////////
+import WinterTibetShambhala from '@/assets/products/Winter Tibet Shambhala.png'
+import WinterTibetShambhalaAmbientacao from '@/assets/products/ambientacoes/Winter Tibet Shambhala.png'
+import WinterTibetShambhala1 from '@/assets/products/Winter Tibet Shambhala/1.png'
+import WinterTibetShambhala2 from '@/assets/products/Winter Tibet Shambhala/2.png'
+import WinterTibetShambhala3 from '@/assets/products/Winter Tibet Shambhala/3.png'
+import WinterTibetShambhala4 from '@/assets/products/Winter Tibet Shambhala/4.png'
+import WinterTibetShambhala5 from '@/assets/products/Winter Tibet Shambhala/5.png'
+import WinterTibetShambhala6 from '@/assets/products/Winter Tibet Shambhala/6.png'
+import WinterTibetShambhala7 from '@/assets/products/Winter Tibet Shambhala/7.png'
+import WinterTibetShambhala1Mobile from '@/assets/products/Winter Tibet Shambhala/1Mobile.png'
+import WinterTibetShambhala2Mobile from '@/assets/products/Winter Tibet Shambhala/2Mobile.png'
+import WinterTibetShambhala3Mobile from '@/assets/products/Winter Tibet Shambhala/3Mobile.png'
+/// ///////////////////////////////
+
+// Kurong Temple /////////////////
+import KurongTemple from '@/assets/products/Kurong Temple.png'
+import KurongTempleAmbientacao from '@/assets/products/ambientacoes/Kurong Temple.png'
+import KurongTemple1 from '@/assets/products/Kurong Temple/1.png'
+import KurongTemple2 from '@/assets/products/Kurong Temple/2.png'
+import KurongTemple3 from '@/assets/products/Kurong Temple/3.png'
+import KurongTemple4 from '@/assets/products/Kurong Temple/4.png'
+import KurongTemple5 from '@/assets/products/Kurong Temple/5.png'
+import KurongTemple6 from '@/assets/products/Kurong Temple/6.png'
+import KurongTemple7 from '@/assets/products/Kurong Temple/7.png'
+import KurongTemple1Mobile from '@/assets/products/Kurong Temple/1Mobile.png'
+import KurongTemple2Mobile from '@/assets/products/Kurong Temple/2Mobile.png'
+import KurongTemple3Mobile from '@/assets/products/Kurong Temple/3Mobile.png'
+/// ///////////////////////////////
+
 interface ProductProps {
   title: string
   description1: string
@@ -1327,6 +1387,51 @@ export const products: ProductProps[] = [
     },
   },
   {
+    title: 'BATMAN TACTICAL THRONE (DELUXE VERSION)',
+    description1: 'Prime 1 Studio',
+    tags: ['herois', 'filmes-e-series', 'games'],
+    image: BatmanTacticalThrone,
+    productUrl: '/batman-tactical-throne',
+    details: {
+      image: BatmanTacticalThroneAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'No silêncio da Batcaverna, ele não descansa... ele planeja. O Batman Tactical Throne é mais do que uma estátua — é a personificação da mente mais estratégica de Gotham, pronta para qualquer batalha.',
+        image: BatmanTacticalThrone1,
+        imageMobile: BatmanTacticalThrone1Mobile,
+      },
+      section2: {
+        title: 'OBRA PRIMA DE GABRIELE DELL’OTTO',
+        text: "Nas profundezas da Batcaverna, o Batman assume seu trono tático, imerso em pensamentos e estratégias para proteger Gotham. Inspirada na arte de Gabriele Dell'Otto, essa estátua impressiona pelos detalhes minuciosos, desde a textura do traje até os monitores iluminados que cercam o herói. <br>Uma peça que traduz perfeitamente a essência do Cavaleiro das Trevas: inteligência, vigilância e preparo absoluto para qualquer ameaça.",
+        image: BatmanTacticalThrone2,
+        imageMobile: BatmanTacticalThrone2Mobile,
+      },
+      section3: {
+        image: BatmanTacticalThrone3,
+        imageMobile: BatmanTacticalThrone3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'VERSÃO DELUXE',
+            text: 'A Versão Deluxe é onde realmente a Prime 1 se esforça ao máximo para oferecer algo nunca visto antes. Atrás do Batman, não há um, mas quatro monitores iluminados, exibindo vários detalhes, incluindo sistemas de rastreamento que ajudam nosso Cruzado Encapuzado em sua busca por justiça em Gotham City. Com esta versão, dois braços esquerdos adicionais são fornecidos, permitindo que você altere o ângulo e a posição do cotovelo no apoio de braço. Uma capa adicional e um retrato de Bruce Wayne sem máscara também estão incluídos.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: "Fabricante: Prime 1 Studio<br>Escala 1:4<br>Altura: 57 cm<br>Largura: 73 cm<br>Profundidade: 66 cm<br>Uma (1) base temática de Batcaverna com quatro monitores iluminados<br>Iluminação LED nos monitores e na base<br>Três (3) peças de braço esquerdo intercambiáveis<br>Uma (1) parte de capa trocável<br>Duas (2) partes de cabeça intercambiáveis<br>Marca: DC Comics<br>Fabricante: Estúdio Prime 1<br>Artista: Gabriele Dell'Otto (Design)",
+          },
+        ],
+        image: BatmanTacticalThrone4,
+      },
+      section5: [
+        BatmanTacticalThrone5,
+        BatmanTacticalThrone6,
+        BatmanTacticalThrone7,
+      ],
+    },
+  },
+  {
     title: 'BATMAN: WHITE KNIGHT (BATCYCLE)',
     description1: 'XM Studios',
     tags: ['herois', 'filmes-e-series', 'games'],
@@ -1674,6 +1779,47 @@ export const products: ProductProps[] = [
         image: DungeonAndDragons4,
       },
       section5: [DungeonAndDragons5, DungeonAndDragons6, DungeonAndDragons7],
+    },
+  },
+  {
+    title: 'GHOSTBUSTERS “ECTO-1”',
+    description1: '',
+    tags: ['filmes-e-series'],
+    image: GhostbustersECTO1,
+    productUrl: '/ghostbusters-ecto1',
+    details: {
+      image: GhostbustersECTO1Ambientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Mais do que um carro, o ECTO-1 é uma lenda sobre rodas — o som da sirene anuncia que os Caça-Fantasmas chegaram... e nenhum fantasma está a salvo.',
+        image: GhostbustersECTO11,
+        imageMobile: GhostbustersECTO11Mobile,
+      },
+      section2: {
+        title: 'ÍCONE DE UMA ERA',
+        text: 'Embora velho e surrado, o enorme veículo, como uma fera gigante com suas garras escondidas, está voltando com o conhecido som de sirene. Assim como rugas profundas se formaram nos rostos dos heróis que caçavam fantasmas com dispositivos fantásticos e secretos, o corpo de ECTO-1, antes branco puro, agora está manchado de sujeira, cheio de caroços e arranhões. No entanto, a carroceria, que avança poderosamente com o motor fazendo um som barulhento, é rica em vários dispositivos secretos.',
+        image: GhostbustersECTO12,
+        imageMobile: GhostbustersECTO12Mobile,
+      },
+      section3: {
+        image: GhostbustersECTO13,
+        imageMobile: GhostbustersECTO13Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DO PRODUTO',
+            text: 'Reprodução altamente detalhada do ECTO-1 do filme "Ghostbusters: Afterlife" (2022)<br>Reprodução altamente detalhada da ambulância Cadillac Miller-Meteor de 1959<br>Estruturas externas e rack de teto reproduzidos com precisão<br>Motor e parte inferior detalhados e precisos<br>Estruturas e acessórios projetados de forma realista<br>37 funções de iluminação LED no exterior e interior<br>Barras de luz giratórias com 2 motores<br>Efeito de som da sirene<br>Função de reprodução de áudio com entrada para USB e micro SD<br>5 portas e o capô totalmente funcionais e abertos<br>Direção interligada entre as rodas dianteiras e o volante<br>4 rodas direcionáveis/giratórias<br>Comporta até 4 figuras dos Caça-Fantasmas',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Linha de Coleção: Premium UMS<br>Escala: Veículo em escala 1/6<br>Tamanho Aproximado: Largura 45 cm x Comprimento 116 cm x Altura 54 cm<br>Peso Aproximado: 19,5 kg (somente o produto) / 32,7 kg (incluindo a embalagem)<br>Materiais: PVC, ABS e Metal',
+          },
+        ],
+        image: GhostbustersECTO14,
+      },
+      section5: [GhostbustersECTO15, GhostbustersECTO16, GhostbustersECTO17],
     },
   },
   {
@@ -2092,6 +2238,43 @@ export const products: ProductProps[] = [
         image: TheJoker24,
       },
       section5: [TheJoker25, TheJoker26, TheJoker27],
+    },
+  },
+  {
+    title: 'KURONG TEMPLE (PAINTED VERSION)',
+    description1: 'Yuan Xing Liang',
+    tags: ['fantasia', 'arte-asiática'],
+    image: KurongTemple,
+    productUrl: '/kurong-temple',
+    details: {
+      image: KurongTempleAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '',
+        image: KurongTemple1,
+        imageMobile: KurongTemple1Mobile,
+      },
+      section2: {
+        title: 'O SÁBIO EM MEDITAÇÃO',
+        text: 'Um homem reza em um templo danificado situado em uma árvore massiva. Descansando nas proximidades, animais coloridos e criaturas míticas o cercam e observam. Do aclamado artista Yuan Xing Liang, esta incrível peça original.',
+        image: KurongTemple2,
+        imageMobile: KurongTemple2Mobile,
+      },
+      section3: {
+        image: KurongTemple3,
+        imageMobile: KurongTemple3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 48cm<br>Largura: 40cm<br>Profundidade: 46cm<br>Materiais: Resina, base de madeira<br>Inclui impressão de arte assinada<br>Artista: Yuan Xing Liang',
+          },
+        ],
+        image: KurongTemple4,
+      },
+      section5: [KurongTemple5, KurongTemple6, KurongTemple7],
     },
   },
   {
@@ -2639,7 +2822,51 @@ export const products: ProductProps[] = [
       section5: [Terminator2Motor5, Terminator2Motor6, Terminator2Motor7],
     },
   },
-
+  {
+    title: 'SUMMER DRUNKEN BEAUTY',
+    description1: 'Yuan Xing Liang',
+    tags: ['fantasia', 'arte-asiática'],
+    image: SummerDrunkenBeauty,
+    productUrl: '/summer-drunken-beauty',
+    details: {
+      image: SummerDrunkenAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: 'Uma das peças de maior destaque de Yuan Xing Liang é a "Summer Drunken Beauty Flower Pavilion Painted Version Statue", uma escultura que reflete a delicadeza e a beleza imersiva da natureza e da figura feminina.',
+        image: SummerDrunkenBeauty1,
+        imageMobile: SummerDrunkenBeauty1Mobile,
+      },
+      section2: {
+        title: 'DESTAQUE NA SUA COLEÇÃO',
+        text: 'A peça retrata uma mulher graciosa em um pavilhão florido, evocando uma sensação de serenidade e encantamento. O título sugere um ambiente de verão, onde a beleza da natureza e a figura feminina se encontram em um momento de tranquilidade e embriaguez poética.',
+        image: SummerDrunkenBeauty2,
+        imageMobile: SummerDrunkenBeauty2Mobile,
+      },
+      section3: {
+        image: SummerDrunkenBeauty3,
+        imageMobile: SummerDrunkenBeauty3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'DETALHES DA OBRA',
+            text: 'A "Summer Drunken Beauty" é altamente detalhada, com cada elemento meticulosamente esculpido. A atenção aos detalhes, como as flores e os adornos do pavilhão, assim como os trajes fluidos da figura feminina, destacam o nível de dedicação e arte envolvido na criação desta peça. O uso das cores na versão pintada adiciona uma profundidade emocional à escultura, conferindo-lhe uma aura etérea e quase onírica. <br> Essa obra é uma celebração da beleza e da natureza, temas recorrentes no trabalho de Yuan, e reflete tanto o domínio técnico quanto o sensível uso de cores e formas para capturar a essência do verão e da feminilidade.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 39 cm <br> Largura: 22 cm <br> Profundidade: 34 cm',
+          },
+        ],
+        image: SummerDrunkenBeauty4,
+      },
+      section5: [
+        SummerDrunkenBeauty5,
+        SummerDrunkenBeauty6,
+        SummerDrunkenBeauty7,
+      ],
+    },
+  },
   {
     title: 'SUPERGIRL',
     description1: 'Prime 1 Studios',
@@ -2679,6 +2906,51 @@ export const products: ProductProps[] = [
         image: Supergirl4,
       },
       section5: [Supergirl5, Supergirl6, Supergirl7],
+    },
+  },
+  {
+    title: 'WINTER TIBET SHAMBHALA STATUE',
+    description1: 'Yuan Xing Liang',
+    tags: ['fantasia', 'arte-asiática'],
+    image: WinterTibetShambhala,
+    productUrl: '/winter-tibet-shambhala',
+    details: {
+      image: WinterTibetShambhalaAmbientacao,
+    },
+    paginaProduto: {
+      section1: {
+        text: '',
+        image: WinterTibetShambhala1,
+        imageMobile: WinterTibetShambhala1Mobile,
+      },
+      section2: {
+        title: 'SHAMBHALA STATUE',
+        text: 'O renomado artista Yuanxing Liang transforma um busto tradicional em uma peça original e deslumbrante. Criando um retrato altamente detalhado ao lado de uma paisagem impressionante, a parte de trás da peça é um templo em uma montanha.',
+        image: WinterTibetShambhala2,
+        imageMobile: WinterTibetShambhala2Mobile,
+      },
+      section3: {
+        image: WinterTibetShambhala3,
+        imageMobile: WinterTibetShambhala3Mobile,
+      },
+      section4: {
+        text: [
+          {
+            title: 'INFORMAÇÕES ADICIONAIS',
+            text: 'Esta peça de trabalho é a terceira da série "Four Seasons Fantasy". A criação é baseada na história da Princesa Wencheng. Shambhala, escondida nas montanhas de neve, é o lendário Paraíso da Terra Santa no Tibete.',
+          },
+          {
+            title: 'ESPECIFICAÇÕES DO PRODUTO',
+            text: 'Altura: 39cm<br>Largura: 29cm<br>Profundidade: 22cm<br>Materiais: Polystone, ABS, Madeira Maciça<br>Inclui impressão de arte com assinatura do artista',
+          },
+        ],
+        image: WinterTibetShambhala4,
+      },
+      section5: [
+        WinterTibetShambhala5,
+        WinterTibetShambhala6,
+        WinterTibetShambhala7,
+      ],
     },
   },
   {
@@ -2812,51 +3084,6 @@ export const products: ProductProps[] = [
         ],
       },
       section5: [WonderWoman5, WonderWoman6, WonderWoman7],
-    },
-  },
-  {
-    title: 'SUMMER DRUNKEN BEAUTY',
-    description1: 'Yuan Xing Liang',
-    tags: ['fantasia', 'arte-asiática'],
-    image: SummerDrunkenBeauty,
-    productUrl: '/summer-drunken-beauty',
-    details: {
-      image: SummerDrunkenAmbientacao,
-    },
-    paginaProduto: {
-      section1: {
-        text: 'Uma das peças de maior destaque de Yuan Xing Liang é a "Summer Drunken Beauty Flower Pavilion Painted Version Statue", uma escultura que reflete a delicadeza e a beleza imersiva da natureza e da figura feminina.',
-        image: SummerDrunkenBeauty1,
-        imageMobile: SummerDrunkenBeauty1Mobile,
-      },
-      section2: {
-        title: 'DESTAQUE NA SUA COLEÇÃO',
-        text: 'A peça retrata uma mulher graciosa em um pavilhão florido, evocando uma sensação de serenidade e encantamento. O título sugere um ambiente de verão, onde a beleza da natureza e a figura feminina se encontram em um momento de tranquilidade e embriaguez poética.',
-        image: SummerDrunkenBeauty2,
-        imageMobile: SummerDrunkenBeauty2Mobile,
-      },
-      section3: {
-        image: SummerDrunkenBeauty3,
-        imageMobile: SummerDrunkenBeauty3Mobile,
-      },
-      section4: {
-        text: [
-          {
-            title: 'DETALHES DA OBRA',
-            text: 'A "Summer Drunken Beauty" é altamente detalhada, com cada elemento meticulosamente esculpido. A atenção aos detalhes, como as flores e os adornos do pavilhão, assim como os trajes fluidos da figura feminina, destacam o nível de dedicação e arte envolvido na criação desta peça. O uso das cores na versão pintada adiciona uma profundidade emocional à escultura, conferindo-lhe uma aura etérea e quase onírica. <br> Essa obra é uma celebração da beleza e da natureza, temas recorrentes no trabalho de Yuan, e reflete tanto o domínio técnico quanto o sensível uso de cores e formas para capturar a essência do verão e da feminilidade.',
-          },
-          {
-            title: 'ESPECIFICAÇÕES DO PRODUTO',
-            text: 'Altura: 39 cm <br> Largura: 22 cm <br> Profundidade: 34 cm',
-          },
-        ],
-        image: SummerDrunkenBeauty4,
-      },
-      section5: [
-        SummerDrunkenBeauty5,
-        SummerDrunkenBeauty6,
-        SummerDrunkenBeauty7,
-      ],
     },
   },
 ]
