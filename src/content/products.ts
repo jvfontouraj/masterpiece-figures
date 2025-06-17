@@ -601,7 +601,7 @@ import ThePenguinPureArts3Mobile from '@/assets/products/The Penguin – Pure Ar
 /// ///////////////////////////////
 
 // Wolverine X-Force //////////////////////
-import WolverineXForce from '@/assets/products/Wolverine X-Force.png'
+import WolverineXForce from '@/assets/products/vendidoWolverine X-Force.png'
 import WolverineXForceAmbientacao from '@/assets/products/ambientacoes/Wolverine X-Force.png'
 import WolverineXForce1 from '@/assets/products/Wolverine X-Force/1.png'
 import WolverineXForce2 from '@/assets/products/Wolverine X-Force/2.png'
@@ -691,7 +691,7 @@ import Siegfried3Mobile from '@/assets/products/Siegfried/3Mobile.png'
 /// ///////////////////////////////
 
 // Batman Hellbat //////////////////////
-import BatmanHellbat from '@/assets/products/Batman Hellbat.png'
+import BatmanHellbat from '@/assets/products/vendidoBatman Hellbat.png'
 import BatmanHellbatAmbientacao from '@/assets/products/ambientacoes/Batman Hellbat.png'
 import BatmanHellbat1 from '@/assets/products/Batman Hellbat/1.webp'
 import BatmanHellbat2 from '@/assets/products/Batman Hellbat/2.png'
@@ -751,7 +751,7 @@ import BatmanTacticalThrone3Mobile from '@/assets/products/Batman Tactical Thron
 /// ///////////////////////////////
 
 // Ghostbusters ECTO 1 ////////////
-import GhostbustersECTO1 from '@/assets/products/Ghostbusters ECTO 1.png'
+import GhostbustersECTO1 from '@/assets/products/vendidoGhostbusters ECTO 1.png'
 import GhostbustersECTO1Ambientacao from '@/assets/products/ambientacoes/Ghostbusters ECTO 1.png'
 import GhostbustersECTO11 from '@/assets/products/Ghostbusters ECTO 1/1.png'
 import GhostbustersECTO12 from '@/assets/products/Ghostbusters ECTO 1/2.png'
@@ -917,7 +917,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'ALIEN PROWLER',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     tags: ['viloes', 'filmes-e-series', 'games'],
     image: AlienProwler,
     productUrl: '/alien-prowler',
@@ -1387,7 +1387,7 @@ export const products: ProductProps[] = [
     },
   },
   {
-    title: 'BATMAN TACTICAL THRONE (DELUXE VERSION)',
+    title: 'BATMAN TACTICAL THRONE (ULTIMATE VERSION)',
     description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games'],
     image: BatmanTacticalThrone,
@@ -1414,8 +1414,8 @@ export const products: ProductProps[] = [
       section4: {
         text: [
           {
-            title: 'VERSÃO DELUXE',
-            text: 'A Versão Deluxe é onde realmente a Prime 1 se esforça ao máximo para oferecer algo nunca visto antes. Atrás do Batman, não há um, mas quatro monitores iluminados, exibindo vários detalhes, incluindo sistemas de rastreamento que ajudam nosso Cruzado Encapuzado em sua busca por justiça em Gotham City. Com esta versão, dois braços esquerdos adicionais são fornecidos, permitindo que você altere o ângulo e a posição do cotovelo no apoio de braço. Uma capa adicional e um retrato de Bruce Wayne sem máscara também estão incluídos.',
+            title: 'VERSÃO ULTIMATE',
+            text: 'A Versão ULTIMATE é onde realmente a Prime 1 se esforça ao máximo para oferecer algo nunca visto antes. Atrás do Batman, não há um, mas quatro monitores iluminados, exibindo vários detalhes, incluindo sistemas de rastreamento que ajudam nosso Cruzado Encapuzado em sua busca por justiça em Gotham City. Com esta versão, dois braços esquerdos adicionais são fornecidos, permitindo que você altere o ângulo e a posição do cotovelo no apoio de braço. Uma capa adicional e um retrato de Bruce Wayne sem máscara também estão incluídos.',
           },
           {
             title: 'ESPECIFICAÇÕES DO PRODUTO',
@@ -1523,7 +1523,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'BATMAN ZERO YEAR',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     tags: ['filmes-e-series', 'herois', 'games'],
     image: BatmanZeroYear,
     productUrl: '/batman-zero-year',
@@ -1783,7 +1783,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'GHOSTBUSTERS “ECTO-1”',
-    description1: '',
+    description1: 'Blitzway',
     tags: ['filmes-e-series'],
     image: GhostbustersECTO1,
     productUrl: '/ghostbusters-ecto1',
@@ -1906,7 +1906,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'GUTS – BERSERK',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games'],
     image: GutsBerserk,
     productUrl: '/guts-berserk',
@@ -1947,7 +1947,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'HARLEY QUINN – BATMAN COMICS',
-    description1: '',
+    description1: 'Prime 1 Studio',
     tags: ['viloes', 'filmes-e-series', 'games', 'fantasia'],
     image: HarleyQuinn,
     productUrl: '/harley-quinn',
@@ -2037,7 +2037,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'JAGI – FIST OF THE NORH STAR',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
     image: Jagi,
     productUrl: '/jagi',
@@ -2869,7 +2869,7 @@ export const products: ProductProps[] = [
   },
   {
     title: 'SUPERGIRL',
-    description1: 'Prime 1 Studios',
+    description1: 'Prime 1 Studio',
     tags: ['herois', 'filmes-e-series', 'games', 'fantasia'],
     image: Supergirl,
     productUrl: '/supergirl',
