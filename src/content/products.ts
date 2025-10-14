@@ -601,7 +601,7 @@ import ThePenguinPureArts3Mobile from '@/assets/products/The Penguin – Pure Ar
 /// ///////////////////////////////
 
 // Wolverine X-Force //////////////////////
-import WolverineXForce from '@/assets/products/vendidoWolverine X-Force.png'
+import WolverineXForce from '@/assets/products/Wolverine X-Force.png'
 import WolverineXForceAmbientacao from '@/assets/products/ambientacoes/Wolverine X-Force.png'
 import WolverineXForce1 from '@/assets/products/Wolverine X-Force/1.png'
 import WolverineXForce2 from '@/assets/products/Wolverine X-Force/2.png'
@@ -691,7 +691,7 @@ import Siegfried3Mobile from '@/assets/products/Siegfried/3Mobile.png'
 /// ///////////////////////////////
 
 // Batman Hellbat //////////////////////
-import BatmanHellbat from '@/assets/products/vendidoBatman Hellbat.png'
+import BatmanHellbat from '@/assets/products/Batman Hellbat.png'
 import BatmanHellbatAmbientacao from '@/assets/products/ambientacoes/Batman Hellbat.png'
 import BatmanHellbat1 from '@/assets/products/Batman Hellbat/1.webp'
 import BatmanHellbat2 from '@/assets/products/Batman Hellbat/2.png'
@@ -751,7 +751,7 @@ import BatmanTacticalThrone3Mobile from '@/assets/products/Batman Tactical Thron
 /// ///////////////////////////////
 
 // Ghostbusters ECTO 1 ////////////
-import GhostbustersECTO1 from '@/assets/products/vendidoGhostbusters ECTO 1.png'
+import GhostbustersECTO1 from '@/assets/products/Ghostbusters ECTO 1.png'
 import GhostbustersECTO1Ambientacao from '@/assets/products/ambientacoes/Ghostbusters ECTO 1.png'
 import GhostbustersECTO11 from '@/assets/products/Ghostbusters ECTO 1/1.png'
 import GhostbustersECTO12 from '@/assets/products/Ghostbusters ECTO 1/2.png'
